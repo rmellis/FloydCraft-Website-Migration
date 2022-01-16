@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nex | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/nex/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:58:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Nex | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>NexEngine</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/nexengine/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/nexengine/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:58:45 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Engine]]></category>
+		<category><![CDATA[Golden Crates]]></category>
+		<category><![CDATA[Nex]]></category>
+		<category><![CDATA[Nex Engine]]></category>
+		<category><![CDATA[NexEngine]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3314</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/ We use this as a dependency / Engine for Golden Crates, the plugin which powers our crate system. There is no content for this dependency so it&#8217;s child plugin will be displayed below:    This plugin adds more than 40 vanilla-like enchants on your server! They&#8217;re fully customizable, support anvils, enchanted books and enchantment tables!&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/nexengine/">NexEngine</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/</span></span></a></p>
+<blockquote><p>We use this as a dependency / Engine for Golden Crates, the plugin which powers our crate system.</p></blockquote>
+<div>There is no content for this dependency so it&#8217;s child plugin will be displayed below:</div>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b060bbf50add14dcf35d59cf344ff6418d4692d5?url=https%3A%2F%2Fa.radikal.ru%2Fa40%2F2001%2F45%2F8987ce71183d.png" alt="[​IMG]" data-url="https://a.radikal.ru/a40/2001/45/8987ce71183d.png" /><br />
+<a class="externalLink" href="http://nexwiki.info/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8f7814e5573ea1f28a8ecb6ef51eeb55bb906d1e?url=https%3A%2F%2Fb.radikal.ru%2Fb20%2F2011%2F87%2Fd55e10c2ffe7.png" alt="[​IMG]" data-url="https://b.radikal.ru/b20/2011/87/d55e10c2ffe7.png" /></a> <a class="externalLink" href="https://www.paypal.me/nightexpress" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/77e8356367cc631ec8934a19c891d7767a8ffb4b?url=https%3A%2F%2Fa.radikal.ru%2Fa40%2F2011%2F1c%2Ff37a43788ecf.png" alt="[​IMG]" data-url="https://a.radikal.ru/a40/2011/1c/f37a43788ecf.png" /> </a><a class="externalLink" href="https://github.com/nulli0n/GoldenEnchants" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/d93efa7ae610b9a7bcfa0a88caf8031b57eabb9b?url=https%3A%2F%2Fd.radikal.ru%2Fd28%2F2011%2F73%2F34b0f47b0ab5.png" alt="[​IMG]" data-url="https://d.radikal.ru/d28/2011/73/34b0f47b0ab5.png" /></a><br />
+This plugin adds more than <b>40 vanilla-like enchants</b> on your server! They&#8217;re fully customizable, support anvils, enchanted books and enchantment tables! Just like the vanilla enchants!</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/229bf6db962f1568000addaab0142e0df33741d0?url=https%3A%2F%2Fa.radikal.ru%2Fa15%2F2011%2Fb5%2F21381d47f6ee.png" alt="[​IMG]" data-url="https://a.radikal.ru/a15/2011/b5/21381d47f6ee.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c6ff88fcfbdf62267fcc99fc8152a008b66f8ca7?url=https%3A%2F%2Fc.radikal.ru%2Fc02%2F2011%2Fda%2F2cf8ea2a6ab3.png" alt="[​IMG]" data-url="https://c.radikal.ru/c02/2011/da/2cf8ea2a6ab3.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9b03963ad6a1cae6da899fef8779661197dc98ad?url=https%3A%2F%2Fb.radikal.ru%2Fb04%2F2011%2F14%2F1df258241e96.png" alt="[​IMG]" data-url="https://b.radikal.ru/b04/2011/14/1df258241e96.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6bb71084e41ad63a4c81772103e6d7f9d9d557a5?url=https%3A%2F%2Fa.radikal.ru%2Fa17%2F2011%2F84%2Ff978d2ee7444.png" alt="[​IMG]" data-url="https://a.radikal.ru/a17/2011/84/f978d2ee7444.png" /></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a524e2350a7db47c8d0b96bdb7891e6ea6f5c5ff?url=https%3A%2F%2Fd.radikal.ru%2Fd21%2F2001%2Ff2%2Fac777c09737f.png" alt="[​IMG]" data-url="https://d.radikal.ru/d21/2001/f2/ac777c09737f.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e236e334c47aea7bfe5847e88b9bb61ed00a246f?url=https%3A%2F%2Fd.radikal.ru%2Fd08%2F2011%2F4a%2F6199dfaa4508.png" alt="[​IMG]" data-url="https://d.radikal.ru/d08/2011/4a/6199dfaa4508.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/cc1434dd208bef428a85965be5187b5d1f41a770?url=https%3A%2F%2Fb.radikal.ru%2Fb32%2F2011%2F12%2F6706b2015515.png" alt="[​IMG]" data-url="https://b.radikal.ru/b32/2011/12/6706b2015515.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2cbe4a9ee22f40118b4a5cbc294728ab2617e6c4?url=https%3A%2F%2Fb.radikal.ru%2Fb35%2F2011%2Fa1%2F827157683998.png" alt="[​IMG]" data-url="https://b.radikal.ru/b35/2011/a1/827157683998.png" /><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/87565e9647d832a336cfd09f6ff3aa4b5144e37d?url=https%3A%2F%2Fd.radikal.ru%2Fd09%2F2011%2F18%2F895d1d3c156a.png" alt="[​IMG]" data-url="https://d.radikal.ru/d09/2011/18/895d1d3c156a.png" /></p>
+<p><a class="externalLink" href="http://nexwiki.info/?path=enchants/enchants/list" target="_blank" rel="nofollow noopener"><b>List of Enchantments</b></a><br />
+​</div>
+<p>• <b>Max. Compatibility:</b></p>
+<div>▸ Enchants are properly registered, which allows you to use them in other plugins!<br />
+▸ Mobs with items enchanted with golden enchantments will have effect!<br />
+▸ 100% Support for <b>Anvils</b>!<br />
+▸ 100% Support for <b>Grindstones</b>!​</div>
+<p>• <b>Enchantment Table Support:</b></p>
+<div>▸ You can easily obtain new enchantments on vanilla enchantment table!<br />
+▸ Define the chance of obtain custom enchantment on enchantment table.<br />
+▸ Define the max. amount of custom enchantments that can be applied on item per one enchantment.<br />
+▸ Enchanting books is also supported!​</div>
+<p>• <b>Anvil support:</b></p>
+<div>▸ Custom enchantments perfectly works for vanilla anvils! Merge item enchants, enchant item with a book, it will work!<br />
+▸ Custom enchanment levels are sums like vanilla!<br />
+▸ Anvil exp cost is increasing for each custom enchantment level!​</div>
+<p>• <b>Villagers support:</b></p>
+<div>▸ Enable/Disable Golden Enchants population for villager trades.<br />
+▸ Define the global chance to trigger Golden Enchants population.<br />
+▸ Define the population chance for each enchantment!<br />
+▸ Define the min. and max. amount of golden enchants to be generated per one item in a trade.​</div>
+<p>• <b>Loot Generation support:</b></p>
+<div>▸ Enable/Disable Golden Enchants population for chests and minecarts in freshly generated chunks.<br />
+▸ Define the global chance to trigger Golden Enchants population.<br />
+▸ Define the population chance for each enchantment!<br />
+▸ Define the min. and max. amount of golden enchants to be generated per one item in a chest/minecart.​</div>
+<p>• <b>Item Options:</b></p>
+<div>▸ An option to enable/disable applying sword enchatments on axes.<br />
+▸ An option to enable/disable applying bow enchantments on crossbows.<br />
+▸ An option to define max. possible amount of custom enchantments for an item.​</div>
+<p>• <b>Enchant Configuration:</b></p>
+<div>▸ You can disable any enchantment you don&#8217;t like!<br />
+▸ All enchantment options are configurable!<br />
+▸ Enchantment names are configurable.<br />
+▸ Define min. and max. levels for each enchantment!<br />
+▸ Define enchant chance for each enchantment!<br />
+▸ Configurable chance of enchantment trigger.<br />
+▸ Configurable enchantment formulas and effects!​</div>
+<p>• <b>Visual Effects:</b></p>
+<div>▸ Most of enchantments comes with particle effects and sounds!<br />
+▸ These effects are also configurable!​</div>
+<p>• <b>Enchant Tiers:</b></p>
+<div>▸ Create custom enchantment tiers to split enchantments by its rarity.<br />
+▸ Define the tier name and color to display it in item lore.<br />
+▸ Define the chance to obtain enchant of this tier.​</div>
+<p>&nbsp;</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6059ca5b19e581789d674c45e836d7c4d2603589?url=https%3A%2F%2Fc.radikal.ru%2Fc29%2F2001%2F84%2Fe1b10a94f1d4.png" alt="[​IMG]" data-url="https://c.radikal.ru/c29/2001/84/e1b10a94f1d4.png" /></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Screenshots</span></button></div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b713db1596597017014ed68cdf65870adee9e81a?url=https%3A%2F%2Fb.radikal.ru%2Fb22%2F2001%2Fc7%2F6b994e126e76.png" alt="[​IMG]" data-url="https://b.radikal.ru/b22/2001/c7/6b994e126e76.png" />​</div>
+<p>▸<span style="color: #99ccff;"> <b>/ge [help]</b> &#8211;</span> List of plugin sub-commands.<br />
+▸ <span style="color: #99ccff;"><b>/ge list [page]</b></span> &#8211; List of all enchantments.<br />
+▸ <span style="color: #99ccff;"><b>/ge enchant &lt;enchantment&gt; &lt;level&gt;</b> </span>&#8211; (Dis)Enchant item in hand.<br />
+▸ <span style="color: #99ccff;"><b>/ge book &lt;player&gt; &lt;enchantment&gt; &lt;level&gt;</b></span> &#8211; Give an enchanted book.<br />
+▸ <b><span style="color: #99ccff;">/ge tierbook &lt;player&gt; &lt;tier&gt; &lt;level&gt;</span></b> &#8211; Give an enchanted book with random tier enchantment.<br />
+▸ <span style="color: #99ccff;"><b>/ge reload</b></span> &#8211; Reload the plugin.</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/91e72aa64286aa0a2e7efc914c8962b12e152cb1?url=https%3A%2F%2Fc.radikal.ru%2Fc10%2F2001%2F8f%2Fa07fb7ac1938.png" alt="[​IMG]" data-url="https://c.radikal.ru/c10/2001/8f/a07fb7ac1938.png" />​</div>
+<p>▸ <span style="color: #99ccff;"><b>goldenenchants.user</b> </span>&#8211; User access (useless atm).<br />
+▸ <span style="color: #99ccff;"><b>goldenenchants.admin</b></span> &#8211; Admin access.</p>
+<div><span style="color: #ff0000;"><span style="font-size: 14pt;"><b>✗</b></span> No data about compatibility with other custom enchantment plugins. If you have any, use it on your own risk.</span></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/nexengine/">NexEngine</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/nexengine/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | Hover | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/hoveringdude16/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/hoveringdude16/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for Hover.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">0c546836b8aa6cc0e4bc1514b68813b4</guid>
+				<title>Hover changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/42/</link>
+				<pubDate>Mon, 25 May 2020 20:45:55 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">22ed570054495834f8ce30cef78800d9</guid>
+				<title>Hover changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/41/</link>
+				<pubDate>Mon, 25 May 2020 20:42:25 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">9d3b1be8d49e4d07e205f674e59f80f4</guid>
+				<title>Hover changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/40/</link>
+				<pubDate>Mon, 25 May 2020 20:41:52 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">9623f043cf0459763d29bfd432a04b7d</guid>
+				<title>Hover changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/39/</link>
+				<pubDate>Mon, 25 May 2020 20:40:28 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">569594e3cdf18e775f6625c7081ff66e</guid>
+				<title>Hover posted an update: Hovering</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/38/</link>
+				<pubDate>Mon, 25 May 2020 01:26:28 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>Hovering</p>
+]]></content:encoded>
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">e1a578b925007439751d74d9225d07cd</guid>
+				<title>Hover became a registered member</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/36/</link>
+				<pubDate>Mon, 25 May 2020 01:25:44 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

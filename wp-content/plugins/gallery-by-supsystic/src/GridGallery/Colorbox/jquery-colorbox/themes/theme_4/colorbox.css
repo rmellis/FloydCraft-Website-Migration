@@ -1,0 +1,50 @@
+/*
+    User Style: Theme 4
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.theme_4 #cboxCurrent, .theme_4 #cboxTitle, .theme_4 #cboxNext, .theme_4 #cboxPrevious { letter-spacing: initial; }
+.theme_4 #sggCboxTooltip {left: 0; bottom: 45px; margin: 0 25px; padding: 5px 10px; background: rgba(255, 255, 255,0.5); color: #000; right: 0; text-align: center;}
+.theme_4-overlay{background:#fff;}
+.theme_4{outline:0;}
+.theme_4 #cboxTopLeft{width:25px; height:25px; background:url(images/border1.png) no-repeat 0 0;}
+.theme_4 #cboxTopCenter{height:25px; background:url(images/border1.png) repeat-x 0 -50px;}
+.theme_4 #cboxTopRight{width:25px; height:25px; background:url(images/border1.png) no-repeat -25px 0;}
+.theme_4 #cboxBottomLeft{width:25px; height:25px; background:url(images/border1.png) no-repeat 0 -25px;}
+.theme_4 #cboxBottomCenter{height:25px; background:url(images/border1.png) repeat-x 0 -75px;}
+.theme_4 #cboxBottomRight{width:25px; height:25px; background:url(images/border1.png) no-repeat -25px -25px;}
+.theme_4 #cboxMiddleLeft{width:25px; background:url(images/border2.png) repeat-y 0 0;}
+.theme_4 #cboxMiddleRight{width:25px; background:url(images/border2.png) repeat-y -25px 0;}
+.theme_4 #cboxContent{background:#fff; overflow:hidden;}
+.theme_4 .cboxIframe{background:#fff;}
+.theme_4 #cboxError{padding:50px; border:1px solid #ccc;}
+.theme_4 #cboxLoadedContent{margin-bottom:20px;}
+.theme_4 #cboxTitle{bottom:-1px; left: 200px; right: 156px; text-align:center; color:#999;font-size: 14px;}
+.theme_4 #cboxCurrent{position:absolute; bottom:0px; left:103px; color:#999;font-size: 12px;line-height: 1;}
+.theme_4 #cboxLoadingOverlay{background:#fff url(images/loading.gif) no-repeat 5px 5px;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+.theme_4 #cboxPrevious, .theme_4 #cboxNext, .theme_4 #cboxSlideshow, .theme_4 #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; line-height: 1;font-size: 12px; text-align: left;}
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+.theme_4 #cboxPrevious:active, .theme_4 #cboxNext:active, .theme_4 #cboxSlideshow:active,.theme_4 #cboxClose:active {outline:0;}
+
+.theme_4 #cboxSlideshow{position:absolute; bottom:0px; right:40px !important; color:#444;}
+.theme_4 #cboxPrevious{position:absolute; bottom:0px; left:0; color:#444;}
+.theme_4 #cboxNext{position:absolute; bottom:0px; left:67px; color:#444;}
+.theme_4 #cboxClose{position:absolute; bottom:0; right:0; display:block; color:#444;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}

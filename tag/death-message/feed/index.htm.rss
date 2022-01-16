@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Death Message | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/death-message/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:15:32 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Death Message | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Death Messages Prime</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/deathmessagesprime/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/deathmessagesprime/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:15:32 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Death Message]]></category>
+		<category><![CDATA[Death Message Prime]]></category>
+		<category><![CDATA[Death Messages Prime]]></category>
+		<category><![CDATA[DeathMessagePrime]]></category>
+		<category><![CDATA[DeathMessagesPrime]]></category>
+		<category><![CDATA[FDM]]></category>
+		<category><![CDATA[Funny Death Messages]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3296</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/deathmessagesprime.3789/ DeathMessagesPrime is a simple-to-use but still versatile death message plugin. It allows to freely format and modify all death messages in Minecraft to date. Note from the new author Joshb_: Hello all, excited to take over this project. I will bring a new version for you soon. However, I need to make my&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/deathmessagesprime/">Death Messages Prime</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/deathmessagesprime.3789/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;">https://www.spigotmc.org/resources/deathmessagesprime.3789/</span></a></p>
+<p><i><b>DeathMessagesPrime </b></i>is a simple-to-use but still versatile death message plugin. It allows to freely format and modify all death messages in Minecraft to date.</p>
+<p>Note from the new author Joshb_: Hello all, excited to take over this project. I will bring a new version for you soon. However, I need to make my current plugins stable until I fully work on this project. I will be picking away at it here and there in between my current projects. In the meantime, the former author did a decent job making it usable in all new plugin versions.</p>
+<p>Join my discord if you have suggestions or problems. Some of the users already joined and are doing a good job helping each other out.</p>
+<p><a href="https://discord.gg/K9zVDwt" target="_blank" rel="noopener">https://discord.gg/K9zVDwt</a></p>
+<p><b>CraftBukkit is NOT supported. Please use Spigot instead. This plugin requires the BungeeCord API for messages, which is not present on CraftBukkit.</b></p>
+<p>Want to&#8230;</p>
+<ul>
+<li>&#8230;change the death message for someone being blown up a creeper?</li>
+<li>&#8230;have multiple different death message choices depending on whether people die from a short or long fall?</li>
+<li>&#8230;add a custom message only for one of your VIP players for dying after being shoved into the void?</li>
+</ul>
+<p>No problem, this plugin can handle all of those cases.</p>
+<p><b>Commands</b><br />
+/dmsg allows to reload the configuration. The permission node <i>deathmessagesprime.reload</i> controls the ability to do so. Further, the command without any parameters will display the plugin version and available commands, if the player has the <i>deathmessagesprime.version</i> permission.</p>
+<p>/toggledeathmsg allows players to toggle displaying death messages to themselves, with the <i>deathmessagesprime.toggle </i>permission. Note that this permission is originally for OPs only, which is not what you may want.</p>
+<p>The plugin also has a debug mode which can be enabled from the configuration to aid solving conflicts.</p>
+<p>Examples of some versatile features of this plugin:</p>
+<ul>
+<li>Allows distinguishing between non-named and named mobs in death messages and displaying forms of them in the death messages.</li>
+<li>Separates normal and elder Guardians.</li>
+<li>Supports CrackShot (kind of)</li>
+<li>Allows to disable PVP and non-PVP messages in specific worlds</li>
+<li>A world group feature to display death messages in a specific world in its group only</li>
+<li>Multiple death messages for each reason</li>
+<li>Biome in death messages</li>
+<li>Distinguishes between short and long fall kills (like Minecraft does, compare &#8220;hit the ground too hard&#8221; and &#8220;fell from a high place&#8221;)</li>
+<li>Allows to specify death messages when &#8216;pushed&#8217; by a mob or player</li>
+<li>Allows changing lightning/enderpearl death messages (same in vanilla Minecraft as fire tick/fall messages)</li>
+<li>Supports player display names in messages</li>
+<li>Custom messages for mobs with specific names, per regex (therefore support for custom bosses)</li>
+<li>Supports item tooltips for when the weapon is displayed in a message</li>
+<li>Death messages within a radius and 1&amp;1 (only killer and victim receives the message) for PVP deaths</li>
+<li>heart-compat-mode for plugins that may display a health bar as the mob name</li>
+<li>API for getting the death message, addons with events and custom tag support (with javadocs)</li>
+</ul>
+<p><b>Common problems/questions &amp; solutions</b><br />
+<i>Hearts appear in the death message instead of the mob&#8217;s name</i><br />
+Enable heart-compat-mode from within the configuration file (from false to true).</p>
+<p><i>Adding multiple death messages so that one is picked at random</i><br />
+Simply add multiple death messages under a specific reason (adding further messages with the same hyphen-first syntax). The plugin will pick one of the messages at random upon a death.</p>
+<p><i>Various conflicts with compat-mode on or off</i><br />
+If you&#8217;re a plugin developer and you modify the death message in PlayerDeathEvent, make sure your plugin&#8217;s event priority is less than HIGHEST, which is the priority DMP uses to detect and solve conflicts.</p>
+<p>If you are a server administrator, you should contact the developers of both plugins, if possible. DMP so far has a fairly advanced mechanism for detecting conflicts, but it&#8217;s not perfect.</p>
+<p><i>Add support for plugin X!</i><br />
+You should ask the developer of plugin X: DMP has an API. In fact, no API whatsoever is needed, as long as the other plugin uses the standard setDeathMessage via PlayerDeathEvent on any priority lower than HIGHEST, and no extra DMP features (such as messages within DMP configs) are needed. For plugins that check on MONITOR, you can try DMPMonitorCompat.</p>
+<p><i>invalid character, unacceptable code point, special characters are not allowed&#8230;</i><br />
+Use a text editor that supports UTF-8. Most modern editors and even some older ones should support it (note that Notepad does not fully support it, unless you are on Windows 10 May 2019 or above). If your editor does support it, make sure you&#8217;re saving the file as UTF-8 (the exact steps depend on your text editor). You should <b>not </b>save with BOM (byte order mark), but without it.</p>
+<p><i>ClassNotFoundException: net.md_5.bungee.api&#8230;</i><br />
+You are likely running CraftBukkit, which is not supported by this plugin. Please migrate to Spigot instead.</p>
+<p><i>%weapon_name%, %weapon% display ???</i><br />
+This happens if you are using them in unsupported messages. Out of PVP messages, only PlayerCustom, PlayerTridentCustom and PlayerProjectileCustom support these two placeholders. The rest are FallKillWeapon, FallFinishKillWeapon, and under mob messages everything ending in Custom.</p>
+<p>These Custom messages are used whenever the weapon used for the kill has a custom name, while the messages without %weapon% are used for hand kills or kills made with weapons without custom names.</p>
+<p>You can make the plugin use the Custom messages, with %weapon%, for the latter by enabling show-custom-death-msg-on-all-weapons. Hand kills will still use the messages without %weapon%.</p>
+<p><b>Official &amp; featured plugins</b><br />
+<i>The plugins below may require DeathMessagesPrime or provide extra functionality if it is installed.</i></p>
+<ul>
+<li>DMPInventoryPlayerInfo &#8211; allows adding a clickable %inventory% tag to death messages</li>
+<li>DMPHideMessages &#8211; allows individual players to hide/block death messages from specific players</li>
+<li>DMPPlaceholderAPI &#8211; a bridge between DeathMessagesPrime and PlaceholderAPI</li>
+<li>DMPWorldGuard &#8211; a bridge between DeathMessagesPrime and WorldGuard, allows to block and customize messages from within regions</li>
+<li>DMPMonitorCompat &#8211; adds compatibility with chat plugins that use MONITOR priority (see list on the plugin page)</li>
+<li>DMPCitizens &#8211; adds NPC support for death messages</li>
+<li>DMPEnderCrystal &#8211; adds End Crystal kill and suicide messages</li>
+</ul>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/deathmessagesprime/">Death Messages Prime</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/deathmessagesprime/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

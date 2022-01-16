@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>End City World</title>
+<link>https://cdn.floydcraft.co.uk/forum/forum/end-city-world/</link>
+<description>Help with the End City World</description>
+<language>en</language>
+<lastBuildDate>Sun, 16 Jan 2022 09:58:59 +0000</lastBuildDate>
+<generator>Asgaros Forum</generator>
+<ttl>60</ttl>
+<atom:link href="https://cdn.floydcraft.co.uk/forum/forum/end-city-world/?showfeed=rss2" rel="self" type="application/rss+xml" />
+</channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Save Coral | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/save-coral/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 13:58:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Save Coral | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>SaveTheCoral</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/savethecoral/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/savethecoral/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 13:58:38 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Coral]]></category>
+		<category><![CDATA[Save Coral]]></category>
+		<category><![CDATA[Save The Coral]]></category>
+		<category><![CDATA[SaveCoral]]></category>
+		<category><![CDATA[SaveTheCoral]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3404</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/savethecoral.72021/ We use this plugin to prevent coral from dyeing when placed, this allows players to easily use it as a building material . Very simple plugin to stop coral from dying in all worlds or selected worlds! Requested by @Vreya Config: Code (YAML): # Should we block all coral from fading/dying in all worlds?&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/savethecoral/">SaveTheCoral</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/savethecoral.72021/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/savethecoral.72021/</a></p>
+<blockquote><p>We use this plugin to prevent coral from dyeing when placed, this allows players to easily use it as a building material .</p></blockquote>
+<p>Very simple plugin to stop coral from dying in all worlds or selected worlds!</p>
+<p>Requested by <a class="username" href="https://www.spigotmc.org/members/61933/" target="_blank" rel="noopener" data-user="61933, @Vreya">@Vreya</a></p>
+<p>Config:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (YAML):</div>
+<div class="code"># Should we block all coral from fading/dying in all worlds?<br />
+Enabled-In-All-Worlds: true</p>
+<p># Requires Enabled-In-All-Worlds to be false, this is a whitelist for what worlds where coral cannot fade/die!<br />
+Worlds:<br />
+&#8211; &#8220;world1&#8221;<br />
+&#8211; &#8220;world2&#8221;</p></div>
+</div>
+<div><b><img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" />Like this? Check out my premium plugins below.<img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/59318/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f61e95c8b6b42c830919942eafee11d3d9e9b97c?url=https%3A%2F%2Fapi.mcbanners.com%2Fbanner%2Fsaved%2FCnLPmFfRxDwsZP.png" alt="[​IMG]" data-url="https://api.mcbanners.com/banner/saved/CnLPmFfRxDwsZP.png" /></a> <a class="internalLink" href="https://www.spigotmc.org/resources/80000/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/fced4d4e055408b77f8f5f01d82d96834ca6515f?url=https%3A%2F%2Fapi.mcbanners.com%2Fbanner%2Fsaved%2FCuBCnixcZPigeU.png" alt="[​IMG]" data-url="https://api.mcbanners.com/banner/saved/CuBCnixcZPigeU.png" /></a> <a class="internalLink" href="https://www.spigotmc.org/resources/82672/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/57d5f3036ecccecf29cd35c01469bd4f7033e0bf?url=https%3A%2F%2Fapi.mcbanners.com%2Fbanner%2Fsaved%2FKBSQftYCBqcXwb.png" alt="[​IMG]" data-url="https://api.mcbanners.com/banner/saved/KBSQftYCBqcXwb.png" /></a></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/savethecoral/">SaveTheCoral</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/savethecoral/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

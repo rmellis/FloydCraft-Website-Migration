@@ -1,0 +1,143 @@
+.exp_floatdiv_container_pro {
+	cursor: pointer;
+	z-index:100;
+	position:fixed;
+	min-height:50px;
+	min-width:50px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:100% 100%;
+}
+
+.exp_floatdiv_content_pro {
+	position:fixed;
+	z-index:100;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:100% 100%;
+}
+
+.exp_floatdiv_content_padding_pro {
+	padding:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:100% 100%;
+	box-shadow: 0 5px 9px rgba(0,0,0,0.2);
+}
+
+.exp_floatdiv_content_coll_pro {
+    position:fixed;
+	z-index:100;
+}
+
+.exp_floatdiv_content_coll_padding_pro {
+	padding:25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:100% 100%;
+	box-shadow: 0 5px 9px rgba(0,0,0,0.2);
+}
+
+.exp_floatdiv_container_inside_pro {
+	height:20px;
+	width:20px;
+	cursor: pointer;
+	z-index:100;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+.exp_floatdiv_content_pro.psts_font_not_force {
+	font-family:"Trebuchet MS",Verdana,sans-serif;
+}
+
+.exp_floatdiv_content_coll_pro.psts_font_not_force {
+	font-family:"Trebuchet MS",Verdana,sans-serif;
+}
+
+/* Desktops */
+@media only screen and (min-width : 769px) {
+
+  .psfd_no_desktop{display:none !important;}
+  
+  .psfd_width_160px{
+		width:160px;
+	}
+
+	.psfd_width_210px{
+		width:210px;
+	}
+
+	.psfd_width_260px{
+		width:260px;
+	}
+
+	.psfd_width_310px{
+		width:310px;
+	}
+
+	.psfd_width_360px{
+		width:360px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	
+  .psfd_no_tablet{display:none !important;}
+	
+	.psfd_width_160px{
+		width:160px;
+	}
+
+	.psfd_width_210px{
+		width:210px;
+	}
+
+	.psfd_width_260px{
+		width:260px;
+	}
+
+	.psfd_width_310px{
+		width:310px;
+	}
+
+	.psfd_width_360px{
+		width:360px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+  .psfd_no_mobile{display:none !important;}
+  
+	.psfd_width_160px{
+		width:70%;
+		max-width:160px;
+	}
+
+	.psfd_width_210px{
+		width:70%;
+		max-width:210px;
+	}
+
+	.psfd_width_260px{
+		width:70%;
+		max-width:260px;
+	}
+
+	.psfd_width_310px{
+		width:70%;
+		max-width:310px;
+	}
+
+	.psfd_width_360px{
+		width:70%;
+		max-width:360px;
+	}
+
+}

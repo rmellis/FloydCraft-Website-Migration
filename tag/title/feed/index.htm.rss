@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Title | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/title/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:27:56 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Title | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>TitleManager</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/titlemanager/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/titlemanager/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:27:56 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Manager]]></category>
+		<category><![CDATA[Title]]></category>
+		<category><![CDATA[Title Manager]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3413</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/titlemanager.1049/ We use this plugin for the simple use of welcoming players to the server via titles, Likely has been used for other stuff throughout the server that&#8217;s been forgotten. A Spigot plugin for sending titles and setting the header and footer of the player list.     ​ &#160; Wiki &#124; Issue Tracker &#124; Discord Support Chat &#124; Animation Generator &#124; Pre&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/titlemanager/">TitleManager</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/titlemanager.1049/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/titlemanager.1049/</span></span></a></p>
+<blockquote><p>We use this plugin for the simple use of welcoming players to the server via titles, Likely has been used for other stuff throughout the server that&#8217;s been forgotten.</p></blockquote>
+<div><b>A Spigot plugin for sending titles and setting the header and footer of the player list.<br />
+<a class="externalLink" href="https://github.com/Puharesource/TitleManager" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/7caf3ca08e819d2722166353043f49c3f38ea196?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FVersion-2.3.1-green" alt="[​IMG]" data-url="https://img.shields.io/badge/Version-2.3.1-green" /> </a><a class="externalLink" href="https://github.com/Puharesource/TitleManager/actions" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/842b81249dc73a9fcdc842f240eeac76528ff802?url=https%3A%2F%2Fgithub.com%2FPuharesource%2FTitleManager%2Fworkflows%2FJava%2520CI%2Fbadge.svg" alt="[​IMG]" data-url="https://github.com/Puharesource/TitleManager/workflows/Java%20CI/badge.svg" /> </a><a class="externalLink" href="https://tarkan.dev/javadoc/titlemanager/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c11c336af6c8ac9cf2999614cc1a308f6d4f40d7?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FJavaDoc-2.2-blue.svg" alt="[​IMG]" data-url="https://img.shields.io/badge/JavaDoc-2.2-blue.svg" /> </a><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/bf06362ddd7a112bc8b370b5aee25c9ad9f201b2?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMinecraft-1.7%2520--%25201.16.1-blue" alt="[​IMG]" data-url="https://img.shields.io/badge/Minecraft-1.7%20--%201.16.1-blue" /><br />
+</b>​</div>
+<p>&nbsp;</p>
+<div><b><a class="externalLink" href="https://tmdocs.tarkan.dev/" target="_blank" rel="nofollow noopener">Wiki</a> | <a class="externalLink" href="https://github.com/Puharesource/TitleManager/issues" target="_blank" rel="nofollow noopener">Issue Tracker </a>| <a class="externalLink" href="https://discord.gg/U3Yyu6G" target="_blank" rel="nofollow noopener">Discord Support Chat</a> | <a class="externalLink" href="https://tarkan.dev/tmgenerator" target="_blank" rel="nofollow noopener">Animation Generator</a> | <a class="externalLink" href="https://github.com/Puharesource/TitleManager/releases" target="_blank" rel="nofollow noopener">Pre Releases</a> | <a class="externalLink" href="https://tarkan.dev/javadoc/titlemanager/" target="_blank" rel="nofollow noopener">API</a> | <a class="externalLink" href="https://github.com/Puharesource/TitleManager" target="_blank" rel="nofollow noopener">Source Code</a><br />
+| <a class="externalLink" href="https://tmdocs.tarkan.dev/admins/commands" target="_blank" rel="nofollow noopener">Commands</a> | <a class="externalLink" href="https://tmdocs.tarkan.dev/admins/permissions" target="_blank" rel="nofollow noopener">Permissions</a> | <a class="externalLink" href="https://tmdocs.tarkan.dev/admins/config" target="_blank" rel="nofollow noopener">Configuration</a> | <a class="externalLink" href="https://tmdocs.tarkan.dev/admins/placeholders" target="_blank" rel="nofollow noopener">Placeholders</a> |</b></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/44b9a1681f295d4218e34a105c9e0128727bda57?url=https%3A%2F%2Fi.imgur.com%2FDjAXN6W.gif" alt="[​IMG]" data-url="https://i.imgur.com/DjAXN6W.gif" /><br />
+​</div>
+<p><b>TitleManager</b> adds floating messages, a header/footer for your player list and a scoreboard sidebar. <i>TitleManager</i> also provides you with a rich API that you can harness in your own plugins.</p>
+<p>Features​</p>
+<ul>
+<li>Welcome <i>title</i></li>
+<li>First join welcome <i>title</i></li>
+<li>Player list header and footer</li>
+<li>Welcome <i>actionbar title</i></li>
+<li>Commands to send these <i>titles</i></li>
+<li>Scoreboard sidebar</li>
+<li>Rich API</li>
+<li><a class="externalLink" href="https://tmdocs.tarkan.dev/admins/animations" target="_blank" rel="nofollow noopener">Animations</a></li>
+<li><a class="internalLink" href="https://www.spigotmc.org/resources/placeholderapi.6245/" target="_blank" rel="noopener">PlaceholderAPI support</a></li>
+</ul>
+<div>
+Video tutorials<br />
+| <a class="externalLink" href="https://www.youtube.com/watch?v=d1t6-iyV-JE" target="_blank" rel="nofollow noopener">English Version</a> + <a class="externalLink" href="https://youtu.be/puJQUfJAGvw" target="_blank" rel="nofollow noopener">Other version</a> | <a class="externalLink" href="https://www.youtube.com/watch?v=NYASMihAiUc" target="_blank" rel="nofollow noopener">German Version</a> | <a class="externalLink" href="https://www.youtube.com/watch?v=BPO5JgL4Lrw" target="_blank" rel="nofollow noopener">Spanish Version</a> | <a class="externalLink" href="https://www.youtube.com/watch?v=e9H3ab-w20A" target="_blank" rel="nofollow noopener">Lithuanian Version</a> | <a class="externalLink" href="https://www.youtube.com/watch?v=3ukAVgRin9I" target="_blank" rel="nofollow noopener">Dutch Version</a> |</p>
+<p>Outdated Tutorials:<br />
+<a class="externalLink" href="http://youtu.be/40gX8L8hi7s" target="_blank" rel="nofollow noopener">Spanish Version</a> | <a class="externalLink" href="https://www.youtube.com/watch?v=pHyx24Z2iZU" target="_blank" rel="nofollow noopener">English Version</a> (Slightly Outdated) |</p>
+<p>Developers<br />
+| <a class="externalLink" href="https://tarkan.dev/javadoc/titlemanager/" target="_blank" rel="nofollow noopener">JavaDoc</a> | <a class="externalLink" href="https://github.com/Puharesource/TitleManager" target="_blank" rel="nofollow noopener">Source Code / GitHub</a> |</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/titlemanager/">TitleManager</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/titlemanager/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

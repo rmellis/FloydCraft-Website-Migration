@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | rmellis | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/admin/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/admin/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for rmellis.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">a86f2be4d305307cf4a430c73d8023a6</guid>
+				<title>rmellis posted a new activity comment</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/31/#acomment-32</link>
+				<pubDate>Mon, 09 Mar 2020 17:31:11 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>Open to all Discord Members in 4 days!</p>
+				<strong>In reply to</strong> -
+				<a href="https://cdn.floydcraft.co.uk/members/xjoostyx/" rel="nofollow ugc">Xjoostyx</a> posted an update hey Guys remember me? Im back! When will the server be on to play?! 
+If You forgot, my Ig-name: Donator Farao xjoostyx <a href='https://cdn.floydcraft.co.uk/members/admin/' rel="nofollow ugc">@admin</a> 			]]></content:encoded>
+				
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">17304c42fcdee05be3f4812be314358c</guid>
+				<title>rmellis posted a new activity comment</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/17/#acomment-18</link>
+				<pubDate>Sun, 09 Jun 2019 06:56:58 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>hi</p>
+				<strong>In reply to</strong> -
+				<a href="https://cdn.floydcraft.co.uk/members/dabest5018/" rel="nofollow ugc">DaBest5018</a> posted an update Hi			]]></content:encoded>
+				
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">8f71c4889ba020fe1b9604f098df43a4</guid>
+				<title>rmellis posted an update: Test Post</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/3/</link>
+				<pubDate>Fri, 26 Apr 2019 21:12:15 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>Test Post</p>
+]]></content:encoded>
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

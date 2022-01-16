@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Custom Lore | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/custom-lore/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:30:39 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Custom Lore | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Lores</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/lores/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/lores/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:30:39 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Custom Lore]]></category>
+		<category><![CDATA[Customize]]></category>
+		<category><![CDATA[Item Lore]]></category>
+		<category><![CDATA[Lores]]></category>
+		<category><![CDATA[Set Lore]]></category>
+		<category><![CDATA[tag]]></category>
+		<category><![CDATA[text]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3362</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/lores-black-edition.19290/ We use this simple plugin to easily add custom lore&#8217;s to items. Lores is a plugin that will allow server admins to change the name and lore of an item easily. ​ FEATURES: &#8211; Support to add multiple lores on items &#8211; Support for lore colors. &#8211; Change the name of a head. &#8211;&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/lores/">Lores</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/lores-black-edition.19290/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;"><span>https://www.spigotmc.org/resources/lores-black-edition.19290/</span></span></a></div>
+<blockquote>
+<div>We use this simple plugin to easily add custom lore&#8217;s to items.</div>
+</blockquote>
+<div><b>Lores</b> is a plugin that will allow server admins to change the name and lore of an item easily.<br />
+​</div>
+<div>
+<div><b>FEATURES:</b><br />
+&#8211; Support to add multiple lores on items<br />
+&#8211; Support for lore colors.<br />
+&#8211; Change the name of a head.<br />
+&#8211; Change the name of an item.<br />
+&#8211; Change the lore of an item.<br />
+&#8211; Insert lines of lore into the lore of an item.<br />
+&#8211; Delete lines of lore from the lore of an item.<br />
+&#8211; Clear the lore of an item.</p>
+<p><b>COMMANDS &#8211; PERMISSIONS:</b><br />
+&#8211; <b>/lore name</b> &lt;<b>text</b>&gt; &#8211; Set the new name for an item.​</div>
+<div>&#8211;<b> /lore owner</b> &lt;<b>player name</b>&gt; &#8211; Change the owner of a head.<br />
+&#8211; <b>/lore add</b> &lt;<b>text</b>&gt; &#8211; Add a line to the lore.<br />
+&#8211; <b>/lore set</b> <b>&lt;line #</b>&gt; &lt;<b>text</b>&gt; &#8211; Change a line from the lore.<br />
+&#8211; <b>/lore insert</b> &lt;<b>line #</b>&gt; &lt;<b>text</b>&gt; &#8211; Insert a line into the lore.<br />
+&#8211; <b>/lore delete</b> [<b>line #</b>] &#8211; Delete a line of the lore. (<b>last line by default</b>)<br />
+&#8211; <b>/lore clear</b> &#8211; Clear all lines of the lore.<br />
+&#8211; <b>/lore undo</b> &#8211; Undoes your last modification.<br />
+<b>lores.lore </b>&#8211; Needed to modify an item&#8217;s lore<br />
+l<b>ores.name</b> &#8211; Needed to modify an item&#8217;s name<br />
+<b>lores.owner </b>&#8211; Needed to modify an skull&#8217;s owner<br />
+<b>lores.color </b>&#8211; Needed to add color codes to lores/names<br />
+<b>lores.format </b>&#8211; Needed to add format codes to lores<br />
+<b>lores.admin </b>&#8211; Parent node for all permissions</p>
+<p><b>REQUIREMENTS:</b><br />
+There are no requirements for running <b>Lores</b>.</p>
+<p><b>CONFIGURATION:</b><br />
+There is no configuration for this plugin.</p>
+<p><b>SUPPORTED VERSIONS:</b><br />
+<b>Lores</b> <b>should work on every version from 1.7 </b>to<b> 1.12.</b></p>
+<p><b>DONATIONS:</b><br />
+If you like what I did on this plugin, please donate me a cent or more at <b><a href="mailto:twix_seby@yahoo.com">twix_seby@yahoo.com</a> </b>(PayPal), and I&#8217;ll add you at the Donators list.<br />
+What you need to do, is add your Spigot name in the donation text so I put you up. [<b>PayPal</b> takes up some money for the donation, so if you donate something big, it will be perfect.]
+&#8211; <b>???</b> [No one cares, yay!]
+&#8211; <b>???</b> [No one cares, yay!]
+&#8211; <b>???</b> [No one cares, yay!]
+<p><b>WARNING:</b><br />
+If you find any bugs, please do not give a bad review. Instead , just PM me about the bug and I&#8217;ll fix it. I&#8217;ll also add you to the next update title, if you reported the bug.<br />
+<b>Please test this version and report any errors in PM/Discussions tab.</b><br />
+<b>These versions are made for server use.</b></p>
+<p><b>SUGGESTIONS:</b><br />
+I am not open to suggestions.</p>
+<p><b>DOWNLOAD GOALS:</b><br />
+Goal Page<b> #3 [1,000 </b>-&gt;<b> 2,000]</b><br />
+<b>1,000 &#8211; THIS IS INCREDIBLE! &#8211; Done!</b><br />
+<b>1,100 &#8211; I can&#8217;t thank you guys enough. &#8211; Done!</b><br />
+<b>1,200 &#8211; This was honestly the best thing ever. &#8211; Done!</b><br />
+<b>1,300 &#8211; I thank you so much. &#8211; Done!</b><br />
+<b>1,400 &#8211; This seriously is unbelievable. &#8211; Done!</b><br />
+<b>1,600 &#8211; HOLY CRAP DUDE! &#8211; Done!</b><br />
+<b>1,700 &#8211; &#8230; &#8211; Done!</b><br />
+1,800 &#8211; &#8230; &#8211; <b>waiting&#8230;</b><br />
+1,900 &#8211; &#8230; &#8211; <b>waiting&#8230;</b><br />
+<b>2,000 </b>&#8211; &#8230; &#8211; <b>waiting&#8230;</b></p>
+<p><b>SPECIAL THANKS:</b>​</div>
+<div><b>You &#8211; </b>downloading this<b> <img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" /></b>​</div>
+<div><b><a class="username" href="https://www.spigotmc.org/members/11635/" data-user="11635, @Worlfy">@Worlfy</a></b> &#8211; <a class="internalLink" href="https://www.spigotmc.org/resources/%E2%96%BA%E2%96%BA-loreattributesrecoded-%E2%97%84%E2%97%84.16177/">LoreAttributesRecoded</a> (<b>thanks for the collab</b>)</div>
+</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/lores/">Lores</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/lores/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

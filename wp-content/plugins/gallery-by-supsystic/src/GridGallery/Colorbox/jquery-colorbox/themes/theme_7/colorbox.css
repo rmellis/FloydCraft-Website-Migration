@@ -1,0 +1,29 @@
+/*
+    User Style: Theme 7
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.theme_7 #sggCboxTooltip {left: 0; bottom: 25px; margin: 0 40px; padding: 5px 10px; background: rgba(0, 0, 0,0.5); color: #fff; right: 0; text-align: center;}
+.theme_7-overlay{background:#0e0e0e;opacity: 1!important;}
+.theme_7{outline:0;}
+.theme_7 #cboxContent{margin: 0 40px 25px;background:#000;}
+.theme_7 .cboxIframe{background:#fff;}
+.theme_7 #cboxError{padding:50px; border:1px solid #ccc;}
+.theme_7 #cboxLoadedContent{background:#fff;}
+.theme_7 #cboxTitle{bottom:-23px; left: 0px; right: 220px; font-weight:bold; color:#ccc;}
+.theme_7 #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc; display: none!important}
+.theme_7 #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+.theme_7 #cboxPrevious, .theme_7 #cboxNext, .theme_7 #cboxSlideshow, .theme_7 #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; text-align: left;}
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+.theme_7 #cboxPrevious:active, .theme_7 #cboxNext:active, .theme_7 #cboxSlideshow:active, .theme_7 #cboxClose:active {outline:0;}
+
+.theme_7 #cboxSlideshow{position:absolute; right:90px; color:#fff; bottom: -20px;line-height: 1;font-size: 14px;}
+.theme_7 #cboxPrevious{position:absolute; top:50%; left:-28px; margin-top:-32px; background:url(images/controls.png) no-repeat; background-position: -5px -0px; width: 16px; height: 31px; text-indent:-9999px;}
+.theme_7 #cboxPrevious:hover{background-position: -5px -36px;}
+.theme_7 #cboxNext{position:absolute; top:50%; right:-28px; margin-top:-32px; background:url(images/controls.png) no-repeat; background-position: -5px -72px; width: 16px; height: 31px; text-indent:-9999px;}
+.theme_7 #cboxNext:hover{background-position: -5px -108px;}
+.theme_7 #cboxClose{position:absolute; bottom:-18px; right:5px; display:block; background:url(images/controls.png) no-repeat; background-position: -5px -180px; width: 11px; height: 11px; text-indent:-9999px;}
+.theme_7 #cboxClose:hover{background-position: -5px -196px;}

@@ -1,0 +1,921 @@
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Java Profiler - JProfiler</title>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-6ea46e3ed8e19ab0ff6bd3b643c28cf1.ico"/>
+
+
+  
+  <meta name="description" content="
+    JProfiler is the leading Java Profiler for profiling on the JVM. JProfiler&#39;s intuitive UI helps you resolve
+    performance bottlenecks, pin down memory leaks and understand threading issues."/>
+  <meta name="layout" content="default"/>
+
+<link rel="stylesheet" href="/assets/libs.min-55fc7b220fd46ea4ee6ce5119ab92de7.css" />
+<link rel="stylesheet" href="/assets/styles-628cf65c443609addee3ba0b4cd06ec6.css" />
+<link rel="stylesheet" href="/assets/dependencies-e04a374408ce77518b01af873699c986.css" />
+
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/assets/respond-89da03bfe5aca611ba89122675aeb2f1.js" ></script>
+<link rel="stylesheet" href="/assets/ie8-9c6d44feb1b11ce2dfaebc0c44143e54.css" />
+<![endif]-->
+
+
+
+  </head>
+
+  
+  
+  
+
+  <body>
+  <!--[if lte IE 9]>
+  <div class="alert alert-danger" role="alert"><strong>Your browser is out of date.</strong> It has known security flaws
+    and may not display all features of this and other websites.
+  </div>
+  <![endif]-->
+  <div class="page-wrap">
+
+    <div id="navigation" class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="logo"><a href="//www.ej-technologies.com" class="rep" id="logo">ej-technologies</a></div>
+
+        
+          <ul class="main-navigation clearfix list-unstyled hide-s hide-xs">
+
+            
+              <li class="">
+
+                
+                  <a href="/index.html">Home</a>
+                
+
+              </li>
+            
+              <li class="">
+
+                
+                  <a href="/company/profile.html">Company</a>
+                
+
+              </li>
+            
+              <li class="">
+
+                
+                  <a href="/company/news.html">News</a>
+                
+
+              </li>
+            
+              <li class="active">
+
+                
+                  <span class="toggler collapsed">
+                    Products <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i>
+                  </span>
+                  <ul class="list-unstyled sub-menu">
+
+                    
+                      <li><a href="/products/jprofiler/overview.html">JProfiler</a></li>
+                    
+                      <li><a href="/products/perfino/overview.html">perfino</a></li>
+                    
+                      <li><a href="/products/install4j/overview.html">install4j</a></li>
+                    
+
+                  </ul>
+                
+
+              </li>
+            
+              <li class="">
+
+                
+                  <span class="toggler collapsed">
+                    Download <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i>
+                  </span>
+                  <ul class="list-unstyled sub-menu">
+
+                    
+                      <li><a href="/download/jprofiler/files">JProfiler</a></li>
+                    
+                      <li><a href="/download/perfino/files">perfino</a></li>
+                    
+                      <li><a href="/download/install4j/files">install4j</a></li>
+                    
+                      <li><a href="/download/exe4j/files">exe4j</a></li>
+                    
+
+                  </ul>
+                
+
+              </li>
+            
+              <li class="">
+
+                
+                  <a href="/support/information.html">Support</a>
+                
+
+              </li>
+            
+              <li class="">
+
+                
+                  <a href="/buy/overview.html">Order</a>
+                
+
+              </li>
+            
+
+          </ul>
+
+          <button type="button" class="menu-toggler show-s show-xs" data-toggle="modal" data-target="#modal-menu">
+            <i class="fa fa-bars"></i>
+          </button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+      <div id="header" class="header top product-head">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h4>
+          
+            <img src="/assets/content/icon-app-jprofiler-9f3321cc39d0d17fb4238da06d836af1.png" alt="" width="48" height="48" srcset="/assets/content/icon-app-jprofiler-9f3321cc39d0d17fb4238da06d836af1.png 1x, /assets/content/icon-app-jprofiler@2x-6346eb0a9d2106e10afc7c72dbc081a1.png 2x"/>
+          
+          JProfiler
+        </h4>
+        <button
+          type="button"
+          class="menu-toggler rounded caret collapsed show-xs pull-right"
+          data-toggle="collapse"
+          data-target="#sub-menu">
+          <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i>
+        </button>
+        <ul class="sub-nav list-unstyled clearfix hide-xs">
+          
+            <li class="active">
+              <a href="/products/jprofiler/overview.html" class="ej-btn hvr-fade btn-primary">Overview</a>
+            </li>
+          
+            <li class="">
+              <a href="/products/jprofiler/whatsnew12.html" class="ej-btn hvr-fade btn-primary">What&#39;s New</a>
+            </li>
+          
+            <li class="">
+              <a href="/products/jprofiler/features.html" class="ej-btn hvr-fade btn-primary">Features</a>
+            </li>
+          
+            <li class="">
+              <a href="/products/jprofiler/testimonials.html" class="ej-btn hvr-fade btn-primary">Our Users</a>
+            </li>
+          
+            <li class="">
+              <a href="/products/jprofiler/training.html" class="ej-btn hvr-fade btn-primary">Training</a>
+            </li>
+          
+            <li class="">
+              <a href="/products/jprofiler/docs" class="ej-btn hvr-fade btn-primary">Docs</a>
+            </li>
+          
+        </ul>
+        <div class="show-xs">
+          <ul id="sub-menu" class="sub-nav list-unstyled clearfix collapse">
+            
+              <li class="active">
+                <a href="/products/jprofiler/overview.html" class="ej-btn hvr-fade btn-primary">Overview
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+              <li class="">
+                <a href="/products/jprofiler/whatsnew12.html" class="ej-btn hvr-fade btn-primary">What&#39;s New
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+              <li class="">
+                <a href="/products/jprofiler/features.html" class="ej-btn hvr-fade btn-primary">Features
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+              <li class="">
+                <a href="/products/jprofiler/testimonials.html" class="ej-btn hvr-fade btn-primary">Our Users
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+              <li class="">
+                <a href="/products/jprofiler/training.html" class="ej-btn hvr-fade btn-primary">Training
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+              <li class="">
+                <a href="/products/jprofiler/docs" class="ej-btn hvr-fade btn-primary">Docs
+                  <span class="pull-right"><i class="fa fa-check"></i></span></a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="header product-overview">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="product-overview-content">
+          
+
+          <h2 class="site-title-line-big">The Award-Winning All-in-One Java Profiler</h2>
+
+          
+            
+  <p>
+    JProfiler's intuitive UI helps you resolve performance bottlenecks,<br/>
+    pin down memory leaks and understand threading issues.
+  </p>
+  <a href="/download/jprofiler/files" icon="download" title="Download" buttonType="download" class="ej-btn hvr-fade btn-jprofiler larger"><i class="fa icon-download"></i>Download</a>
+
+          
+
+          <img src="/assets/content/jprofiler-overview-b308efe939085058484578fe68665b99.png" alt="" class="product-overview-img hide-xs" width="939" height="245"/>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+          <div id="content-wrapper" class="content-wrapper">
+            <div class="container">
+              <div class="row">
+                
+  <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 right-bordered">
+                    <div class="content site-padding-right">
+                      
+
+    <div class="content-section">
+  <div class="product-summary product-jprofiler clearfix">
+    <div class="img-wrapper large">
+    <span class="version version-jprofiler">
+      12.0
+    </span>
+      <img src="/assets/content/header-product-jprofiler-e5372ef92c675bb25d2e55a3d0d8ff74.png" width="132" height="132" srcset="/assets/content/header-product-jprofiler-e5372ef92c675bb25d2e55a3d0d8ff74.png 1x, /assets/content/header-product-jprofiler@2x-24bc4d84bd2a4eb641a5c8531758ff7c.png 2x"/>
+    </div>
+    <div class="product-text">
+      <h6>When it comes to profiling, only the best tool is good enough.</h6>
+
+      
+      <p>Check out below what makes JProfiler the top choice for profiling your applications on the JVM:</p>
+    
+
+    </div>
+  </div>
+</div>
+
+
+    <div class="content-section">
+      
+                <div class="overview-features">
+                  
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/ease_of_use_fsa-a40c130b99bb1f1ab87bac6b47fa4197.png"><img src="/assets/products/jprofiler/top10/ease_of_use_tna-d21eb6490e7fc26d3c546e1940f65c24.png" alt="Exceptional ease of use" style="max-width:349.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Exceptional ease of use</h4>
+        <p>
+          
+    When you profile, you need the most powerful tool you can get. At the same time, you do not want to
+    spend time learning how to use the tool. JProfiler is just that: simple and powerful at the same time.
+    Configuring sessions is straight-forward, third party integrations make getting started a breeze and
+    profiling data is presented in a natural way. On all levels, JProfiler has been carefully designed to
+    help you get started with solving your problems.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/database_fsa-c99f9e6413a83b7970a7857e6f3f90c1.png"><img src="/assets/products/jprofiler/top10/database_tna-cb976c44960b2d6f09872eb3a0ea3841.png" alt="Database profiling for JDBC, JPA and NoSQL" style="max-width:350.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Database profiling for JDBC, JPA and NoSQL</h4>
+        <p>
+          
+    Database calls are the top reasons for performance problems in business applications. JProfiler's JDBC and
+    JPA/Hibernate probes as well as the NoSQL probes for MongoDB, Cassandra and HBase show the reasons for slow
+    database access and how slow statements are called by your code. From the JDBC timeline view that shows you
+    all JDBC connections with their activities, through the hot spots view that shows you slow statements to
+    various telemetry views and a list of single events, the database probes are an essential tool for getting insight
+    into your database layer.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/jee_fsa-a5ecd7ea56d9b44b7ac2eba5ee20780a.png"><img src="/assets/products/jprofiler/top10/jee_tna-4a1bf0a539f7f040483a3546f77a621e.png" alt="Excellent support for Java Enterprise Edition" style="max-width:350.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Excellent support for Java Enterprise Edition</h4>
+        <p>
+          
+    Dedicated support for JEE is present in most views in JProfiler. For example, in the JEE aggregation
+    level you see the call tree in terms of the JEE components in your application. In addition, the
+    call tree is split up for each request URI. Also, JProfiler adds a semantic layer on top of the
+    low-level profiling data, like JDBC, JPA/Hibernate, JMS and JNDI calls that are presented in the CPU
+    profiling views. With its JEE support, JProfiler bridges the gap between a code profiler and a
+    high-level JEE monitoring tool.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/probes_fsa-3e9a30c402ac6f81612e2e291f0927f3.png"><img src="/assets/products/jprofiler/top10/probes_tna-a22884fb27df87f0cf05189ceb1b1706.png" alt="Higher level profiling data" style="max-width:349.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Higher level profiling data</h4>
+        <p>
+          
+    JProfiler has a number of probes that show you higher level data from interesting subsystems in the JRE.
+    In addition to the Java EE subsystems like JDBC, JPA/Hibernate, JSP/Servlets, JMS, web services and JNDI,
+    JProfiler also presents high level information about RMI calls, files, sockets and processes. Each of these
+    probes has its own set of useful views that gives you general insight, highlights performance problems and
+    allows you to trace single events. And what's more, all these views are also available for your own custom
+    probes that you can configure on the fly within JProfiler.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/heap_walker_fsa-e68cc7b8b9b409989775886712001b06.png"><img src="/assets/products/jprofiler/top10/heap_walker_tna-3e57e71e64e6caa61aa40132b853e7a0.png" alt="Stellar analysis of memory leaks" style="max-width:350.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Stellar analysis of memory leaks</h4>
+        <p>
+          
+    Finding a memory leak can be impossible without the right tool. JProfiler's heap walker offers you an
+    intuitive interface to solve both simple and complex memory problems. 5 different views and lots of inspections
+    show different aspects of the current set of objects. Each view provides you with essential insights on
+    the selected objects and lets you switch to different objects sets. Questions like why objects are not garbage
+    collected are answered with a single click of the mouse.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/comparisons_fsa-f0d5c9fd56ca77bc6643662e45d29c9a.png"><img src="/assets/products/jprofiler/top10/comparisons_tna-a9f6edad55ed23a381248de25d0296d5.png" alt="Extensive QA capabilities" style="max-width:350.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Extensive QA capabilities</h4>
+        <p>
+          
+    JProfiler is ideally suited as a QA tool, both during development as well as for dedicated QA teams.
+    The rich functionality around snapshot comparisons makes it easy to track progress. JProfiler has
+    strong support for command line operations. This includes the ability to profile, export snapshot data
+    and create snapshots comparisons from the command line. The ant tasks bundled with JProfiler allow you
+    to perform all command line operations from your build script.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/appserver_wizards_fsa-ad57b02207c73f36d2f4fd913460ad44.png"><img src="/assets/products/jprofiler/top10/appserver_wizards_tna-25bb0a9498d20f5b618336e04cdff083.png" alt="Broadest support for platforms, IDEs and application servers" style="max-width:350.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Broadest support for platforms, IDEs and application servers</h4>
+        <p>
+          
+    JProfiler integrates into your environment: We provide native agent libraries for a
+    <a href="/products/jprofiler/featuresPlatforms.html" class="linktext">wide range of platforms</a>,
+    both for 32-bit and 64-bit JVMs. Integrations into
+    <a href="/products/jprofiler/java-profiler-IDE.html" class="linktext">all popular IDEs</a>
+    makes profiling during development as easy as running your application. And the large number of
+    integrations wizards for <a href="/products/jprofiler/java-profiler-JEE.html" class="linktext">nearly
+    all application servers on the market</a> ensures that you can get started with a few clicks and not
+    with reading documentation.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/profiling_settings_fsa-0cb5b237eb29346f713a41b0012f248e.png"><img src="/assets/products/jprofiler/top10/profiling_settings_tna-db10970738e431387209a9dd19845373.png" alt="Low overhead" style="max-width:335.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">Low overhead</h4>
+        <p>
+          
+    JProfiler records data only when you need it. In fact, you can start your application with the
+    JProfiler agent and attach the JProfiler GUI at a later time. When you do not record any data, the
+    overhead is extremely small. That's what we call on demand profiling. Invariably, there are a lot of
+    things you can adjust in an advanced profiler. JProfiler shows you how your profiling settings will
+    impact performance and offers you templates to quickly select profiling settings for common use cases.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/cpu_fsa-c095007bf390d15c24b8160f30dd48fc.png"><img src="/assets/products/jprofiler/top10/cpu_tna-8f247aab61fa0329297035d159787358.png" alt="The powerful CPU profiler" style="max-width:349.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">The powerful CPU profiler</h4>
+        <p>
+          
+    Fixing performance bottlenecks is the most frequent use case for a profiler. However, CPU data can be
+    overwhelming in its level of detail and the way data is collected can make a huge difference in
+    usability. With JProfiler, you have a decisive advantage when trying to find the reason for a problem.
+    Call tree view filters, aggregation levels and thread status selectors are just some examples of
+    JProfiler's versatility in this area.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content-section">
+    <div class="product-features clearfix">
+      <div class="screenshot">
+        
+          <a class="popup" href="/assets/products/jprofiler/top10/threads_fsa-a521f4546dea71f9b45edde9ed9a1a99.png"><img src="/assets/products/jprofiler/top10/threads_tna-e00d332e94d4243d2b2c6fecdc63c7ac.png" alt="The integrated thread profiler" style="max-width:336.0px;width:100%"/></a>
+        
+      </div>
+      <div class="description">
+        <h4 class="site-title-line-secondary">The integrated thread profiler</h4>
+        <p>
+          
+    Problems related to threading are much more frequent than one might assume. Without a thread profiler,
+    you only have a minimal chance to tackle such issues. A whole range of otherwise opaque problems can be
+    solved when using JProfiler, such as increasing liveness in a multi-threaded application that uses too
+    much locking. Thread profiling not only has a separate view section in JProfiler, it is also tightly
+    integrated into the CPU profiling views.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+                </div>
+            
+    </div>
+
+    <div class="content-section">
+                <h4 class="site-title-line-secondary">Supported Platforms</h4>
+            
+      <p>JProfiler supports profiling on the following platforms:</p>
+
+      
+          <div class="supported-platforms clearfix">
+            
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-windows-2a3e59d2565f5e4f62c88733795d63b8.png" /></div>
+            <p>Windows</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-macos-13b0fa926ab875e0297928a360043bc6.png" /></div>
+            <p>macOS</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-linux-3ce262439f76d927fa8739d938a022b7.png" /></div>
+            <p>Linux</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-freebsd-c427b8e8301b6a339cef1d1affdc3a97.png" /></div>
+            <p>FreeBSD</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-solaris-1f1a2c91933b1d6e5d6099a9626e1619.png" /></div>
+            <p>Solaris</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-aix-c2750e3992033ff94c7590ceef449223.png" /></div>
+            <p>AIX</p>
+          </div>
+        
+        
+          <div>
+            <div><img src="/assets/content/supported-platform-hpux-889c67d8f9ddc51ef09408ca7c433048.png" /></div>
+            <p>HP-UX</p>
+          </div>
+        
+      
+          </div>
+        
+
+    </div>
+
+    <div class="content-section">
+                <h4 class="site-title-line-secondary">JProfiler Screencasts</h4>
+            
+      <p>
+        We're regularly recording new screencasts for JProfiler in our <a href="https://www.ej-technologies.com/blog">blog</a>.
+        A filtered list of screencasts for all products can be viewed directly in the blog.
+      </p>
+
+      
+          <div class="screencasts">
+            <div class="row">
+              
+        
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="screencast">
+              <div>
+                <div class="overlay"></div>
+                <img src="/assets/products/jprofiler/videos/hibernate-fd23ad51b96b9eae1e876bcfb3d88578.png" alt="Profiling JPA/Hibernate"/>
+                <a href="https://blog.ej-technologies.com/2012/01/profiling-jpahibernate.html" class="play"></a>
+              </div>
+              <p>Profiling JPA/Hibernate</p>
+            </div>
+          </div>
+        
+        
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="screencast">
+              <div>
+                <div class="overlay"></div>
+                <img src="/assets/products/jprofiler/videos/request_tracking-5a313ca6a1a77abdc3ed0a2ff4467a54.png" alt="Java profiling across JVM boundaries"/>
+                <a href="https://blog.ej-technologies.com/2013/07/java-profiling-across-jvm-boundaries.html" class="play"></a>
+              </div>
+              <p>Java profiling across JVM boundaries</p>
+            </div>
+          </div>
+        
+        
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="screencast">
+              <div>
+                <div class="overlay"></div>
+                <img src="/assets/products/jprofiler/videos/inspections-9f562378915c9780d89167e0ba0df95f.png" alt="Inspections in the heap walker"/>
+                <a href="https://blog.ej-technologies.com/2011/09/inspections-in-heap-walker.html" class="play"></a>
+              </div>
+              <p>Inspections in the heap walker</p>
+            </div>
+          </div>
+        
+      
+            </div>
+          </div>
+          <p><a href="/products/jprofiler/docs"><i class="fa icon-rss"></i> WATCH MORE SCREENCASTS</a></p>
+        
+
+    </div>
+  
+                    </div>
+                  </div>
+        
+
+  
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 border-top-xs">
+             <div class="content  site-padding-left">
+              <div class="sidebar inner">
+                  <div class="widget action-links">
+  <ul class="list-unstyled clearfix">
+    <li class='download'><a href="/download/jprofiler/files" class="clearfix"><span><i class="fa icon-download"></i></span><div>Download</div></a></li>
+    <li class='order'><a href="/buy/jprofiler/select" class="clearfix"><span><i class="fa icon-order"></i></span><div>Order</div></a></li>
+    
+  </ul>
+</div>
+
+
+          <div class="widget null">
+            <h5 class="site-title">
+        <i class="fa fa-fw icon-server"></i>
+              <span>Need server monitoring?</span>
+            </h5>
+            
+  Have a look at JProfiler's sibling product
+  <a href="/products/perfino/overview.html">perfino</a>.
+  perfino is an APM tool for monitoring production servers.
+
+          </div>
+        
+
+          <div class="widget versions">
+            <h5 class="site-title">
+        <i class="fa fa-fw icon-versions"></i>
+              <span>Latest Versions</span>
+            </h5>
+            
+
+  
+    <div class="version-item clearfix">
+      <div class="img-wrapper"><img src="/assets/content/icon-app-jprofiler-9f3321cc39d0d17fb4238da06d836af1.png" alt="" width="48" height="48" srcset="/assets/content/icon-app-jprofiler-9f3321cc39d0d17fb4238da06d836af1.png 1x, /assets/content/icon-app-jprofiler@2x-6346eb0a9d2106e10afc7c72dbc081a1.png 2x"/></div>
+
+      <div class="text-wrapper">
+        <h6>JProfiler 12.0.4</h6>
+        <span class="date">2021-09-16</span>
+        <a href="/download/jprofiler/files">Download</a>
+        
+          &bull; <a href="/download/jprofiler/changelog.html">Change log</a>
+        
+      </div>
+    </div>
+  
+    <div class="version-item clearfix">
+      <div class="img-wrapper"><img src="/assets/content/icon-app-perfino-c7dcdf0f22906b3869bfcb4b204d8352.png" alt="" width="48" height="48" srcset="/assets/content/icon-app-perfino-c7dcdf0f22906b3869bfcb4b204d8352.png 1x, /assets/content/icon-app-perfino@2x-f4697966c89b65a5a8f611ce850c18ae.png 2x"/></div>
+
+      <div class="text-wrapper">
+        <h6>perfino 4.0.3</h6>
+        <span class="date">2021-05-21</span>
+        <a href="/download/perfino/files">Download</a>
+        
+          &bull; <a href="/download/perfino/changelog.html">Change log</a>
+        
+      </div>
+    </div>
+  
+    <div class="version-item clearfix">
+      <div class="img-wrapper"><img src="/assets/content/icon-app-install4j-0b58945a5efb8c25d6a6efe56c0f769d.png" alt="" width="48" height="48" srcset="/assets/content/icon-app-install4j-0b58945a5efb8c25d6a6efe56c0f769d.png 1x, /assets/content/icon-app-install4j@2x-f5fd304ed79bd857aa21736f3b89a290.png 2x"/></div>
+
+      <div class="text-wrapper">
+        <h6>install4j 9.0.5</h6>
+        <span class="date">2021-09-13</span>
+        <a href="/download/install4j/files">Download</a>
+        
+          &bull; <a href="/download/install4j/changelog.html">Change log</a>
+        
+      </div>
+    </div>
+  
+
+
+          </div>
+        
+
+
+          <div class="widget awards clearfix">
+            <h5 class="site-title">
+        <i class="fa fa-fw icon-award"></i>
+              <span>Awards</span>
+            </h5>
+            
+  
+  
+          <div class="award clearfix">
+            <div class="img-wrapper">
+              <img src="/assets/award-jprofiler-jdj-6a2ca95c8653a8a2f9de5a8d60560657.jpg" class="award-pic" alt=""/>
+            </div>
+            <div class="text">
+              <h6>JProfiler</h6>
+              <p>Best Java Profiling&nbsp;/ Testing Tool</p>
+            </div>
+          </div>
+        
+
+
+
+
+          </div>
+        
+
+
+                  
+              </div>
+            </div>
+          </div>
+        
+
+
+              </div>
+            </div>
+          </div>
+        
+
+
+
+    
+  </div>
+
+  <div id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="top clearfix">
+            <h1 class="logo gray"><a href="/index.html">ej-technologies</a></h1>
+
+            <div class="footer-menu">
+              <a href="https://www.ej-technologies.com/blog">Blog</a>
+              <span>&bull;</span>
+              <a href="/company/contact">Contact</a>
+              <span>&bull;</span>
+              <a href="/company/privacy.html">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="bottom clearfix">
+            <div class="copy">
+            &copy; Copyright 2001-2022 ej-technologies GmbH
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-menu" id="modal-menu" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="nav-mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="nav-mobile-header clearfix">
+              <div class="logo white"><a href="/index.html">ej-technologies</a></div>
+              <span class="back" data-dismiss="modal"><i class="fa fa-arrow-right"></i></span>
+            </div>
+            <ul class="clearfix list-unstyled nav-mobile-menu">
+
+              
+                <li class="">
+
+                  
+                    <a href="/index.html">Home</a>
+                  
+
+                </li>
+              
+                <li class="">
+
+                  
+                    <a href="/company/profile.html">Company</a>
+                  
+
+                </li>
+              
+                <li class="">
+
+                  
+                    <a href="/company/news.html">News</a>
+                  
+
+                </li>
+              
+                <li class="active">
+
+                  
+                    <span class="toggler collapsed" data-toggle="collapse" data-target="#nav-mobile-products">
+                      Products <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i>
+                    </span>
+                    <ul id="nav-mobile-products" class="list-unstyled sub-menu collapse">
+
+                      
+                        <li><a href="/products/jprofiler/overview.html">JProfiler</a></li>
+                      
+                        <li><a href="/products/perfino/overview.html">perfino</a></li>
+                      
+                        <li><a href="/products/install4j/overview.html">install4j</a></li>
+                      
+
+                    </ul>
+                  
+
+                </li>
+              
+                <li class="">
+
+                  
+                    <span class="toggler collapsed" data-toggle="collapse" data-target="#nav-mobile-download">
+                      Download <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i>
+                    </span>
+                    <ul id="nav-mobile-download" class="list-unstyled sub-menu collapse">
+
+                      
+                        <li><a href="/download/jprofiler/files">JProfiler</a></li>
+                      
+                        <li><a href="/download/perfino/files">perfino</a></li>
+                      
+                        <li><a href="/download/install4j/files">install4j</a></li>
+                      
+                        <li><a href="/download/exe4j/files">exe4j</a></li>
+                      
+
+                    </ul>
+                  
+
+                </li>
+              
+                <li class="">
+
+                  
+                    <a href="/support/information.html">Support</a>
+                  
+
+                </li>
+              
+                <li class="">
+
+                  
+                    <a href="/buy/overview.html">Order</a>
+                  
+
+                </li>
+              
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <script type="text/javascript" src="/assets/standard-b887e056ff42817a6071ba378d7a85fd.js" ></script>
+  
+
+  </body>
+  </html>
+
+
+
+

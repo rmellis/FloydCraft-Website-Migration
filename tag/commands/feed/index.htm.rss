@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Commands | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/commands/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:59:25 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Commands | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ConditionalCommands</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/conditionalcommands/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/conditionalcommands/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:59:25 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Commands]]></category>
+		<category><![CDATA[ConditionalCommands]]></category>
+		<category><![CDATA[if commands else]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3281</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/conditionalcommands.14295/ We use this plugin to make it possible to only execute a command if a specifically set condition is met. ConditionalCommands is intended to be used when plugins have automatic commands that should only be executed if certain conditions are met. It is able to execute multiple commands, with customisable delays on each&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/conditionalcommands/">ConditionalCommands</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/conditionalcommands.14295/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/conditionalcommands.14295/</span></span></a></p>
+<blockquote><p>We use this plugin to make it possible to only execute a command if a specifically set condition is met.</p></blockquote>
+<p><strong>ConditionalCommands</strong> is intended to be used when plugins have automatic commands that should only be executed if certain conditions are met. It is able to execute multiple commands, with customisable delays on each command.</p>
+<p><b>Usage</b><br />
+/cc &lt;player&gt; unless &lt;condition&gt; do &lt;command&gt;<br />
+/cc &lt;player&gt; if &lt;condition&gt; do &lt;command&gt;<br />
+/cc help</p>
+<p><b>Conditions</b><br />
+Grammar of conditions:</p>
+<p>&lt;expression&gt;::=&lt;term&gt;{&lt;or&gt;&lt;term&gt;}<br />
+&lt;term&gt;::=&lt;factor&gt;{&lt;and&gt;&lt;factor&gt;}<br />
+&lt;factor&gt;::=&lt;comparison&gt;|&lt;not&gt;&lt;factor&gt;|(&lt;expression&gt;)<br />
+&lt;comparison&gt;::=&lt;constant&gt;&lt;comparator&gt;&lt;constant&gt;<br />
+&lt;constant&gt;::=floating point number or integer<br />
+&lt;and&gt;::=&#8217;&amp;&#8217;<br />
+&lt;or&gt;::=&#8217;|&#8217;<br />
+&lt;not&gt;::=&#8217;!&#8217;<br />
+&lt;comparator&gt;::=&#8217;&gt;&#8217;|&#8217;=&#8217;|'&lt;&#8216;</p>
+<p>As shown above, only numbers can be compared, and placeholders can only consist of numbers. In case of multiple comparison operators in a group, i.e. 3&gt;=&lt;2, only the first operator will be used. Comparisons cannot include spaces. Inequality may be checked with !(value=value).</p>
+<p>Examples:</p>
+<p>/cc konsolas unless -ping-&gt;200 do kick konsolas<br />
+/cc konsolas if (-ping-&lt;300&amp;-ping-&gt;100)&amp;-tps-&gt;15.0 do msg konsolas Your ping is between 300 and 100, and the TPS is greater than 15.</p>
+<p><b>Placeholders</b><br />
+Placeholders are delimited by &#8216;-&#8216;. Since they&#8217;re applied with a replace, errors will probably be detected during parsing if they are typed incorrectly.</p>
+<ul>
+<li>ping &#8211; The latency of the tested player.</li>
+<li>tps &#8211; Server TPS average over the last 2 seconds</li>
+<li>time_online &#8211; Player&#8217;s online time in milliseconds</li>
+<li>uptime &#8211; Server uptime in ticks</li>
+<li>player_count &#8211; Number of players on the server</li>
+<li>perm:&lt;permission&gt; &#8211; 1.0 if the player has the permission, 0.0 otherwise. e.g. -perm:essentials.home-</li>
+<li>aacvl:&lt;check&gt; &#8211; AAC violation level of the given check (internal name). e.g. -aacvl:speed-</li>
+<li>chance:&lt;percentage&gt;% &#8211; Will be 1.0 percentage% of the time. e.g. -chance:34.5%-</li>
+</ul>
+<p><b>Multi command / delayed commands</b><br />
+In the &#8216;do&#8217; clause of the statement, multiple commands can be executed at once, and selected commands can be delayed if desired. The command delimiter is /&lt;delay&gt;/, where the integer between / and / denotes the delay before the command should be executed in ticks. Here are some examples:</p>
+<p>/cc konsolas if -aacvl:heuristics-&gt;0 do /1200/ ban konsolas 1 minute delayed ban for killaura<br />
+/cc konsolas if -perm:some.permission-=1 do /0/ broadcast konsolas has some.permission! /0/ broadcast second broadcast! /20/ broadcast 1 second later!</p>
+<p><b>Developer mode</b><br />
+By default, ConditionalCommands will suppress details behind parsing errors, etc. to be more user friendly. It will also swallow exceptions generated by executing a command. This behaviour can be changed by changing the dev option in plugins/ConditionalCommands/config.yml to true.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/conditionalcommands/">ConditionalCommands</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/conditionalcommands/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

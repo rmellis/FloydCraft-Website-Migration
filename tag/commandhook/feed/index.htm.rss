@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CommandHook | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/commandhook/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:51:25 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>CommandHook | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>CommandHook</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/commandhook/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/commandhook/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:51:25 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Command Hook Vanilla]]></category>
+		<category><![CDATA[CommandHook]]></category>
+		<category><![CDATA[Vanilla Command API Spigot]]></category>
+		<category><![CDATA[Vanilla CommandBlocks Spigot]]></category>
+		<category><![CDATA[Vanilla Commands]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3277</guid>
+
+					<description><![CDATA[<p>Source: spigotmc.org/resources/commandhook.61415/ We use this plugin to gain access to vanilla Minecraft functions accessible via command blocks, this is mainly used by JimmyDaRat This plugin adds the possibility to use vanilla selectors in non-vanilla commands written in CommandBlock. Since it hooks into vanilla functions, all of the selector arguments are parsed (@p[distance=..5]) Keep in mind&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/commandhook/">CommandHook</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="spigotmc.org/resources/commandhook.61415/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;">spigotmc.org/resources/commandhook.61415/</span></a></p>
+<blockquote><p>We use this plugin to gain access to vanilla Minecraft functions accessible via command blocks, this is mainly used by JimmyDaRat</p></blockquote>
+<p>This plugin adds the possibility to use vanilla selectors in non-vanilla commands written in CommandBlock.</p>
+<p>Since it hooks into vanilla functions, all of the selector arguments are parsed (@p[distance=..5])</p>
+<p><b>Keep in mind</b><br />
+Selecting entities other than player isn&#8217;t probably of any use, because after the result is obtained, it parses the command with entity name (Player or mob name), however all of the selectors should work.</p>
+<p>@p &#8211; targets nearest player<br />
+@a &#8211; targets all players<br />
+@r &#8211; targets random player<br />
+@e &#8211; targets all entities<br />
+@s &#8211; targets the executor <b>(that is command block, not Player!)</b></p>
+<p><b>FAQ</b><br />
+<b>Q:</b> Vanilla commands are not working.<br />
+<b>A:</b> Plugin scans if the command inside the block starts with <i>/minecraft:</i> or <i>minecraft:</i> so the syntax is ex.: minecraft:kill @p[name=&#8221;RandomPlayer&#8221;]
+<b>TL;DR:</b> just add <i>minecraft:</i> before it.</p>
+<p>If you have a problem or you have found an error, please text me with a short brief (logs are welcomed help)</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/commandhook/">CommandHook</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/commandhook/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

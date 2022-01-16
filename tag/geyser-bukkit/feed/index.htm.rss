@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Geyser-Bukkit | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/geyser-bukkit/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:05:43 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Geyser-Bukkit | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Geyser &#124; Minecraft: Bedrock Protocol Support</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/geyser-minecraft-bedrock-protocol-support/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/geyser-minecraft-bedrock-protocol-support/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:05:43 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Bedrock]]></category>
+		<category><![CDATA[Geyser]]></category>
+		<category><![CDATA[Geyser-Bukkit]]></category>
+		<category><![CDATA[Geyser-Spigot]]></category>
+		<category><![CDATA[Protocoll]]></category>
+		<category><![CDATA[Proxy]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3318</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/geyser-minecraft-bedrock-protocol-support.81297/ We use this plugin to allow players to join on Bedrock via the floydcraft.online domain, This is also what we user as a platform for our Bedrock Lan Proxy Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition, closing the gap from those wanting to play true cross-platform. What is&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/geyser-minecraft-bedrock-protocol-support/">Geyser | Minecraft: Bedrock Protocol Support</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/geyser-minecraft-bedrock-protocol-support.81297/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/geyser-minecraft-bedrock-protocol-support.81297/</a></p>
+<p>We use this plugin to allow players to join on Bedrock via the floydcraft.online domain, This is also what we user as a platform for our Bedrock Lan Proxy</p>
+<p>Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition, closing the gap from those wanting to play true cross-platform.</p>
+<p><b>What is Geyser?</b><br />
+Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition servers. The ultimate goal of this project is to allow Minecraft: Bedrock Edition users to join Minecraft: Java Edition servers as seamlessly as possible. Please note, this project is still a work in progress and should not be used on production. Expect bugs!</p>
+<p>To allow Xbox Live authentication on your server (i.e. Minecraft: Bedrock Accounts) you need to install <a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Floodgate" target="_blank" rel="nofollow noopener">Floodgate</a>.</p>
+<p>Special thanks to the DragonProxy project for being a trailblazer in protocol translation and for all the team members who have now joined us here!</p>
+<p><b>Setup</b><br />
+Bedrock clients will join through Geyser and it will handle all the packet translations. There are four different versions of Geyser: Geyser for Bukkit (works on derivatives such as Spigot and Paper), Geyser for BungeeCord (also works on Waterfall), Geyser for Velocity, and Geyser Standalone. The first three versions run as plugins and can be installed directly onto the server. The standalone version can be used in a similar way, except you run it separately.</p>
+<ul>
+<li><a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Setup#plugin-setup" target="_blank" rel="nofollow noopener">Setup Instructions &#8211; Plugin</a></li>
+<li><a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Setup#plugin-setup" target="_blank" rel="nofollow noopener">Setup Instructions &#8211; BungeeCord</a></li>
+<li><a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Setup#standalone-setup" target="_blank" rel="nofollow noopener">Setup Instructions &#8211; Standalone</a></li>
+</ul>
+<p>If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version. If you use Pterodactyl Panel we have an egg for the standalone version, please see <a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/FAQ#can-i-use-geyser-with-pterodactyl-panel" target="_blank" rel="nofollow noopener">here</a> for more information.</p>
+<p>If you&#8217;re still having problems with Geyser not working or giving you an &#8220;Unable to connect to world&#8221; error, see the <a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Common-Issues" target="_blank" rel="nofollow noopener">Common Issues</a> page.</p>
+<p>For more information, take a look at the <a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config" target="_blank" rel="nofollow noopener">Understanding the Config</a> page, and the <a class="externalLink" href="https://github.com/GeyserMC/Geyser/wiki/FAQ" target="_blank" rel="nofollow noopener">FAQ</a> page.</p>
+<p>And if you still have questions, feel free to join the <a class="externalLink" href="https://discord.geysermc.org/" target="_blank" rel="nofollow noopener">Discord</a> if you haven&#8217;t already.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/geyser-minecraft-bedrock-protocol-support/">Geyser | Minecraft: Bedrock Protocol Support</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/geyser-minecraft-bedrock-protocol-support/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

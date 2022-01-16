@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LWC Replacement | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/lwc-replacement/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:24:26 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>LWC Replacement | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>LockettePro</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/lockettepro/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/lockettepro/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:24:26 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Lockette]]></category>
+		<category><![CDATA[LockettePro]]></category>
+		<category><![CDATA[LWC Alternative]]></category>
+		<category><![CDATA[LWC Replacement]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3360</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/lockettepro-for-1-14-1-15-1-16.74354/ We use this plugin to provide players with a simple way to lock there chests by using signs. Remember the sign-based lock plugin Lockette that is popular for years? LockettePro is a deep remade &#38; rewrite of the original Lockette. It has massive performance enhancement, fixed bugs and completely customizable. This is the&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/lockettepro/">LockettePro</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/lockettepro-for-1-14-1-15-1-16.74354/"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/lockettepro-for-1-14-1-15-1-16.74354/</span></span></a></p>
+<blockquote><p>We use this plugin to provide players with a simple way to lock there chests by using signs.</p></blockquote>
+<p>Remember the sign-based lock plugin Lockette that is popular for years? LockettePro is a deep remade &amp; rewrite of the original Lockette. It has massive performance enhancement, fixed bugs and completely customizable. This is the updated version for spigot 1.14 and up of the original LockettePro.</p>
+<ul>
+<li>Original plugin 1.8 to 1.12: <a class="internalLink" href="https://www.spigotmc.org/resources/lockettepro-uuid-support-abandoned.20427/" target="_blank" rel="noopener">Link</a></li>
+<li>1.13 Download: <a class="externalLink" href="https://github.com/NyaaCat/LockettePro/releases/tag/v2.9.3" target="_blank" rel="nofollow noopener">Link</a></li>
+<li>WIKI: <a class="externalLink" href="https://github.com/connection-lost/LockettePro/wiki" target="_blank" rel="nofollow noopener">Link</a></li>
+</ul>
+<p><b>Features</b></p>
+<ul>
+<li>No database. All information required for a lock is recorded on the sign.</li>
+<li>Switch to LockettePro and switch back to Lockette worry-free anytime.</li>
+<li>Absolutely better performance. Performance test comparison below.</li>
+<li>Language files are editable, with UTF-8 support.</li>
+<li>Able to disable &#8220;bloat&#8221; features easily with no affect to performance.</li>
+<li>Customizable. For instance, you can set lockable for every single block.</li>
+</ul>
+<p><b>Dependency</b></p>
+<ul>
+<li>(Recommended) <b>ProtocolLib &#8211; <a class="internalLink" href="https://www.spigotmc.org/resources/protocollib.1997/" target="_blank" rel="noopener">Download</a></b></li>
+</ul>
+<p><i>*ProtocolLib is required for UUID support.</p>
+<p></i><br />
+<b>Install instructions</b></p>
+<ul>
+<li>Place the plugin in the spigot server plugins folder, Also install ProtocolLib dependency.</li>
+<li>Start the server to generate the config.</li>
+<li>Do config changes if you need to and run command /lock reload to apply the changes.</li>
+<li>Done.</li>
+</ul>
+<p><b>Configuration<br />
+DO NOT TURN ON FEATURES THAT YOU ARE NOT FAMILIAR WITH BEFORE READING THE PROPER SECTION ON WIKI!</b><br />
+Head to GitHub wiki page for configuration. [<a class="externalLink" href="https://github.com/connection-lost/LockettePro/wiki/*-config.yml" target="_blank" rel="nofollow noopener">config.yml</a>] [<a class="externalLink" href="https://github.com/connection-lost/LockettePro/wiki/*-lang.yml" target="_blank" rel="nofollow noopener">lang.yml</a>]
+It is currently NOT recommended to use lock expiry feature since it will be changed. Please avoid using it in order to prevent conflicts.</p>
+<p><b>How to Use LockettePro?</b><br />
+For players, just hold a sign in your hand, then right click a chest or any lockable block. If you want to lock a door, you may put a sign on the block above or below the door too. You may also SHIFT+RIGHT CLICK the block to prevent it get automatically locked, or you can write [Private] text manually on signs as well.</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/5dfae2f3d22f3bd5064704328ab350ae2645deb3?url=https%3A%2F%2Fproxy.spigotmc.org%2F43fba52ace3ac486c7c02b1649b20020b91ac8d0%3Furl%3Dhttp%253A%252F%252Fi.imgur.com%252FzfGn67x.png" alt="[​IMG]" data-url="https://proxy.spigotmc.org/43fba52ace3ac486c7c02b1649b20020b91ac8d0?url=http%3A%2F%2Fi.imgur.com%2FzfGn67x.png" /><br />
+​</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Advanced Usage</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><b>Share the chest with another user:</b><br />
+After claiming the chest, you can add another user on the sign. First, right click the sign, then enter /lock 3 &lt;user name&gt;<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8bb63feb46fb3746e27c04cf355836f7cef7768d?url=http%3A%2F%2Fi.imgur.com%2FpoX5NDK.png" alt="[​IMG]" data-url="http://i.imgur.com/poX5NDK.png" /><br />
+<b>Share the chest with everyone:</b><br />
+Same as above, you just use [Everyone] (with brackets) in the username.<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9223f22d084e1f920ed3e1a17a7e807893bbfa27?url=http%3A%2F%2Fi.imgur.com%2FpCZTX97.png" alt="[​IMG]" data-url="http://i.imgur.com/pCZTX97.png" /><br />
+<b>Add another sign:</b><br />
+If one sign is not enough, you may hold a sign and right click on another surface. It will snap on the surface and become a [More User] sign automatically. Placing the sign while holding SHIFT will bypass the sign creation.<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/7cd115d02adb471c0bb101828b0b24b7af4fb308?url=http%3A%2F%2Fi.imgur.com%2F4qfm3IG.png" alt="[​IMG]" data-url="http://i.imgur.com/4qfm3IG.png" /><br />
+<b>Timer with doors:</b><br />
+I have no idea why Lockette is doing this, but I am adding this feature anyways. If you add a line [timer:X] (with brackets, and X means an integer) to a door lock, the door will automatically close after X seconds.<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/baebf403dfe49e3d91bc15190e2699ccf83ad6c0?url=http%3A%2F%2Fi.imgur.com%2Fai4JKfD.png" alt="[​IMG]" data-url="http://i.imgur.com/ai4JKfD.png" /></div>
+</div>
+<p>Even more information, please see <a class="externalLink" href="https://github.com/connection-lost/LockettePro/wiki" target="_blank" rel="nofollow noopener">Wiki</a>.</p>
+<p><b>Commands and Permissions</b><br />
+Main command is <b>/lock</b>. Aliases contains <b>/lockit</b>, <b>/lockette</b> and <b>/lockettepro</b>.</p>
+<ul>
+<li>All players have the permission to lock a chest and edit a chest by default.</li>
+<li>In order to stay consistent with original Lockette, Towny server players need lockettepro.towny.wilderness in order to lock chests in the wilds.</li>
+<li>Edit a sign: <b>/lock &lt;line number&gt; &lt;player&gt;</b></li>
+<li>Reload configuration: <b>/lock reload</b>, requires permission lockettepro.reload</li>
+<li>Admin break lock permission: lockettepro.admin.break</li>
+<li>Admin use block (snoop chests) permission: lockettepro.admin.use</li>
+<li>Admin override placing interference blocks permission: lockettepro.admin.interfere</li>
+<li>Admin edit any sign permission: lockettepro.admin.edit</li>
+</ul>
+<p><i>* More info please see the <a class="externalLink" href="https://github.com/connection-lost/LockettePro/wiki/Commands-&amp;-Permissions" target="_blank" rel="nofollow noopener">wiki page</a>.</i></p>
+<p><b>Supported Plugins &amp; Special Lock Line Features</p>
+<p>WorldGuard &amp; Residence:</b><br />
+If a player does not have the &#8220;break&#8221; permission to a block due to WorldGuard or Residence, then he cannot lock it.</p>
+<p><b>Towny:</b><br />
+If a sign has a user line formatted &#8220;[SomeName]&#8221;, this means any player in town or nation &#8220;SomeName&#8221; will have access to this chest.<br />
+Players are not allowed to lock a chest in the wilderness unless he has permission lockettepro.towny.wilds</p>
+<p><b>Factions (from MassiveCraft):</b><br />
+If a sign has a user line formatted &#8220;[FactionName]&#8221;, this means any player in faction &#8220;FactionName&#8221; will have access to this chest.</p>
+<p><b>SimpleClans:</b><br />
+If a sign has a user line formatted &#8220;[clantag]&#8221;, this means any player in that clan will have access to this chest.</p>
+<p><b>Vault:</b><br />
+If a sign has a [GroupName] in user line, anyone in that group could access it. The group is taken according to Vault.</p>
+<p><b>Scoreboard Teams:</b><br />
+If a sign has a [TeamName] in user line, anyone in that team could access it. The team is Bukkit&#8217;s scoreboard.</p>
+<p><b>Other plugins:</b><br />
+Some plugins are born to compatible with Lockette/LockettePro thanks to Bukkit&#8217;s event priority mechanics. Players are not able to lock a chest/block that has already protected by another plugin. Known compatible plugin includes ChestShop.</p>
+<p><b>Note!</b><br />
+Please do not leave reviews with issues reports, use the Discussion page or github to report issues.</p>
+<div><b>If you like this resource and want to say thank you with a donation please use this PayPal button. Thanks!<br />
+<a class="externalLink" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HA349DXW8BU66" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9c91d77a0b024afc1d12d1caa95038bcb209d4b8?url=https%3A%2F%2Fwww.paypalobjects.com%2Fen_US%2Fi%2Fbtn%2Fbtn_donateCC_LG.gif" alt="[​IMG]" data-url="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" /></a><br />
+This plugin is updated by CraftersLand Minecraft Community.<br />
+<img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" /> Feel free to check us out at: <a class="externalLink" href="http://www.craftersland.net/" target="_blank" rel="nofollow noopener">www.craftersland.net</a></b></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/lockettepro/">LockettePro</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/lockettepro/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

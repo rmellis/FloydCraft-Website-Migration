@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | Akurrio Superario | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/akurrio/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/akurrio/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for Akurrio Superario.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">f83b1e4ecb9a492f04cf36099681dc79</guid>
+				<title>Akurrio Superario changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/263/</link>
+				<pubDate>Mon, 16 Nov 2020 08:57:28 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">5a5b99cf75140a920bf8382816697e4a</guid>
+				<title>Akurrio Superario became a registered member</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/28/</link>
+				<pubDate>Wed, 08 Jan 2020 20:45:47 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

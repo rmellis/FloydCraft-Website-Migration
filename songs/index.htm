@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Open Note Block Studio | An open source continuation of Minecraft Note Block Studio with exciting new features.</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Open Note Block Studio" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An open source continuation of Minecraft Note Block Studio with exciting new features." />
+<meta property="og:description" content="An open source continuation of Minecraft Note Block Studio with exciting new features." />
+<link rel="canonical" href="/songs/" />
+<meta property="og:url" content="/songs/" />
+<meta property="og:site_name" content="Open Note Block Studio" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Open Note Block Studio" />
+<script type="application/ld+json">
+{"description":"An open source continuation of Minecraft Note Block Studio with exciting new features.","url":"/songs/","@type":"WebPage","headline":"Open Note Block Studio","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/list.js"></script>
+
+    <base href="/">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-storage.js"></script>
+    <script>
+        signOut = function () {
+            firebase.auth().signOut().then(function () {
+                // Sign-out successful.
+                location.reload();
+            }).catch(function (error) {
+                // An error happened.
+            });
+        }
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyB-PnuRaTdwPnmN6WwKOmme4R99e3ZT9Tw",
+            authDomain: "open-note-block-studio.firebaseapp.com",
+            databaseURL: "https://open-note-block-studio.firebaseio.com",
+            projectId: "open-note-block-studio",
+            storageBucket: "gs://open-note-block-studio.appspot.com/",
+            messagingSenderId: "885100213324",
+            appId: "1:885100213324:web:c1199345e9a6e2f0"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var db = firebase.firestore();
+
+        initApp = function () {
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    // User is signed in.
+                    user.getIdToken().then(function (accessToken) {
+                        var texts = document.getElementsByClassName("signInTextChange");
+                        var i;
+                        for (i = 0; i < texts.length; i++) {
+                            texts[i].innerHTML = "Sign Out";
+                            texts[i].href = "javascript:signOut()";
+                        }
+                    });
+                } else {
+                    // User is signed out.
+                }
+            }, function (error) {
+                console.log(error);
+            });
+        };
+
+        window.addEventListener('load', function () {
+            initApp();
+        });
+    </script>
+</head>
+
+<body class="landing">
+  <!-- Header -->
+  <header id="header" class="alt">
+    <h1><strong><a href=" ">OpenNBS</a></strong></h1>
+    <nav id="nav">
+      <ul>
+        <li><a href=" ">Home</a></li>
+        <li><a href="features">Features</a></li>
+        <li><a href="songs">Songs</a></li>
+        <li><a href="nbs">Format</a></li>
+        <li><a href="https://github.com/OpenNBS/OpenNoteBlockStudio">GitHub</a></li>
+        <li><a href="signin" id="signInLink" class="signInTextChange">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+  <section id="banner">
+	<h2>Songs</h2>
+	<p>Share your note block songs here!</p>
+	<ul class="actions vertical">
+		<li><a class="button special icon fa-upload big" id="uploadSongBtn" href="/signin">Sign in to upload</a></li>
+		<li><a class="button special icon fa-user big" id="mySongsBtn" href="/my_songs" style="display:none">My songs</a></li>
+	</ul>
+</section>
+<!-- One -->
+<section id="one" class="wrapper style2">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			The songs page will be overhauled soon and all songs will be cleared. Please download your songs by signing in.
+		</div>
+		<div id="songList">
+			<div id="searchOptions">
+			<input class="search" placeholder="Search" />
+			<span class="sort button small" data-sort="name">Sort by name</span>
+			<span class="sort button small" data-sort="author">Sort by author</span>
+			<span class="sort button small" data-sort="timestamp">Sort by date</span>
+		</div>
+			<ul class="list">
+			</ul>
+			<ul class="pagination"></ul>
+		</div>
+		<div class="alert alert-danger" role="alert">
+			Loading songs is disabled for now. Sorry!
+		</div>
+		<!-- List item template -->
+		<div style="display:none;">
+			<li id="song-item" class="row songItem">
+				<div class="col-sm">
+					<strong>Name:</strong> 	<p class="name"></p>
+				</div>
+				<div class="col-sm">
+					<strong>Author:</strong>	<p class="author"></p>
+				</div>
+				<div class="col-sm">
+					<strong>Original author:</strong> <p class="original_author"></p>
+				</div>
+				<div class="col-sm">
+					<strong>Date:</strong> 	<p class="date timestamp" data-timestamp=""></p>
+				</div>
+				<div class="col-sm">
+					<strong>Download:</strong> <p><a class="download_link icon fa-download"></a></p>
+				</div>
+			</li>
+		</div>
+		<script src="/assets/js/songs.js"></script>
+	</div>
+</section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/assets/js/skel.min.js"></script>
+  <script src="/assets/js/util.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

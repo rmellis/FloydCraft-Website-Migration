@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Old ID | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/old-id/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:35:15 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Old ID | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ID-Library</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/id-library/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/id-library/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:35:15 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[IDs]]></category>
+		<category><![CDATA[Library]]></category>
+		<category><![CDATA[Minecraft-Item-ID]]></category>
+		<category><![CDATA[Minecraft-Item-ID - Library]]></category>
+		<category><![CDATA[Old ID]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3337</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/id-library-old-id-support-lib-new-minecraft-ids-1-13-x-1-16-x.62124/ We use this plugin to make gathering items easier, older plugins work as should and to make world edit much easier for players who got used to the old ID&#8217;s e.g. setting red wool by simply using the ID &#8220;red&#8221; Minecraft-Item-ID &#8211; Library General: This Library, gives you the Abbility to use the Old Miencraft-Item-ID&#8217;s&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/id-library/">ID-Library</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/id-library-old-id-support-lib-new-minecraft-ids-1-13-x-1-16-x.62124/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/id-library-old-id-support-lib-new-minecraft-ids-1-13-x-1-16-x.62124/</a></div>
+<blockquote>
+<div>We use this plugin to make gathering items easier, older plugins work as should and to make world edit much easier for players who got used to the old ID&#8217;s e.g. setting red wool by simply using the ID &#8220;red&#8221;</div>
+</blockquote>
+<div></div>
+<div><b>Minecraft-Item-ID &#8211; Library</b></p>
+<p><b>General:</b></p>
+<p><b>This Library, gives you the Abbility to use the Old Miencraft-Item-ID&#8217;s from the Version 1.12.x and lower in Newer Versions like 1.13.x &#8211; 1.16.x.</b></p>
+<p><b>Also this Library gives All new Items from the Version 1.13.x &#8211; 1.16.x a Item-ID like 1.12.x and lower!</b></p>
+<p><b>So you can use a Short Version and get the same Item!</b></p>
+<p><b>For places where the new Minecraft item names are just too long you can use the ID instead of the Name!</b></p>
+<p><b>If you like my Plugins / Library&#8217;s please leave a good Rating!</b></p>
+<p><b>===================================================================================</b></p>
+<p><b>Special Features:</b></p>
+<p>Very good performance</p>
+<p><b>Use old ID&#8217;s in newer Versions</b></p>
+<p><b>Items from Newer Version have a new ID like 1.12.x and lower</b></p>
+<p>Use Short ID instead of long Item-Names</p>
+<p>Easy to use and implement</p>
+<p><b>And many more&#8230;&#8230;</b></p>
+<p><b>===================================================================================</b></p>
+<p><b>How to use (For Non-Developers):</b></p>
+<p><b>&#8211; Download this Library</p>
+<p>&#8211; Put it into your &#8220;plugins&#8221;-Folder<br />
+</b>​</div>
+<p>&nbsp;</p>
+<div><b>===================================================================================</b></p>
+<p><b>How to use (For Developers):</p>
+<p>&#8211; Download this Library</p>
+<p>&#8211; Implement this Library in your Project</b><br />
+​</div>
+<p><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</b></p>
+<div>​</div>
+<p><b>&#8211; Add this to your Import-Section:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code">import me.idlibrary.main.IDLibrary;</div>
+</div>
+<p><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</b></p>
+<p><b>&#8211; A few Ways To get a new 1.13.x &#8211; 1.16.x Material from old ID&#8217;s or Material-Name&#8217;s:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code">Material M = IDLibrary.getMaterial(&#8220;1&#8221;);<br />
+Material M = IDLibrary.getMaterial(&#8220;1:1&#8221;);<br />
+Material M = IDLibrary.getMaterial(&#8220;stone&#8221;);<br />
+Material M = IDLibrary.getMaterial(&#8220;stone:1&#8221;);</div>
+</div>
+<p><b>&#8211; About the same Way you can get the Material from the new ID&#8217;s for 1.13.x &#8211; 1.16.x Versions:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code">Material M = IDLibrary.getMaterial(&#8220;480&#8221;); &lt;&#8211; This is a new ID added from this Library!<br />
+Material M = IDLibrary.getMaterial(&#8220;trident&#8221;);</div>
+</div>
+<p><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</b></p>
+<p><b>&#8211; To get the Item-ID&#8217;s from Items from old and new Versions use:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code"><a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Adocs.oracle.com+javase+docs+api+string" target="_blank" rel="nofollow noopener">String</a> IDData = IDLibrary.getIDData(Material);</div>
+</div>
+<p><b>&#8211; To get the only the Item-ID or the Item-Data use:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code">int ID = IDLibrary.getID(Material);<br />
+byte Data = IDLibrary.getData(Material);</div>
+</div>
+<p><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p>&#8211; There are also some other Ways to get the Material from a ID:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Java):</div>
+<div class="code">Material M = IDLibrary.getMaterial(int ID);<br />
+Material M = IDLibrary.getMaterial(int ID, byte Data);<br />
+Material M = IDLibrary.getMaterial(<a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Adocs.oracle.com+javase+docs+api+string" target="_blank" rel="nofollow noopener">String</a> ID, byte Data);</div>
+</div>
+<div><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</b>​</div>
+<p>&nbsp;</p>
+<div><b>Note!<br />
+When you implement this Library into your Plugin you also<br />
+must move this Library in the Plugins-Folder to!</b>​</div>
+<p>&nbsp;</p>
+<div><b>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</b><br />
+​</div>
+<p>&nbsp;</p>
+<div><b>===================================================================================</b></p>
+<p><b>New ID&#8217;s from this Library:</b></p>
+<p><b>Here you can find all ID&#8217;s which have been added by this library:</b>​</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">1.13.x &#8211; 1.16.x ID&#8217;s</span></button></div>
+<div><b><br />
+===================================================================================</p>
+<p></b></p>
+<div><b>Our Partners:</b></p>
+<p><b><a class="externalLink" href="https://dedimc.promo/Gecolay" target="_blank" rel="nofollow noopener">Thanks to our Premium Partner DedicatedMC!<br />
+Host your professional Minecraft Server now<br />
+with 15% off using the Code &#8220;Gecolay&#8221;!!</a></b><br />
+<a class="externalLink" href="https://dedimc.promo/Gecolay" target="_blank" rel="nofollow noopener"><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9598a61ba006c11cf6300ea37079e31290e53650?url=https%3A%2F%2Fi.imgur.com%2FzaxIpYE.png" alt="[​IMG]" data-url="https://i.imgur.com/zaxIpYE.png" /></a>​</div>
+<p><b><br />
+===================================================================================</b></p>
+<p><b>Known Bugs:</b><br />
+​</div>
+<p><b>Known Bugs:</b></p>
+<ul>
+<li>Currently no bugs are known!</li>
+<li></li>
+<li>If you discover a bug let me know in the discussion area so I can fix it quickly!</li>
+</ul>
+<div><b></p>
+<p>===================================================================================</b>​</div>
+<p>&nbsp;</p>
+<div><b>Planned Features:</b>​</div>
+<p><b><br />
+Planned Features for new Versions:</b></p>
+<ul>
+<li>Currently I have no new features planned!</li>
+<li></li>
+<li>If you think of something or you have a desire for an extension let me know in the discussion area!</li>
+</ul>
+<p>&nbsp;</p>
+<div><b><br />
+===================================================================================</p>
+<p><a class="externalLink" href="https://discord.gg/Cy2P4AU" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/521a9d9f42e19626151d17f1b6a38bb4d6c9f1d6?url=https%3A%2F%2Fdiscordapp.com%2Fassets%2Ffc0b01fe10a0b8c602fb0106d8189d9b.png" alt="[​IMG]" data-url="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" /></a><br />
+<a class="externalLink" href="https://discord.gg/Cy2P4AU" target="_blank" rel="nofollow noopener">New official GPlugins Discord Server!</a></b></p>
+<p><b><br />
+This Plugin supports the Minecraft Versions:<br />
+1.13.x, 1.14.x, 1.15.x, 1.16.x</p>
+<p>If you like my Plugins / Library&#8217;s please leave a good Rating!</b></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/id-library/">ID-Library</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/id-library/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

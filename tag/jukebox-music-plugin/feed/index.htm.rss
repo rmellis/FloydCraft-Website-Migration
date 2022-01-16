@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JukeBox - Music Plugin | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/jukebox-music-plugin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:54:02 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>JukeBox - Music Plugin | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>JukeBox &#8211; Music Plugin</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/jukebox-music-plugin/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/jukebox-music-plugin/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:52:56 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[JukeBox]]></category>
+		<category><![CDATA[JukeBox - Music Plugin]]></category>
+		<category><![CDATA[Music Plugin]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3346</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/jukebox-music-plugin.40580/ We use this plugin to power out /music GUI, this allows players to play pre set noteblock songs we&#8217;ve made in NoteBlock Studio. JukeBox offers you to work in music with only Minecraft opened! ♪ NoteBlockAPI is required! Features: All your songs are stored in a multiple-pages graphical interface, you just have to click on a&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/jukebox-music-plugin/">JukeBox – Music Plugin</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/jukebox-music-plugin.40580/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/jukebox-music-plugin.40580/</span></span></a></p>
+<blockquote><p>We use this plugin to power out /music GUI, this allows players to play pre set noteblock songs we&#8217;ve made in NoteBlock Studio.</p></blockquote>
+<p><b>JukeBox</b> offers you to work in music with only Minecraft opened! <b>♪</b></p>
+<p><b><a class="internalLink" href="https://www.spigotmc.org/resources/noteblockapi.19287/" target="_blank" rel="noopener">NoteBlockAPI</a> is required!</b><br />
+<b><br />
+Features:</b></p>
+<ul>
+<li>All your songs are stored in a multiple-pages graphical interface, you just have to click on a song for listen it!</li>
+<li>Many languages available : English, Swedish, German, French (français montrez-vous !), Chinese, and more! (<i>full list at the top of the page</i>)</li>
+<li>Player-specific settings are saved into a data file to reload them when the server restarts! &#8211; those player datas can also be stored in a SQL database if configured so in <i>config.yml</i>!</li>
+<li>You can enable a song player when you log in.</li>
+<li>Download command: if you don&#8217;t want to download a song on your computer, to transfer it in the folder&#8230; just write the URL and the command will make all the work!</li>
+<li>You can enable a shuffle mode, all the songs are randomly selected (and not played several times).</li>
+<li>You can pause/revive the current music.</li>
+<li>Playlists/favorites songs system, middle-click on your favorite songs to add them to your playlist!</li>
+<li>You can modify the volume of the music! (in a range of 0 &#8211; 100%)</li>
+<li>Particles effect can be enabled, and is synchronized with music tempo! (demo available on my <a class="externalLink" href="https://discord.gg/H8fXrkD" target="_blank" rel="nofollow noopener">Discord server</a>)</li>
+<li>Server radio</li>
+<li>Easy-to-use admin commands</li>
+<li>Option to disable vanilla music as long as JukeBox music is being played!</li>
+<li>Almost lag-free ; most of the stuff which can be done asynchronously&#8230; is done asynchronously!</li>
+<li>Compatible with hex colors for &gt; 1.16 servers by using the §#<b>xxxxxx</b> format in language file</li>
+</ul>
+<p><b>Commands:</b></p>
+<div><i>/music</i> (alias: <i>/jukebox</i>): to open the JukeBox (radio item do the same)<br />
+<i>/adminmusic &#8230; </i>(alias: <i>/amusic</i>):</p>
+<div><i>reload</i>: reload the configuration and songs<br />
+<i>player &lt;player&gt;</i>: see to which song player is listening<br />
+<i>play &lt;player&gt; &lt;id&gt;</i>: play a song to a player<br />
+<i>stop &lt;player&gt;</i>: stop the currently listening song<br />
+<i>setItem</i>: set the radio item<br />
+<i>download &lt;url&gt; &lt;destinationFile&gt;</i>: download a song file from the internet and load it<br />
+<i>shuffle|particles| &lt;player&gt;</i>: toggle player options<br />
+<i>volume &lt;player&gt; &lt;value|-|+&gt;</i>: set/decrease/increase the volume<br />
+<i>random &lt;player&gt;</i>: play a random song<br />
+<i>next &lt;player&gt;</i>: skip the current song​</div>
+</div>
+<p><b>Permissions:</b></p>
+<div><i>music.command</i> (given to players by default): gives access to the GUI<br />
+<i>music.command.admin</i> (given to operators by default): gives access to <i>/adminmusic<br />
+music.adminItem</i> (given to operators by default): changes item format​</div>
+<p><b>Placeholders: </b><i>(only if <a class="internalLink" href="https://www.spigotmc.org/resources/placeholderapi.6245/">PlaceholderAPI</a> is enabled)</i></p>
+<div><i>%jukebox_active% </i>(show formatted active song)<br />
+<i>%jukebox_active_title%</i> (show title of active song)<br />
+<i>%jukebox_active_author%</i> (show author of active song)<br />
+<i>%jukebox_active_description%</i> (show description of active song)<br />
+<i>%jukebox_playlist% </i>(show active playlist)<br />
+<i>%jukebox_playeroptions_</i><b>X</b><i>% </i>(value of option <b>X</b>: volume, shuffle, join, particles, loop)​</div>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/jukebox-transparent-png.471641/" alt="JukeBox transparent.png" /></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">config.yml</span></button></div>
+<p><b><br />
+CraftBukkit/Bukit are <i>not</i> supported. Spigot (or a fork, like Paper) must be used.</b></p>
+<p>Installation:</p>
+<ul>
+<li>Put NoteBlockAPI and JukeBox <i>.jar</i> files in the <i>plugins</i> directory and launch the server. Two new folders will be created : <i>plugins/JukeBox </i>(with config.yml), and <i>plugins/JukeBox/songs</i> inside the first one.</li>
+<li>To add songs, download <i>.nbs</i> files from the Internet and copy them to the <i>songs</i> folder.</li>
+</ul>
+<p><b>Trick:</b> You can get NBS songs from <a class="externalLink" href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-tools/1260747-minecraft-note-block-studio" target="_blank" rel="nofollow noopener">this list</a>, <a class="externalLink" href="https://github.com/astrogue/Songs" target="_blank" rel="nofollow noopener">this one</a>, <a class="externalLink" href="https://github.com/thatcraniumguy/Songs/tree/master/NBS%20files" target="_blank" rel="nofollow noopener">here</a> or <a class="externalLink" href="https://hielkeminecraft.github.io/OpenNoteBlockStudio/songs/" target="_blank" rel="nofollow noopener">there</a>.</p>
+<p><b>How to download songs: </b>(by <a class="username" href="https://www.spigotmc.org/members/972012/" data-user="972012, @MimiKyu">@MimiKyu</a>)</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler</button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">1. We will need the URL of the song but the URL has to be .nbs (no mp3 or midi) to achieve that, enter this link:<a class="externalLink" href="https://opennbs.org/songs/" target="_blank" rel="nofollow noopener">https://opennbs.org/songs/</a> which will send you to this page that when you scroll down you will see songs (which are all .nbs) and you can even search for the song you are looking for (if it appears or not).<br />
+Once you have seen the song you want, put your mouse pointer where it says download and right click and copy the address of the link and we will have the URL (Long)<br />
+2.As you can see its URL is Long and it will not be able to fit in the game chat, so what you have to do is make the URL shorter, and for that, enter this link: <a class="externalLink" href="https://xurl.es/" target="_blank" rel="nofollow noopener">https://xurl.es/</a> which is used to make the URL small. Once you have it, copy it and enter minecraft.<br />
+3.Once inside the world, use the command that previously taught you (/adminmusic download &lt;url&gt; &lt;destinationFile&gt;). Where it says &lt;url&gt; Put your URL and then where it says &lt;destinationFile&gt; is for you to name it that you want to put to the song within the game. Once that you confirmed that it is already there, you just have to use the command /adminmusic reload and voila, put / music and they will see your music in the playlist, which will Enjoy.If what you want is to create your music or search for more places to have the possibility of finding the music you are looking for, then download the Note Block Studio. Once downloaded, go to your browser and I will show you the possible sites where you will be able to find the music you are looking for:<br />
+1. <a class="externalLink" href="https://www.midiworld.com/" target="_blank" rel="nofollow noopener">https://www.midiworld.com/</a><br />
+2. <a class="externalLink" href="https://bitmidi.com/" target="_blank" rel="nofollow noopener">https://bitmidi.com/</a><br />
+3. <a class="externalLink" href="https://www.mididb.com/" target="_blank" rel="nofollow noopener">https://www.mididb.com/</a><br />
+4. <a class="externalLink" href="https://www.cprato.com/" target="_blank" rel="nofollow noopener">https://www.cprato.com/</a><br />
+As you will see, those sounds are in .mid (Midi) format, don&#8217;t worry, that&#8217;s why I asked you to download Note Block Studio to transform those sounds .mid to minecraft .nbs. If you do not know how, just follow this tutorial:<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/NIxNTK6nfJI?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+and since they are looking at the other David tutorials in case the Studio interests them. Once you have it in .nbs, go to this link again: <a class="externalLink" href="https://opennbs.org/songs/" target="_blank" rel="nofollow noopener">https://opennbs.org/songs/</a> and click on the red button that says &#8220;Submit a song&#8221;, once you have your song there in &#8220;My Songs&#8221; Repeat all the steps that I previously taught you and READY, enjoy it <img class="mceSmilieSprite mceSmilie22" title="Big grin :D" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":D" /></p>
+</div>
+</div>
+<p>&nbsp;</p>
+<div><i>Test server coming soon&#8230;<br />
+<a class="externalLink" href="http://bit.ly/SkytAsulServerPro" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/server-pro-png.471638/" alt="Server-pro.png" /></a></i>​</div>
+<p>&nbsp;</p>
+<div>
+<p><b>♪ Have a good day <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2665.png" alt="♥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/uhbDKimJYy0?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/jukebox-music-plugin/">JukeBox – Music Plugin</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/jukebox-music-plugin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

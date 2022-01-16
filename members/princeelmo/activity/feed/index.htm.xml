@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | PrinceElmo | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/princeelmo/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/princeelmo/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for PrinceElmo.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">0cea4563d3e71cbfb9cb5cd195096920</guid>
+				<title>PrinceElmo changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/11/</link>
+				<pubDate>Sat, 27 Apr 2019 00:31:52 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">123ffee334c0fc269e3e1c9f4844e365</guid>
+				<title>PrinceElmo&#039;s profile was updated</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/10/</link>
+				<pubDate>Sat, 27 Apr 2019 00:31:01 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">29681907b5fdd35d62d2dac171e33d08</guid>
+				<title>PrinceElmo became a registered member</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/8/</link>
+				<pubDate>Sat, 27 Apr 2019 00:30:21 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

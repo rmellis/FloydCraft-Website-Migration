@@ -1,0 +1,613 @@
+/*  Copyright 2013-2015 Guillaume Assire aka AlphaGolf (alphagolf@rocketmail.com)
+	
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License, version 2, as 
+	published by the Free Software Foundation.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/**
+ * Default Toolbar Height
+ */
+
+@media screen and (min-width: 783px) {
+	#wpadminbar .ab-top-secondary {
+		height: 32px;
+	}
+}
+
+/**
+ * Custom Icons
+ */
+
+@font-face {
+	font-family: 'WPST-icons';
+	src:url('../fonts/WPST-icons.eot');
+	src:url('../fonts/WPST-icons-1.eot') format('embedded-opentype'),
+		url('../fonts/WPST-icons.ttf') format('truetype'),
+		url('../fonts/WPST-icons.woff') format('woff'),
+		url('../fonts/WPST-icons.svg') format('svg');
+}
+
+#wpadminbar .ab-top-menu > li > a:before {
+    top: 2px;
+}
+
+/**
+ * WP Multisite Menu
+ */
+#wpadminbar #wp-admin-bar-my-wpms-admin > .ab-item:before {
+	font-family: dashicons !important;
+	content: '\f319';
+	top: 2px;
+}
+
+/**
+ * WP Symposium icons
+ */
+#wpadminbar #wp-admin-bar-my-symposium-admin > .ab-item > span.ab-icon:before 				{ font-family: WPST-icons !important; content: '\e601'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-notifications-mail > .ab-item > .ab-icon:before 		{ font-family: WPST-icons !important; content: '\e602'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-notifications-friendship > .ab-item > .ab-icon:before 	{ font-family: WPST-icons !important; content: '\e600'; }
+
+#wp-admin-bar-top-secondary .ab-item > .ab-label-mail,
+#wp-admin-bar-top-secondary .ab-item > .ab-label-friendship {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+/* Force the display of these icons, whenever screen width permits */
+@media screen and (max-width: 782px) {
+	#wp-admin-bar-top-secondary #wp-admin-bar-wpst-wps-mail,
+	#wp-admin-bar-top-secondary #wp-admin-bar-wpst-wps-friendship {
+		display: block;
+	}
+}
+@media screen and (max-width: 600px) {
+	#wp-admin-bar-top-secondary #wp-admin-bar-wpst-wps-mail,
+	#wp-admin-bar-top-secondary #wp-admin-bar-wpst-wps-friendship {
+		display: none;
+	}
+}
+
+/**
+ * Share Icons
+ */
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e610'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e611'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e612'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e613'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e614'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e615'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e616'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e617'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e618'; }
+
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e620'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e621'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e622'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.rounded > .ab-item:before 	{ font-family: WPST-icons !important; content: '\e623'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e624'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e625'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.rounded > .ab-item:before 	{ font-family: WPST-icons !important; content: '\e626'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e627'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.rounded > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e628'; }
+
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e630'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e631'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e632'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e633'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e634'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e635'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e636'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.circle > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e637'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.circle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e638'; }
+
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e640'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e641'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e642'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e643'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e644'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e645'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e646'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.ring > .ab-item:before 			{ font-family: WPST-icons !important; content: '\e647'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.ring > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e648'; }
+
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e630'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e661'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e662'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.altcircle > .ab-item:before 	{ font-family: WPST-icons !important; content: '\e663'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e634'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.altcircle > .ab-item:before 	{ font-family: WPST-icons !important; content: '\e635'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.altcircle > .ab-item:before 	{ font-family: WPST-icons !important; content: '\e666'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e667'; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.altcircle > .ab-item:before 		{ font-family: WPST-icons !important; content: '\e638'; }
+
+/* Reference: http://brandcolors.net/ */
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-linkedin.brand_h:hover > .ab-item:before 	{ color: #0976b4; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.brand > .ab-item:before ,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-facebook.brand_h:hover > .ab-item:before 	{ color: #3b5998; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-twitter.brand_h:hover > .ab-item:before 	{ color: #00aced; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-google-plus.brand_h:hover > .ab-item:before 	{ color: #dd4b39; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-tumblr.brand_h:hover > .ab-item:before 	{ color: #35465c; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-pinterest.brand_h:hover > .ab-item:before 	{ color: #cc2127; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-stumbleupon.brand_h:hover > .ab-item:before 	{ color: #eb4924; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-rss.brand_h:hover > .ab-item:before 		{ color: #ff9900; }
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.brand > .ab-item:before,
+#wpadminbar #wp-admin-bar-symposium-toolbar-share-mailto.brand_h:hover > .ab-item:before 	{ color: #b0b0b0; } /* My choice  ;)  */
+
+#wpadminbar .symposium-toolbar-share > .ab-item {
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+/**
+ * Search Icon and Field
+ */
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-search #adminbarsearch input.adminbar-input {
+	position: relative;
+	z-index: 30;
+	font: 13px/24px "Open Sans", sans-serif;
+	height: 24px;
+	width: 24px;
+	padding: 0 3px 0 24px;
+	margin: 0;
+	color: #ccc;
+	background-color: rgba( 255, 255, 255, 0 );
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+}
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	z-index: 10;
+	color: #000;
+	width: 200px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	cursor: text;
+	border: 0;
+}
+
+#wpadminbar.ie7 > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-search #adminbarsearch input.adminbar-input {
+	margin-top: 3px;
+	width: 120px;
+}
+
+#wpadminbar.ie8 > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-search #adminbarsearch input.adminbar-input {
+	margin-top: 4px;
+	background-color: #464646;
+}
+
+#wpadminbar.ie8 > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	background-color: #fff;
+}
+
+/**
+ * User Menu
+ */
+
+/* Style the User Menu for a correct partial display */
+@media screen and (min-width: 783px) {
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		min-width: initial;
+	}
+	
+	#wpadminbar #wp-admin-bar-my-account .wpst-user-actions {
+		min-height: 80px;
+	}
+
+	#wpadminbar #wp-admin-bar-my-account .wpst-with-avatar a {
+		height: 64px;
+	}
+
+	#wpadminbar #wp-admin-bar-my-account ul.wpst-user-actions-narrow li {
+		margin-left: 16px !Important;
+	}
+	
+	.rtl #wpadminbar #wp-admin-bar-my-account ul.wpst-user-actions-narrow li {
+		margin-right: 16px !Important;
+	}
+}
+
+#wpadminbar #wp-admin-bar-my-account .wpst-avatar {
+	left: 8px;
+}
+
+.rtl #wpadminbar #wp-admin-bar-my-account .wpst-avatar {
+	right: 8px;
+}
+
+/* Ensure a small gap under the avatar when it's alone */
+#wpadminbar #wp-admin-bar-user-info {
+	margin-bottom: 10px;
+}
+
+/* Those spans look too small with a box on hover */
+#wpadminbar #wp-admin-bar-user-info a {
+	padding-bottom: 10px;
+}
+
+/* Style secondary submenus to look like their parent */
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+    background: none repeat scroll 0 0 #4b4b4b;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    position: relative;
+    right: auto;
+}
+
+/* Add Role to User Menu */
+#wpadminbar #wp-admin-bar-my-account .wpst-role-wpst_superadmin,
+#wpadminbar #wp-admin-bar-my-account .wpst-role-administrator {
+	padding: 0 0 10px 15px;
+	margin: 10px 0 0 0;
+	border: 1px solid red;
+}
+
+/* Fix User Menu submenus */
+@media screen and (max-width: 599px) {
+	#wpadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+		right: 0% !Important;
+	}
+	.rtl #wpadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+		left: 100% !Important;
+		right: 0% !Important;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 782px) {
+	#wpadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+		right: 100% !Important;
+	}
+	.rtl #wpadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+		left: 100% !Important;
+		right: inherit !Important;
+	}
+}
+
+/* Leave room for the submenu arrows */
+@media screen and (max-width: 782px) {
+	#wpadminbar .ab-top-secondary .menupop .ab-submenu > li .ab-item {
+		margin-left: 10px;
+	}
+	.rtl #wpadminbar .ab-top-secondary .menupop .ab-submenu > li .ab-item {
+		margin-right: 10px;
+	}
+}
+
+/* Fix arrows directions in RTL */
+.rtl #wpadminbar .menupop .menupop > .ab-item:before {
+	content: '\f141';
+}
+.rtl #wpadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+	content: '\f139';
+}
+
+/* Fix arrows height for User Menu submenus */
+@media screen and (max-width: 782px) {
+	/* this is duplicated as of WP 3.8.1, so could be removed */
+	#wpadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+		top: 10px;
+	}
+}
+@media screen and (min-width: 783px) {
+	#wpadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+		top: 1px !Important;
+	}
+}
+
+/**
+ * Site Name Menu
+ */
+
+/* Fix the Site Name frontend menu */
+#wpadminbar #wp-admin-bar-site-name-default {
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+#wpadminbar #wp-admin-bar-site-name-default:last-child {
+	padding-bottom: 6px;
+}
+
+#wpadminbar #wp-admin-bar-appearance {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+/**
+ * Custom menus
+ */
+ 
+#wpadminbar .wpst-icon {
+	position: relative;
+	float: left;
+	width: auto;
+	height: auto;
+	margin-top: 6px;
+}
+
+/* In responsive mode, do not show the caret-down icon on large screen devices */
+#wpadminbar .wpst-r-item > a:before,
+#wpadminbar .wpst-r-item > .ab-item:before {
+	display: none;
+}
+
+@media screen and (max-width: 782px) {
+	#wpadminbar .wpst-r-item {
+		display: block;
+	}
+	#wpadminbar .wpst-r-item > a,
+	#wpadminbar .wpst-r-item > .ab-item	{
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 52px;
+		padding: 0;
+		position: relative;
+	}
+	#wpadminbar .wpst-r-item > a:before,
+	#wpadminbar .wpst-r-item > .ab-item:before {
+		display: block;
+		font-family: WPST-icons !important;
+		content: '\e604';
+		font-size: 32px;
+		text-indent: 0;
+		text-align: center;
+		line-height: 53px;
+		height: 46px !important;
+		top: -4px;
+		width: 52px; /* */
+	}
+}
+
+
+/**
+ * Admin Dashboard Options Page Items
+ */
+
+/* Tabs carrousel */
+#wpst-nav-management {
+	position: relative;
+	float: right;
+	width: 100%;
+}
+
+#wpst-nav-tabs-wrapper {
+	width: 10000px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#wpst-nav-tabs {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#wpst-nav-div-wrapper {
+	clear: both;
+}
+
+/* Arrows */
+.wpst-nav-tabs-arrow {
+	width: 10px;
+	padding: 0 5px 4px;
+	cursor: pointer;
+	position: absolute;
+	line-height: 22px;
+	font-size: 18px;
+	background-color: white;
+	text-shadow: 0 1px 0 #fff;
+	display: none;
+}
+
+#wpst-nav-tabs-arrow-left {
+	left: 0;
+}
+
+#wpst-nav-tabs-arrow-right {
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+
+/* Individual tabs */
+.wpst-nav-tab {
+	margin-top: 0;
+	cursor: pointer;
+}
+
+.wpst-nav-tab-active {
+	background-color: #F9F9F9;
+}
+
+.wpst-nav-div-active {
+	display: inline;
+}
+
+/* Responsive tabs */
+@media screen and (max-width: 782px) {
+	.wpst-nav-tab {
+		padding-top: 10px;
+		height: 21px;
+	}
+	.wpst-nav-tabs-arrow {
+		width: 24px;
+		height: 36px;
+	}
+	.wpst-nav-tabs-arrow a {
+		font-size: 25px;
+		left: 0;
+		padding: 5px 10px;
+		position: absolute;
+	}
+}
+
+/* Form items Titles */
+.wpst-form-item-title {
+	width: 15%;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 782px) {
+	.form-table td.wpst-form-no-title {
+		display: none;
+	}
+	.form-table td.wpst-form-item-title span {
+		font-weight: bold;
+	}
+}
+
+/* Roles in roles' lists, sites in sites' lists, individual checkboxes */
+.wpst-checkboxes span.description,
+.form-table span.description.wpst-checkbox {
+    padding-right: 20px;
+	display: inline; 
+	line-height: 2em;
+}
+.rtl .wpst-checkboxes span.description,
+.rtl .form-table span.description.wpst-checkbox {
+    padding-right: 2px;
+    padding-left: 20px;
+}
+
+/* Ensure roles' lists and sites' lists are not eaten by other HTML elements */
+.wpst-checkboxes {
+	overflow: hidden;
+}
+
+/* All / none toggle */
+.wpst-float-div {
+    float: left;
+	padding-left: 1px;
+}
+
+.rtl .wpst-float-div {
+    float: right;
+	padding-right: 1px;
+}
+
+@media screen and (max-width: 782px) {
+	.wpst-float-div {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+}
+
+/* Styles tables */
+@media screen and (max-width: 782px) {
+	.wpst-form-table .widefat > thead {
+		display: none;
+	}
+	.wpst-form-table .widefat td {
+		padding-left: 10px;
+	}
+}
+
+.wpst-widefat {
+	border: none;
+	line-height: 1.4em;
+}
+
+.wpst-form-table td {
+	vertical-align: top;
+}
+
+.wpst-widefat td {
+	padding: 9px;
+	width:14%;
+}
+
+.wpst-positive-int, .wpst-int, .wpst-percent {
+	width: 50px;
+}
+
+.js .wpst-has-default {
+	color: #aaaaaa;
+}
+
+/* Error messages in the admin page */
+.wpst-error {
+	outline: 1px solid #CC0000 !Important;
+}
+
+.wpst-caution {
+	border-left: 4px solid #ffba00 !Important;
+}
+
+.wpst-error-message {
+	margin-top: 12px;
+	padding: 12px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-left: 4px solid #DD3D36;
+	vertical-align: bottom;
+	clear: both;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Refines WP colorpicker */
+.wp-color-picker-field {
+	width: 67px;
+}
+
+/* Styling the two Guides */
+.wpst-devguide-function {
+	font-family: Courier New;
+	font-size: 9pt;
+	background: rgb(251, 251, 251);
+	border: lightgrey 1px solid;
+	padding: 10px 35px;
+}
+
+.wpst-devguide-code {
+	font-family: Courier New;
+	font-size: 9pt;
+	background: rgb(251, 251, 251);
+}
+
+.wpst-inside-guide {
+	padding: 20px;
+}
+
+.wpst-inside-guide h5 {
+	font-size: 0.9em;
+	font-style: italic;
+}

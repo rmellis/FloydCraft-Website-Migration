@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rewards | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/rewards/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:09:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Rewards | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Daily Rewards</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/daily-rewards/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/daily-rewards/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:08:12 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Daily Rewards]]></category>
+		<category><![CDATA[Rewards]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3289</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/daily-rewards.16708/ We use this plugin for &#8220;Floyd the Creeper&#8221; in spawn, an NPC which when punched allows players to claim a daily reward every 24 hours. Sponsored by:  ​ Overview: Daily Rewards is a fairly advanced plugin that rewards your players daily by simply running a command. Not only is it extremely customizable, but&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/daily-rewards/">Daily Rewards</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/daily-rewards.16708/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/daily-rewards.16708/</span></span></a></div>
+<blockquote>
+<div>We use this plugin for &#8220;Floyd the Creeper&#8221; in spawn, an NPC which when punched allows players to claim a daily reward every 24 hours.</div>
+</blockquote>
+<div></div>
+<div><b>Sponsored by:<br />
+<a class="externalLink" href="https://eternitynode.com/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/31e47a8c4505fbc27de329d9263924b879fd6cd7?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F577312587528667166%2F577904261254610945%2FEterinod.gif" alt="[​IMG]" data-url="https://cdn.discordapp.com/attachments/577312587528667166/577904261254610945/Eterinod.gif" /> </a></b>​</div>
+<div><b>Overview:</b><br />
+Daily Rewards is a fairly advanced plugin that rewards your players daily by simply running a command. Not only is it extremely customizable, but it is also extremely stable &#8211; major bugs are squashed near instantly and minor bugs will always be hunted down and squished as well. You can count on this plugin to get the job you require done effectively and efficiently.<b>Features:</b></div>
+<div>
+<ul>
+<li>
+<div>Customizable rewards and reward categories​</div>
+</li>
+<li>
+<div>Customizable permissions​</div>
+</li>
+<li>
+<div>Customizable messages​</div>
+</li>
+<li>
+<div>Customizable cooldown​</div>
+</li>
+<li>
+<div>Random reward feature​</div>
+</li>
+<li>
+<div>UUID Support​</div>
+</li>
+<li>
+<div>IP Support​</div>
+</li>
+<li>
+<div>Locally stored player data​</div>
+</li>
+<li>
+<div>MySQL support​</div>
+</li>
+<li>
+<div>PlaceholderAPI support​</div>
+</li>
+<li>
+<div>Auto update detector​</div>
+</li>
+<li>
+<div>Built for spigot/craftbukkit 1.13.2 &#8211; 1.14.3​</div>
+</li>
+<li>
+<div>Versions available for 1.7 &#8211; 1.12.2​</div>
+</li>
+</ul>
+<p><b>Commands &amp; Permissions:</b><br />
+/Reward &#8211; Default Permission: dr.claim<br />
+/Dailyrewards &#8211; Permission: dr.admin</p>
+<p><i>When you put a reward&#8217;s permission to true, the player must have the permission: dr.(reward&#8217;s name here)</i></p>
+<p><b>Dependencies:</b>​</p>
+</div>
+<ul>
+<li>Requires Java 8 when used in a home hosted server</li>
+</ul>
+<div>
+<p><b>Config:</b></p>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Servers Older Than 1.10</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">
+<p>The current version of this plugin may require different string values for sounds depending on your version due to the changes to bukkit effect names between each update &#8211; the default config strings are configured to 1.10+ by default, if you are using a spigot version older than 1.10, use these sound effects in your config.</p>
+<p>You can download older versions of this plugin in the version history tab, or click here</p>
+</div>
+</div>
+<p>Config.yml default configuration<br />
+Messages.yml default configuration<br />
+​</p>
+</div>
+<ul>
+<li>
+<div>You can have as many reward lines as you want​</div>
+</li>
+<li>
+<div>Send multiple commands on one line by putting a semicolon between the commands (Example: say 1;say 2;say 3)​</div>
+</li>
+</ul>
+<p>&nbsp;</p>
+<div><b>Placeholders:</b>​</div>
+<ul>
+<li>Player&#8217;s name &#8211; %player%</li>
+<li>Remaining cooldown time &#8211; %time%</li>
+<li>Remaining cooldown hours &#8211; %h%</li>
+<li>Remaining cooldown minutes &#8211; %m%</li>
+<li>Remaining cooldown seconds &#8211; %s%</li>
+</ul>
+<p>PlaceholderAPI Placeholders:</p>
+<ul>
+<li>Remaining cooldown time &#8211; %dailyrewards_remaining_time%</li>
+<li>Remaining cooldown hours &#8211; %dailyrewards_remaining_hours%</li>
+<li>Remaining cooldown minutes &#8211; %dailyrewards_remaining_minutes%</li>
+<li>Remaining cooldown seconds &#8211; %dailyrewards_remaining_seconds%</li>
+<li>Configurable reward available message &#8211; %dailyrewards_player_reward_available%</li>
+<li>Configurable no rewards available message &#8211; %dailyrewards_player_no_rewards%</li>
+<li>Configurable current reward availability status message &#8211; %dailyrewards_player_test_qualification%</li>
+</ul>
+<p>&nbsp;</p>
+<div>
+<p><b>Donators:</b><br />
+By donating I will put your spigot username or name in the list below along with the amount donated, if you are the owner of a server and donate I will put your server IP in bold font at the top of the plugin page and mark you as a sponsor. Thanks for considering donating to my projects!</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Donators</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">play.Maestrea.com ($20)<br />
+Alexander L. ($5)<br />
+xorange ($5)</div>
+</div>
+</div>
+<div>​</div>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/0897c1f908a7169b313bc0f202c6adaaecc1c7a5?url=https%3A%2F%2Fwww.paypal.com%2Fen_US%2Fi%2Fbtn%2Fbtn_donate_LG.gif" alt="[​IMG]" data-url="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" /></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/daily-rewards/">Daily Rewards</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/daily-rewards/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

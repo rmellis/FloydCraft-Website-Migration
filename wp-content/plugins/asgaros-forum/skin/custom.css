@@ -1,0 +1,125 @@
+#af-wrapper #forum-profile .display-name,
+#af-wrapper input[type="checkbox"]:checked:before {
+color: #D67200 !important;
+}
+#af-wrapper .button-normal,
+#af-wrapper .title-element,
+#af-wrapper #forum-header,
+#af-wrapper #profile-header .background-avatar,
+#af-wrapper #profile-navigation,
+#af-wrapper input[type="radio"]:checked:before {
+background-color: #D67200 !important;
+}
+#af-wrapper input[type="radio"]:focus,
+#af-wrapper input[type="checkbox"]:focus,
+#af-wrapper #profile-header {
+border-color: #D67200 !important;
+}
+#af-wrapper,
+#af-wrapper #forum-breadcrumbs a:hover,
+#af-wrapper .main-title {
+color: #ffffff !important;
+}
+#af-wrapper .main-title:before,
+#af-wrapper .editor-row-uploads .upload-hints,
+#af-wrapper .forum-stats,
+#af-wrapper .topic-stats,
+#af-wrapper .action-panel-description,
+#af-wrapper #forum-breadcrumbs,
+#af-wrapper #forum-breadcrumbs a,
+#af-wrapper .forum-post-date,
+#af-wrapper .forum-post-date a,
+#af-wrapper .post-footer,
+#af-wrapper .post-footer a,
+#af-wrapper .signature,
+#af-wrapper span.mention-nice-name,
+#af-wrapper .post-reactions .reaction,
+#af-wrapper #poll-results .poll-result-numbers,
+#af-wrapper #poll-results .poll-result-total,
+#af-wrapper #poll-warning,
+#af-wrapper .topic-icon:before,
+#af-wrapper .report-link,
+#af-wrapper .report-content:before,
+#af-wrapper input::placeholder,
+#af-wrapper .activity-time,
+#af-wrapper .unread-time {
+color: #ffffff !important;
+}
+#af-wrapper a,
+#af-wrapper .forum-post-menu a,
+#af-wrapper .post-author .topic-author,
+#af-wrapper #bottom-navigation {
+color: #00ccff !important;
+}
+#af-wrapper .content-container,
+#af-wrapper .report-element,
+#af-wrapper #statistics,
+#af-wrapper .post-wrapper,
+#af-wrapper #profile-header .background-contrast,
+#af-wrapper #poll-results .poll-result-bar,
+#af-wrapper #memberslist-filter {
+background-color: #3f3f3f !important;
+}
+#af-wrapper .content-element:nth-child(even),
+#af-wrapper .topic-sticky,
+#af-wrapper .topic-sticky .topic-poster,
+#af-wrapper .post-element,
+#af-wrapper .editor-element,
+#af-wrapper #statistics-online-users,
+#af-wrapper #profile-layer,
+#af-wrapper .spoiler .spoiler-head,
+#af-wrapper .report-content,
+#af-wrapper #poll-panel,
+#af-wrapper .post-reactions-summary .reaction-names,
+#af-wrapper #profile-content {
+background-color: #333333 !important;
+}
+#af-wrapper input,
+#af-wrapper .forum-poster,
+#af-wrapper .topic-poster,
+#af-wrapper .member-last-seen,
+#af-wrapper .editor-element,
+#af-wrapper .content-container,
+#af-wrapper .forum-post-header,
+#af-wrapper #statistics-body,
+#af-wrapper .statistics-element,
+#af-wrapper #statistics-online-users,
+#af-wrapper .editor-row,
+#af-wrapper .editor-row-subject,
+#af-wrapper .signature,
+#af-wrapper .post-element,
+#af-wrapper .post-wrapper,
+#af-wrapper .forum-subforums,
+#af-wrapper .uploaded-file img,
+#af-wrapper .action-panel-option,
+#af-wrapper .topic-sticky .topic-poster,
+#af-wrapper #profile-layer,
+#af-wrapper #profile-layer .pages-and-menu:first-of-type,
+#af-wrapper #profile-content,
+#af-wrapper #profile-content .profile-row,
+#af-wrapper .history-element,
+#af-wrapper #memberslist-filter,
+#af-wrapper .content-element,
+#af-wrapper .ad-forum,
+#af-wrapper .ad-topic,
+#af-wrapper .spoiler,
+#af-wrapper .spoiler .spoiler-body,
+#af-wrapper .report-element,
+#af-wrapper .report-source,
+#af-wrapper .report-content,
+#af-wrapper .report-actions,
+#af-wrapper #profile-content .profile-section-header,
+#af-wrapper #poll-options,
+#af-wrapper #poll-panel,
+#af-wrapper #poll-panel #poll-headline,
+#af-wrapper #poll-results .poll-result-bar,
+#af-wrapper .post-reactions-summary .reaction-names,
+#af-wrapper #usergroups-filter {
+border-color: #4c4c4c !important;
+}
+#af-wrapper .unread {
+color: #00d82e !important;
+}
+#af-wrapper #read-unread .unread {
+background-color: #00d82e !important;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Teash | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/teash/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:34:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Teash | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Trash</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/trash/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/trash/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:32:36 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[/trash]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[Teash]]></category>
+		<category><![CDATA[trash plugin]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3416</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/trash.1813/ We use this plugin to allow players to quickly and easily dispose of there unwanted items. How To Use The Plugin : You Must Turn Your Server Off When You Turn It off Copy The (Trash.jar) To Your Plugins Folder Then Start The Server How Use Plugin ~ You Can Use /Trash [&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/trash/">Trash</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/trash.1813/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/trash.1813/</a></p>
+<blockquote><p>We use this plugin to allow players to quickly and easily dispose of there unwanted items.</p></blockquote>
+<p><b>How To Use The Plugin :</b></p>
+<ul>
+<li>You Must Turn Your Server Off</li>
+</ul>
+<ul>
+<li>When You Turn It off Copy The (Trash.jar) To Your Plugins Folder</li>
+</ul>
+<ul>
+<li>Then Start The Server</li>
+</ul>
+<p><b>How Use Plugin ~</b></p>
+<ul>
+<li>You Can Use /Trash [ Must Have Permission {Trash.use}]</li>
+</ul>
+<p><b>Going To Do :</b></p>
+<ul>
+<li>Nothing</li>
+<li>Any Idea ?</li>
+</ul>
+<p><b>Important Things To Know :</b><br />
+&#8211; You do not have permission to assign the copyright to you.<br />
+&#8211; You do not have permission to sell</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/trash/">Trash</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/trash/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

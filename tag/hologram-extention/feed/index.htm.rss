@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hologram Extention | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/hologram-extention/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:31:35 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Hologram Extention | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Holographic Scoreboard</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/holographic-scoreboard/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/holographic-scoreboard/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:31:35 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Extention]]></category>
+		<category><![CDATA[Hologram]]></category>
+		<category><![CDATA[Hologram Extention]]></category>
+		<category><![CDATA[Holographic Display]]></category>
+		<category><![CDATA[Holographic Display Extention]]></category>
+		<category><![CDATA[Holographic Displays]]></category>
+		<category><![CDATA[Holographic Scoreboard]]></category>
+		<category><![CDATA[Simple Hologram Stats]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3335</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/holographic-scoreboard.2700/ We use this plugin for setting specific scoreboards around spawn e.g. adding /mctop to a hologram. A generic plugin that allows for easy creation of Holographic Scoreboards using the HolographicDisplays plugin. Wiki Introduction Ever really missed a huge billboard displaying your awesome rating in some weird discipline on your server? Wait no more! HolographicScoreboard will&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-scoreboard/">Holographic Scoreboard</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/holographic-scoreboard.2700/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/holographic-scoreboard.2700/</a></p>
+<blockquote><p>We use this plugin for setting specific scoreboards around spawn e.g. adding /mctop to a hologram.</p></blockquote>
+<p>A generic plugin that allows for easy creation of Holographic Scoreboards using the <i>HolographicDisplays</i> plugin.</p>
+<p><a class="externalLink" href="https://github.com/rlf/Holographic-Scoreboard/wiki" target="_blank" rel="nofollow noopener">Wiki</a></p>
+<p><b>Introduction</b><br />
+Ever really missed a huge billboard displaying your awesome rating in some weird discipline on your server?</p>
+<p>Wait no more! HolographicScoreboard will enable you to project anything you can get from commands displayed in beautiful holograms, and updated at fixed intervals.</p>
+<p>Want to show the richest players on your server?</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="code">/hgs create richies 10m console baltop</div>
+</div>
+<p>Want to show the most awesome Unarmed in an mcMMO environment?</p>
+<p>/hgs create unarmed 5m console mctop unarmed</p>
+<p>If you want to cleanup all holograms:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="code">/hgs cleanup</div>
+</div>
+<p>Refresh a specific scoreboard NOW:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="code">/hgs refresh richies</div>
+</div>
+<p><b>Installation</b><br />
+This plugin <b>REQUIRES </b><i>ProtocolLib and HolographicDisplays</i> or <i>Holograms</i>.</p>
+<p><b>Configuration</b><br />
+Simply use the command line:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">/hgs create myscoreboard 10m console bt top pvp 1</div>
+</div>
+<p><b>Permission</b></p>
+<ul>
+<li>One to rule-em all: `holographicscoreboard.admin`</li>
+</ul>
+<p><b>Plugin Incompatibilities</b><br />
+This plugin hijacks the communication between the player and the thirdparty plugin.<br />
+Some plugins do not &#8220;play nice&#8221; in this regard (i.e. some hang up the connection, and recalls the player), so some plugins are not compatible.</p>
+<ul>
+<li>SimpleClans</li>
+<li>CraftCononmy3</li>
+<li>PlotSquared</li>
+</ul>
+<p><b>Disclaimer</b><br />
+This plugin utilizes Hidendra&#8217;s plugin metrics system, which means that relevant information is collected and sent to mcstats.org.<br />
+Opting out of this service can be done by editing plugins/Plugin Metrics/config.yml and changing opt-out to true.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-scoreboard/">Holographic Scoreboard</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/holographic-scoreboard/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TCPShield | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/tcpshield/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:18:41 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>TCPShield | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>TCPShield</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/tcpshield/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/tcpshield/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:18:41 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[CDN]]></category>
+		<category><![CDATA[DDOS Protection]]></category>
+		<category><![CDATA[Free CDN]]></category>
+		<category><![CDATA[Free vCDN]]></category>
+		<category><![CDATA[Minecraft CDN]]></category>
+		<category><![CDATA[TCPShield]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3408</guid>
+
+					<description><![CDATA[<p>Source: https://tcpshield.com/ We use this plugin to prevent DDOS Attacks, this works by touting our server thru around 200 other servers, not only does it prevent DDOS attacks by use of CNAME as appose to a a standard A Record but it serves as a reliable content delivery network for players over seas. Highly available&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/tcpshield/">TCPShield</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<header id="home" class="header-area header-bg-3 style-three">
+<div class="container">
+<p>Source: <a href="https://tcpshield.com/" target="_blank" rel="noopener">https://tcpshield.com/</a></p>
+<blockquote><p>We use this plugin to prevent DDOS Attacks, this works by touting our server thru around 200 other servers, not only does it prevent DDOS attacks by use of CNAME as appose to a a standard A Record but it serves as a reliable content delivery network for players over seas.</p></blockquote>
+<div class="row">
+<div class="col-lg-7">
+<div class="header-inner">
+<h1 class="title wow fadeInDown">Highly available DDoS mitigation platform</h1>
+<p>Trusted by 2000+ player networks since 2015. Stay online no matter what threats face you. The ideal solution for gaming networks that demand low latency and 100% uptime.</p>
+<div class="btn-wrapper wow fadeInUp"><a class="boxed-btn btn-rounded" href="https://panel.tcpshield.com/">Sign Up</a> <a class="boxed-btn btn-rounded blank" href="https://tcpshield.com/#about">Learn More</a></div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="about" class="about-us-area style-two">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<div class="section-title left-aligned"><span class="subtitle">ABOUT</span></p>
+<h3 class="title extra">Built for gaming networks that demand 100% uptime</h3>
+<p>Whether you face complex network layer attacks, or multi-vector layer 7 attacks involving query and handshake floods, these threats are mitigated thanks to our proprietary filtering and proxy software deployed across our edge.</p>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="feature-area">
+<ul class="feature-list">
+<li class="single-feature-list wow zoomIn">
+<div class="icon icon-bg-1"></div>
+<div class="content">
+<h4 class="title">Load Balancing</h4>
+<p>Whether you have a single origin server, or hundreds in multiple datacenters, our proprietary proxying solution delivers traffic to the least-connected backend server.</p>
+</div>
+</li>
+<li class="single-feature-list wow zoomIn">
+<div class="icon icon-bg-2"></div>
+<div class="content">
+<h4 class="title">Fault Tolerant</h4>
+<p>If one of your backend servers crashes, it is automatically removed from the load balancer so your players can continue to enjoy your content.</p>
+</div>
+</li>
+<li class="single-feature-list wow zoomIn">
+<div class="icon icon-bg-3"></div>
+<div class="content">
+<h4 class="title">Industry Leading Layer 7 Filtering</h4>
+<p>Whether you are victim of a bot attacks, query floods, or fake session attacks, our advanced verification engine blocks even the most complex attack vectors.</p>
+</div>
+</li>
+<li class="single-feature-list wow zoomIn">
+<div class="icon icon-bg-4"></div>
+<div class="content">
+<h4 class="title">Low Latency</h4>
+<p>With connections to over 50+ internet exchange points, and peering with over 250+ networks we provide optimal routes for games that demand low latency and high reliability.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="why-choose-area why-choose-us-bg">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-10">
+<div class="section-title white"><span class="subtitle">WHY CHOOSE TCPSHIELD</span></p>
+<h3 class="title extra">Unified Management</h3>
+<p>Trusted by some of the largest players in the space, including MineSuperior and VanityMC. Manage your service with our fully self-serve panel.</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-12">
+<div class="single-why-us-item margin-top-60 wow zoomIn">
+<div class="icon gdbg-1"></div>
+<div class="content">
+<h4 class="title">Simple Management</h4>
+<p>Adding a new server is as easy as specifying a domain and backend IP address, then pointing your protected CNAME record</p>
+</div>
+</div>
+<div class="single-why-us-item wow zoomIn">
+<div class="icon gdbg-2"></div>
+<div class="content">
+<h4 class="title">Version Insights</h4>
+<p>View the most popular Minecraft versions your players have used over the past 7 days, and see when layer 7 attacks happen with our real-time graphs</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-12">
+<div class="center-image"><img class="aligncenter" src="https://tcpshield.com/assets/img/mobile-img-2.png" alt="mobile image two" /></div>
+</div>
+<div class="col-lg-4 col-md-12">
+<div class="single-why-us-item margin-top-60 wow zoomIn">
+<div class="icon gdbg-3"></div>
+<div class="content">
+<h4 class="title">Documentation</h4>
+<p>Our extensive guides will help you get your server provisioned on our network stress-free. If you need to talk to a human, we&#8217;re always here</p>
+</div>
+</div>
+<div class="single-why-us-item wow zoomIn">
+<div class="content">
+<h4 class="title">For Everyone</h4>
+<p>Start protecting your network at no cost and join the secure platform entrusted by over 6,500 customers protecting their communities from formidable threats!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="team" class="team-member-area">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="download-area-wrapper margin-top-120">
+<h3 class="title">Get Protected</h3>
+<p>With our self-serve panel, you can get your server protected in as little as 5 minutes!</p>
+<div class="btn-wrapper"><a class="boxed-btn btn-rounded gd-bg-1" href="https://panel.tcpshield.com/">Sign Up</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/tcpshield/">TCPShield</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/tcpshield/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

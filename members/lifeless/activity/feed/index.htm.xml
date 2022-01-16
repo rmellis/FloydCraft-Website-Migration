@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | nico | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/lifeless/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/lifeless/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for nico.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">17586860784c78c2e8cc040c762bf26f</guid>
+				<title>nico became a registered member</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/317/</link>
+				<pubDate>Thu, 25 Feb 2021 14:30:13 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

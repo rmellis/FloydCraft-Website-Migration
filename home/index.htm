@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css">
+		        <!-- 
+
+                              ///////////////
+                           /////////////////////
+                         /////////////////////////
+                     /////////////////////////@@@@@@@@  
+               ////////////////////////////@@@&      @@@@
+             ////////////////////////////@@%            @@
+      //////////////////////////////////@@     @@@@@     &@
+   /////////////////////////////////////@    @@@@@@@@@    @
+ //////////////////////////////////////@@                 @
+///////////////////////////////////////@@                 @
+///////////////////////////////////////@@    @@@@@@@@@@@@@@
+////////////////////////////////////////@@    @@@@@@@@   @@
+/////////////////////////////////////////@@              @@
+//////////////////////////////////////////@@@&         @@@
+  ///////////////////////////////////////////@@@@@@@@@@
+   ////////////////////////////////////////////////  
+
+				-->
+	<link rel="icon" type="image/png" sizes="192x192"  href="/static/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+	<link rel="manifest" href="/static/manifest.json">
+	<meta name="msapplication-TileColor" content="#00d1b2">
+	<meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png">
+	<meta name="theme-color" content="#00d1b2">
+		        <!-- LIB -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.15/sorting/datetime-moment.js"></script>
+	<script src="/static/js/datatables.bulma.min.js"></script>
+	
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	        <!-- META -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+		<meta property="og:site_name" content="PlaceholderAPI | Expansion Cloud">
+        <meta name="og:title" content="The eCloud">
+        <meta name="og:description" content="View, download and manage expansions within the eCloud for the PlaceholderAPI plugin.">
+        <meta name="og:image" content="https://api.extendedclip.com/static/img/icon.png">
+        <meta name="og:type" content="website">
+    <title>eCloud - Home</title>
+</head>
+<body>
+<div class="ecloud">
+
+ <!-- Warnings -->
+	  <!-- <div class="notification is-warning" style="margin-bottom:0px;">
+	  <div class="container">
+  We're currently <strong>updating</strong> the eCloud. So some features could be broken whilst we update.<br>This won't effect the in game use of the PlaceholderAPI or it's access to the eCloud APIs. Thanks!
+	</div>
+  </div> -->
+        
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+<div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://api.extendedclip.com/home/">
+      <img src="/static/img/cloud-logo.png" width="112" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+       <div class="navbar-start">
+		<a href="/home" class="navbar-item">
+        Home
+       </a>
+	   
+	      <div class="navbar-item has-dropdown is-hoverable">
+        <a href="/all" class="navbar-link">
+          Expansions
+        </a>
+
+        <div class="navbar-dropdown">
+          <a href="/all" class="navbar-item">
+            View All
+          </a>
+          <a href="/usage" class="navbar-item">
+            Expansion Usage
+          </a>
+          <hr class="navbar-divider">
+          <a href="https://www.spigotmc.org/resources/placeholderapi.6245/" target="_blank" class="navbar-item">
+            PlaceholderAPI Plugin
+          </a>
+        </div>
+      </div>
+	  <a href="/users" class="navbar-item">
+        Authors
+      </a>
+	  <a href="https://helpch.at/discord" target="_blank"  class="navbar-item">
+        Discord
+      </a>
+	  <a href="https://github.com/help-chat/PlaceholderAPI/wiki" target="_blank" class="navbar-item">
+        Wiki
+      </a>
+</div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="/login" class="button is-primary">
+            <strong>Login</strong>
+          </a>
+          <a href="/register" class="button is-light">
+            Register
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+    
+    
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Welcome Home
+      </h1>
+      <h2 class="subtitle">
+        The official Expansion Cloud for PlaceholderAPI.
+		
+      </h2>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-7">
+          <div class="content box">
+            <p><strong>PlaceholderAPI</strong> is a module based system where placeholders for a specific function, object, or plugin are usually compiled into individual .jar files called <i>Expansions</i>.</p>
+
+            <blockquote>These expansions are similar to how actual plugins on your server work.</blockquote>
+
+            <p>In order for an expansion to be loaded and enabled, the <code>expansion_name.jar</code> file must be located in the <code>/plugins/PlaceholderAPI/expansions/</code> folder and you must also that plugin installed to use them. For example, to use Factions placeholders, you will need the Factions plugin installed and running properly on your server.</p>
+
+            <p>This expansion system allows the core plugin of PlaceholderAPI to be as light and dependency free as possible while also allowing the expansion developer much flexibility as each set of placeholders is contained within its own environment. Updating is super easy, the code behind the placeholders can be organized neatly, and it doesn't bloat the actual plugin with tons of useless code or functions that are never used!</p>
+
+            <p>All official expansions can be downloaded either in game via the command <code>/papi ecloud</code> or through this website.</p>
+
+            <p>If you are a developer and have expansions that you have made and would like to contribute to the official PlaceholderAPI expansion cloud for others to download and use, feel free to create an account and upload your expansions.</p>
+
+            <blockquote><strong>NOTE:</strong> Some plugins may add placeholders to PlaceholderAPI in ways other than the expansion system stated above. For example, the plugin could include the placeholders inside the plugin itself, and register the placeholders when the plugin is enabled.
+            </blockquote>
+          </div>
+
+        </div>
+        <div class="column is-5">
+		<img src="https://i.imgur.com/6kk8r7N.png" style="display: block;margin-left: auto;margin-right: auto;width: 65%;"></img><br>
+          <div class="level box" style="margin-bottom:10px">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Expansions</p>
+                <p class="title">239</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Authors</p>
+                <p class="title">377</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Placeholders</p>
+                <p class="title">2,500+</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span>
+              <a href="..\all" class="button is-info is-large is-full-width">View Expansions</a>
+            </span>
+            <div class="buttons">
+              
+            </div>
+            <span>
+             <div class="columns is-multiline is-gapless is-small-gap">
+               <div class="column is-half">
+                 <a href="https://helpch.at/discord" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><i class="fab fa-discord"></i></span>
+                  <span>Support</span>
+                  </a>
+               </div>
+               <div class="column is-half">
+                 <a href="https://bstats.org/plugin/bukkit/PlaceholderAPI" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><i class="fas fa-chart-line"></i></span>
+                  <span>bStats</span>
+                </a>
+               </div>
+               <div class="column is-half">
+                 <a href="https://www.paypal.me/extendedclip" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><i class="fab fa-paypal"></i></span>
+                  <span>Donate</span>
+                </a>
+               </div>
+               <div class="column is-half">
+                 <a href="https://github.com/PlaceholderAPI/PlaceholderAPI/wiki" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><i class="fas fa-question"></i></span>
+                  <span>Wiki</span>
+                </a>
+               </div>
+               <div class="column is-half">
+                 <a href="https://www.spigotmc.org/resources/placeholderapi.6245/" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><img src="https://i.imgur.com/4SvDFqk.png"></span>
+                  <span>Spigot</span>
+                </a>
+               </div>
+               <div class="column is-half">
+                 <a href="https://github.com/placeholderapi" target="_blank" class="button is-large is-outlined is-full-width">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Contribute</span>
+                </a>
+               </div>
+             </div>
+          </span>
+        </div>
+        <div class="content has-text-centered" style="padding-top: 1em;">
+          <strong>PlaceholderAPI</strong> is an open sourced project created by <a href="https://www.spigotmc.org/members/clip.1001/" target="_blank">clip</a>.<br>
+		  Website design by <a href="https://funnycube.net/" target="_blank">funnycube</a> & <a href="http://itsnathang.me/" target="_blank">NathanG</a>.
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+	</div>
+<div class="footer">
+	<img src="/static/img/cloud-logo_full_white.png" width="170" height="70">
+	<p><a href="https://helpch.at/discord" class="footertext">Discord</a> - <a href="https://github.com/PlaceholderAPI/PlaceholderAPI/wiki" class="footertext">Wiki</a> - <a href="https://api.extendedclip.com/privacy-policy" class="footertext">Privacy Policy</a> - <a href="https://api.extendedclip.com/terms-of-service" class="footertext">Terms of Service</a></p>
+</div>
+<div class="footer2">
+	<p>Copyright © 2021 PlaceholderAPI All Rights Reserved.</p>
+</div>
+<script src="/static/js/main.js"></script>
+
+</body>
+</html>

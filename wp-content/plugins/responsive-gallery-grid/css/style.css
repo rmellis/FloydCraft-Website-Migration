@@ -1,0 +1,108 @@
+/* reset commonly used image styles that can screw up the gallery */
+
+.rgg-imagegrid a, .rgg-imagegrid a:hover {
+    box-shadow: none;
+}
+
+.rgg-imagegrid { position: relative; clear:both; }
+
+.rgg-imagegrid > .rgg-img {
+    display:block;
+    position: absolute;
+    left:0;
+    top:0;
+    background-size: 102% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; /* setting 50% can cause small 1px lines at the edges. 49%omg1337HAXORRZ-trick! */
+    background-color:#f4f4f4;
+    /*border:4px solid #ffffff;*/
+    /*padding: 5px;*/
+    box-sizing: content-box;
+}
+
+/* built-in captions styles and effects */
+
+.rgg-caption-container {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    /*background-color: rgba(255,0,0,.5);*/
+}
+
+.rgg-caption-container .rgg-caption {
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    bottom:0;
+    /*transform: translate(0,100%);*/
+    background-color: rgba(0,0,0,0.8);
+    font-size: 12px;
+    width: 100%;
+    text-align:center;
+    color: #eeeeee;
+    font-weight:bold;
+    padding: 10px;
+}
+
+
+/*
+    Example 1: adding borders to the images.
+    -------------------------------------------------------------------
+    Copy the CSS below to your theme's style.css file and uncomment it.
+    Then modify as necessary.
+    - Note: you cannot add padding or margins this way. To add margins between the images set the margin parameter
+            in the schortcode or globally under Dashboard > RGG Options > Margin
+ */
+/*
+.rgg-imagegrid > .rgg-img {
+    border: 4px solid #3c3c9c;
+    border-bottom-width: 20px;
+}
+*/
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/*
+     Example 2: Custom Captions CSS. (RGG Pro Only)
+     ---------------------------------------------------------------------
+     Copy the CSS below to your theme's style.css file and uncomment it.
+     Then go to Dashboard > RGG Options, and set Captions to Custom Style.
+*/
+/*
+.rgg-imagegrid.captions-custom .rgg-caption-container {
+    background-color: rgba(0,0,0,.6);
+}
+
+.rgg-imagegrid.captions-custom .rgg-caption-container:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+.rgg-imagegrid.captions-custom .rgg-caption-container .rgg-caption {
+    bottom:50%;
+    transform: translate(0,50%);
+    background-color: transparent;
+    font-size: 20px;
+    text-align:center;
+    font-weight:bold;
+    transition: all .5s ease;
+}
+
+.rgg-imagegrid.captions-custom .rgg-caption-container:hover .rgg-caption {
+    transform: translate(0,50%) scale(2,2);
+    opacity: 0;
+}
+*/
+
+.image-above-container .slide {
+    background-color: #303030;
+    text-align: center;
+}
+
+.image-above-container .slide img {
+    margin: 0 auto;
+    max-width:100%;
+    height: auto;
+}

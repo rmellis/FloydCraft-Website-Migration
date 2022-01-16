@@ -1,0 +1,5656 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public LoggedOut NoSidebar" xmlns:fb="//www.facebook.com/2008/fbml">
+<head>
+
+    <meta charset="utf-8" />
+<meta name="google-site-verification" content="fnjUrmd3azc4GH8dDBhYuQnAslOqYeuxnygs4oK9-Kg" />
+<script src="https://lngtd.com/bukkit.js"></script>
+<meta name="bitly-verification" content="272f2f58ee21"/>
+     
+
+<script>
+document.write('<base href="' + 'https://bukkit.org/'.replace('http:', 'https:') + '" />');
+</script>
+<noscript>
+		<base href="https://bukkit.org/" />
+</noscript>
+
+	   
+    <title>[MECH] WorldBorder v1.7.2 - feature-rich world size limiting plugin [BukkitDev] | Bukkit Forums</title>
+    
+    <noscript><style>.JsOnly { display: none !important; }</style></noscript>
+    <link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+    <link rel="stylesheet" href="css.php?css=bb_code,bbcm_js,likes_summary,login_bar,message,message_user_info,share_page,thread_view&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+
+    
+
+    <script>
+
+	var _gaq = [['_setAccount', 'UA-20541082-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="js/xenforo/xenforo.js?_v=c2a3bd65"></script>
+
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS feed for Bukkit Forums" href="forums/-/index.rss" />
+    
+    <link rel="next" href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-2" />
+	<link rel="canonical" href="https://bukkit.org/threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" />
+	<meta name="description" content="[IMG]
+ 
+For more info, head over to the WorldBorder page on BukkitDev." />
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/bukkit.org?location=topic&amp;tid=11309&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://307880732/tapatalk/bukkit.org?location=topic&amp;tid=11309&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <!-- Tapatalk Detect style start -->
+<style type="text/css">
+.ui-mobile [data-role="page"], .ui-mobile [data-role="dialog"], .ui-page
+{
+top:auto;
+}
+</style>
+<!-- Tapatalk Detect banner style end -->
+                
+	
+	<script type="text/javascript" src="js/kingk/bbcm/bbcodes.js"></script>
+
+
+    <script>
+        var script = document.createElement('script');
+        var tstamp = new Date();
+        script.id = 'factorem';
+        script.src = '//cdm.cursecdn.com/js/bukkit/cdmfactorem_min.js?misc=' + tstamp.getTime();
+        script.async = false;
+        script.type='text/javascript';
+        document.head.appendChild(script);
+    </script>
+
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1642326378 82.46.10.18';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		</head>
+<body class="node17 node102 node99 SelectQuotable">
+
+
+
+    
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+    <div id="headerProxy"></div>
+
+<div id="content" class="thread_view">
+    <div class="pageWidth">
+        
+
+        
+									
+		
+		       
+                    
+<div class="atflb" style="text-align: center; margin-bottom: 25px;">
+<div id='cdm-zone-01'></div>
+</div>
+                    
+        <div class="pageContent">
+
+            <!-- main content area -->
+
+            
+                        
+
+                        
+                        <div class="breadBoxTop">
+                            
+                            
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-17" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/forums/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/#archives.102" class="crumb" rel="up" itemprop="url"><span itemprop="title">Archives</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/plugin-archives.99/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Plugin Archives</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/archived-plugin-releases.17/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Archived: Plugin Releases</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+                        </div>
+                        
+                        
+                        
+
+                        
+                                              
+                            <!-- h1 title, description -->
+                            <div class="titleBar">
+                            	
+                                <h1>[MECH] WorldBorder v1.7.2 - feature-rich world size limiting plugin [BukkitDev]</h1>
+                                
+                                <p id="pageDescription" class="muted ">
+	Discussion in '<a href="forums/archived-plugin-releases.17/">Archived: Plugin Releases</a>' started by <a href="members/brettflan.99/" class="username" dir="auto">Brettflan</a>, <a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/"><span class="DateTime" title="Apr 4, 2011 at 11:23 AM">Apr 4, 2011</span></a>.
+</p>
+                            </div>
+                        
+                        
+
+                        
+                        
+                        <!-- main template -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="6"
+	data-last="23"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 23</span>
+	
+	<nav>
+		
+		
+		<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" class="currentPage " rel="start">1</a>
+		
+		
+			<a class="PageNavPrev hidden">&larr;</a> <span class="scrollable"><span class="items">
+		
+		
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-2" class="">2</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-3" class="">3</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-4" class="">4</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-5" class="">5</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-6" class="">6</a>
+		
+		
+		
+			</span></span> <a class="PageNavNext ">&rarr;</a>
+		
+		
+		<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-23" class="">23</a>
+		
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+</div>
+
+
+
+
+
+<form action="inline-mod/post/switch" method="post"
+	class="InlineModForm section"
+	data-cookieName="posts"
+	data-controls="#InlineModControls"
+	data-imodOptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-182701" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div style="text-align: right"><img src="http://img132.imageshack.us/img132/8758/worldborderlogo3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://img132.imageshack.us/img132/8758/worldborderlogo3.png" />&#8203;</div> <br />
+<span style="font-size: 26px"><b><a href="http://dev.bukkit.org/server-mods/worldborder/" target="_blank" class="externalLink" rel="nofollow">For more info, head over to the WorldBorder page on BukkitDev.</a></b></span>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 4, 2011 at 11:23 AM">Apr 4, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/182701/permalink">#1</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-182701">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/afistofirony.90664468/" class="username" dir="auto">afistofirony</a>, <a href="members/darq.45470/" class="username" dir="auto">Darq</a>, <a href="members/kahlilnc.32459/" class="username" dir="auto">kahlilnc</a> and <a href="posts/182701/likes" class="OverlayTrigger">9 others</a> like this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-184976" class="message   " data-author="beecub">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/beecub.1671/" class="avatar Av1671m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/1/1671.jpg?1300422497')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/beecub.1671/" class="username" dir="auto" itemprop="name">beecub</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Looks fine.<br />
+Testing it instead of BorderGuard.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/beecub.1671/" class="username author" dir="auto">beecub</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-184976" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 2:43 AM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-184976" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/184976/permalink">#2</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-184976"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-185158" class="message   " data-author="OrtwinS">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/ortwins.22296/" class="avatar Av22296m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/22/22296.jpg?1300443465')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/ortwins.22296/" class="username" dir="auto" itemprop="name">OrtwinS</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					I might be missing something, but what features/improvements has this over Borderguard?<br />
+<br />
+-<i>snip-, never mind</i><br />
+<i><br />
+</i><br />
+Maybe you can explain?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/ortwins.22296/" class="username author" dir="auto">OrtwinS</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-185158" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 4:46 AM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-185158" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/185158/permalink">#3</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-185158"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-185159" class="message   " data-author="MonsieurApple">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/monsieurapple.3370/" class="avatar Av3370m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/3/3370.jpg?1409809627')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/monsieurapple.3370/" class="username" dir="auto" itemprop="name">MonsieurApple</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Add per-group manager groups on the same world (and different worlds) would be nice <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/monsieurapple.3370/" class="username author" dir="auto">MonsieurApple</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-185159" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 4:47 AM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-185159" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/185159/permalink">#4</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-185159"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-186219" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="OrtwinS">
+	<aside>
+		
+			<div class="attribution type">OrtwinS said:
+				
+					<a href="goto/post?id=185158#post-185158" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">I might be missing something, but what features/improvements has this over Borderguard?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Off the top of my head:<br />
+1. BorderGuard Lite is closed source. WorldBorder is open source, so anyone else is free to work on it or continue it if I suddenly disappeared for some reason.<br />
+2. BorderGuard Lite has separate round and square border downloads, and if you mistakenly downloaded the wrong version for one upgrade, you would end up with the wrong border type. WorldBorder has both border types built in, and you can even switch on the fly if you like.<br />
+3. WorldBorder allows you to set borders for worlds which you are not currently in, and lets you set them from the server console as well.<br />
+4. WorldBorder should never kick you back to the spawn point unless you&#039;re in a distant spot in a nether world which has a completely solid chunk top-to-bottom with no place to stand. Further, it should stick you in the closest (vertically) safe place to stand, whether that&#039;s above or below your current level, and never stick you inside a block.<br />
+5. This is just guesswork, but I expect WorldBorder&#039;s round border detection method is easier on the server than BorderGuard Lite&#039;s since WorldBorder&#039;s detection method is based on rBorder&#039;s excellent lightweight method. The square border detection should at least be on par.<br />
+6. WorldBorder has full permission support and can be used by any Ops (and the server console), where BorderGuard Lite only works for the first person to use it in a world (as I understand it).<br />
+7. WorldBorder can output a list of all borders in-game, and you can also change the border crossing message in-game.<br />
+<br />
+I mainly made this plugin because I was tired of rBorder and BorderGuard Lite not being updated in a timely manner, and BorderGuard Lite&#039;s source not being available where I could just update it myself as needed.<br />
+<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="MonsieurApple">
+	<aside>
+		
+			<div class="attribution type">MonsieurApple said:
+				
+					<a href="goto/post?id=185159#post-185159" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Add per-group manager groups on the same world (and different worlds) would be nice <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>So, permissions strictly for certain worlds, with a permission like &quot;worldborder.myworld.set&quot; or similar? That&#039;s a thought. I&#039;ll probably add something like that eventually.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186219" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 11:50 AM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186219" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/186219/permalink">#5</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-186219"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-186600" class="message   " data-author="MonsieurApple">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/monsieurapple.3370/" class="avatar Av3370m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/3/3370.jpg?1409809627')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/monsieurapple.3370/" class="username" dir="auto" itemprop="name">MonsieurApple</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Brettflan">
+	<aside>
+		
+			<div class="attribution type">Brettflan said:
+				
+					<a href="goto/post?id=186219#post-186219" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">So, permissions strictly for certain worlds, with a permission like &quot;worldborder.myworld.set&quot; or similar? That&#039;s a thought. I&#039;ll probably add something like that eventually.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>No I mean like set a border for each group. Like Group A can only go so far from x y z, but Group B can go farther from a different x y z.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/monsieurapple.3370/" class="username author" dir="auto">MonsieurApple</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186600" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 1:40 PM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186600" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/186600/permalink">#6</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-186600"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-186725" class="message   " data-author="OrtwinS">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/ortwins.22296/" class="avatar Av22296m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/22/22296.jpg?1300443465')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/ortwins.22296/" class="username" dir="auto" itemprop="name">OrtwinS</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Brettflan">
+	<aside>
+		
+			<div class="attribution type">Brettflan said:
+				
+					<a href="goto/post?id=186219#post-186219" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Off the top of my head:<br />
+1. BorderGuard Lite is closed source. WorldBorder is open source, so anyone else is free to work on it or continue it if I suddenly disappeared for some reason.<br />
+2. BorderGuard Lite has separate round and square border downloads, and if you mistakenly downloaded the wrong version for one upgrade, you would end up with the wrong border type. WorldBorder has both border types built in, and you can even switch on the fly if you like.<br />
+3. WorldBorder allows you to set borders for worlds which you are not currently in, and lets you set them from the server console as well.<br />
+4. WorldBorder should never kick you back to the spawn point unless you&#039;re in a distant spot in a nether world which has a completely solid chunk top-to-bottom with no place to stand. Further, it should stick you in the closest (vertically) safe place to stand, whether that&#039;s above or below your current level, and never stick you inside a block.<br />
+5. This is just guesswork, but I expect WorldBorder&#039;s round border detection method is easier on the server than BorderGuard Lite&#039;s since WorldBorder&#039;s detection method is based on rBorder&#039;s excellent lightweight method. The square border detection should at least be on par.<br />
+6. WorldBorder has full permission support and can be used by any Ops (and the server console), where BorderGuard Lite only works for the first person to use it in a world (as I understand it).<br />
+7. WorldBorder can output a list of all borders in-game, and you can also change the border crossing message in-game.<br />
+<br />
+I mainly made this plugin because I was tired of rBorder and BorderGuard Lite not being updated in a timely manner, and BorderGuard Lite&#039;s source not being available where I could just update it myself as needed.<br />
+<br />
+<br />
+<br />
+So, permissions strictly for certain worlds, with a permission like &quot;worldborder.myworld.set&quot; or similar? That&#039;s a thought. I&#039;ll probably add something like that eventually.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><br />
+Ah, you convinced me, very much.<br />
+Put something like this in the first post, this explains a lot better.<br />
+*clicks download button*
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/ortwins.22296/" class="username author" dir="auto">OrtwinS</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186725" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 2:18 PM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-186725" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/186725/permalink">#7</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-186725"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-187403" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="MonsieurApple">
+	<aside>
+		
+			<div class="attribution type">MonsieurApple said:
+				
+					<a href="goto/post?id=186600#post-186600" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">No I mean like set a border for each group. Like Group A can only go so far from x y z, but Group B can go farther from a different x y z.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Hmm, that would take some doing and would probably result in lowered server performance from having to constantly check the player&#039;s permission group every time they move. It&#039;s also not something I&#039;m personally interested in for the plugin since I prefer the &quot;one world border for everyone&quot; concept. So, probably not going to happen, but I&#039;ll think on it a bit more.<br />
+Anyway, the source is available, so anyone wanting to adapt the plugin that way is welcome to have at it. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="OrtwinS">
+	<aside>
+		
+			<div class="attribution type">OrtwinS said:
+				
+					<a href="goto/post?id=186725#post-186725" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Ah, you convinced me, very much.<br />
+Put something like this in the first post, this explains a lot better.<br />
+*clicks download button*</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Well, I don&#039;t really want to have a &quot;reasons my plugin is better than his plugin&quot; list in the first post. Besides, the information on how the plugin works is pretty much all in the first post, so it&#039;s possible to compare the features of the two plugins based on that.<br />
+That said, another I missed from the list ( <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" /> ):<br />
+8. BorderGuard Lite will eject you from your vehicle when you hit a border. WorldBorder will kick your vehicle back with you still in it and simply set the vehicle&#039;s movement velocity to 0.<br />
+This is actually one I&#039;ve only tested with boats, so it actually might bear further testing with other vehicles.<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="ravklok">
+	<aside>
+		
+			<div class="attribution type">ravklok said:
+				
+					<a href="goto/post?id=186755#post-186755" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">After the amazing work you did on Factions, I&#039;m trying this right now!</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Olof is the real mastermind behind Factions, I just contribute fixes and the occasional extra feature. Thanks all the same, though. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-187403" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 5, 2011 at 5:43 PM">Apr 5, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-187403" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/187403/permalink">#8</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-187403"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-190432" class="message   " data-author="EdGruberman">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/edgruberman.4223/" class="avatar Av4223m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/c3ba8d5e440f00f11c7df365a19342b4?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/edgruberman.4223/" class="username" dir="auto" itemprop="name">EdGruberman</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Oh very nice!  I created my own personal border plugin primarily because BorderGuard was closed source and wasn&#039;t updated soon enough to make me happy.  (I also did it to learn Java and plugin development too...)<br />
+<br />
+I&#039;m very excited to see someone else take the initiative here and open this solution up for all to be a part of.  (And so I don&#039;t have to manage a thread related to my plug in now LOL).<br />
+<br />
+A++++ plugin, would download again! <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/edgruberman.4223/" class="username author" dir="auto">EdGruberman</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-190432" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 3:14 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-190432" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/190432/permalink">#9</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-190432"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-190977" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="EdGruberman">
+	<aside>
+		
+			<div class="attribution type">EdGruberman said:
+				
+					<a href="goto/post?id=190432#post-190432" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">I&#039;m very excited to see someone else take the initiative here and open this solution up for all to be a part of.  (And so I don&#039;t have to manage a thread related to my plug in now LOL).</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Absolutely. I&#039;ll be trying to keep it updated whenever new Recommended Builds come out, but others are welcome to release unofficial builds if I&#039;m too slow. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /><br />
+<br />
+EDIT: I also see that the BorderGuard Lite author is now claiming that he has verified his plugin as faster than WorldBorder. Hah. Easy enough for him to state since his source is closed, right? Except, having used a java decompiler to view his source (they&#039;re easy to find and use, <a href="http://java.decompiler.free.fr/?q=jdgui" target="_blank" class="externalLink" rel="nofollow">really</a>), I don&#039;t see how that could be possible with all of the unnecessary repeated calculations he&#039;s making every time a player moves.<br />
+I welcome disinterested third parties with programming skills to grab a java decompiler and do a comparison for themselves. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-190977" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 6:41 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-190977" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/190977/permalink">#10</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-190977"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191125" class="message   " data-author="EdGruberman">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/edgruberman.4223/" class="avatar Av4223m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/c3ba8d5e440f00f11c7df365a19342b4?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/edgruberman.4223/" class="username" dir="auto" itemprop="name">EdGruberman</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Total border wars! I think he&#039;s assuming the whole synchronized map thing might be slower? Not sure. He&#039;s got enough string splitting going on to make my head spin though, I&#039;m sure that can&#039;t be free actions either. But not sure on how it compares. He definitely repeats his code a lot. Also his code does not compensate for teleporting. (Well at least it&#039;ll let you teleport, generate chunks (if not already) THEN move you back in after you move again.)<br />
+<br />
+It does get me thinking thought that PLAYER_MOVE is a pretty common event to occur. I wonder what IS the best way to store border data for the quickest comparison on each event...
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/edgruberman.4223/" class="username author" dir="auto">EdGruberman</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191125" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 7:48 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191125" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191125/permalink">#11</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191125"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191126" class="message   " data-author="Euron">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/euron.13677/" class="avatar Av13677m" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/flexile/xenforo/avatars/avatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/euron.13677/" class="username" dir="auto" itemprop="name">Euron</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Question: what happens if someone logs in on the outside of the border, by a significant distance? Where are they teleported?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/euron.13677/" class="username author" dir="auto">Euron</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191126" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 7:48 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191126" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191126/permalink">#12</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191126"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191139" class="message   " data-author="EdGruberman">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/edgruberman.4223/" class="avatar Av4223m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/c3ba8d5e440f00f11c7df365a19342b4?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/edgruberman.4223/" class="username" dir="auto" itemprop="name">EdGruberman</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Euron">
+	<aside>
+		
+			<div class="attribution type">Euron said:
+				
+					<a href="goto/post?id=191126#post-191126" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Question: what happens if someone logs in on the outside of the border, by a significant distance? Where are they teleported?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><span style="text-decoration: line-through">Actually this is a concern with this plugin I think? If I&#039;m reading the code right, the player will be teleported back 3 blocks at a time (along both axes eventually). It&#039;s possible though with that logic the player is never returned inside the border. </span>(Edit: see below, it&#039;s smarter than I thought it was.)<br />
+<br />
+In my custom plugin I wrote, I did a single check to move the player back 3 spaces also along the breached axis, but then if that wasn&#039;t determined to be inside the border, checked their default spawn, if that also wasn&#039;t inside the border, I then sent them to the origin of the border.<br />
+<br />
+It&#039;s honestly hard to decide the best approach there.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/edgruberman.4223/" class="username author" dir="auto">EdGruberman</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191139" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 7:54 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191139" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191139/permalink">#13</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191139"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191185" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="EdGruberman">
+	<aside>
+		
+			<div class="attribution type">EdGruberman said:
+				
+					<a href="goto/post?id=191139#post-191139" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Actually this is a concern with this plugin I think? If I&#039;m reading the code right, the player will be teleported back 3 blocks at a time (along both axes eventually). It&#039;s possible though with that logic the player is never returned inside the border.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>No, it finds the closest place 3 squares inside the border rather than just finding a place 3 squares back from the current location; it should be only a single teleport.<br />
+<br />
+So, if you log in outside the border by a significant distance, you&#039;ll just be teleported back 3 squares inside the edge of the border.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191185" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 8:16 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191185" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191185/permalink">#14</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191185"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191202" class="message   " data-author="EdGruberman">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/edgruberman.4223/" class="avatar Av4223m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/c3ba8d5e440f00f11c7df365a19342b4?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/edgruberman.4223/" class="username" dir="auto" itemprop="name">EdGruberman</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Ah good, that makes sense.  Sorry for the confusion.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/edgruberman.4223/" class="username author" dir="auto">EdGruberman</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191202" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 8:25 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191202" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191202/permalink">#15</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191202"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191212" class="message   " data-author="ledhead900">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/ledhead900.62/" class="avatar Av62m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/62.jpg?1331176726')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/ledhead900.62/" class="username" dir="auto" itemprop="name">ledhead900</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Gotta say you really sum up what is better in this besides both border-guards had a big old fit when teleporting to worlds using mulitverse, where it would drop you at what seams be a random location based on the calculated distance out it think you where outside border by.<br />
+<br />
+If this does not do that and lest my players TP freely thru portals and to other worlds with out chucking a stink over it, and it allows an OP or relevent permissions group to pass thru the border.<br />
+<br />
+You instantly gain top points over Borderguard and Rborder.<br />
+<br />
+At least borderguard hated muli world last I checked but it appears to have fixed that now it just down to what ever one can do its job fastest.<br />
+<br />
+<span style="font-family: 'Georgia'"><span style="color: rgb(20, 20, 20)">
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="ravklok">
+	<aside>
+		
+			<div class="attribution type">ravklok said:
+				
+					<a href="goto/post?id=191211#post-191211" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">For me speed is top priority over anything else. If the server lag nobody will stay for long. I don&#039;t really care if a border plugin is exact to the block as long it&#039;s fast. I dont know if what I&#039;m going to propose is totaly non-sence as I dont know nothing about coding (destroy this if so!)</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div></span></span>
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="ravklok">
+	<aside>
+		
+			<div class="attribution type">ravklok said:
+				
+					<a href="goto/post?id=191211#post-191211" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">- Read players X and Y every 10 sec.</span></span><br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">- A player x or y is over border range.</span></span><br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">- Change player x or y to 20 blocks away from border range value.</span></span><br />
+<br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">If this means faster border, I want it!</span></span></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><br />
+<br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">I&#039;m no coder but I see flaws with that being fast already.</span></span><br />
+<br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">Why check player movement at ALL when not needed that&#039;s a big waste of cycles right there.</span></span><br />
+<br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">You really only to want to start position  checking when your about 20 - 30 blocks from the border.</span></span><br />
+<br />
+<span style="color: rgb(20, 20, 20)"><span style="font-family: 'Georgia'">Also you do not want a fixed Range to move player to since the border may very well end at a void or other un desired location.  your best bet is to check for safest block that is within 5blocks of the border. Then if no block is found move back another 5</span></span>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/ledhead900.62/" class="username author" dir="auto">ledhead900</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191212" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 8:29 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191212" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191212/permalink">#16</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191212"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191238" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/ledhead900.62/" target="_blank" class="externalLink" rel="nofollow">ledhead900</a> it currently doesn&#039;t allow anyone beyond the specified borders, Op or not. Otherwise, I hope it meets your expectations. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /><br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="ravklok">
+	<aside>
+		
+			<div class="attribution type">ravklok said:
+				
+					<a href="goto/post?id=191211#post-191211" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">For me speed is top priority over anything else. If the server lag nobody will stay for long. I don&#039;t really care if a border plugin is exact to the block as long it&#039;s fast. I dont know if what I&#039;m going to propose is totaly non-sence as I dont know about coding (destroy this if so!)<br />
+<br />
+- Read players X and Y every 10 sec.<br />
+- A player x or y is over border range.<br />
+- Change player x or y to 20 blocks away from border range value.<br />
+<br />
+If this means faster border, I want it!</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I&#039;d actually considered setting up a repeating task to run every half a second or so (I suppose the timing could be configurable) which would either check all players or maybe reference a list of players who are tagged as having moved since the last check. I&#039;m not sure whether the performance would be improved significantly by that type of setup or not.<br />
+It&#039;s a possibility, and I might try something like that in future. The current checks it runs on every player movement should be pretty lightweight already, though.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191238" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 8:43 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191238" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191238/permalink">#17</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191238"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191243" class="message   " data-author="ledhead900">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/ledhead900.62/" class="avatar Av62m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/62.jpg?1331176726')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/ledhead900.62/" class="username" dir="auto" itemprop="name">ledhead900</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Brettflan">
+	<aside>
+		
+			<div class="attribution type">Brettflan said:
+				
+					<a href="goto/post?id=191238#post-191238" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">@<a href="http://forums.bukkit.org/members/ledhead900.62/" target="_blank" class="externalLink" rel="nofollow">ledhead900</a> it currently doesn&#039;t allow anyone beyond the specified borders, Op or not. Otherwise, I hope it meets your expectations. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /><br />
+<br />
+<br />
+I&#039;d actually considered setting up a repeating task to run every half a second or so (I suppose the timing could be configurable) which would either check all players or maybe reference a list of players who are tagged as having moved since the last check. I&#039;m not sure whether the performance would be improved significantly by that type of setup or not.<br />
+It&#039;s a possibility, and I might try something like that in future. The current checks it runs on every player movement should be pretty lightweight already, though.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><br />
+Hmm It will do.<br />
+<br />
+Tho I&#039;m not entirely convinced that constant checking is best way to go about ANY player movement event other then if it REALLY matters, Like players riding in minecarts or mob riding.<br />
+<br />
+If it were me Id create the plugin so the border has  triggerarea 3-5 blocks around it and run checks ONLY within the trigger area this results in NEVER EVER checking players player movement.<br />
+<br />
+ Instead it would only start running checks if a player entity was present within the triggerarea.<br />
+<br />
+Otherwise my other method would be to only check players who are within 5 blocks from the boarder via any other method.<br />
+<br />
+I guess I&#039;m just one of the people who don&#039;t like constant checking if its avoidable.<br />
+<br />
+EDIT:<br />
+<br />
+Actually my other method would probably log each players coord as they log in ONCE! then do a check every 10mins there after if found past the border do its thing.<br />
+<br />
+But still Triggerzone I think at least is a better method.<br />
+<br />
+Tho I know nothing so do with this dribble as u please.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/ledhead900.62/" class="username author" dir="auto">ledhead900</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191243" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 8:49 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191243" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191243/permalink">#18</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191243"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-191353" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/ledhead900.62/" target="_blank" class="externalLink" rel="nofollow">ledhead900</a> The only way to check a &quot;zone&quot; like that would be to set up a repeating task, basically what I was talking about above.<br />
+As for only checking players who are within a certain distance of the border, how do you know which players are within that distance from the border? You have to check, of course. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="ravklok">
+	<aside>
+		
+			<div class="attribution type">ravklok said:
+				
+					<a href="goto/post?id=191101#post-191101" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Border wars! I started using Bukkit build 652 and either wont work <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I missed this earlier, but I&#039;ve just tested WorldBorder 1.0 in CraftBukkit dev build 655 and it worked fine.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191353" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 6, 2011 at 9:53 PM">Apr 6, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-191353" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/191353/permalink">#19</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-191353"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-192241" class="message   " data-author="Euron">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/euron.13677/" class="avatar Av13677m" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/flexile/xenforo/avatars/avatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/euron.13677/" class="username" dir="auto" itemprop="name">Euron</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Is there any possibility of you adding a feature to, instead of being forced back from a border, to be tp&#039;d to a certain preset location, or spawn? If not, does anyone know a plugin with that feature already?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/euron.13677/" class="username author" dir="auto">Euron</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192241" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 6:59 AM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192241" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/192241/permalink">#20</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-192241"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-192425" class="message   " data-author="anon">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/anon.2008/" class="avatar Av2008m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/2/2008.jpg?1300606268')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/anon.2008/" class="username" dir="auto" itemprop="name">anon</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Will ever be support for multiple borders on the same world? ITs a nice feature, so you could run different groups away from each other. Also, a permission to ignore the border would fit well. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/anon.2008/" class="username author" dir="auto">anon</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192425" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 7:59 AM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192425" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/192425/permalink">#21</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-192425"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-192781" class="message   " data-author="mbaxter">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/mbaxter.766/" class="avatar Av766m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/766.jpg?1420046695')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/mbaxter.766/" class="username" dir="auto" itemprop="name">mbaxter</a>
+
+
+    <em class="userTitle" itemprop="title">
+        ʇıʞʞnq ɐ sɐɥ ı
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Brettflan">
+	<aside>
+		
+			<div class="attribution type">Brettflan said:
+				
+					<a href="goto/post?id=186219#post-186219" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Off the top of my head:<br />
+1. BorderGuard Lite is closed source. WorldBorder is open source, so anyone else is free to work on it or continue it if I suddenly disappeared for some reason.<br />
+2. BorderGuard Lite has separate round and square border downloads, and if you mistakenly downloaded the wrong version for one upgrade, you would end up with the wrong border type. WorldBorder has both border types built in, and you can even switch on the fly if you like.<br />
+3. WorldBorder allows you to set borders for worlds which you are not currently in, and lets you set them from the server console as well.<br />
+4. WorldBorder should never kick you back to the spawn point unless you&#039;re in a distant spot in a nether world which has a completely solid chunk top-to-bottom with no place to stand. Further, it should stick you in the closest (vertically) safe place to stand, whether that&#039;s above or below your current level, and never stick you inside a block.<br />
+5. This is just guesswork, but I expect WorldBorder&#039;s round border detection method is easier on the server than BorderGuard Lite&#039;s since WorldBorder&#039;s detection method is based on rBorder&#039;s excellent lightweight method. The square border detection should at least be on par.<br />
+6. WorldBorder has full permission support and can be used by any Ops (and the server console), where BorderGuard Lite only works for the first person to use it in a world (as I understand it).<br />
+7. WorldBorder can output a list of all borders in-game, and you can also change the border crossing message in-game.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>8. Brettflan hasn&#039;t added code that sends a private message to notch advertising his site on any server that runs the plugin, unlike BoardGuard Lite.  \o/<br />
+<br />
+I&#039;m going to check this plugin out later, the more efficient system sounds like fun.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/mbaxter.766/" class="username author" dir="auto">mbaxter</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192781" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 10:14 AM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192781" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/192781/permalink">#22</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-192781"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-192957" class="message   " data-author="Kane">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/kane.58/" class="avatar Av58m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/531188fa216be9d916bcb4f87ec13c12?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/kane.58/" class="username" dir="auto" itemprop="name">Kane</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/brettflan.99/" target="_blank" class="externalLink" rel="nofollow">Brettflan</a> should consider adding something like laws &lt;3<br />
+<br />
+<a href="http://forums.bukkit.org/threads/borderlands-with-laws-protection-the-way-it-should-be-simple-easy-and-useful.11752/" target="_blank" class="externalLink" rel="nofollow">http://forums.bukkit.org/threads/bo...ay-it-should-be-simple-easy-and-useful.11752/</a>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/kane.58/" class="username author" dir="auto">Kane</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192957" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 11:14 AM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-192957" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/192957/permalink">#23</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-192957"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193350" class="message   " data-author="phondeux">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/phondeux.493/" class="avatar Av493m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/493.jpg?1295193031')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/phondeux.493/" class="username" dir="auto" itemprop="name">phondeux</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Bug;<br />
+<br />
+It will set a border when game active, but upon a server restart it completely forgets the border and world - you have to set it again. The world is called, &quot;world.biome&quot; and this is the config.yml file;<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>message: You have reached the edge of this world.
+debug-mode: false
+round-border: false
+worlds:
+    world:
+        biome:
+            radius: 2000
+            z: 17.65947898468193
+            x: 28.951402047599213
+        radius: 0
+        z: 0.0
+        x: 0.0</pre>
+</div>Yeah, I noticed that it doesn&#039;t have my world name in there but instead considers the period as some kind of indentation marker.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/phondeux.493/" class="username author" dir="auto">phondeux</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193350" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 1:09 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193350" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193350/permalink">#24</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193350"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193436" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Euron">
+	<aside>
+		
+			<div class="attribution type">Euron said:
+				
+					<a href="goto/post?id=192241#post-192241" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Is there any possibility of you adding a feature to, instead of being forced back from a border, to be tp&#039;d to a certain preset location, or spawn? If not, does anyone know a plugin with that feature already?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>That&#039;s certainly possible to add, with practically no overhead. I&#039;ll probably add that option in future.<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="anon">
+	<aside>
+		
+			<div class="attribution type">anon said:
+				
+					<a href="goto/post?id=192425#post-192425" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Will ever be support for multiple borders on the same world? ITs a nice feature, so you could run different groups away from each other. Also, a permission to ignore the border would fit well. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>The problem there is the need to check user group membership and consult different borders for different groups, which could add considerable overhead to the process. It&#039;s not something I&#039;m currently planning to add, but I&#039;ll consider it.<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="Kane">
+	<aside>
+		
+			<div class="attribution type">Kane said:
+				
+					<a href="goto/post?id=192957#post-192957" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">@<a href="http://forums.bukkit.org/members/brettflan.99/" target="_blank" class="externalLink" rel="nofollow">Brettflan</a> should consider adding something like laws &lt;3<br />
+<br />
+<a href="http://forums.bukkit.org/threads/borderlands-with-laws-protection-the-way-it-should-be-simple-easy-and-useful.11752/" target="_blank" class="externalLink" rel="nofollow">http://forums.bukkit.org/threads/bo...ay-it-should-be-simple-easy-and-useful.11752/</a></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>That&#039;s a bit beyond the scope of what I&#039;m aiming for with this plugin. Doesn&#039;t WorldGuard basically have pretty much all of those capabilities, anyway?<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="phondeux">
+	<aside>
+		
+			<div class="attribution type">phondeux said:
+				
+					<a href="goto/post?id=193350#post-193350" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Bug;<br />
+<br />
+It will set a border when game active, but upon a server restart it completely forgets the border and world - you have to set it again. The world is called, &quot;world.biome&quot; and this is the config.yml file;<br />
+&lt;snip&gt;<br />
+Yeah, I noticed that it doesn&#039;t have my world name in there but instead considers the period as some kind of indentation marker.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Ah, you&#039;re right, the configuration storage method used (the one built into bukkit) uses the period character to denote configuration node paths. I hadn&#039;t considered world names with periods in them; definitely a bug. I&#039;ll see about fixing that ASAP. Thanks for the report.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193436" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 1:37 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193436" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193436/permalink">#25</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193436"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193497" class="message   " data-author="anon">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/anon.2008/" class="avatar Av2008m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/2/2008.jpg?1300606268')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/anon.2008/" class="username" dir="auto" itemprop="name">anon</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Brettflan">
+	<aside>
+		
+			<div class="attribution type">Brettflan said:
+				
+					<a href="goto/post?id=193436#post-193436" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">The problem there is the need to check user group membership and consult different borders for different groups, which could add considerable overhead to the process. It&#039;s not something I&#039;m currently planning to add, but I&#039;ll consider it.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Well, the &quot;group&quot; restriction isnt really needed. I mean, multiple borders for everyone would be great. I would only need to set every group spawn point inside their own area, and everything would be good. It would also be very good as multiple borders could make a world with many different environments. Something like, a border on a desert, a border on a island, on a forest, etc etc etc. Then you move between them with warps, portals, or anything you want.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/anon.2008/" class="username author" dir="auto">anon</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193497" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 1:54 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193497" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193497/permalink">#26</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193497"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193517" class="message   " data-author="XAM">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/xam.11206/" class="avatar Av11206m" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/flexile/xenforo/avatars/avatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/xam.11206/" class="username" dir="auto" itemprop="name">XAM</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					It would be awesome if you could add an option for how many blocks you get knocked back. I would like to have 1 instead of 3 for an example.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/xam.11206/" class="username author" dir="auto">XAM</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193517" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 2:02 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193517" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193517/permalink">#27</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193517"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193524" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					OK then.<br />
+<br />
+<span style="font-size: 15px"><b><a href="http://www.wimbli.com/minecraft/WorldBorder/WorldBorder_1.0.1.zip" target="_blank" class="externalLink" rel="nofollow"><span style="color: rgb(16, 97, 179)">Download WorldBorder v1.0.1</span></a></b></span><br />
+<br />
+<b>Changelog:</b><br />
+<ul>
+<li>Bugfix: saving/loading data for worlds with periods (&quot;.&quot;) in the name wasn&#039;t working correctly.</li>
+</ul>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193524" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 2:05 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193524" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193524/permalink">#28</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193524"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193554" class="message   " data-author="Kane">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/kane.58/" class="avatar Av58m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/531188fa216be9d916bcb4f87ec13c12?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/kane.58/" class="username" dir="auto" itemprop="name">Kane</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/brettflan.99/" target="_blank" class="externalLink" rel="nofollow">Brettflan</a> WorldGuard is something id like to not support for so many reasons. But mainly because no it has click to click regions. I don&#039;t want region support I want border support that start from spawn and work outwards. I thought I suggest it maybe as a extra plugin and such.<br />
+<br />
+There is already a LARGE demand for it too.<br />
+<br />
+<a href="http://forums.bukkit.org/threads/borderlands-with-laws-protection-the-way-it-should-be-simple-easy-and-useful.11752/" target="_blank" class="externalLink" rel="nofollow">http://forums.bukkit.org/threads/bo...ay-it-should-be-simple-easy-and-useful.11752/</a><br />
+<br />
+I mean check the other requests not near as many hehe <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /><br />
+<br />
+Anyways just a suggestion. I will keep looking <img src="smilies/sad.png" class="mceSmilie" alt=":(" title="Frown    :(" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/kane.58/" class="username author" dir="auto">Kane</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193554" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 2:15 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193554" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193554/permalink">#29</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193554"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-193558" class="message   " data-author="Brettflan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brettflan.99/" class="avatar Av99m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/0/99.jpg?1294247851')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brettflan.99/" class="username" dir="auto" itemprop="name">Brettflan</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="anon">
+	<aside>
+		
+			<div class="attribution type">anon said:
+				
+					<a href="goto/post?id=193497#post-193497" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Well, the &quot;group&quot; restriction isnt really  needed. I mean, multiple borders for everyone would be great. I would  only need to set every group spawn point inside their own area, and  everything would be good. It would also be very good as multiple borders  could make a world with many different environments. Something like, a  border on a desert, a border on a island, on a forest, etc etc etc. Then  you move between them with warps, portals, or anything you  want.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>In that setup, it would still need to run through full border checks  on all borders until it hit one which the player was inside; that would  probably be even more strenuous than just checking a single border based  on user group. The round border check in particular might be bad for  multiple border checks. It begins with some extremely fast and  non-strenuous calculations to determine if the player is clearly inside  the border (think of a square inside your round border with the 4  corners of the square touching the edge of the circle, it checks that  area first), but then has to work through further more strenuous  calculations if the person is near or over a border. With it doing the  whole process on several borders for every player movement... that  doesn&#039;t sound pretty, and counteracts much of the efficiency behind the  border checking algorithm.<br />
+Even if I were to move it to running on a timer, it would still be that much more likely to actually impact server performance.<br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="XAM">
+	<aside>
+		
+			<div class="attribution type">XAM said:
+				
+					<a href="goto/post?id=193517#post-193517" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">It would be awesome if you could add an option for how many blocks you get knocked back. I would like to have 1 instead of 3 for an example.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>That&#039;s sensible enough, and it wouldn&#039;t impact performance. I&#039;ll definitely add it in the next release.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brettflan.99/" class="username author" dir="auto">Brettflan</a>,</span>
+					<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193558" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 7, 2011 at 2:16 PM">Apr 7, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/#post-193558" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/193558/permalink">#30</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-193558"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+
+			
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="6"
+	data-last="23"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 23</span>
+	
+	<nav>
+		
+		
+		<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" class="currentPage " rel="start">1</a>
+		
+		
+			<a class="PageNavPrev hidden">&larr;</a> <span class="scrollable"><span class="items">
+		
+		
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-2" class="">2</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-3" class="">3</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-4" class="">4</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-5" class="">5</a>
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-6" class="">6</a>
+		
+		
+		
+			</span></span> <a class="PageNavNext ">&rarr;</a>
+		
+		
+		<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-23" class="">23</a>
+		
+		
+			<a href="threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	<div class="sharePage">
+		<h3 class="textHeading larger">Share This Page</h3>
+		
+			
+			
+				<div class="tweet shareControl">
+					<a href="https://twitter.com/share" class="twitter-share-button"
+						data-count="horizontal"
+						data-lang="en-US"
+						data-url="https://bukkit.org/threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/"
+						data-text="[MECH] WorldBorder v1.7.2 - feature-rich world size limiting plugin [BukkitDev]"
+						data-via="cursenetwork"
+						>Tweet</a>
+				</div>
+			
+			
+				<div class="plusone shareControl">
+					<div class="g-plusone" data-size="medium" data-count="true" data-href="https://bukkit.org/threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/"></div>
+				</div>
+			
+			
+				<div class="facebookLike shareControl">
+					
+					<div class="fb-like" data-href="https://bukkit.org/threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" data-width="400" data-layout="standard" data-action="recommend" data-show-faces="true" data-colorscheme="light"></div>
+				</div>
+			
+			
+		
+	</div>
+
+
+                        
+                        
+                        
+                            <!-- login form, to be moved to the upper drop-down -->
+                            
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Your name or email address:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Do you already have an account?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						No, create an account now.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Yes, my password is:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a>
+</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/threads/mech-worldborder-v1-7-2-feature-rich-world-size-limiting-plugin-bukkitdev.11309/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+                        
+                        
+                    
+            
+            <div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-17" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://bukkit.org/" class="crumb"><span>Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://bukkit.org/forums/" class="crumb"><span>Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/#archives.102" class="crumb"><span>Archives</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/plugin-archives.99/" class="crumb"><span>Plugin Archives</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/archived-plugin-releases.17/" class="crumb"><span>Archived: Plugin Releases</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav></div>
+
+
+        </div>
+
+        
+    </div>
+     
+            
+<div class="btflb" style="text-align: center; margin-top: 25px;">
+<div id='cdm-zone-04'></div>
+</div>
+            
+</div>
+
+<header>
+    
+<div id="header">
+	
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+
+
+
+
+
+			
+			<div id="logo"><a href="https://bukkit.org/forums/">
+				<span></span>
+				<img src="/logo.png" alt="Bukkit Forums" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+<div class="secondaryBar"></div>
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal Popup PopupControl PopupClosed">
+			
+				<a href="https://bukkit.org/" class="navLink">Home</a>
+				<!--<a href="https://bukkit.org/" class="SplitCtrl" rel="Menu"></a>-->
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Home</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	
+	<li><a href="recent-activity/">Recent Activity</a></li>
+	<li><a href="find-new/threads">What's New?</a></li>
+	<li><a href="help/">Help</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			
+				<li class="navTab forums selected">
+					<a href="https://bukkit.org/forums/" class="navLink">Forums</a>
+					<!--<a href="https://bukkit.org/forums/" class="SplitCtrl" rel="Menu"></a>-->
+					
+					<div class="tabLinks">
+						<div class="primaryContent menuHeader">
+							<h3>Forums</h3>
+							<div class="muted">Quick Links</div>
+						</div>
+						<ul class="secondaryContent blockLinksList">
+						
+							
+							<li><a href="https://bukkit.org/members/">Members</a></li>
+							<!-- STAFF LINK -->
+							<li><a href="/XenStaff/">Staff</a></li>
+							<!-- END STAFF LINK -->
+							<li><a href="search/?type=post">Search Forums</a></li>
+							
+							<li><a href="find-new/threads">What's New?</a></li>
+						
+						</ul>
+					</div>
+				</li>
+			
+				
+		
+		
+		
+		<!-- extra tabs -->
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+
+		
+		<!-- extra tabs: end -->
+		
+<li class="navTab PopupClosed">
+					<a href="/help/terms" class="navLink">Rules</a>
+					
+				</li>
+			
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/" class="navLink">Docs</a>
+					
+				</li>
+				<!-- Removed for now.
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Getting_Involved" class="navLink">Get Involved</a>
+				</li>		
+				-->
+			
+				<li class="navTab PopupClosed">
+					<a href="pages/about-us/" class="navLink">About Us</a>
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Setting_up_a_server" class="navLink">Get CraftBukkit</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="http://dev.bukkit.org" class="navLink">BukkitDev</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://www.curseforge.com/minecraft/bukkit-plugins" class="navLink">Get Plugins</a>
+					
+				</li>
+		
+
+		<!-- no selection -->
+		
+		
+	</ul>
+	<!-- navigation_visitor_tab include here -->
+	
+</div>
+			
+<span class="helper"></span>
+
+		</nav>	
+	</div>
+</div>
+	
+
+<div id="searchBar" class="pageWidth">
+	
+	<!-- <span id="QuickSearchPlaceholder" title="Search">Search</span> -->
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Posted by Member:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Separate names with a comma.</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Newer Than:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+								
+									<li><label title="Search only [MECH] WorldBorder v1.7.2 - feature-rich world size limiting plugin [BukkitDev]"><input type="checkbox" name="type[post][thread_id]" value="11309"
+	id="search_bar_thread" class="AutoChecker"
+	data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Search this thread only</label></li>
+								
+									<li><label title="Search only Archived: Plugin Releases"><input type="checkbox" name="nodes[]" value="17"
+	id="search_bar_nodes" class="Disabler AutoChecker" checked="checked"
+	data-uncheck="#search_bar_thread" /> Search this forum only</label>
+	<ul id="search_bar_nodes_Disabler">
+		<li><label><input type="checkbox" name="type[post][group_discussion]" value="1"
+			id="search_bar_group_discussion" class="AutoChecker"
+			data-uncheck="#search_bar_thread" /> Display results as threads</label></li>
+	</ul></li>
+								
+						</ul></dd>
+					</dl>
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Useful Searches</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+
+</header>
+
+</div>
+
+<footer>
+    
+
+
+<div class="footer">
+<script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(
+    ['_setAccount', 'UA-1045810-67'],
+    ['_setDomainName', 'bukkit.org'],
+    ['_addIgnoredRef', 'bukkit.org'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-1045810-22'],
+    ['b._setDomainName', 'bukkit.org'],
+    ['b._addIgnoredRef', 'bukkit.org'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-20541082-1'], 
+    ['c._trackPageview']
+);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+</div>
+
+<div class="footerLegal">
+<div class="PageWidth">
+<div class="pageContent">
+			<div id="copyright"></div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Terms and Rules</a></li>
+				
+			
+			</ul>
+</div></div>
+
+</footer>
+
+<script>
+
+
+var addTag = function(e) {
+  	e.preventDefault();
+  	var editor = $(".redactor_BbCodeWysiwygEditor")[0].contentWindow.document.body;
+  	$(".placeholder").remove()
+  	if (editor.innerHTML == "<p><br></p>") {
+  		editor.innerHTML = $(this).attr("data-content");
+  		return;
+  	} else if (editor.innerHTML.substr(editor.innerHTML.length - 6) != "&nbsp;") {
+  		editor.innerHTML += " ";
+  	}
+  	
+	editor.innerHTML += $(this).attr("data-content");
+};
+$(".TagUser").click(addTag).show();
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1642326378,
+		today: 1642320000,
+		todayDow: 0
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"likes_summary":true,"share_page":true,"bbcm_js":true,"login_bar":true},
+	_cookieConfig: { path: "/", domain: ".bukkit.org", prefix: "f_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "c2a3bd65"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+
+
+
+
+<div id='cdm-zone-skin'></div>
+<div id="cdm-zone-end"></div>
+
+</body>
+</html>

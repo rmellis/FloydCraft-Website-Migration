@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ender Pearl Glitch | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/ender-pearl-glitch/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:37:59 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Ender Pearl Glitch | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>EnderPearlFix</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/enderpearlfix/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/enderpearlfix/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:37:59 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Ender Pearl Fix]]></category>
+		<category><![CDATA[Ender Pearl Glitch]]></category>
+		<category><![CDATA[EnderPearl]]></category>
+		<category><![CDATA[EnderPearl Glitch Fix]]></category>
+		<category><![CDATA[EPF]]></category>
+		<category><![CDATA[Fix Pearl]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3304</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/pearlfix.32499/ We use this plugin to prevent players glitching thru floors&#8230; This plugin fixes Ender Pearl glitching where people can pearl through walls or non-solid blocks. NOTE: People can still spam Ender Pearls and get through walls, however, which is why an Ender Pearl cooldown plugin is also recommended.</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/enderpearlfix/">EnderPearlFix</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/pearlfix.32499/"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/pearlfix.32499/</span></span></a></p>
+<blockquote><p>We use this plugin to prevent players glitching thru floors&#8230;</p></blockquote>
+<p>This plugin fixes Ender Pearl glitching where people can pearl through walls or non-solid blocks.</p>
+<p><i>NOTE: People can still spam Ender Pearls and get through walls, however, which is why an <span style="text-decoration: underline;"><span style="color: #00ccff;"><a style="color: #00ccff; text-decoration: underline;" title="Easy Ender Pearl Cooldown" href="https://cdn.floydcraft.co.uk/plugins-used/easy-ender-pearl-cooldown/" target="_blank" rel="noopener">Ender Pearl cooldown</a></span></span> plugin is also recommended.</i></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/enderpearlfix/">EnderPearlFix</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/enderpearlfix/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>eMail Help</title>
+<link>https://cdn.floydcraft.co.uk/forum/forum/email-help/</link>
+<description>If you\&#039;re having issues accessing your @m.floydcraft.co.uk email account, ask for help here.</description>
+<language>en</language>
+<lastBuildDate>Sun, 16 Jan 2022 09:57:58 +0000</lastBuildDate>
+<generator>Asgaros Forum</generator>
+<ttl>60</ttl>
+<atom:link href="https://cdn.floydcraft.co.uk/forum/forum/email-help/?showfeed=rss2" rel="self" type="application/rss+xml" />
+</channel>
+</rss>

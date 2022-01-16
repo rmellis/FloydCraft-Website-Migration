@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ban | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/ban/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:17:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>ban | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>LiteBans</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/litebans/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/litebans/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:15:43 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[ban]]></category>
+		<category><![CDATA[banned]]></category>
+		<category><![CDATA[Bans]]></category>
+		<category><![CDATA[Lite]]></category>
+		<category><![CDATA[LiteBans]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3357</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/litebans.3715/ We use this plugin as our ban system, we have a local database with all out banned players aswell as a backup remote database About​ LiteBans is a lightweight banning plugin supporting UUIDs which allows temporary and permanent bans. When a player changes their Minecraft name through Mojang, they will still keep their&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/litebans/">LiteBans</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/litebans.3715/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/litebans.3715/</span></span></a></div>
+<blockquote>
+<div>We use this plugin as our ban system, we have a local database with all out banned players aswell as a backup remote database</div>
+</blockquote>
+<div><b>About</b>​</div>
+<div>LiteBans is a lightweight banning plugin supporting UUIDs which allows temporary and permanent bans.<br />
+When a player changes their Minecraft name through Mojang, they will still keep their bans, mutes, and warnings.All punishments made through LiteBans will take effect globally across all servers linked to the same database.<br />
+Although LiteBans is designed to effectively synchronize between hundreds of servers, it can still work alone on a single server without a MySQL database.</p>
+<p>LiteBans can run natively under Spigot and BungeeCord, offering the same features on both platforms.<br />
+(The plugin can be installed in the Spigot plugin folder or the BungeeCord plugin folder.)</p>
+</div>
+<div><b>Features</b>​</div>
+<ul>
+<li>Designed from the ground up with UUID support in mind. All punishments are UUID-based.</li>
+<li>Fully customizable kick screen for banned players, multiple lines and colours can be used, as well as ban information variables – duration until ban expires, reason, staff member who placed the ban, time since ban was placed, original ban duration, server which ban was placed on, etc.</li>
+<li>All messages are customizable in messages.yml. There are many useful variables available to place in any configurable message that involves a ban, mute, or warning. Hover-text is supported.</li>
+<li>Multiple types of databases are supported, including MySQL, MariaDB, and H2. H2 is used by default, meaning that MySQL is not needed to use LiteBans with a single-server setup.</li>
+<li>Advanced light cross-server synchronization system allows global punishments and broadcasts to instantly take effect across all servers connected to the same database.</li>
+<li>Offline players can receive warnings; they will see all of their new warnings when they join. This works across servers.</li>
+<li>When a player with a banned account on the same IP joins, all players with the right permissions will be notified.</li>
+<li>You can view punishment history for players (/history) and punishments issued by staff members (/staffhistory).</li>
+<li>Staff members can be &#8220;rolled back&#8221; – all punishments which they&#8217;ve issued can be removed at any time with a single command. Staff abuse has never been easier to deal with.</li>
+<li>Players cannot override punishments by setting very short bans or mutes unless they have permission.</li>
+<li>Bans can be imported from vanilla (including Essentials), and six popular free banning plugins, including MaxBans, BanManager, AdvancedBan, and BungeeAdminTools.</li>
+<li>Lightweight, multithreaded, and designed for performance. LiteBans uses a minimal amount of memory and does not block the main server thread with any database queries after startup.</li>
+</ul>
+<div><b>Cross-Server Synchronization</b><br />
+​</div>
+<p>One of the best features of LiteBans for networks is its cross-server synchronization system.</p>
+<p>For example:</p>
+<p>Server A, Server B and Server C are all running LiteBans, connected to the same MySQL database.</p>
+<p>If a player who is on Server A is muted on Server B, it will immediately take effect on Server A, the player will be muted, and all players on Server A, B and C will see the broadcast indicating that the player was muted if they have permission and if broadcast synchronization is enabled. If the player leaves Server A and joins Server B or Server C, they will still be muted.</p>
+<p>This applies to both Spigot and BungeeCord versions of the plugin.</p>
+<p>A BungeeCord proxy counts as a server, and all servers under the BungeeCord proxy will also be affected by the plugin<br />
+(if the plugin is installed in the Bungee plugin folder).</p>
+<div><b>Web Interface<br />
+</b>​</div>
+<p>The web interface lists all bans, mutes, warnings, and kicks.<br />
+It can be used to view all punishments for specific players or by staff, and check when those punishments will expire.<br />
+* Free website is <b>not</b> included, you will require your own website hosting.</p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/litebans-php-1-png.339927/" alt="litebans-php-1.png" /></p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/litebans-php-2-png.341368/" alt="litebans-php-2.png" /></p>
+<p>Installation guide: https://gitlab.com/ruany/litebans-php/wikis/Installation</p>
+<div><b>JSON Support</b>​</div>
+<p>LiteBans allows you to define custom hover text in all messages, including broadcasts.<br />
+Only players with permission (<i>litebans.json.hover_text</i>) will see the hover text.<br />
+All variables available to use in messages.yml can also be included in hover text, along with colors and newlines.<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/litebans_hovertext-png.361225/" alt="LiteBans_HoverText.png" /><br />
+Example:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">broadcast_ban: &#8216;&amp;e$bannedPlayer &amp;chas been banned. {hoverText: &amp;aHover text here!}&#8217;</div>
+</div>
+<div><b>Commands</b>​</div>
+<p>The ban command (/ban) can be used like this:</p>
+<p><i>/ban [-s] &lt;target&gt; [duration] [reason] [server:*]</i><br />
+Also: <i>/tempban, /ipban, /unban</i></p>
+<p><i>&lt;target&gt; </i>can be a name, UUID, or IP address.</p>
+<p>If you IP-ban a player, their UUID and IP address will be banned simultaneously, so they cannot join on the same account using a different IP address.</p>
+[server:*] is an optional parameter which can be used when the plugin is installed on BungeeCord or if you have multiple instances of LiteBans.<br />
+By default, all punishments are global (*).<br />
+Server scopes (per-server punishments) are explained in detail on the wiki here.</p>
+<p>Example: /ban Player 7d [reason] server:Survival</p>
+<p>The<b> /ban</b> and <b>/mute </b>commands have a permanent duration if not specified. If the player does not have the <b>litebans.unlimited</b> permission, the duration will be limited to the maximum duration (per group) specified in config.yml.</p>
+<p>Reasons for /ban, /mute, /warn, and /kick can contain colours and newlines (&#8220;<b>\n</b>&#8220;). For example:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">/ban Player &amp;cLine 1\n&amp;aLine 2</div>
+</div>
+<p>Wildcard IP-bans are supported, e.g. <b>/ipban 127.0.0.*</b></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Examples</span></button></div>
+<p>The mute command (<i>/mute [-s] &lt;target&gt;</i> <i>[duration] [reason] [server:*]</i>) allows you to mute a player. While a player is muted, they cannot talk in chat or use blacklisted commands.<br />
+Related commands: /tempmute (requires duration), /ipmute, /unmute</p>
+<p>The warn command (<i>/warn [-s] &lt;target&gt;</i> <i>&lt;reason&gt; [server:*]</i>) allows you to warn a player. Warnings expire after a configurable duration. When a player obtains a configurable amount of warnings, configurable commands can be executed.<br />
+Related commands: /unwarn (removes a player&#8217;s last warning)</p>
+<p>The history command (<i>/history &lt;target&gt; [server:*]</i>) shows bans, mutes, kicks, and warnings that a player has received recently, sorted by date.<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/litebans-history-png.339930/" alt="litebans-history.png" /><br />
+You can view active warnings for a player by using <i>/warnings &lt;target&gt;</i>.<br />
+<i>/staffhistory &lt;target&gt;</i> can be used to show bans, mutes, kicks and warnings placed by a player.<br />
+<i>/prunehistory &lt;target&gt; [duration]</i> can be used to clear the punishment history of a player.<br />
+Example: /prunehistory Player 5 days<br />
+<i>/staffrollback &lt;target&gt; [duration]</i> can be used to rollback all staff actions (bans, mutes, warnings, kicks) with an optional duration.</p>
+<p>For /prunehistory and /staffrollback, the duration provided means the time passed since today.</p>
+<p>If you use &#8220;/staffrollback StaffMember 3 days&#8221;, all punishments executed by StaffMember within the last 3 days will be removed.</p>
+<p>Note: These two commands cannot be undone, unless you have backups.</p>
+<p>The dupeip command (<i>/dupeip &lt;target&gt;</i>) allows you to view all accounts who have joined on the same IP as the target, and see whether they&#8217;re online, offline, or banned.<br />
+You can also use /ipreport which executes a dupeip check for all online players.<br />
+You can also use /iphistory to check the recent IP addresses that a player has joined the server with. (Requires &#8220;delete_previous_history: false&#8221; in config.yml)<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/2015-02-13_08-44-20__-png.20959/" alt="2015-02-13_08.44.20__.png" /></p>
+<p>The checkban command (/checkban <i>&lt;target&gt;</i>) allows you to check if a target is banned. It will also tell you when the ban was placed, when it will expire, whether the ban was an IP ban, and if it was a silent ban.<br />
+Related commands: /checkmute</p>
+<p>The kick command (<i>/kick [-s] &lt;player&gt; &lt;reason&gt;</i>) allows you to kick an online player. This will be recorded in the player&#8217;s history.</p>
+<p>You can also kick players from other servers running LiteBans connected to the same database.<br />
+This applies to both Spigot and BungeeCord versions of the plugin and does not strictly require BungeeCord.</p>
+<p>If a player is on Proxy A and you use /kick from Proxy B, they will be kicked from Proxy A.</p>
+<p>The geoip command (<i>/geoip &lt;target&gt;</i>), if enabled in the configuration, allows you to check which country a player comes from. This can also be used on offline players.</p>
+<p>You can check the UUID of a player (online or not) using <i>/lastuuid &lt;target&gt;</i>.</p>
+<p>Chat can be cleared with /clearchat. Players with the &#8220;litebans.notify.clearchat&#8221; permission will be notified when chat is cleared.</p>
+<p>You can view a list of active bans by using /banlist [page].</p>
+<p>You can reload the configuration at any time using /litebans reload.<br />
+This will reload config.yml and messages.yml, and apply new settings.<br />
+Reloading LiteBans will also make it reconnect to the database.</p>
+<p>The server can be put into lockdown mode by using <i>/lockdown &lt;reason&gt;</i>. All players without the bypass permission will be kicked when the lockdown starts, and will be unable to join until it ends. It can be ended with <i>/lockdown end</i>.</p>
+<p>Under BungeeCord, you can provide a server scope for /lockdown. Currently only one scope at a time can be affected by /lockdown.<br />
+Example: /lockdown &lt;reason&gt; server:Survival<br />
+Global lockdown for ALL servers on the same network: /lockdown &lt;reason&gt; server:*</p>
+<p><b>Note: /togglechat can not be used with the BungeeCord version of the plugin.</b><br />
+Chat can be toggled for users with the <i>litebans.togglechat</i> permission using /togglechat. This command allows users to &#8220;toggle off&#8221; incoming messages from other players.</p>
+<p>Chat can be globally disabled temporarily with the /mutechat command. Players with the <i>litebans.mutechat.bypass </i>permission will still be able to chat.</p>
+<p>LiteBans admin utility commands:<br />
+/litebans reload: Reloads the plugin and re-connects to the database.<br />
+/litebans info: Provides database connection status information, number of active connections, and shows servers connected to the same database.<br />
+/litebans timezone [timezone]: Shows the current cross-server timezone and allows you to change it. Requires &#8220;use_database_time: true&#8221; in config.yml across all servers. (See wiki: Timezones)<br />
+/litebans unlink &lt;player&gt;: Unlinks all IP addresses for the given player from /alts. This unassociates the targeted accounts. If these accounts are joined by the same IP again in future, they will be re-associated.<br />
+/litebans cleariphistory &lt;name/UUID/IP&gt;: Clears IP history for a specific name, UUID, or IP address. The unlink command is recommended as it will allow punishment history to render correctly.<br />
+Players with no IP history will not show up on /history, /staffhistory, or the web interface, because their name cannot be matched to a UUID. When they rejoin the server, their ban history will reappear.<br />
+/litebans fixhistory: Adds missing username+UUID entries to the history table. This can be used after cleariphistory, but this only works in online-mode because the usernames are fetched from Mojang.<br />
+/litebans addhistory &lt;name&gt; &lt;UUID&gt; &lt;IP&gt;: Allows you to add IP history to the database directly.<br />
+/litebans broadcast &lt;message&gt;: This command allows you to broadcast any message using the LiteBans broadcast channel. The message will reach all servers connected to the same database, it can contain chat colours and newlines, and only players with &#8220;litebans.notify.broadcast&#8221; will see it. The &#8220;broadcast-type:&lt;perm&gt;&#8221; argument allows you to override the permission required to see the broadcast (litebans.notify.&lt;perm&gt;), and this command requires the &#8220;litebans.broadcast&#8221; permission.<br />
+Note that the message can include hover text. For example: &#8220;/litebans broadcast Test message {hoverText: Example Hover Text}&#8221;<br />
+/litebans import start: Begins the import process after importing has been configured in config.yml.<br />
+/litebans reset-database: Clears all punishments from the database. This command requires confirmation and can only be run by console.</p>
+<div><b><br />
+FAQ</b>​</div>
+<div><b>Read the FAQ before posting a review or reporting problems with the plugin!<br />
+</b>​</div>
+<p><b>The new FAQ can be viewed here. (Moved to GitLab)</b></p>
+<div><b>Permissions</b>​</div>
+<p>The full permissions list can be viewed here. (Moved to GitLab)</p>
+<div><b>Configuration</b>​</div>
+<p>All options in the configuration work equally on both Spigot and BungeeCord versions of the plugin unless explicitly otherwise stated.</p>
+<p>Plugin configuration (config.yml):</p>
+<p>Custom messages (messages.yml):</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<div class="SpoilerTarget bbCodeSpoilerText">The default messages.yml can be viewed here.<br />
+All variables are now documented in messages.yml and can be viewed above.</div>
+</div>
+<p>&nbsp;</p>
+<div><b>Database Configuration</b>​</div>
+<div>The plugin is pre-configured for H2, so you don&#8217;t need to configure anything if you don&#8217;t have a MySQL database.​</div>
+<p>H2 does not require any configuration, and operates using files on disk.</p>
+<div>​</div>
+<p>To configure the plugin for MySQL, open config.yml, change &#8216;driver&#8217; to &#8220;MySQL&#8221;, and set &#8216;username&#8217;, &#8216;password&#8217;, &#8216;address&#8217;, and &#8216;database&#8217; as needed.</p>
+<div><b>Importing</b><br />
+​</div>
+<p>A full guide with information, instructions, and examples can be viewed here:<br />
+https://gitlab.com/ruany/LiteBans/wikis/Importing</p>
+<div>
+<p><b>Images</b></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/you-are-banned-png.339931/" alt="you-are-banned.png" /><br />
+<b><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/2015-02-12_14-31-50__-png.20854/" alt="2015-02-12_14.31.50__.png" /></b></div>
+</div>
+<p><b>Requirements</b><br />
+​</p>
+</div>
+<p>For MySQL support in the plugin, a working MySQL database is required.</p>
+<p>If you&#8217;re running a single plugin instance and don&#8217;t need the web interface, you do not need a MySQL server and the plugin will already work immediately without configuration after being installed.</p>
+<p>Supported Java versions: Java 8 &#8211; Java 12.</p>
+<p>An active Internet connection is required, but only for the first time the plugin is started without access to needed database drivers.<br />
+LiteBans will download these drivers once and it will never download them again afterwards as long as they are stored in the LiteBans data folder.<br />
+When the plugin is updated, drivers may be updated as well.</p>
+<p>If you want to use Cauldron, you may have to follow the instructions in this post if the plugin fails to load.<br />
+Cauldron 1.7.10 is supported.<br />
+<b>Cauldron 1.6.4 is not supported and will never be supported.</b></p>
+<div><b>Install</b><br />
+​</div>
+<p>LiteBans can be installed in several ways. It can run on a single Spigot server, multiple Spigot servers linked to the same MySQL database, or it can be installed directly on BungeeCord.</p>
+<p><b>Should I install the plugin on all of my Spigot servers or only on BungeeCord?</b></p>
+<p>Note that your configured permissions under Spigot will not automatically carry over onto BungeeCord.</p>
+<p>LuckPerms has BungeeCord support. If installed correctly, it can bridge permissions between Spigot and BungeeCord.</p>
+<p>If you want LiteBans to have a Spigot presence (Spigot permissions, usable with Spigot plugins that use /ban, /mute, /kick, etc), then you can install it on each Spigot server and link all plugin instances together with the same database.</p>
+<p>Otherwise, if you&#8217;re fine with using the Bungee permission system (e.g. BungeePerms or permission configuration in Bungee&#8217;s config.yml) and don&#8217;t have any Spigot plugins which need to use LiteBans commands, then you can install it on BungeeCord directly and you don&#8217;t have to install it on any of the servers connected to the proxy.</p>
+<p>For a single-server Spigot setup:</p>
+<ol>
+<li>Download the plugin to the Spigot plugins folder.</li>
+<li>Start the server (or restart it, if it is already running)</li>
+<li>Edit config.yml and messages.yml as needed, then run &#8220;/litebans reload&#8221;.</li>
+<li>Set up permissions using whatever permissions plugin you have installed.</li>
+</ol>
+<p>With multiple Spigot servers:</p>
+<ol>
+<li>Install the plugin on all servers that you want to link together using the instructions above for each server.</li>
+<li>Configure the plugin to connect to the same database across all servers.</li>
+</ol>
+<p>With BungeeCord:</p>
+<ol>
+<li>Download the plugin to the BungeeCord plugins folder. The plugin does not need to be installed on any of the servers linked to the proxy.</li>
+<li>Start BungeeCord (or restart it, if it is already running)</li>
+<li>Edit config.yml and messages.yml as needed, then run &#8220;/litebans reload&#8221;.</li>
+<li>Set up permissions using whatever permissions plugin you have installed. You need to add the &#8220;litebans.notify.broadcast&#8221; permission to the default group if you want players to see broadcasts.</li>
+<li>If you&#8217;re running an offline-mode server, you need to link your authentication system (e.g. AuthMe) with BungeeCord, otherwise users will be able to run commands without being logged in.</li>
+</ol>
+<p>With multiple BungeeCord instances:</p>
+<p><b>Note: LiteBans does not require nor utilize RedisBungee for synchronizing across multiple servers.<br />
+</b><br />
+Bans, mutes, broadcasts, notifications, and kicks will be synchronized across multiple BungeeCord proxies running LiteBans as long as they are connected to the same database.</p>
+<p>Configuration is simple and intuitive &#8211; you only need to connect the servers to the same database, nothing else is required.</p>
+<ol>
+<li>Download the plugin and copy it to each BungeeCord instance&#8217;s plugins folder.</li>
+<li>Configure config.yml and messages.yml and copy them across all instances. The default configurations will be placed in &#8220;plugins/LiteBans/&#8221; after the plugin starts for the first time. All instances need to be connected to the same MySQL database in order for them to synchronize properly.</li>
+<li>Set up permissions in each BungeeCord instance&#8217;s config.yml and restart. You need to add the &#8220;litebans.notify.broadcast&#8221; permission to the default group if you want players to see broadcasts.</li>
+<li>If you&#8217;re running an offline-mode server, you need to install AuthMeBungee, otherwise users will be able to run commands without being logged in.</li>
+</ol>
+<p>After installing multiple instances of the plugin, you can check if everything is properly configured<br />
+by running the &#8220;<b>/litebans info</b>&#8221; command. It will tell you if multiple servers are connected to the database.</p>
+<div><b>Spigot version vs BungeeCord version</b>​</div>
+<p>LiteBans can run directly under Spigot or BungeeCord &#8212; it can be installed in either the Spigot plugin folder, or the BungeeCord plugin folder.</p>
+<p>All commands and features of LiteBans are available under BungeeCord (except for /togglechat).</p>
+<p>Features of the BungeeCord version:</p>
+<ul>
+<li>Players across all servers on the network are treated as if they are on the same server.</li>
+<li>No need to set up LiteBans across all servers with the same MySQL configuration. One setup on just the BungeeCord proxy is enough for bans to work across every server.</li>
+<li>The BungeeCord version can use a local file database (H2) and still work across multiple servers (with a single-proxy setup), however, there is no official web interface support for this.</li>
+<li>Spigot plugins cannot override what happens at the proxy level, so it&#8217;s much less likely for other plugins to interfere with LiteBans.</li>
+<li>LiteBans doesn&#8217;t mind what type of servers you&#8217;re running behind the proxy &#8211; they don&#8217;t have to be Spigot servers, and there is no &#8220;bridge&#8221; plugin required. If you can get a Vanilla server running behind Bungee, you can still use LiteBans on it!</li>
+</ul>
+<p>Caveats of using the BungeeCord version:</p>
+<ul>
+<li>Permissions have to be set through BungeeCord unless you use a native BungeeCord permissions plugin like LuckPerms.</li>
+<li>There is only one global configuration per plugin instance. (config.yml + messages.yml)</li>
+<li>Spigot plugins cannot directly execute BungeeCord commands, and vice versa. Any plugins that you intend on using with LiteBans must be BungeeCord plugins (Unless you use ExecuteEverywhere).</li>
+<li>If you want to ban a player from the server console, it has to be done from the BungeeCord console.</li>
+</ul>
+<div><b>API</b>​</div>
+<p>LiteBans includes an API which can be used to check if players are banned or muted and listen for ban events.</p>
+<p>https://gitlab.com/ruany/LiteBansAPI/wikis/home</p>
+<p>Note: Servers on this list will be automatically checked every few months. Dead servers and web links are removed. Try to have 24/7 uptime <img class="mceSmilieSprite mceSmilie16" title="Wink ;)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=";)" /></p>
+<div><b>Terms of Service</b>​</div>
+<ol>
+<li>You are allowed to use the plugin on multiple servers, provided that all of these servers belong to you.</li>
+<li>You are allowed to freely use and modify the web interface, you can also remove or modify the copyright message in header.php.</li>
+<li>You may not redistribute or re-sell the plugin; doing so will result in your access to the plugin and future updates being revoked permanently.</li>
+<li>You may not file a dispute or chargeback via PayPal or any payment processor; doing so will result in your access to the plugin and future updates being revoked permanently.</li>
+</ol>
+<p>Refund policy:</p>
+<p>Refunds will be granted for any reason within 30 days of purchase, unless the Terms of Service have been violated.</p>
+<p>Send me a PM if you wish to request a refund.</p>
+<p>Tags: LiteBans spigot plugin, LiteBans bukkit plugin, LiteBans bungee plugin, LiteBans bungeecord proxy plugin, LiteBans premium plugin, cross server sync, bukkit cross server bans, bungee cross server bans, cross-server punishments, multi server banning, cross-network punishments, punish, ban synchronization plugin mysql, ban sync mysql bukkit, bungee network banning plugin, ban sync mysql bungee, mute synchronization plugin mysql, ban database plugin, punishment database plugin, uuid banning plugin, ip banning plugin, uuid punish plugin, custom ban message plugin, custom kick message plugin, bukkit alts plugin, staff rollback plugin, liteban, litebans, lightbans, light bans, lite bans, lite ban, litebans web interface, litebans website, litebans access, litebans download, litebans buy, litebans purchase, litebans spigot, litebans permissions, litebans servers, custom punish plugin, customizable punish plugin, global banning plugin, ban history bukkit plugin, ban plugin, mute history, litebans messages, litebans 1.10, litebans 1.11.2, litebans 1.12, litebans 1.13</p>
+<p>Regarding reviews:<br />
+<b>Read the FAQ before posting a review or reporting problems with the plugin!<br />
+Report issues via PM, discussion thread, or the issue tracker.</b></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/litebans/">LiteBans</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/litebans/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

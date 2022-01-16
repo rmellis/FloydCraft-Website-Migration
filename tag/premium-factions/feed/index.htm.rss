@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Premium Factions | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/premium-factions/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:48:07 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Premium Factions | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>FactionsUUID</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/factionsuuid/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/factionsuuid/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:48:07 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Factions]]></category>
+		<category><![CDATA[FactionsUUID]]></category>
+		<category><![CDATA[New Factions]]></category>
+		<category><![CDATA[Premium Factions]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3311</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/factionsuuid.1035/ We use this plugin to allow players to create and manage there own factions, this gives players the ability to claim land and protect it from grief aswell as several other functions. Check out our new website! This project is the same as the old Factions 1.6.9.5 version and we intend to keep&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/factionsuuid/">FactionsUUID</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/factionsuuid.1035/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/factionsuuid.1035/</a></p>
+<blockquote><p>We use this plugin to allow players to create and manage there own factions, this gives players the ability to claim land and protect it from grief aswell as several other functions.</p></blockquote>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f2490f9457308318300b0a5a314c24325baf0a53?url=https%3A%2F%2Fi.imgur.com%2FCTntpYP.png" alt="[​IMG]" data-url="https://i.imgur.com/CTntpYP.png" /></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/1e98100d2442f46949ff06c7240460de688ad738?url=https%3A%2F%2Fi.imgur.com%2FX772b8E.png" alt="[​IMG]" data-url="https://i.imgur.com/X772b8E.png" /></p>
+<p><b><a class="externalLink" href="https://factions.support/" target="_blank" rel="nofollow noopener">Check out our new website!</a></b></p>
+<p>This project is the same as the old Factions 1.6.9.5 version and we intend to keep the original functionality intact as much as possible. That being said, we&#8217;ve decided to offer a few enhancements including:</p>
+<ul>
+<li>Command System Overhaul</li>
+</ul>
+<p>The command system now uses modern tab complete<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/51376d6b9ed02520cf74fa0e41de06bd2afbded4?url=https%3A%2F%2Fi.imgur.com%2FJMymgTC.gif" alt="[​IMG]" data-url="https://i.imgur.com/JMymgTC.gif" /></p>
+<ul>
+<li>Scoreboards</li>
+</ul>
+<p>Using placeholders, you can create the ultimate scoreboard! Show whose faction you&#8217;re in, how much power you have, and so much more!</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/851206b52dce1a92939b8e93b0f14de017b538ce?url=https%3A%2F%2Fi.imgur.com%2F6HTyA4Y.png" alt="[​IMG]" data-url="https://i.imgur.com/6HTyA4Y.png" /> *</p>
+<ul>
+<li>Customizable messages</li>
+</ul>
+<p>Almost every message in FactionsUUID is customizable, so make it what you want it to look like! Want to make the messages red? Go ahead! Want to make the help menu look like pink and pretty? Be our guest!<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/51f7a8a31e9b8c365f7cba1d5d6c4fabb3a81475?url=https%3A%2F%2Fi.imgur.com%2FdV6u6ne.png" alt="[​IMG]" data-url="https://i.imgur.com/dV6u6ne.png" /></p>
+<ul>
+<li>UUID compatibility</li>
+</ul>
+<p>Changed your name? No problem! Factions remembers your UUID so everything stays the same.<br />
+No need to rejoin your faction!</p>
+<ul>
+<li>PlaceholderAPI and MVdW Placeholders support</li>
+</ul>
+<p>All the placeholders you want right in your hands! Use any placeholders to show your players<br />
+everything they need to see. Want to show how many votes they have? Go ahead!</p>
+<ul>
+<li>Customizable /f map</li>
+</ul>
+<p>Big or small, you can show how many chunks a player can see. Want to see 20 chunks ahead of<br />
+you? No problem! Want to be an all-seeing god? That&#8217;s a bit of a stretch, but that&#8217;s for you to decide!<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6607a1a506a3fa7370a04334f863c165063dc720?url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FMWtTUYlIjUalSICK1d%2Fgiphy.gif" alt="[​IMG]" data-url="https://media.giphy.com/media/MWtTUYlIjUalSICK1d/giphy.gif" /></p>
+<ul>
+<li>Faction permissions (/f perm)</li>
+</ul>
+<p>Want control over who has permission to build, place, and even interact? Make your faction as<br />
+protected as can be, just make sure it&#8217;s what you want!<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/719839dc030c7f1ebbb486d7029c856125427680?url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F65TghTnaZThRZoOcjN%2Fgiphy.gif" alt="[​IMG]" data-url="https://media.giphy.com/media/65TghTnaZThRZoOcjN/giphy.gif" /></p>
+<ul>
+<li>Faction fly</li>
+</ul>
+<p>Want your players to fly in their land, but not in the wilderness? This feature is just for you! Flying makes it easier to check out bases, make bases, and find enemies!<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c931690c2f4a14b4c3eebc48e9cf2ce2225c86ba?url=http%3A%2F%2Fmedia.giphy.com%2Fmedia%2F9oIt6hYLYiL8RSsm1w%2Fgiphy.gif" alt="[​IMG]" data-url="http://media.giphy.com/media/9oIt6hYLYiL8RSsm1w/giphy.gif" /></p>
+<p>Want to see who&#8217;s the best faction around? Don&#8217;t worry, we&#8217;ve made it easy for you! See who has<br />
+the most money, blocks, spawners, and items and determine whether it is a good idea to raid them!</p>
+<ul>
+<li>And so much more!</li>
+</ul>
+<p>If you want something implemented and you have purchased the resource, all you have to do is open an issue on <a class="externalLink" href="https://github.com/drtshock/Factions/issues" target="_blank" rel="nofollow noopener">GitHub</a> and I will see if I can get it added!</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/47d73c6d65017d3d94efb8d292f80363a1155656?url=https%3A%2F%2Fi.imgur.com%2F1jMV4OB.png" alt="[​IMG]" data-url="https://i.imgur.com/1jMV4OB.png" /><br />
+<b>NOTE<br />
+If you are currently running 1.6.x</b><br />
+Replace your old Factions.jar with this. You should not run both. The first time you start your server it will auto-convert your files for you. You do not need MassiveCore or anything else to make this work.</p>
+<p><b>If you are currently running 1.8, 2.x, or anything other than 1.6.x</b><br />
+Your data will not be converted. If you want to contribute a way to make that possible, let me know <img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" /></p>
+<p>1. Drag and drop into your plugins folder.<br />
+2. Delete any MassiveCraft files (Like MassiveCore, not the Factions folder or Factions.jar!)<br />
+3. Restart your server.<br />
+4. Enjoy!</p>
+<p>Features are built to run on the latest version of Minecraft. If you&#8217;re running an older version, please report any compatibility issues so we can resolve.</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/dea1a8a985cdaea33d510116e3548405ae1e930a?url=https%3A%2F%2Fi.imgur.com%2F06IltEV.png" alt="[​IMG]" data-url="https://i.imgur.com/06IltEV.png" /></p>
+<p>Everything you need to know is on the <a class="externalLink" href="https://github.com/drtshock/Factions/wiki/" target="_blank" rel="nofollow noopener">Wiki</a>. It has been recently updated, so please do look even if you think it&#8217;s not there.</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/0d1fe02821a62ddc2f254b9dd53ee2121cebf00a?url=https%3A%2F%2Fi.imgur.com%2FyKNX7FM.png" alt="[​IMG]" data-url="https://i.imgur.com/yKNX7FM.png" /></p>
+<p>Support is only given if you have purchased the plugin. Use our <a class="externalLink" href="https://discord.gg/FfAz3eE" target="_blank" rel="nofollow noopener">Discord server</a> and the <a class="externalLink" href="https://github.com/drtshock/Factions" target="_blank" rel="nofollow noopener">GitHub issue tracker</a> for support. Do not private message me or post on the thread for support, it will be ignored.<br />
+<a class="externalLink" href="https://discord.gg/FfAz3eE" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/22c5a6101d4918e472d960c6ab801b4eaa7ef304?url=https%3A%2F%2Fimgur.com%2FMFRRBn4.png" alt="[​IMG]" data-url="https://imgur.com/MFRRBn4.png" /></a></p>
+<p><b>LICENSING</b></p>
+<p>In case anyone is wondering, selling copies of this does not violate the GPL under which Factions is licensed. You can read more about it here <a class="externalLink" href="http://www.gnu.org/philosophy/selling.html" target="_blank" rel="nofollow noopener">http://www.gnu.org/philosophy/selling.html</a></p>
+<p>If your server uses this and you have your own developer fix bugs, I ask that you be a good person and commit those upstream. There is no need to contribute custom features, but bug fixes are always appreciated.</p>
+<p><a class="externalLink" href="https://ci.ender.zone/job/FactionsUUID/" target="_blank" rel="nofollow noopener"><b>Dev builds</b></a></p>
+<p>If your server uses this and you have your own developer fix bugs, I ask that you be a good person and commit those upstream. There is no need to contribute custom features, but bug fixes are always appreciated.</p>
+<p>Images courtesy of <a class="username" href="https://www.spigotmc.org/members/206391/" data-user="206391, @Grizz">@Grizz</a><br />
+*Not made with FUUID but it still is possible.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/factionsuuid/">FactionsUUID</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/factionsuuid/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

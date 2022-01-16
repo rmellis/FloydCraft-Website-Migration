@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Money | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/money/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:03:49 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Money | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>KillerMoney</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/killermoney/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/killermoney/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:03:00 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[jobs]]></category>
+		<category><![CDATA[Killer]]></category>
+		<category><![CDATA[KillerMoney]]></category>
+		<category><![CDATA[Killing Mobs]]></category>
+		<category><![CDATA[Mob Killing Cash]]></category>
+		<category><![CDATA[Money]]></category>
+		<category><![CDATA[Payed for Killing Mobs]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3351</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/killermoney.485/ We use this plugin to give players an easy way to earn money which they can spend on InGame Items Please Donate Please answer to few question about KM​ When a player kill an entity, this plugins let you charge/give money or even give any item or run a command. Abilities of the&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/killermoney/">KillerMoney</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/killermoney.485/"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/killermoney.485/</span></span></a></div>
+<blockquote>
+<div>We use this plugin to give players an easy way to earn money which they can spend on InGame Items</div>
+</blockquote>
+<div><b><a class="externalLink" href="http://paypal.me/krisztiangahor" target="_blank" rel="nofollow noopener">Please Donate</a></b><br />
+<a class="externalLink" href="https://docs.google.com/forms/d/e/1FAIpQLSc3gr0u1fxJcfWw7BX2yZVoQqTmYNQOcgOx21f3_XF9itnhLw/viewform?usp=sf_link" target="_blank" rel="nofollow noopener"><b>Please answer to few question about KM</b></a>​</div>
+<p>When a player kill an entity, this plugins let you charge/give money or even give any item or run a command.</p>
+<p><b>Abilities of the plugin:</b></p>
+<ul>
+<li>Giving or charging a player by either a fix amount of money, or random between a minimum and maximum amount when they kill an entity</li>
+<li>Charging the victim of a PVP</li>
+<li>Fully customisable loot dropping when an entity die</li>
+<li>Running a command of your choice when an entity die</li>
+<li>Banning the ability to farm entities for money, if they were spawned by either eggs or spawners</li>
+<li>Multiworld support for entities</li>
+<li>Full modularity, the only thing you need to add to the config file is what you need!</li>
+<li>Customisable messages</li>
+<li>Permission support by each entity for a perfect rank system</li>
+<li>Money multiplier permissions</li>
+<li>Limit for save economy on your server</li>
+<li>Public API</li>
+</ul>
+<p><b>A few examples why KillerMoney is needed:</b></p>
+<ul>
+<li>⁭If you want creepers, to drop TNT with a possibility of 10% , you need KillerMoney!</li>
+<li>If you want to instantly ban a player when they kill a villager, you need KillerMoney!</li>
+<li>If you want to give money to a player for killing a zombie, you need KillerMoney!</li>
+<li>If you want to give the winner of a PVP a cut of the victim&#8217;s money, you need KillerMoney!</li>
+<li>If you want to give money to a player for killing a tiger in Mo&#8217;Creatures on your Cauldron server, you need killerMoney!</li>
+<li>If you want your creativity to be showd, you need KillerMoney!</li>
+</ul>
+<p><b>Documentations:</b></p>
+<ul>
+<li><b><a class="externalLink" href="https://github.com/diecode/KillerMoney/blob/master/README.md" target="_blank" rel="nofollow noopener">Install howto, commands, permissions and others</a></b></li>
+<li><b><a class="externalLink" href="https://github.com/diecode/KillerMoney/blob/master/docs/Config.md" target="_blank" rel="nofollow noopener">Config.yml</a></b></li>
+<li><b><a class="externalLink" href="https://github.com/diecode/KillerMoney/blob/master/docs/Entities.md" target="_blank" rel="nofollow noopener">Entities.yml</a></b></li>
+</ul>
+<p><b>Developers:</b><br />
+Coming soon</p>
+<p><b>Contact:</b><br />
+Discord:<b> diecode#2429</b></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/killermoney/">KillerMoney</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/killermoney/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

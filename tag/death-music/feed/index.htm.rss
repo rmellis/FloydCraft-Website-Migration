@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Death Music | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/death-music/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:22:11 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Death Music | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>DieMusic</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/diemusic/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/diemusic/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:22:11 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Death Music]]></category>
+		<category><![CDATA[DeathMusic]]></category>
+		<category><![CDATA[DieMusic]]></category>
+		<category><![CDATA[Murderd by Music]]></category>
+		<category><![CDATA[Music On Death]]></category>
+		<category><![CDATA[MusicalDeath]]></category>
+		<category><![CDATA[MusicDeath]]></category>
+		<category><![CDATA[NoteBlockAPI]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3299</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/diemusic.73207/ NoteBlockApi required Plugin plays random music from folder, after players die Sound list</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/diemusic/">DieMusic</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/diemusic.73207/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/diemusic.73207/</span></span></a></p>
+<p><b><span style="text-decoration: underline;"><span style="color: #00ccff;"><a class="internalLink" style="color: #00ccff; text-decoration: underline;" href="https://www.spigotmc.org/resources/noteblockapi.19287/">NoteBlockApi</a></span></span> required</b><br />
+Plugin plays random music from folder, after players die</p>
+<p><a class="externalLink" href="https://soundcloud.com/user-936872185/sets/diemusic-spigot-plugin" target="_blank" rel="nofollow noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">Sound list</span></span></a><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/tyKl1aSNvPU?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/diemusic/">DieMusic</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/diemusic/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

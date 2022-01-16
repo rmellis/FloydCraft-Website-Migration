@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | JimmyDaRat | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/jimmydarat/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/jimmydarat/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for JimmyDaRat.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">e0e171a8c2de78ba36cbc39032597298</guid>
+				<title>JimmyDaRat changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/43/</link>
+				<pubDate>Thu, 28 May 2020 17:21:21 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">63316efcb7488387c3180c62320ccecb</guid>
+				<title>JimmyDaRat posted an update: If 2k+40= 2040, why do we go there?</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/21/</link>
+				<pubDate>Mon, 26 Aug 2019 04:21:04 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>If 2k+40= 2040, why do we go there?</p>
+]]></content:encoded>
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

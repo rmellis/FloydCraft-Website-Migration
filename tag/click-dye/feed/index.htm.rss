@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Click Dye | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/click-dye/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:43:53 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Click Dye | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ClickDye</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/clickdye/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/clickdye/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:43:53 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Click Dye]]></category>
+		<category><![CDATA[ClickDye]]></category>
+		<category><![CDATA[Dye Concrete]]></category>
+		<category><![CDATA[Dye Glass]]></category>
+		<category><![CDATA[Dye Terracotta]]></category>
+		<category><![CDATA[Dye Wool]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3270</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/clickdye.38393/ We use this plugin to allow players to easily dye there builds after items have already been placed. ClickDye is a lightweight plugin that allows you to color wool, terracotta, concrete, carpets, shulker boxes, beds, and glass by right-clicking with a dye. A simple, fun, and useful addition to creative, minigames, and survival servers&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/clickdye/">ClickDye</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <span style="color: #00ccff;"><a style="color: #00ccff;" href="https://www.spigotmc.org/resources/clickdye.38393/" target="_blank" rel="noopener"><span style="text-decoration: underline;">https://www.spigotmc.org/resources/clickdye.38393/</span></a></span><br />
+<b></b></div>
+<blockquote>
+<div>We use this plugin to allow players to easily dye there builds after items have already been placed.</div>
+</blockquote>
+<div><b>ClickDye</b> is a lightweight plugin that allows you to color wool, terracotta, concrete, carpets, shulker boxes, beds, and glass by right-clicking with a dye. A simple, fun, and useful addition to creative, minigames, and survival servers alike.</p>
+</div>
+<div><a class="externalLink" href="https://gfycat.com/SizzlingAmusingGoitered" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f57e1293864fc1c1c10e6ba651c3ec2fc51c31b8?url=https%3A%2F%2Fthumbs.gfycat.com%2FSizzlingAmusingGoitered-size_restricted.gif" alt="[​IMG]" data-url="https://thumbs.gfycat.com/SizzlingAmusingGoitered-size_restricted.gif" /></a>​</div>
+<p><b>Features:</b></p>
+<ul>
+<li><b>Uses dye</b> when a block is dyed if the player is in Survival or Adventure mode. This can be either one per block, or it can be proportional to the dye needed to craft the block being dyed.</li>
+<li>Dye <b>multiple blocks at once</b> by sneaking and right-clicking with a dye. (configurable)</li>
+<li><b>Particle and sound effects</b> when a block is dyed. (configurable)</li>
+<li>Optional <b>&#8220;eraser&#8221; item</b> to remove and optionally recover dye from dyed blocks.</li>
+<li>Optional <b>&#8220;paintbrush&#8221; tool</b> to select dye color from existing blocks.</li>
+<li>Compatible with <b>any protection plugin</b> that prevents interaction. (WorldGuard, GriefPrevention, PlotSquared, Factions)</li>
+<li><b>Prevent dyeing blocks</b> in areas where the player cannot build (Currently only supports WorldGuard)</li>
+<li>Compatible with <b>LogBlock and CoreProtect</b>: Block dyeing is logged and can be looked up/rolled back</li>
+</ul>
+<p><b>FAQ:<br />
+ClickDye doesn&#8217;t work with protection plugin X!</b><br />
+If your plugin doesn&#8217;t seem to prevent dyeing, look for a section in its configuration file that lists items to not allow players to use and add all 16 dye materials to the list. For Factions/FactionsUUID, this is the &#8220;territoryDenyUseageMaterials&#8221; and &#8220;territoryDenyUseageMaterialsWhenOffline&#8221; sections of conf.json.</p>
+<p><b>Permissions:</b></p>
+<ul>
+<li><b>clickdye.use:</b> Dye materials by right-clicking. Granted to all players by default.</li>
+<li><b>clickdye.bulk: </b>Allow dyeing multiple blocks at once by sneaking and right-clicking. Granted to OPs by default. Bulk dyeing needs to be enabled in config.yml for this to work.</li>
+<li><b>clickdye.paintbrush:</b> Use the paintbrush tool. Granted to OPs by default.</li>
+<li><b>clickdye.command.reload:</b> Reload the configuration with /dyereload. Granted to OPs by default.</li>
+<li><b>clickdye.command.paintbrush: </b>Get a paintbrush tool with /paintbrush. Granted to OPs by default.</li>
+</ul>
+<p><b>Configuration:</b></p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">#Whether we should try to find a block logging plugin and log color changes if one<br />
+#is found. Currently only LogBlock and CoreProtect are supported.<br />
+logchanges: true</p>
+<p>#Whether particles should be shown when a block is dyed.<br />
+particles: true</p>
+<p>#Sound options<br />
+sound:<br />
+#Whether a sound should be played.<br />
+enabled: true<br />
+#The name of the sound. A list can be found at<br />
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html<br />
+type: ENTITY_CHICKEN_EGG<br />
+#The volume of the sound. This can&#8217;t be less than 0, and numbers above 1.0 only<br />
+#increase the distance the sound travels.<br />
+volume: 1.0<br />
+#The pitch of the sound. This ranges from 0.5 to 2.0. Numbers below or above are<br />
+#simply rounded up or down respectively.<br />
+pitch: 1.5</p>
+<p>#Whether Shulker Boxes can be dyed. This option may disappear in the future when I&#8217;m<br />
+#sure there are no bugs with dyeing Shulker Boxes.<br />
+shulkerboxes: false</p>
+<p>#Bulk dyeing is dyeing multiple blocks with one click. This is done by sneaking while<br />
+#dyeing a block and can be granted to certain players with the permission node<br />
+#clickdye.bulk.<br />
+bulkdye:<br />
+#Whether bulk dyeing is enabled at all. This must be true to use the feature, even<br />
+#if you only give access to certain players.<br />
+enabled: true<br />
+#How many blocks can be dyed in a single click. It&#8217;s recommended to keep<br />
+#the limit fairly low because it could cause lag with extremely large areas<br />
+#(&gt;1000 blocks) and makes it easier to grief with dye.<br />
+limit: 20<br />
+#Whether players should be told how many blocks were dyed when they use bulk dyeing.<br />
+message: true</p>
+<p>#Whether the amount of dye taken from the player when they dye a block is<br />
+#proportional to the amount of dye needed to craft that block.<br />
+proportionaldyeamount: false</p>
+<p>#Paintbrush item to select dye color from blocks.<br />
+paintbrush:<br />
+#Do we want players to be able to use the paintbrush tool?<br />
+enabled: false<br />
+#Whether the name of the item should be checked.<br />
+checkname: true<br />
+#The required name of the item to be considered a paintbrush. This<br />
+# only applies if &#8220;checkname&#8221; is set to true.<br />
+name: &#8220;&amp;aPaint Brush&#8221;<br />
+#The material that should be used for the paintbrush.<br />
+material: STICK<br />
+#Whether color changes should be shown in the action bar.<br />
+showactionbar: true<br />
+#Whether players need to be sneaking to select a new color.<br />
+requiresneak: true</p>
+<p>#Eraser item to remove dye from blocks.<br />
+eraser:<br />
+#Do we want players to be able to use the eraser item?<br />
+enabled: false<br />
+#Whether the name of the eraser should be checked.<br />
+checkname: false<br />
+#The name the eraser must have to be usable. This only applies if<br />
+#&#8221;checkname&#8221; is set to true.<br />
+name: &#8220;&amp;aEraser&#8221;<br />
+#The material that should be used for the eraser.<br />
+material: PAPER<br />
+#Whether dye should be dropped when a block is erased. The amount of dye dropped is<br />
+#proportional to the amount used in the block being erased.<br />
+dropdye: true</p></div>
+</div>
+<p><b><br />
+Videos:</b><br />
+If you make a review or tutorial for ClickDye, let me know and I&#8217;ll post it here!<br />
+<b><br />
+Try it out! (Servers using ClickDye):</b><br />
+If your server uses ClickDye and it is easily accessible for new players, let me know and I&#8217;ll post it here!</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/clickdye/">ClickDye</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/clickdye/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

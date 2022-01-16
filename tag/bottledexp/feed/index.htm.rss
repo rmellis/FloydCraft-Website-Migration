@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>BottledExp | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/bottledexp/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:32:04 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>BottledExp | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>BottledExp</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/bottledexp/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/bottledexp/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:29:33 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Bottled Exp]]></category>
+		<category><![CDATA[Bottled XP]]></category>
+		<category><![CDATA[BottledExp]]></category>
+		<category><![CDATA[BottledXP]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3264</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/bottledexp.2815/ We use this plugin to allow players to put eXP they&#8217;ve earnt into bottles for storage Originally version made by Sacnoth0 in bukkit website. Now its fully recoded with bunch of new features Out Dated For version 1.x ​ Put exp into Exp bottles with simple command Put exp into Exp bottles by clicking&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/bottledexp/">BottledExp</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;"><a style="color: #00ccff; text-decoration: underline;" href="https://www.spigotmc.org/resources/bottledexp.2815/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/bottledexp.2815/</a></span></span></p>
+<blockquote><p>We use this plugin to allow players to put eXP they&#8217;ve earnt into bottles for storage</p></blockquote>
+<p>Originally version made by Sacnoth0 in bukkit website. Now its fully recoded with bunch of new features</p>
+<div><iframe loading="lazy" src="https://www.youtube.com/embed/ntXMqvmzuAE?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+Out Dated For version 1.x<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/2YFcrxg8Dvs?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/01757a91e0171c8fc87e56e70f264dd0e92ed6fd?url=http%3A%2F%2Fwww.zrips.net%2Fwp-content%2Fuploads%2F2019%2F02%2Ffeatures.jpg" alt="[​IMG]" data-url="http://www.zrips.net/wp-content/uploads/2019/02/features.jpg" /></p>
+<ul>
+<li>Put exp into Exp bottles with simple command</li>
+<li>Put exp into Exp bottles by clicking on specific block</li>
+<li>Exchange exp to exp bottles by interacting with defined block id (enchant table by default)</li>
+<li>Exchange exp to exp bottles by interacting with particularly defined block in world</li>
+<li>Pay money for each exchange</li>
+<li>Use items to create exp bottles</li>
+<li>Create custom exp bottles with custom name ant lore, which ones store custom amount of exp</li>
+<li>Disable exp trading with villagers (not fully tested)</li>
+<li>Disable exp drop from mob spawners</li>
+<li>Check how much exp you have</li>
+<li>Check how much exp bottles you will need to level up</li>
+<li>Check how much exp bottles you will need to reach specific level</li>
+<li>Give your exp to some one else</li>
+<li>Create custom recipes to craft exp bottles or something else</li>
+</ul>
+<p><b>Installation:</b></p>
+<ol>
+<li>Place BottledExp.jar in the /plugins folder of your server.</li>
+<li>Enjoy!</li>
+</ol>
+<p><b>Configuration:</b></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Config file</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">bottle:<br />
+# Shows if there is available new version on login with bottledexp.versioncheck permission node<br />
+ShowNewVersion: true<br />
+# Language file you want to use<br />
+Language: EN<br />
+# How much player will spend converting his xp to bottles<br />
+xpCost: 10<br />
+# How much player will get xp from xp bottle<br />
+xpEarn: 10<br />
+# Do you want to use custom items when converting xp to xp bottles<br />
+useItems: false<br />
+# Id for custom item, by default its empty glass bottle<br />
+consumedItem: 374<br />
+# How many to consume when converting. This is for every bottle you will get<br />
+amountConsumed: 1<br />
+# Do you want to charge money for xp conversion<br />
+useMoney: false<br />
+# How much it will gonna cost<br />
+moneyCost: 100<br />
+# Do you want to show extra information for how much its gonna cost to level up<br />
+useBottleMoney: false<br />
+# How much one xp bottle costs<br />
+bottleCost: 3.25<br />
+# Do you want to show exp consumed on enchant<br />
+ShowEnchantExp: true<br />
+# Do you want to show all enchantments player gets after enchanting item<br />
+ShowEnchant: false<br />
+# Do you want to use new 1.8 enchant system<br />
+UseThreeButtonEnchant: true<br />
+give:<br />
+# How much exp will be lost during trasfer in percentage<br />
+LostDurringTransfer: 0<br />
+BlockInteraction:<br />
+Use: false<br />
+# Do you want to use right click, if false then left will be used, good for block with interactions like enchant table<br />
+UseRightClick: false<br />
+# Id of block will be used to convert xp to bottles<br />
+BlockId: 116<br />
+# Id of item in hand when you want to convert xp by clicking block<br />
+HandItemId: 374<br />
+# How many bottles to give everytime<br />
+GiveEveryTime: 1<br />
+# How many times to multiply given bottles by clicking shift<br />
+Multiplayer: 10<br />
+CraftExpContainer:<br />
+# When this set to true there will be option to craft special expbottle by placing empti glass bottle into crafting<br />
+# You can consume it by right clicking it<br />
+Use: false<br />
+# When this set to true, all trades with villgers involving exp will be disabled<br />
+DisableVillagerExpTrade: false<br />
+# When this set to true,destrying mob spawners wont drop exp<br />
+DisableMobSpawnerExp: false</div>
+</div>
+</div>
+</div>
+<ul>
+<li>The plugin will create a config.yml in which you can customize the &#8216;price&#8217; of an bottle.</li>
+<li>It it possible to change which item is consumed when filling XP into bottles, or whether it should be completely disabled. (on by default).</li>
+<li>One is also able to choose how much money is needed to fill XP into bottles.
+<ul>
+<li>This feature requires Vault and an installed economy-plugin.</li>
+</ul>
+</li>
+<li>You are also able to change several language options.</li>
+</ul>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/22df72a404a170e3b603f2ee58a03a31cc6a1291?url=http%3A%2F%2Fwww.zrips.net%2Fwp-content%2Fuploads%2F2019%2F02%2Fpermissions.jpg" alt="[​IMG]" data-url="http://www.zrips.net/wp-content/uploads/2019/02/permissions.jpg" /></p>
+<ul>
+<li><b>bottledexp.command.stats</b> &#8211; allows to use /bottle stats command</li>
+<li><b>bottledexp.command.stats.others</b> &#8211; allows to use /bottle stats (plaayername) command</li>
+<li><b>bottledexp.command.until</b> &#8211; allows to use /bottle until [level] command</li>
+<li><b>bottledexp.command.get</b> &#8211; allows to use /bottle get [amount] command</li>
+<li><b>bottledexp.command.get.max </b>&#8211; allows to use /bottle get max command</li>
+<li><b>bottledexp.command.store </b>&#8211; allows to use /bottle store [amount/levelsL/max] command</li>
+<li><b>bottledexp.command.store.max </b>&#8211; allows to use /bottle store max command</li>
+<li><b>bottledexp.command.give</b> &#8211; allows to use /bottle give command</li>
+<li><b>bottledexp.expcontainer.craft</b> &#8211; allows to craft exp containers</li>
+<li><b>bottledexp.interact</b> &#8211; allows to interact with exchange block</li>
+<li><b>bottledexp.custominteract</b> &#8211; allows to interact with custom exchange block</li>
+</ul>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/bottledexp/">BottledExp</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/bottledexp/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

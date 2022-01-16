@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MapGames | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/mapgames/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:51:41 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>MapGames | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Mini Board Games</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/mini-board-games/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/mini-board-games/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:51:41 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Board Games]]></category>
+		<category><![CDATA[BoardGames]]></category>
+		<category><![CDATA[Map games]]></category>
+		<category><![CDATA[MapGames]]></category>
+		<category><![CDATA[MBG]]></category>
+		<category><![CDATA[Mini Board Games]]></category>
+		<category><![CDATA[MiniBoardGames]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3371</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/board-games-gui-map-games-27-games-stats-tops-records-1-8-1-16.30066/ We use this plugin to add several minigames to the arcade. MiniBoardGames is a game that allows your players to play over 25 games in the GUI and even Maps! They will be able to play with each other with games for up to 8 players, spectate, bet, and win prizes. Ain&#8217;t that&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/mini-board-games/">Mini Board Games</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/board-games-gui-map-games-27-games-stats-tops-records-1-8-1-16.30066/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/board-games-gui-map-games-27-games-stats-tops-records-1-8-1-16.30066/</span></span></a></p>
+<blockquote><p>We use this plugin to add several minigames to the arcade.</p></blockquote>
+<div>MiniBoardGames is a game that allows your players to play over 25 games in the GUI and even Maps! They will be able to play with each other with games for up to 8 players, spectate, bet, and win prizes. Ain&#8217;t that just amazing?</p>
+<p><b>Dependencies:</b></p>
+<ul>
+<li>Holograms: <a class="externalLink" href="https://dev.bukkit.org/bukkit-plugins/holographic-displays/" target="_blank" rel="nofollow noopener">https://dev.bukkit.org/bukkit-plugins/holographic-displays/</a> (Playing {game} hologram in players head)</li>
+<li>Vault: <a class="externalLink" href="https://dev.bukkit.org/projects/vault" target="_blank" rel="nofollow noopener">https://dev.bukkit.org/projects/vault</a> (Games with cost)</li>
+</ul>
+<p>​</p></div>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/56fd9a6a5ff9e2d26f99bed8a18af5447dca2d64?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Finfograph.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/infograph.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/ad43b211402ead7c38d9a66264f61d5a8cf76bca?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fgames.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/games.png" />​</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">FlappyBird</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a13e7032df2f67b30e232fe587392dd8179209fc?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fflappy_bird.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/flappy_bird.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">ThisIsXmas</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/782ace04257ef299b059245515e6d507ebc3566d?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Ftix.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/tix.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">2048</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b0093f0d56d3e1cab6b571e0637ff614f2130806?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2F2048.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/2048.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Pong</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/483dc2490abb01508bd1c8971b682c739fee6a90?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fpong.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/pong.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">CoinFlip</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2b2c98d03d8d5a94748e134bfd5d265d3aa2ab98?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fcoinflip.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/coinflip.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">CandyCrush</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/19bb1407d93c9a2894b7795a31c0e8016ecfb85b?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fcandycrush.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/candycrush.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">ApplesToApples</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/961d5c94cd1b26f45b9cd89ae113ffafde42e32f?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fapplestoapples.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/applestoapples.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">RockPaperScissors</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9800ab629259ecca994bb60a19b5aa3fe5a0f760?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Frps.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/rps.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Minesweeper</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/1989bf3ca36fb4f15242956832c6350a4e9cc83b?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fminesweeper.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/minesweeper.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Memory</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8c0a6f0bbbde4bd135cdd40efe11cc6f027ac5dd?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fmemory.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/memory.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">WhackAMole</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2be2849360de5f83355b32381202f1ad1c18bd16?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fwhackamole.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/whackamole.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">SlotMachine</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b8d4a070fd60e095114176e85f9fdc052a1266ae?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fslotmachines.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/slotmachines.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Checkers</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/aeeb7b641fea3eeace047f0f2503f0f14267d5b3?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fcheckers.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/checkers.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">HearthStone</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/85de55b7a818f362f91f2755260c9bd59ce9b633?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fhearthstone.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/hearthstone.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">FabulousFred</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/762e7beaf817a8c1d69c0b5bec4e0dcb72467948?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Ffabulousfred.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/fabulousfred.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">TicTacToe</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/63de72b2f5c65f6421950be82ce024d43a8d3657?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Ftictactoe.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/tictactoe.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">UNO</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/293fe669941c7abf6381ee37afc20b0bad32ac7e?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Funo.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/uno.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">MasterMind</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9a344445e99f7df3c2c7b0b11432cdd0c774a958?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fmastermind.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/mastermind.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">MathGame</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/88b5c009e3a476596fbd9c78e9fa28b9553c6ee6?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fmathgame.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/mathgame.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Connect4</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/0dd82384d6f62e5bc7ffa0ecc4578bc0c7777f11?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fconnect4.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/connect4.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">SnakeGame</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f768d8c503ead822fb287cb80bdfe30959af3d9d?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fsnake.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/snake.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">HigherLower</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/59cc5e78a799dac7d1a283172eb2a1a45b7ff6aa?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fhigherorlower.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/higherorlower.png" /></div>
+</div>
+<p>&nbsp;</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/af9559f37c2d8f167e7843bb3378385b4c42ae5e?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fdocumentation.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/documentation.png" />​</div>
+<p><b>Commands and permission:</b></p>
+<ul>
+<li>/mbg /miniboardgames /games:</li>
+<li>play (Open the select game menu) [miniboardgames.play]</li>
+<li>accept (Accept play request) [No permission needed]</li>
+<li>cancel (Cancel play request) [No permission needed]</li>
+<li>force &lt;game-to-play&gt; &lt;players (Separate with spaces)&gt;(Force two players to start game) [miniboardgames.force]</li>
+<li>spectate &lt;player-to-spectate&gt; (Spectate player game) [miniboardgames.spectate]</li>
+<li>stats &lt;game&gt; (See your stats) [miniboardgames.stats]</li>
+<li>top &lt;game&gt; [page] [stats] (See the stats top) [miniboardgames.top]</li>
+<li>list (See all games loaded) [miniboardgames.list]</li>
+<li>reload (Reload games/configuration/dabatase) [miniboardgames.reload]</li>
+</ul>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e5026759549e5589d0485a22ef57afc380beeb2d?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Fsupport.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/support.png" />​</div>
+<ul>
+<li>
+<div><a class="externalLink" href="https://discordapp.com/invite/svJejam" target="_blank" rel="nofollow noopener">Discord</a>​</div>
+</li>
+<li>
+<div><a class="internalLink" href="https://www.spigotmc.org/conversations/add?to=rodel77">Spigot Private Message</a>​</div>
+</li>
+<li>
+<div><a class="externalLink" href="https://github.com/rodel77/MiniBoardGames/issues" target="_blank" rel="nofollow noopener">Github Issue Tracker</a>​</div>
+</li>
+<li>
+<div><a href="mailto:rodelbusiness@hotmail.com">Email: rodelbusiness@hotmail.com</a>​</div>
+</li>
+</ul>
+<p>&nbsp;</p>
+<div>​</div>
+<div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Legacy Videos</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><iframe loading="lazy" src="https://www.youtube.com/embed/OFBsU1_eHv0?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/V5lxQl0i1Sw?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><b>Tutorial by <a class="username" href="https://www.spigotmc.org/members/190177/" data-user="190177, @7r580">@7r580</a></b></div>
+</div>
+</div>
+<div>​</div>
+<p><b>Try at: </b>mc.rodeldev.xyz</p>
+<p><a class="externalLink" href="http://ggservers.com/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/35a8182876539c1563643d64243751901023e6d0?url=https%3A%2F%2Frodeldev.xyz%2Fimg%2Fbanner.png" alt="[​IMG]" data-url="https://rodeldev.xyz/img/banner.png" /></a></p>
+<div>
+<b>Servers Using:<br />
+</b>​</div>
+<ul>
+<li>IP: nexo.deadplayers.es Web: <a class="externalLink" href="http://www.deadplayers.net/" target="_blank" rel="nofollow noopener">http://www.deadplayers.net</a></li>
+<li>IP: slash.myserver.gs Web: <a class="externalLink" href="http://slashtown.enjin.com/" target="_blank" rel="nofollow noopener">http://slashtown.enjin.com/</a></li>
+<li>IP: play.monkeycraft.network Web: <a class="externalLink" href="http://monkeycraft.network/" target="_blank" rel="nofollow noopener">monkeycraft.network</a></li>
+<li>IP:<a class="externalLink" href="http://www.theprocraft.com/" target="_blank" rel="nofollow noopener"> mc.theprocraft.com Web: www.theprocraft.com</a></li>
+<li>IP: jogar.pudimcraft.com Web: <a class="externalLink" href="http://www.pudimcraft.com/" target="_blank" rel="nofollow noopener">www.pudimcraft.com</a></li>
+<li>IP: play.vivalcraft.com</li>
+<li>IP: 167.114.118.139:25606 (KaosCraft)</li>
+<li>IP: GalacticFantasy.net Web: <a class="externalLink" href="http://www.galacticfantasy.com/" target="_blank" rel="nofollow noopener">www.galacticfantasy.com</a></li>
+<li>IP: play.superfuntime.org Web: <a class="externalLink" href="https://www.superfuntime.org/" target="_blank" rel="nofollow noopener">https://www.superfuntime.org/</a></li>
+<li>IP: play.celestialgaming.net Web: <a class="externalLink" href="http://celestialgamingrb.enjin.com/" target="_blank" rel="nofollow noopener">http://celestialgamingrb.enjin.com/</a></li>
+</ul>
+<p>Tell me if you want your server to be featured on this list!</p>
+<div>
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/29661fb7c1d66e17d375d4e323ec090b87a5c3e1?url=https%3A%2F%2Frodeldev.xyz%2Fpublic_static%2Fmbg%2Ftos.png" alt="[​IMG]" data-url="https://rodeldev.xyz/public_static/mbg/tos.png" /><br />
+​</div>
+<div>By downloading this resource you agree this Terms Of Use</p>
+<ol>
+<li>The buyer can&#8217;t distribute and/or sell this resource or part of it without the permission of the seller.</li>
+<li>The buyer can&#8217;t reproduce, decompile, edit or change any text/code in the resource without the permission of the seller.</li>
+<li>The seller can modify the price or information of the resource.</li>
+<li>The seller can modify the Terms Of Use.</li>
+<li>No refunds.</li>
+</ol>
+</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/mini-board-games/">Mini Board Games</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/mini-board-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

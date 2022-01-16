@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>chainmail armor | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/chainmail-armor/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:38:25 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>chainmail armor | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Chainmail</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/chainmail/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/chainmail/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:38:25 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Chainmail]]></category>
+		<category><![CDATA[chainmail armor]]></category>
+		<category><![CDATA[craft chainmail]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3267</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/chainmail-craftable-chainmail-armor.81330/ We use this plugin to give out players the ability to easily craft chainmail armor Source Code: https://github.com/Paldiu/Chainmail This plugin simply adds shaped crafting recipes to create a full set of chainmail armor using chains. Newest update: This update fixes the shaped crafting, you can now craft the helmet and boots like other&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/chainmail/">Chainmail</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div class="customResourceFields aboveInfo">
+<dl class="customResourceFieldsource_code">
+<dt>Source: <a href="https://www.spigotmc.org/resources/chainmail-craftable-chainmail-armor.81330/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/chainmail-craftable-chainmail-armor.81330/</a></dt>
+<dt>We use this plugin to give out players the ability to easily craft chainmail armor</dt>
+<dt>Source Code:</dt>
+<dd><a class="externalLink" href="https://github.com/Paldiu/Chainmail" target="_blank" rel="nofollow noopener">https://github.com/Paldiu/Chainmail</a></dd>
+</dl>
+</div>
+<p>This plugin simply adds shaped crafting recipes to create a full set of chainmail armor using chains.</p>
+<p>Newest update:<br />
+This update fixes the shaped crafting, you can now craft the helmet and boots like other helmets and boots. The chestplate and leggings recipes have not been changed. This update also makes chains a bit cheaper to make, by giving 3 chains instead of 1 when crafted. This is due to chainmail having the same armor rating as gold, yet having the same durability as iron. This made iron armor more favorable, as it cost less to make, making chainmail obsolete anyway. This way, chainmail is considerably cheaper, and allows for an individual to craft chainmail armor before having to make iron armor.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/chainmail/">Chainmail</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/chainmail/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

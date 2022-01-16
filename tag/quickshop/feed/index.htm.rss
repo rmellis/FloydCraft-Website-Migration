@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>QuickShop | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/quickshop/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 13:54:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>QuickShop | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>QuickShop</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/quickshop/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/quickshop/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 13:54:38 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Chest Sgop]]></category>
+		<category><![CDATA[Chest Shop]]></category>
+		<category><![CDATA[FloydCraft Shops]]></category>
+		<category><![CDATA[Quick Shop]]></category>
+		<category><![CDATA[QuickShop]]></category>
+		<category><![CDATA[Sale]]></category>
+		<category><![CDATA[shop info]]></category>
+		<category><![CDATA[shops]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3402</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/quickshop-reremake-1-16-ready-say-hello-with-rgb.62575/ We use this plugin to provide shops with an easy way to shop for items ingame, Note: We have made changes to this plugin and recompiled it to add extra functionality to out shop system. Please, Don&#8217;t report issues in Reviews and Discussion, Go our Discord server or Issue Tracker, You can find&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/quickshop/">QuickShop</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: https://www.spigotmc.org/resources/quickshop-reremake-1-16-ready-say-hello-with-rgb.62575/</p>
+<blockquote><p>We use this plugin to provide shops with an easy way to shop for items ingame, Note: We have made changes to this plugin and recompiled it to add extra functionality to out shop system.</p></blockquote>
+<p><b>Please, Don&#8217;t report issues in Reviews and Discussion, Go our Discord server or Issue Tracker, You can find them by clicking the badge <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2b07.png" alt="⬇" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</b><br />
+Build: <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/4fa65c4d1cbc7168da84bdfee4e786369f426458?url=https%3A%2F%2Fci.codemc.io%2Fjob%2FGhost-chu%2Fjob%2FQuickShop-Reremake%2F21%2Fbadge%2Ficon" alt="[​IMG]" data-url="https://ci.codemc.io/job/Ghost-chu/job/QuickShop-Reremake/21/badge/icon" /><br />
+Runtime: <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/452834ca73a535d9aa00d445dfe66e278d5a0fc8?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjava-version%25208%252B%2520%28currently%2520is%25208--15%29-orange" alt="[​IMG]" data-url="https://img.shields.io/badge/java-version%208%2B%20(currently%20is%208--15)-orange" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c002734c919adab7e04aceb7696e3935ad71c2a6?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fminecraft-java%2520edition%25201.13.2%252B-blueviolet" alt="[​IMG]" data-url="https://img.shields.io/badge/minecraft-java%20edition%201.13.2%2B-blueviolet" /><br />
+Source: <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/bfd8ec243dc2d1b5d640495c1c19230b2cab1be0?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fwatchers%2FGhost-chu%2FQuickShop-Reremake%3Fstyle%3Dsocial" alt="[​IMG]" data-url="https://img.shields.io/github/watchers/Ghost-chu/QuickShop-Reremake?style=social" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/7cb494d6a007a2ea49a2139b64232f5fcce01c05?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2FGhost-chu%2FQuickShop-Reremake%3Fstyle%3Dsocial" alt="[​IMG]" data-url="https://img.shields.io/github/stars/Ghost-chu/QuickShop-Reremake?style=social" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/edfcd99076d62da454a2f25ee82d768b9d3999b5?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fforks%2FGhost-chu%2FQuickShop-Reremake%3Fstyle%3Dsocial" alt="[​IMG]" data-url="https://img.shields.io/github/forks/Ghost-chu/QuickShop-Reremake?style=social" /><a class="externalLink" href="https://github.com/Ghost-chu/QuickShop-Reremake/issues" target="_blank" rel="nofollow noopener"> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/3dc1143e37f48644b6f3be72d04b6820c5493192?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fissues%2FGhost-chu%2FQuickShop-Reremake" alt="[​IMG]" data-url="https://img.shields.io/github/issues/Ghost-chu/QuickShop-Reremake" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/90a19d65900198eea8e35020fa03310e49d60416?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fissues-closed%2FGhost-chu%2FQuickShop-Reremake" alt="[​IMG]" data-url="https://img.shields.io/github/issues-closed/Ghost-chu/QuickShop-Reremake" /></a> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/25e6be970ceb4200bdd1d180bc86c840d37fb304?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fissues-pr%2FGhost-chu%2FQuickShop-Reremake" alt="[​IMG]" data-url="https://img.shields.io/github/issues-pr/Ghost-chu/QuickShop-Reremake" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/452fdb457905e9d65c6769ba12a20ba0ecc38ae0?url=https%3A%2F%2Fimg.shields.io%2Fgithub%2Fcontributors%2FGhost-chu%2FQuickShop-Reremake" alt="[​IMG]" data-url="https://img.shields.io/github/contributors/Ghost-chu/QuickShop-Reremake" /><br />
+Servers:<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/02e47fbc442b01ab67ba928f820cd37b4f7790f7?url=https%3A%2F%2Fimg.shields.io%2Fbstats%2Fservers%2F3320" alt="[​IMG]" data-url="https://img.shields.io/bstats/servers/3320" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e1dd502c038674ce66e70d8359d10f8b76418f83?url=https%3A%2F%2Fimg.shields.io%2Fbstats%2Fplayers%2F3320" alt="[​IMG]" data-url="https://img.shields.io/bstats/players/3320" /><br />
+Analysis: <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/aab1782d2d0fb2162b53effab844b1143cb76499?url=https%3A%2F%2Fimg.shields.io%2Fcodacy%2Fgrade%2F8e9a5689cb3f4d6b8315a270a1252c2b%2Fmaster" alt="[​IMG]" data-url="https://img.shields.io/codacy/grade/8e9a5689cb3f4d6b8315a270a1252c2b/master" /><br />
+Support: <a class="externalLink" href="https://discord.gg/bfefw2E" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8aa4457ffd0a503cb06fdec0a51cec8096fd232c?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjoin-discord-blue.svg" alt="[​IMG]" data-url="https://img.shields.io/badge/join-discord-blue.svg" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/d07f973ed9f43e7dd2a0d3680af6d49a921cdb2d?url=https%3A%2F%2Fimg.shields.io%2Fdiscord%2F471882534712639488" alt="[​IMG]" data-url="https://img.shields.io/discord/471882534712639488" /></a></p>
+<p><b>What is QuickShop?</b><br />
+QuickShop is a simple yet powerful shop plugin that allows you and other players to create a new shop quick and easy.</p>
+<p><b>How to create a shop</b><br />
+To create a shop, place down a chest and left-click it with the amount of items you want to sell.<br />
+For example: If I want to sell 16 diamonds will I need to hold 16 diamonds in my hand and left-click the chest with it. <i>(Need allow-stacks: true and permission)</i>.</p>
+<p>You will then be prompted to type in the chat, how much you would like to sell this item for.</p>
+<p><b>Note:</b> You may encounter issues with the chat-system if you&#8217;re on a BungeeCord network that utilizes a global chat plugin like BungeeChat. In such a case will you need to use commands to create a shop!</p>
+<p>After you completed those steps should an item be displayed on top (Can be toggled off in the configuration) and a sign with info be placed on the side of the chest.<br />
+A Shop may not be created if there is no space around the chest to place down a sign.</p>
+<p>QuickShop supports all kinds of chests including double chests and ender chests (Requires the plugin <a class="externalLink" href="https://dev.bukkit.org/projects/openinv" target="_blank" rel="nofollow noopener">OpenInv</a>)</p>
+<p><b>Additional Features</b><br />
+QuickShop comes packed with a lot more features!</p>
+<ul>
+<li>Most actions are handled asynchronously!<br />
+This helps to reduce potential lag and improve the overall performance of your server.</li>
+<li>Supports NBT Data, Enchantments, Item Damage, Potions, Spawn Eggs and more!<br />
+This means you can sell items with custom model data!</li>
+<li>Adminshop for unlimited buying/selling of items.</li>
+<li>Blacklist for items and Bypass-System for admins.</li>
+<li>Shops can sell AND buy the same items when using a double chest.</li>
+<li>Item Preview both in Chat and in an Inventory.</li>
+<li>i18n language support for Items, Potions and Enchantments.</li>
+<li>/qs find command with i18n support.</li>
+<li>Chat Control Panel to change settings of your shop.</li>
+<li>Supports all sign-types (1.14+)</li>
+<li>ClearLag support (Won&#8217;t get items on the chest deleted)</li>
+<li>WorldGuard, Towny, PlotSquared and Factions support.<br />
+Prevent players from creating shops on other&#8217;s plots or in protected regions!</li>
+<li>Much much more!</li>
+</ul>
+<p><b>How to Install</b><br />
+Before installing QuickShop, make sure that your server is at least running version 1.13 as older versions aren&#8217;t supported.</p>
+<p>A legacy-version for 1.12 and older may be found <a class="internalLink" href="https://www.spigotmc.org/resources/18676/" target="_blank" rel="noopener">here</a> (Thanks to Timtower, Netherfoam and KaiNoMood)!</p>
+<ol>
+<li>Download the latest version.</li>
+<li>Stop your Server</li>
+<li>Upload the jar into the plugins folder.</li>
+<li>Make sure you have Vault and a compatible Economy plugin installed.</li>
+<li>Start the server.</li>
+<li>You&#8217;re Done!</li>
+</ol>
+<p><b>Videos</b><br />
+Here are some videos about QuickShop</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Tutorial (English)</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><iframe loading="lazy" src="https://www.youtube.com/embed/QV8UGusyKzM?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Ender Chest Demo 1</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><iframe loading="lazy" src="https://www.youtube.com/embed/kHQQ09gKVm0?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Ender Chest Demo 2</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><iframe loading="lazy" src="https://www.youtube.com/embed/PMN0h7j437o?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Outdated videos</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><iframe loading="lazy" src="https://www.youtube.com/embed/eJsv7fqaXNk?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/7D9ugMve1E8?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/SAO1tRvgHII?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/gyMyE7Pz1zs?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/6NpkVd2mA7Y?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+</div>
+<p>New Videos about QuickShop are always welcome!</p>
+<p><b>Screenshots</b><br />
+Here are also some screenshots!</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Single item and bulk Items</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/gaitubao_flk6wrqpnhtw4k0vj3p_tdm-0aon-png.505854/" alt="[​IMG]" data-url="https://www.spigotmc.org/attachments/gaitubao_flk6wrqpnhtw4k0vj3p_tdm-0aon-png.505854/" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Command List</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/be333cd320835d702c4277db9208d5667ae7bb23?url=https%3A%2F%2Fmiao.su%2Fimages%2F2018%2F07%2F27%2FTIM20180727181432a5211.png" alt="[​IMG]" data-url="https://miao.su/images/2018/07/27/TIM20180727181432a5211.png" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Buy/Sell Chat UI</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/be6a3121989e39d9fe36d1a9aa9ab28f648b9467?url=http%3A%2F%2Fmiao.su%2Fimages%2F2018%2F10%2F19%2FTIM20181019202318aa074.png" alt="[​IMG]" data-url="http://miao.su/images/2018/10/19/TIM20181019202318aa074.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/beb5dbf4ff6564bb39a614aa1d52ce945ade93b2?url=http%3A%2F%2Fmiao.su%2Fimages%2F2018%2F07%2F31%2FTIM201807311745194cb7e.jpg" alt="[​IMG]" data-url="http://miao.su/images/2018/07/31/TIM201807311745194cb7e.jpg" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Hologram Example</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/461666a340918b5e2ef2661431b7c3c4b53aaad7?url=https%3A%2F%2Fupload.cc%2Fi1%2F2019%2F11%2F21%2FniDZfJ.png" alt="[​IMG]" data-url="https://upload.cc/i1/2019/11/21/niDZfJ.png" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Enderchest example</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/1ec4d6eff92ce0d4e4d817244138e74bf56cb7db?url=https%3A%2F%2Fmiao.su%2Fimages%2F2018%2F12%2F05%2F2018-12-05_19.28.281735b.png" alt="[​IMG]" data-url="https://miao.su/images/2018/12/05/2018-12-05_19.28.281735b.png" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Different Sign Types</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/cab6068b0c7a64131ef6b4bbbd82eaede611efa7-png.582115/" alt="cab6068b0c7a64131ef6b4bbbd82eaede611efa7.png" /></div>
+</div>
+<p>&nbsp;</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Mods Item Support</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f150d793b4ebb20444d3d34b560f0469fa2a5b1a?url=https%3A%2F%2Fi.imgur.com%2FTFXmb3i.png" alt="[​IMG]" data-url="https://i.imgur.com/TFXmb3i.png" /></div>
+</div>
+<p><b>How to buy/sell Items</b><br />
+To buy or sell an Item from/to a Shop will you need to left-click the sign.<br />
+You will then be prompted to write the amount you want to buy/sell in chat.</p>
+<p>Whether a shop sells or buys items depends on the displayed info on the sign.</p>
+<p><b>More Advanced Features</b><br />
+QuickShop has more advanced features like adding staff-members to your shop.<br />
+Staff members are able to open your chests, set the buy/sell price and toggle between buying and selling, but they never will be able to delete your shop or get money from the sales.</p>
+<p>To add a player as Staff to your shop, look at your shop and run <i>/qs staff add &lt;player&gt;</i><br />
+To remove them, run <i>/qs staff remove &lt;player&gt;</i><br />
+You can also use <i>/qs staff clear</i> to remove all Staff-members from your shop.</p>
+<p><b>Commands and Permissions</b></p>
+<p><b>Commands:</b></p>
+<ul>
+<li><b>/qs unlimited</b><br />
+Makes your Shop buy/sell Items in unlimited quantity.</li>
+<li><b>/qs setowner &lt;player&gt;</b><br />
+Change the Shop Owner.</li>
+<li><b>/qs buy</b><br />
+Change the shop to buying items.</li>
+<li><b>/qs sell</b><br />
+Change the shop to selling items.</li>
+<li><b>/qs price &lt;price&gt;</b><br />
+Change the buy/sell price of the item.</li>
+<li><b>/qs clean</b><br />
+Removes any loaded shop that doesn&#8217;t have any items in stock.</li>
+<li><b>/qs find &lt;item&gt;</b><br />
+Find the nearest shop that sells items which start with the provided text. E.g. /qs find dia will find the nearest shop that buys/sells diamonds.</li>
+<li><b>/qs fetchmessage</b><br />
+Fetch shop message manually from the database.</li>
+<li><b>/qs info</b><br />
+Show QuickShop information.</li>
+<li><b>/qs debug</b><br />
+Enable/Disable Debug Mode.</li>
+<li><b>/qs create</b><br />
+Command to create the shop.</li>
+<li><b>/qs supercreate</b><br />
+Create a shop while bypassing any protection Checks.</li>
+<li><b>/qs paste</b><br />
+Collects useful information and pastes it on Pastebin.</li>
+<li><b>/qs staff</b><br />
+Manage staff in your shop.</p>
+<ul>
+<li><b>/qs staff add &lt;player&gt;</b><br />
+Add a player as staff to your shop.</li>
+<li><b>/qs staff del &lt;player&gt;</b><br />
+Remove a player as staff from your shop.</li>
+<li><b>/qs staff clear</b><br />
+Remove all staff-members from your shop.</li>
+<li><b>/qs staff list</b><br />
+Show all current staff-members of your shop.</li>
+</ul>
+</li>
+<li><b>/qs cleanghost</b><br />
+Remove all broken shops.</li>
+<li><b>/qs export</b><br />
+Export all shop data to a TXT file.<br />
+This command is CONSOLE ONLY!</li>
+<li><b>/qs recovery</b><br />
+Recover all shops from a TXT file or Paste.<br />
+This command is CONSOLE ONLY and may remove/override any existing shop on your Server! Make a backup first and try it with a clean database!</li>
+<li><b>/qs convert [sqlite|mysql]</b><br />
+Convert your database to either sqlite or mysql.<br />
+This command is CONSOLE ONLY and first make sure to create a backup using <i>/qs export</i>!</li>
+<li><b>/qs size</b><br />
+Change the bulk size.<br />
+Requires the &#8220;allow-stacks&#8221; option in the config to be enabled for the command to work.</li>
+<li><b>/qs transfer</b><br />
+Transfer ALL shops from one player to another.</li>
+<li><b>/qs item</b><br />
+Change the item of the shop.<br />
+Requires the &#8220;allow-stacks&#8221; option in the config to be enabled for the command to work.</li>
+<li><b>/qs removeworld</b><br />
+Remove all shops in a specific world.</li>
+</ul>
+<p><b>Aliases:</b></p>
+<ul>
+<li><b>/shop</b></li>
+<li><b>/qshop</b></li>
+<li><b>/qsshop</b></li>
+<li><b>/quickshop</b></li>
+<li><b>/chestshop</b></li>
+<li><b>/cshop</b></li>
+</ul>
+<p><b>Player Permissions:</b></p>
+<ul>
+<li><b>quickshop.use</b><br />
+Required for any QuickShop Actions.</li>
+<li><b>quickshop.create.sell</b><br />
+Required to make a shop (Sell-Mode)</li>
+<li><b>quickshop.create.buy</b><br />
+Required to make a shop (Buy-Mode) or to switch from Sell to Buy-Mode.</li>
+<li><b>quickshop.create.stacks</b><br />
+Required to allow selling items in stacks.</li>
+<li><b>quickshop.create.changeitem</b><br />
+Allows a player to change a shop&#8217;s item.</li>
+<li><b>quickshop.create.changeamount</b><br />
+Allows a player to change the item-amount per buy/sell.</li>
+<li><b>quickshop.create.changeprice</b><br />
+Allows a player to change the buy/sell price of their shops.</li>
+<li><b>quickshop.create.double</b><br />
+Allows a player to create a double chest shop.</li>
+<li><b>quickshop.create.cmd</b><br />
+Required to have access to the <i>/qs create</i> command.<br />
+This command may bypass certain protections of not-supported protection plugins!</li>
+<li><b>quickshop.transfer</b><br />
+Required to transfer all owned shops to another player.</li>
+<li><b>quickshop.find</b><br />
+Required to use <i>/qs find &lt;item&gt;</i></li>
+<li><b>quickshop.fetchmessage</b><br />
+Required to use <i>/qs fetchmessage</i></li>
+<li><b>quickshop.staff</b><br />
+Required to use <i>/qs staff</i> and all its subcommands.</li>
+<li><b>quickshop.preview</b><br />
+Required to use the GUI Item Preview.</li>
+</ul>
+<p><b>Admin Permissions:</b></p>
+<ul>
+<li><b>quickshop.unlimited</b><br />
+Required to use <i>/qs unlimited</i></li>
+<li><b>quickshop.setowner</b><br />
+Required to use <i>/qs setowner</i></li>
+<li><b>quickshop.other.destroy</b><br />
+Allows the player to remove/destroy shops of others.</li>
+<li><b>quickshop.other.open</b><br />
+Allows the player to open chests of other shops and take/put items from/into it.</li>
+<li><b>quickshop.other.price</b><br />
+Allows the player to change the price of someone&#8217;s shop.</li>
+<li><b>quickshop.transfer.other</b><br />
+Required to transfer ALL shops of someone to another player.</li>
+<li><b>quickshop.refill</b><br />
+Allows the player to refill their shops using a command, essentially making the shop having unlimited items.</li>
+<li><b>quickshop.empty</b><br />
+Allows the player to clear the shop&#8217;s inventory.</li>
+<li><b>quickshop.clean</b><br />
+Allows the purging/removal of any Shops that have no items in stock.</li>
+<li><b>quickshop.bypass.&lt;ItemID&gt;</b><br />
+Required to sell blacklisted items (E.g. bedrock).</li>
+<li><b>quickshop.alerts</b><br />
+Required to receive notifications about possible cheating, plugin warnings and updates.</li>
+<li><b>quickshop.info</b><br />
+Required to use <i>/qs info</i></li>
+<li><b>quickshop.debug</b><br />
+Required to use <i>/qs debug</i></li>
+<li><b>quickshop.paste</b><br />
+Required to use <i>/qs paste</i></li>
+<li><b>quickshop.create.admin</b><br />
+Required to bypass any protection-checks while creating a shop using <i>/qs supercreate</i></li>
+<li><b>quickshop.tax</b><br />
+Permission to bypass the tax fee.</li>
+<li><b>quickshop.tax.bypassunlimited</b><br />
+Permission to bypass the tax fee but only in unlimited shop.</li>
+<li><b>quickshop.cleanghost</b><br />
+Permission to remove any broken shop using <i>/qs cleanghost</i></li>
+<li><b>quickshop.export</b><br />
+Permission to use <i>/qs export</i><br />
+This permission is pointless since the command is console only.</li>
+<li><b>quickshop.recovery</b><br />
+Permission to use <i>/qs recovery</i><br />
+This permission is pointless since the command is console only.</li>
+<li><b>quickshop.removeworld</b><br />
+Permission to remove all shops in a world using <i>/qs removeworld</i></li>
+<li><b>quickshop.other.changeitem</b><br />
+Allows the player to change the item of someone&#8217;s shop.</li>
+<li><b>quickshop.other.changeamount</b><br />
+Allows the player to change the bulk-amount of someone&#8217;s shop.</li>
+</ul>
+<p><b>Known Incompatible Plugins</b><br />
+Some plugins may not work together with QuickShop and there is little we can do on our side to fix this.</p>
+<ul>
+<li><b>Pretty much any BungeeCord Chat plugin.</b><br />
+Those override the default per-server chat and it&#8217;s impossible to fix this without any bungee-spigot bridge-plugins.<br />
+You can use /qs amount &lt;amount&gt; to set the price instead.</li>
+<li><b>Plugins handling BlockBreakEvents</b><br />
+You can disable protection-checing and use the integration-option to check if you can create a shop.<br />
+Note that this allows players to create shops everywhere!</li>
+</ul>
+<p><b>Help us translating QuickShop!</b><br />
+You can help us to translate QuickShop into as many languages as possible!</p>
+<p>You can find the currently worked on translations over at Crowdin:<br />
+<a class="externalLink" href="https://crowdin.com/project/quickshop-reremake" target="_blank" rel="nofollow noopener">https://crowdin.com/project/quickshop-reremake</a></p>
+<p>Can&#8217;t find your language? Join our Discord Server and let us know so that we can add it for you.</p>
+<p><a class="externalLink" href="https://discord.gg/bfefw2E" target="_blank" rel="nofollow noopener">https://discord.gg/bfefw2E</a></p>
+<p><b>FAQ</b></p>
+<p><b>Q: Can I create a shop that sells AND buys items?</b><br />
+A: No. Each shop can only sell or buy but not both at once. You can however use a double-chest to have two shops. One buying and one selling the item.</p>
+<p><b>Q: The plugin doesn&#8217;t respond when creating a shop. Is it broken?</b><br />
+A: Some plugins may cancel the Shop-creation. Most commonly is this the case with protection plugins. You can disable the shop.protection-checking in the config to bypass this.</p>
+<p><b>Q: How can I create a Shop selling stacks?</b><br />
+A: To create such a shop, follow these steps:</p>
+<ol>
+<li>Set &#8220;allow-stacks&#8221; to true in the config.yml and reload the plugin.</li>
+<li>Give the player (Yourself) the permission quickshop.create.stacks</li>
+<li>Hold the amount of items to buy/sell and create the shop as normal.</li>
+</ol>
+<p><b>Q: Can I create a shop that bypasses the default vanilla stack-size?</b><br />
+A: Yes. Enable the custom-item-stacksize option in the config.yml and reload the plugin. Afterwards can you use /qs stack &lt;size&gt;</p>
+<p><b>Q: Why can I not create a shop with the Integration Option?</b><br />
+A: Disable the shop.protection-checking setting in the config and reload the plugin. The plugin first checks if you can actually build at your location.</p>
+<p><b>Q: My shop was broken/denied by XXX non-protection plugin. Why?</b><br />
+A: QuickShop creates a fake BlockBreakEvent to check if you can build in that area. Some plugins may interfere with this event by cancelling it.<br />
+Disable shop.protection-checking to bypass this.</p>
+<p><b>Q: How can I migrate from sqlite to mysql (or vice-versa)?</b><br />
+A: Follow those steps:</p>
+<ol>
+<li>Make sure to first create a backup using /qs export</li>
+<li>Setup the database you currently use with the right credentials and settings.</li>
+<li>Reload the plugin using /qs reload</li>
+<li>Use /qs convert sqlite or /qs convert mysql to convert to the new database.</li>
+<li>Once the conversion has finished, change the database-type to the new one and reload again.</li>
+<li>Enjoy!</li>
+</ol>
+<p><b>Q: The plugin is giving a NoDefClassFound/NoMethodFound error in the console, why?</b><br />
+A: This may be caused either by odd plugins that QuickShop does (not) support, or by having a damaged/corrupted jar of QuickShop. Try to update the plugin and also test it with ONLY QuickShop installed. If the issue persist, report it to us on GitHub!</p>
+<p><b>Q: The text only shows as weird JSON.</b><br />
+A: Update your cross-version plugin.</p>
+<p><b>Q: How can I change or delete some messages?</b><br />
+A: Edit the messages in your message.json file. To remove a message, just change its content to an empty String (&#8220;&#8221;).<br />
+To change names of items, enchantments, etc. edit the respective i18n.yml file.</p>
+<p><b>Q: Can you add support for plugin X?</b><br />
+A: Maybe. Please open an issue on our GitHub for this.</p>
+<p><b>Q: ? (Basically any other questions)</b><br />
+A: Join our Discord Server to ask your questions there.</p>
+<p><b>Bug Reports</b><br />
+Bugs should be reported through our Issue tracker on GitHub.<br />
+<b>Do not report bugs in the plugin reviews as they will be ignored!</p>
+<p>Add-Ons</b><br />
+Here is a list of known Add-Ons for QuickShop.<br />
+Do you have an Add-On that isn&#8217;t listed here? Contact us on our Discord Server about it!</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Add-Ons</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">
+<ul>
+<li><a class="internalLink" href="https://www.spigotmc.org/resources/advancedregionmarket-shop-bridge.77484/">AdvancedRegionMarket Shop Bridge</a></li>
+<li><a class="internalLink" href="https://www.spigotmc.org/resources/quickshop-addon-shopitemonly.78669/" target="_blank" rel="noopener">ShopItemOnly</a></li>
+<li><a class="internalLink" href="https://www.spigotmc.org/resources/acoworth.74173/" target="_blank" rel="noopener">AcoWorth</a></li>
+<li><a class="internalLink" href="https://www.spigotmc.org/resources/quickshop-addon-quickshoplist.82143/" target="_blank" rel="noopener">QuickShopList</a></li>
+</ul>
+</div>
+</div>
+<p><b>Sponsor</b><br />
+Thanks to ApexHosting for sponsoring us!<br />
+<a class="externalLink" href="https://apexminecrafthosting.com/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/1a1e0b8ec2f12825cab1ccb6e7f4771b36b6d8a7?url=https%3A%2F%2Fapexminecrafthosting.com%2Fdownload%2Fapex-twitch-panel.png" alt="[​IMG]" data-url="https://apexminecrafthosting.com/download/apex-twitch-panel.png" /></a></p>
+<p><b>See the plugin in Action!</b><br />
+You can see the plugin in action on powerplugins.net!<br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a88c07d316873d6572f7292cf0900ed81cf8fb1e?url=https%3A%2F%2Fpowerplugins.net%2Fimg%2Fbanner.png" alt="[​IMG]" data-url="https://powerplugins.net/img/banner.png" /></p>
+<p>We allow you to repost this plugin for free on other places as long as you follow these basic rules:</p>
+<ul>
+<li>Keep a link to the original resource (This one)</li>
+<li>Don&#8217;t remove the author&#8217;s name or claim that you made it</li>
+<li>Use our download link. You can use adf.ly or another legit pay-per-click site.</li>
+<li>You&#8217;re not allowed to re-post, if your goal is to earn money with it</li>
+<li>No Re-selling of this plugin. It has to be free!</li>
+</ul>
+<p><i>Resource Overview designed by Andre601 <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></i></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/quickshop/">QuickShop</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/quickshop/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

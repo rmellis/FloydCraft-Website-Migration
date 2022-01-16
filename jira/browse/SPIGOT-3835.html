@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="application-name" content="JIRA" data-name="jira" data-version="8.21.0"><meta name="ajs-server-scheme" content="https">
+<meta name="ajs-server-port" content="443">
+<meta name="ajs-server-name" content="hub.spigotmc.org">
+<meta name="ajs-behind-proxy" content="null">
+<meta name="ajs-base-url" content="https://hub.spigotmc.org/jira">
+<meta name="ajs-viewissue-use-history-api" content="false">
+<meta name="ajs-jira-base-url" content="https://hub.spigotmc.org/jira">
+<meta name="ajs-serverRenderedViewIssue" content="true">
+<meta name="ajs-dev-mode" content="false">
+<meta name="ajs-context-path" content="/jira">
+<meta name="ajs-version-number" content="8.21.0">
+<meta name="ajs-build-number" content="821000">
+<meta name="ajs-is-beta" content="false">
+<meta name="ajs-is-rc" content="false">
+<meta name="ajs-is-snapshot" content="false">
+<meta name="ajs-is-milestone" content="false">
+<meta name="ajs-remote-user" content="">
+<meta name="ajs-remote-user-fullname" content="">
+<meta name="ajs-user-locale" content="en_US">
+<meta name="ajs-user-locale-group-separator" content=",">
+<meta name="ajs-app-title" content="SpigotMC JIRA">
+<meta name="ajs-keyboard-shortcuts-enabled" content="true">
+<meta name="ajs-keyboard-accesskey-modifier" content="Alt">
+<meta name="ajs-enabled-dark-features" content="[&quot;com.atlassian.jira.agile.darkfeature.editable.detailsview&quot;,&quot;nps.survey.inline.dialog&quot;,&quot;com.atlassian.jira.agile.darkfeature.edit.closed.sprint.enabled&quot;,&quot;jira.plugin.devstatus.phasetwo&quot;,&quot;jira.frother.reporter.field&quot;,&quot;atlassian.rest.xsrf.legacy.enabled&quot;,&quot;jira.issue.status.lozenge&quot;,&quot;com.atlassian.jira.config.BIG_PIPE&quot;,&quot;com.atlassian.jira.projects.issuenavigator&quot;,&quot;com.atlassian.jira.config.PDL&quot;,&quot;jira.plugin.devstatus.phasetwo.enabled&quot;,&quot;atlassian.aui.raphael.disabled&quot;,&quot;app-switcher.new&quot;,&quot;frother.assignee.field&quot;,&quot;sd.internal.base.off.thread.on.completion.events.enabled&quot;,&quot;jira.onboarding.cyoa&quot;,&quot;com.atlassian.jira.agile.darkfeature.kanplan.enabled&quot;,&quot;sd.slavalue.record.updated.date.enabled&quot;,&quot;com.atlassian.jira.config.ProjectConfig.MENU&quot;,&quot;com.atlassian.jira.projects.sidebar.DEFER_RESOURCES&quot;,&quot;com.atlassian.jira.agile.darkfeature.kanplan.epics.and.versions.enabled&quot;,&quot;com.atlassian.jira.agile.darkfeature.sprint.goal.enabled&quot;,&quot;jira.zdu.admin-updates-ui&quot;,&quot;jira.zdu.jmx-monitoring&quot;,&quot;com.atlassian.jira.projects.ProjectCentricNavigation.Disabled&quot;,&quot;sd.sla.improved.rendering.enabled&quot;,&quot;sd.canned.responses.enabled&quot;,&quot;sd.new.settings.sidebar.location.disabled&quot;,&quot;jira.zdu.cluster-upgrade-state&quot;,&quot;com.atlassian.jira.email.templates.readFromJiraHome&quot;,&quot;com.atlassian.jira.agile.darkfeature.splitissue&quot;,&quot;com.atlassian.jira.config.CoreFeatures.LICENSE_ROLES_ENABLED&quot;,&quot;jira.export.csv.enabled&quot;]">
+<meta name="ajs-in-admin-mode" content="false">
+<meta name="ajs-is-sysadmin" content="false">
+<meta name="ajs-is-admin" content="false">
+<meta name="ajs-outgoing-mail-enabled" content="true">
+<meta name="ajs-archiving-enabled" content="false">
+<meta name="ajs-date-relativize" content="true">
+<meta name="ajs-date-time" content="h:mm a">
+<meta name="ajs-date-day" content="EEEE h:mm a">
+<meta name="ajs-date-dmy" content="dd/MMM/yy">
+<meta name="ajs-date-complete" content="dd/MMM/yy h:mm a">
+<script type="text/javascript">var AJS=AJS||{};AJS.debug=true;</script>
+<meta id="atlassian-token" name="atlassian-token" content="B69P-TYYC-B6CN-ME05_aa5941c792d0fa3ab24327f1f9e934aaffb69c16_lout">
+<link rel="shortcut icon" href="/jira/s/vvf7g7/821000/1l3encd/_/jira-favicon-hires.png">
+<!--[if IE]><![endif]-->
+<script type="text/javascript">
+    (function() {
+        var contextPath = '/jira';
+
+        function printDeprecatedMsg() {
+            if (console && console.warn) {
+                console.warn('DEPRECATED JS - contextPath global variable has been deprecated since 7.4.0. Use `wrm/context-path` module instead.');
+            }
+        }
+
+        Object.defineProperty(window, 'contextPath', {
+            get: function() {
+                printDeprecatedMsg();
+                return contextPath;
+            },
+            set: function(value) {
+                printDeprecatedMsg();
+                contextPath = value;
+            }
+        });
+    })();
+
+</script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"/jira\"";
+WRM._unparsedData["jira.core:feature-flags-data.feature-flag-data"]="{\"enabled-feature-keys\":[\"com.atlassian.jira.agile.darkfeature.editable.detailsview\",\"nps.survey.inline.dialog\",\"com.atlassian.jira.agile.darkfeature.edit.closed.sprint.enabled\",\"jira.plugin.devstatus.phasetwo\",\"jira.frother.reporter.field\",\"atlassian.rest.xsrf.legacy.enabled\",\"jira.issue.status.lozenge\",\"com.atlassian.jira.config.BIG_PIPE\",\"com.atlassian.jira.projects.issuenavigator\",\"com.atlassian.jira.config.PDL\",\"jira.plugin.devstatus.phasetwo.enabled\",\"atlassian.aui.raphael.disabled\",\"app-switcher.new\",\"frother.assignee.field\",\"sd.internal.base.off.thread.on.completion.events.enabled\",\"jira.onboarding.cyoa\",\"com.atlassian.jira.agile.darkfeature.kanplan.enabled\",\"sd.slavalue.record.updated.date.enabled\",\"com.atlassian.jira.config.ProjectConfig.MENU\",\"com.atlassian.jira.projects.sidebar.DEFER_RESOURCES\",\"com.atlassian.jira.agile.darkfeature.kanplan.epics.and.versions.enabled\",\"com.atlassian.jira.agile.darkfeature.sprint.goal.enabled\",\"jira.zdu.admin-updates-ui\",\"jira.zdu.jmx-monitoring\",\"com.atlassian.jira.projects.ProjectCentricNavigation.Disabled\",\"sd.sla.improved.rendering.enabled\",\"sd.canned.responses.enabled\",\"sd.new.settings.sidebar.location.disabled\",\"jira.zdu.cluster-upgrade-state\",\"com.atlassian.jira.email.templates.readFromJiraHome\",\"com.atlassian.jira.agile.darkfeature.splitissue\",\"com.atlassian.jira.config.CoreFeatures.LICENSE_ROLES_ENABLED\",\"jira.export.csv.enabled\"],\"feature-flag-states\":{\"sd.email.allow.and.block.list.support\":true,\"com.atlassian.jira.security.endpoint.non.admin.access.screens\":false,\"sd.automation.then.action.edit.issue.custom.fields\":true,\"sd.custom.email.stripping.rules\":false,\"com.atlassian.jira.mailHandlerImapMessageQueryLegacy\":false,\"com.atlassian.jira.webhookEventsAsyncProcessing\":true,\"com.atlassian.jira.diagnostics.perflog\":true,\"sd.comment.reactions\":true,\"sd.event.processing.stop.unnecessary.processing.of.jira.issue.events\":true,\"sd.prioritise.agent.role\":true,\"com.atlassian.jira.dbr\":true,\"com.atlassian.jira.bc.user.search.MeasuringUserPickerSearchService\":false,\"com.atlassian.jira.issuetable.move.links.hidden\":true,\"com.atlassian.jira.agile.darkfeature.unlink.sprints.on.issue.move\":true,\"sd.incident.management.feature\":true,\"jira.renderer.consider.variable.format\":true,\"jira.no.frother.multiuserpicker.field\":false,\"com.atlassian.jira.user.dbIdBasedKeyGenerationStrategy\":true,\"sd.signup.email.verification\":true,\"com.atlassian.jira.plugin.issuenavigator.jql.autocomplete.eagerlyLoaded\":false,\"com.atlassian.portfolio.dcBundling\":true,\"com.atlassian.jira.sharedEntityEditRights\":true,\"sd.automation.then.webhook.custom.payload\":true,\"sd.use.search.by.permissions\":true,\"com.atlassian.jira.security.endpoint.anonymous.access.resolution\":false,\"com.atlassian.jira.agile.darkfeature.sprint.goal\":false,\"sd.automation.ruleset.cache\":true,\"sd.language.support.administration\":true,\"sd.confluence.cloud.integration\":true,\"com.atlassian.jira.thumbnailsDeferredGeneration\":true,\"jira.cluster.monitoring.show.offline.nodes\":true,\"sd.kb.cloud.always.primary\":false,\"com.atlassian.jira.commentReactions\":true,\"sd.automation.psmq.async.executor\":true,\"data.pipeline.feature.jira.issue.links.export\":true,\"sd.approval.requested.when.handler\":true,\"com.atlassian.jira.custom.csv.escaper\":true,\"com.atlassian.jira.fixedCommentDeletionNotifications\":true,\"com.atlassian.jira.allThumbnailsDeferred\":false,\"com.atlassian.jira.plugin.issuenavigator.filtersUxImprovment\":true,\"com.atlassian.jira.agile.darkfeature.kanplan.epics.and.versions\":false,\"com.atlassian.jira.jsd.mobile\":true,\"jira.customfields.cleanup.identification\":false,\"data.pipeline.feature.jira.all.exportable.custom.fields\":true,\"com.atlassian.jira.defaultValuesForSystemFields\":true,\"sd.queue.react.table\":true,\"jira.dc.cleanup.cluser.tasks\":true,\"sd.automation.then.action.archive.issue\":true,\"sd.sla.performance.optimization\":true,\"sd.customerportal.sla.customer.visibility\":true,\"jira.customfields.bulk.delete\":false,\"sd.cluster.safe.mail.channel.shutdown\":true,\"com.atlassian.jira.issues.archiving.filters\":false,\"mail.batching.override.core\":true,\"jira.users.and.roles.page.in.react\":true,\"sd.email.analytics.open\":false,\"jira.security.csp.sandbox\":true,\"com.atlassian.jira.agile.darkfeature.synced.sprints\":false,\"com.atlassian.jira.agile.darkfeature.velocity.chart.ui\":true,\"com.atlassian.jira.returnDefaultAvatarsForBrokenAvatars\":true,\"sd.automation.audit.log\":true,\"sd.kb.cloud.allow.http\":false,\"com.atlassian.jira.agile.darkfeature.sprint.auto.management\":false,\"jira.jql.suggestrecentfields\":false,\"com.atlassian.jira.gdpr.rtbf\":true,\"sd.workinghours.react.component\":false,\"com.atlassian.jira.security.xsrf.session.token\":true,\"sd.dismiss.all.misconfiguration.warnings.setting\":true,\"com.atlassian.jira.agile.darkfeature.optimistic.transitions\":true,\"com.atlassian.jira.security.project.admin.revoke.with.application.access\":true,\"sd.queue.bulk.actions\":true,\"com.atlassian.jiranomenclature\":true,\"sd.internal.base.db.backed.completion.events\":true,\"sd.incident.management.allow.http\":false,\"com.atlassian.jira.security.endpoint.non.admin.access.avatar.system\":false,\"sd.canned.responses.variable.substitution\":true,\"com.atlassian.jira.agile.darkfeature.kanplan\":false,\"com.atlassian.jira.agile.darkfeature.future.sprint.dates\":true,\"com.atlassian.jira.filtersAndDashboardsShareableWithAllGroupsAndRoles\":true,\"jira.customfields.paginated.ui\":true,\"insight.db.import.h2.enable\":false,\"com.atlassian.jira.agile.darkfeature.edit.closed.sprint\":false,\"jira.create.linked.issue\":true,\"sd.incident.management.feature.polling\":true,\"com.atlassian.jira.advanced.audit.log\":true,\"jira.sal.host.connect.accessor.existing.transaction.will.create.transactions\":true,\"sd.automation.project.runasuser.cache\":true,\"sd.automation.then.webhook\":true,\"sd.priorities.per.project\":true,\"sd.customerportal.customization\":false,\"external.links.new.window\":true,\"jira.quick.search\":true,\"jira.jql.smartautoselectfirst\":false,\"sd.customer.portal.browse.permission.only\":true,\"sd.slavalue.force.repair.on.corruption\":true,\"sd.inline.noformat.renderer\":true,\"jira.jql.membersof.ignoreGlobalPermissionsForAnonymous\":false,\"sd.customer.profile.multi.languages\":true,\"data.pipeline.feature.jira.issue.history.export\":true,\"sd.new.settings.sidebar.location\":true,\"com.atlassian.jira.security.endpoint.non.browse.projects.access.fields\":false,\"atlassian.cdn.static.assets\":true,\"jira.richeditor.bidi.warning\":true,\"sd.customer.search.post.agent.filtering\":true,\"sd.sla.improved.rendering\":false,\"mail.batching\":false,\"com.atlassian.jira.privateEntitiesEditable\":true,\"sd.kb.cloud.allow.empty.display.name\":false,\"sd.multi.incoming.email.support\":false,\"sd.custom.email.notifications.utf8.csat.star\":true,\"com.atlassian.jira.security.endpoint.anonymous.access.priority\":false,\"sd.kb.use.new.page.analytics.rest.endpoints\":true,\"jira.priorities.per.project.edit.default\":false,\"com.atlassian.jira.agile.darkfeature.issues.in.epic.details.view\":true,\"jira.priorities.per.project.jsd\":true,\"com.atlassian.jira.plugin.issuenavigator.anonymousPreventCfData\":false,\"sd.sla.audit.log\":true,\"sd.email.attachment.stripping\":false,\"sd.canned.responses\":false,\"com.atlassian.jira.agile.darkfeature.rapid.boards.bands\":true,\"com.atlassian.jira.agile.darkfeature.flexible.boards\":true,\"com.atlassian.jira.agile.darkfeature.sprint.picker.allsprints.suggestion\":true,\"sd.slavalue.record.updated.date\":false,\"sd.report.custom.date.range\":false,\"jira.dc.lock.leasing\":true,\"sd.portal.help.center.customer.signup.secondary.email.fallback\":true,\"com.atlassian.jira.accessibility.personal.settings\":true,\"mail.batching.create.section.cf\":true,\"com.atlassian.jira.security.endpoint.non.browse.projects.access.autocompletedata\":false,\"sd.internal.bounded.off.thread.on.completion.events\":true,\"com.atlassian.mail.server.managers.hostname.verification\":true,\"sd.automation.then.action.auto.answer.approval\":true,\"com.atlassian.advancedroadmaps.rebrand\":true,\"sd.approvals.notification.email.action\":true,\"com.atlassian.jira.upgrade.startup.fix.index\":true,\"sd.email.attachments.store.duplicates\":false,\"sd.customer.notifications.suppress.welcome.email\":true,\"sd.sla.fix.timeline\":false,\"sd.customer.portal.modify.request.columns\":true,\"sd.attachment.generate.unique.suffix.when.attachment.filename.clash.occurs\":true,\"sd.customer.share.default.private\":true,\"com.atlassian.jira.security.endpoint.anonymous.access.projectCategory\":false,\"jira.redirect.anonymous.404.errors\":true,\"sd.workinghours.new.page\":true,\"sd.customerportal.card.view\":true,\"sd.sla.parallel.recalculation\":true,\"com.atlassian.jira.issuetable.draggable\":true,\"sd.email.microsoft.pop.two.line.auth\":true,\"sd.kb.article.insights.report\":true,\"com.atlassian.jira.attachments.generate.unique.suffix\":true,\"sd.customerportal.customization.preview\":true,\"sd.customer.portal.wysiwyg.editor\":true,\"com.atlassian.jira.agile.darkfeature.kanban.hide.old.done.issues\":true,\"jira.version.based.node.reindex.service\":true,\"sd.attachment.is.viewable.short.circuit\":true,\"sd.sla.conditions.due.date\":true,\"com.atlassian.jira.agile.darkfeature.backlog.showmore\":true,\"sd.automation.clean.deleted.projects.on.launch\":true,\"com.atlassian.jira.agile.darkfeature.sprint.plan\":false,\"sd.confluence.redirect.with.jwt.token\":true,\"com.atlassian.jira.security.endpoint.anonymous.access.issueLinkType\":false,\"jira.jql.membersof.ignoreGlobalPermissionsForLoggedUsers\":false,\"com.atlassian.jira.security.LegacyJiraTypeResolver.WARN_ONLY\":false,\"sd.email.channel.custom.oauth.config.supported\":false,\"sd.sla.parallel.recalculation.run.in.new.searcher.context\":true,\"sd.customer.portal.prioties.per.project.fix\":true,\"data.pipeline.feature.jira.schema.version.2\":true,\"com.atlassian.jira.agile.darkfeature.burnupchart\":true,\"sd.internal.base.off.thread.on.completion.events\":false,\"com.atlassian.jira.agile.darkfeature.velocity.sprint.picker\":false,\"com.atlassian.jira.issues.archiving.browse\":true,\"jira.instrumentation.laas\":false,\"sd.status.icon.with.linked.incidents\":true,\"sd.no.schedule.async.upgrade.tasks\":true,\"sd.customer.portal.editor.mentions\":true,\"com.atlassian.jira.security.ChartUtils.browse.projects.permission.check\":false,\"sd.approvals.with.insight\":true,\"mail.batching.user.notification\":true,\"com.atlassian.jira.agile.darkfeature.dataonpageload\":true,\"sd.sla.webpanel.react\":true,\"sd.instance.metrics\":true,\"sd.portal.search.bar.settings\":true,\"sd.sla.auto.fix.metric\":true,\"sd.sla.audit.log.smart.cleanup\":true,\"data.pipeline.feature.jira.archived.issue.export\":false,\"jira.webactions.usage.analytics\":true,\"com.atlassian.jira.projects.per.project.permission.query\":true,\"com.atlassian.jira.issues.archiving\":true,\"sd.automation.if.condition.comment.primary.action\":true,\"index.use.snappy\":true,\"jira.priorities.per.project\":true}}";
+WRM._unparsedData["jira.core:default-comment-security-level-data.DefaultCommentSecurityLevelHelpLink"]="{\"extraClasses\":\"default-comment-level-help\",\"title\":\"Commenting on an Issue\",\"url\":\"https://docs.atlassian.com/jira/jcore-docs-0821/Editing+and+collaborating+on+issues#Editingandcollaboratingonissues-restrictacomment\",\"isLocal\":false}";
+WRM._unparsedData["jira.core:dateFormatProvider.allFormats"]="{\"dateFormats\":{\"meridiem\":[\"AM\",\"PM\"],\"eras\":[\"BC\",\"AD\"],\"months\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"],\"monthsShort\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"],\"weekdaysShort\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"weekdays\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]},\"lookAndFeelFormats\":{\"relativize\":\"true\",\"time\":\"h:mm a\",\"day\":\"EEEE h:mm a\",\"dmy\":\"dd/MMM/yy\",\"complete\":\"dd/MMM/yy h:mm a\"}}";
+WRM._unparsedData["com.atlassian.jira.jira-issue-nav-components:issueviewer.features"]="{\"rteEnabled\":true}";
+WRM._unparsedData["com.atlassian.jira.jira-quick-edit-plugin:create-issue-data.data"]="{\"configurableSystemFieldIds\":[\"description\"]}";
+WRM._unparsedData["com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-issue-drop-zone.thumbnail-mime-types"]="\"image/png,image/vnd.wap.wbmp,image/x-png,image/jpeg,image/bmp,image/gif\"";
+WRM._unparsedData["com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-issue-drop-zone.upload-limit"]="\"15728640\"";
+WRM._unparsedData["com.atlassian.plugins.helptips.jira-help-tips:help-tip-manager.JiraHelpTipData"]="{\"anonymous\":true}";
+WRM._unparsedData["com.atlassian.servicedesk.frontend-webpack-plugin:bulk-action-params.data"]="{\"isWatchEnabled\":true,\"isRteEnabled\":true}";
+WRM._unparsedData["com.atlassian.jira.jira-view-issue-plugin:controller-subtasks.controller.subtasks.parameters"]="{\"url\":\"/rest/api/2/issue/{issueId}/subtask/move\"}";
+WRM._unparsedData["com.atlassian.jira.plugins.jira-wiki-editor:wiki-editor-thumbnails.thumbnails-allowed"]="true";
+WRM._unparsedData["com.atlassian.jira.plugins.jira-wiki-editor:wiki-editor-resources.help-data"]="{\"showHelp\":true,\"editorDocumentationUrl\":[\"https://docs.atlassian.com/jira/jcore-docs-0821/Visual+editing\"],\"editorDocumentationTitle\":[\"Show me documentation for the visual editor\"]}";
+WRM._unparsedData["jira.core:terminology-data.terminology"]="{\"terminologyEntries\":[{\"originalName\":\"sprint\",\"originalNamePlural\":\"sprints\",\"newName\":\"sprint\",\"newNamePlural\":\"sprints\",\"isDefault\":true},{\"originalName\":\"epic\",\"originalNamePlural\":\"epics\",\"newName\":\"epic\",\"newNamePlural\":\"epics\",\"isDefault\":true}],\"isTerminologyActive\":false}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.servicedesk.servicedesk-canned-responses-plugin:canned-responses-data-provider.data"]="{\"substitutionVariables\":{\"issue.summary\":\"Issue summary\",\"issue.description\":\"Issue description\",\"issue.key\":\"Issue key\",\"issue.reporter.name\":\"Issue reporter\",\"issue.resolution\":\"Issue resolution\",\"request.url\":\"Request URL\",\"request.status\":\"Request status\",\"request.details\":\"Request details\"}}";
+WRM._unparsedData["jira.core:avatar-picker-data.data"]="{}";
+WRM._unparsedData["com.atlassian.jira.jira-header-plugin:dismissedFlags.flags"]="{\"dismissed\":[]}";
+WRM._unparsedData["com.atlassian.jira.jira-header-plugin:newsletter-signup-tip-init.newsletterSignup"]="{\"signupDescription\":\"Get updates, inspiration and best practices from the team behind Jira.\",\"formUrl\":\"https://www.atlassian.com/apis/exact-target/{0}/subscribe?mailingListId=1401671\",\"signupTitle\":\"Sign up!\",\"signupId\":\"newsletter-signup-tip\",\"showNewsletterTip\":false}";
+WRM._unparsedData["com.atlassian.jira.project-templates-plugin:project-templates-plugin-resources.ptAnalyticsData"]="{\"instanceCreatedDate\":\"2014-11-07\"}";
+WRM._unparsedData["com.atlassian.servicedesk.core-ui:util-help-links.help-links"]="{\"help\":{\"confluence.cloud.knowledge.base.setup\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Set+up+a+knowledge+base+with+Confluence+Cloud\",\"email.settings\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Receiving+requests+by+email\",\"email.setup\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Receiving+requests+by+email\",\"managing.queues\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Setting+up+queues+for+your+team\",\"opsgenie.integration\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Setting+up+incident+management\",\"documentation.home\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Jira+Service+Management+documentation\",\"api.tokens\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Api+tokens\",\"default\":\"https://docs.atlassian.com/jira/jsd-docs-0421/\",\"customerview.mentions.learn\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Adding+request+participants\",\"confluence.cloud.integration.kb\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Set+up+a+knowledge+base+for+self+service\",\"setting.up.reports\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Setting+up+service+project+reports\",\"issue.email.channel\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Troubleshooting+issues+with+the+email+channel\",\"getting.started.agent\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Getting+started+for+service+project+agents\",\"multilingual.customer.portal\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Providing+help+in+multiple+languages\",\"sla.calendar.settings\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Create+and+edit+SLA+calendars\",\"request.settings.help.bubble\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Managing+access+to+your+service+project\",\"opsgenie.api.information\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Getting+Opsgenie+API+information\",\"email.settings.suitablerequest\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Receiving+requests+by+email#Receivingrequestsbyemail-suitablerequest\",\"sla.import.help\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Importing+SLAs\",\"create.space.help\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Knowledge+base+settings+and+permissions\",\"admin.notifications.config\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Managing+service+project+notifications\",\"email.settings.troubleshooting\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Troubleshooting+issues+with+the+email+channel\",\"advanced.approval.notifications\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Approving+a+service+project+request\",\"troubleshoot.requesttype\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Troubleshooting+issues+with+request+types\",\"approvals.configuration\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Configuring+Jira+Service+Management+approvals\",\"public.signup\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Configuring+public+signup\",\"resolve.permission.scheme.errors\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Resolving+permission+scheme+errors\",\"knowledge.base\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Set+up+a+knowledge+base+for+self-service\",\"getting.started\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Getting+started+with+Jira+Service+Management\",\"customer.portal.configure.requests.learn\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Configuring+request+view\",\"invite.customers\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Managing+access+to+your+service+project\",\"sla.setup.help\":\"https://docs.atlassian.com/jira/jsd-docs-0421/Setting+up+SLAs\"},\"kb\":{\"default\":\"https://confluence.atlassian.com/display/SDKB/\",\"troubleshooting.user.management.issues\":\"https://confluence.atlassian.com/display/SDKB/Troubleshooting+issues+with+service+project+user+management\",\"legacytransition\":\"https://confluence.atlassian.com/display/SDKB/Replacing+legacy+automatic+transitions+with+automation+rules\",\"umtroubleshoot\":\"https://confluence.atlassian.com/display/SDKB/Troubleshooting+issues+with+service+project+user+management\"}}";
+WRM._unparsedData["com.atlassian.servicedesk.core-ui:util-base-url.base-url"]="\"https://hub.spigotmc.org/jira\"";
+WRM._unparsedData["com.atlassian.whisper.atlassian-whisper-plugin:atlassian-whisper-bootstrap.WhisperData"]="{\"hasMessages\":false,\"syncInit\":false,\"baseUrl\":\"https:\\/\\/hub.spigotmc.org\\/jira\"}";
+WRM._unparsedData["jira.core:user-message-flags-data.adminLockout"]="{}";
+WRM._unparsedData["jira.request.correlation-id"]="\"8d61514b65e2b0\"";
+WRM._unparsedData["project-id"]="10002";
+WRM._unparsedData["project-key"]="\"SPIGOT\"";
+WRM._unparsedData["project-name"]="\"Spigot\"";
+WRM._unparsedData["project-type"]="\"software\"";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:generic-filters"]="[{\"id\":\"allissues\",\"jql\":\"project = \\\"{0}\\\" ORDER BY {1}\",\"defaultOrderby\":\"created DESC\",\"label\":\"All issues\",\"requiresUser\":false,\"supportsInlineIssueCreate\":true,\"fields\":[]},{\"id\":\"allopenissues\",\"jql\":\"project = \\\"{0}\\\" AND resolution = Unresolved ORDER BY {1}\",\"defaultOrderby\":\"priority DESC, updated DESC\",\"label\":\"Open issues\",\"requiresUser\":false,\"supportsInlineIssueCreate\":true,\"fields\":[\"resolution\"]},{\"id\":\"doneissues\",\"jql\":\"project = \\\"{0}\\\" AND statusCategory = Done ORDER BY {1}\",\"defaultOrderby\":\"updated DESC\",\"label\":\"Done issues\",\"requiresUser\":false,\"supportsInlineIssueCreate\":false,\"fields\":[\"status\"]},{\"id\":\"recentlyviewed\",\"jql\":\"project = \\\"{0}\\\" AND issuekey in issueHistory() ORDER BY {1}\",\"defaultOrderby\":\"lastViewed DESC\",\"label\":\"Viewed recently\",\"requiresUser\":false,\"supportsInlineIssueCreate\":true,\"fields\":[\"issuekey\"]},{\"id\":\"addedrecently\",\"jql\":\"project = \\\"{0}\\\" AND created \u003e= -1w ORDER BY {1}\",\"defaultOrderby\":\"created DESC\",\"label\":\"Created recently\",\"requiresUser\":false,\"supportsInlineIssueCreate\":true,\"fields\":[\"created\"]},{\"id\":\"resolvedrecently\",\"jql\":\"project = \\\"{0}\\\" AND resolutiondate \u003e= -1w ORDER BY {1}\",\"defaultOrderby\":\"updated DESC\",\"label\":\"Resolved recently\",\"requiresUser\":false,\"supportsInlineIssueCreate\":false,\"fields\":[\"resolutiondate\"]},{\"id\":\"updatedrecently\",\"jql\":\"project = \\\"{0}\\\" AND updated \u003e= -1w ORDER BY {1}\",\"defaultOrderby\":\"updated DESC\",\"label\":\"Updated recently\",\"requiresUser\":false,\"supportsInlineIssueCreate\":true,\"fields\":[\"updated\"]}]";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:default-filter-priority"]="[\"allopenissues\",\"allissues\"]";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:can-manage-filters"]="false";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:project-filters"]="[]";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:can-create-issues"]="false";
+WRM._unparsedData["projectId"]="10002";
+WRM._unparsedData["projectKey"]="\"SPIGOT\"";
+WRM._unparsedData["projectType"]="\"software\"";
+WRM._unparsedData["com.atlassian.jira.jira-projects-issue-navigator:server-rendered"]="true";
+WRM._unparsedData["archivingProjectHelpUrl"]="\"https://docs.atlassian.com/jira/jadm-docs-0821/Archiving+a+project\"";
+WRM._unparsedData["archivingIssueHelpUrl"]="\"https://docs.atlassian.com/jira/jadm-docs-0821/Archiving+an+issue\"";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="/jira/s/2f2c97353981329d55e18b2e5063c2ec-CDN/vvf7g7/821000/1l3encd/d2e244e05c844200cbfd78d4cbb94e58/_/download/contextbatch/css/_super/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="/jira/s/38bc8df5534e9003ff03d88eaa0062a6-CDN/vvf7g7/821000/1l3encd/adb4cbcaf7e23b705c8b7f6e1bb57632/_/download/contextbatch/css/project.issue.navigator,jira.view.issue,jira.global,atl.general,jira.general,-_super/batch.css?agile_global_admin_condition=true&amp;jag=true&amp;jira.create.linked.issue=true&amp;richediton=true&amp;whisper-enabled=true" data-wrm-key="project.issue.navigator,jira.view.issue,jira.global,atl.general,jira.general,-_super" data-wrm-batch-type="context" media="all">
+<script type="text/javascript" src="/jira/s/b5a25f16152f039fbce322eefd707c4b-CDN/vvf7g7/821000/1l3encd/d2e244e05c844200cbfd78d4cbb94e58/_/download/contextbatch/js/_super/batch.js?locale=en-US" data-wrm-key="_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="text/javascript" src="/jira/s/d2be33935ddddd794cf90c532a0a60fe-T/vvf7g7/821000/1l3encd/adb4cbcaf7e23b705c8b7f6e1bb57632/_/download/contextbatch/js/project.issue.navigator,jira.view.issue,jira.global,atl.general,jira.general,-_super/batch.js?agile_global_admin_condition=true&amp;jag=true&amp;jira.create.linked.issue=true&amp;locale=en-US&amp;richediton=true&amp;whisper-enabled=true" data-wrm-key="project.issue.navigator,jira.view.issue,jira.global,atl.general,jira.general,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="text/javascript" src="/jira/s/424aa2c21b4443333407c93e597d1559-CDN/vvf7g7/821000/1l3encd/4.21.0-REL-0008/_/download/resources/com.atlassian.plugins.atlassian-chaperone:hotspot-tour/hotspot-tour.js?batch=false&amp;locale=en-US" data-wrm-key="com.atlassian.plugins.atlassian-chaperone:hotspot-tour" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/jira/s/17eed665969082e7e09354f493f2c0d1-CDN/vvf7g7/821000/1l3encd/72a3d5e1f632d9ea9b6ecef1a0a6105e/_/download/contextbatch/js/atl.global,-_super/batch.js?locale=en-US" data-wrm-key="atl.global,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="text/javascript" src="/jira/s/d41d8cd98f00b204e9800998ecf8427e-CDN/vvf7g7/821000/1l3encd/1.0/_/download/batch/jira.webresources:calendar-en/jira.webresources:calendar-en.js" data-wrm-key="jira.webresources:calendar-en" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/jira/s/d41d8cd98f00b204e9800998ecf8427e-CDN/vvf7g7/821000/1l3encd/1.0/_/download/batch/jira.webresources:calendar-localisation-moment/jira.webresources:calendar-localisation-moment.js" data-wrm-key="jira.webresources:calendar-localisation-moment" data-wrm-batch-type="resource" data-initially-rendered></script>
+<link type="text/css" rel="stylesheet" href="/jira/s/f4b7a9dffa325bcbd677d6aed1a01b93-CDN/vvf7g7/821000/1l3encd/513c133d57de85e374509024a4e2f5bd/_/download/contextbatch/css/jira.global.look-and-feel,-_super/batch.css" data-wrm-key="jira.global.look-and-feel,-_super" data-wrm-batch-type="context" media="all">
+<script type="text/javascript" src="/jira/rest/api/1.0/shortcuts/821000/aa608ca74e4f25ec4965c3f621e44fbe/shortcuts.js?context=issuenavigation&amp;context=issueaction"></script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.jira.jira-issue-nav-components:inline-edit-enabled"]="true";
+WRM._unparsedData["should-display-chaperone"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="/jira/s/3ac36323ba5e4eb0af2aa7ac7211b4bb-CDN/vvf7g7/821000/1l3encd/8df9e83ef52450c3cdee6f3c6c530c02/_/download/contextbatch/css/com.atlassian.jira.projects.sidebar.init,-_super,-jira.view.issue,-project.issue.navigator/batch.css?jira.create.linked.issue=true&amp;richediton=true" data-wrm-key="com.atlassian.jira.projects.sidebar.init,-_super,-jira.view.issue,-project.issue.navigator" data-wrm-batch-type="context" media="all">
+<script type="text/javascript" src="/jira/s/54798338a842382a9504bbd14cd3fb3c-CDN/vvf7g7/821000/1l3encd/8df9e83ef52450c3cdee6f3c6c530c02/_/download/contextbatch/js/com.atlassian.jira.projects.sidebar.init,-_super,-jira.view.issue,-project.issue.navigator/batch.js?jira.create.linked.issue=true&amp;locale=en-US&amp;richediton=true" data-wrm-key="com.atlassian.jira.projects.sidebar.init,-_super,-jira.view.issue,-project.issue.navigator" data-wrm-batch-type="context" data-initially-rendered></script>
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="ajs-can-search-users" content="false">
+<meta name="ajs-can-edit-watchers" content="false">
+<meta name="ajs-default-avatar-url" content="https://hub.spigotmc.org/jira/secure/useravatar?size=xsmall&amp;avatarId=10123">
+<meta name="ajs-issue-project-type" content="software">
+<meta name="ajs-issue-key" content="SPIGOT-3835">
+<meta name="ajs-server-view-issue-is-editable" content="false">
+<title>[SPIGOT-3835] Health score tab problem - SpigotMC JIRA</title>
+<link rel="search" type="application/opensearchdescription+xml" href="/jira/osd.jsp" title="[SPIGOT-3835] Health score tab problem - SpigotMC JIRA" />
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body id="jira" class="aui-layout aui-theme-default  " data-version="8.21.0">
+<div id="page">
+<header id="header" role="banner">
+<script>
+require(["jquery", "jira/license-banner"], function ($, licenseBanner) {
+    $(function () { // eslint-disable-line @atlassian/onready-checks/no-jquery-onready
+        licenseBanner.showLicenseBanner("");
+        licenseBanner.showLicenseFlag("");
+    });
+});
+</script>
+<a class="aui-skip-link" href="/jira/login.jsp?os_destination=%2Fbrowse%2FSPIGOT-3835">Log in</a><a class="aui-skip-link" href="#main">Skip to main content</a><a class="aui-skip-link" href="#sidebar">Skip to sidebar</a><nav class="aui-header aui-dropdown2-trigger-group" aria-label="Site"><div class="aui-header-inner"><div class="aui-header-before"><button class=" aui-dropdown2-trigger app-switcher-trigger aui-dropdown2-trigger-arrowless" aria-controls="app-switcher" aria-haspopup="true" role="button" data-aui-trigger href="#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></button><div id="app-switcher" class="aui-dropdown2 aui-style-default" role="menu" hidden data-is-user-admin="false" data-is-switcher="true"><div class="app-switcher-loading">Loading&hellip;</div></div></div><div class="aui-header-primary"><span id="logo" class="aui-header-logo aui-header-logo-custom"><a href="https://hub.spigotmc.org/jira/secure/MyJiraHome.jspa" aria-label="Go to home page"><img src="/jira/s/vvf7g7/821000/1l3encd/_/jira-logo-scaled.png" alt="SpigotMC JIRA" /></a></span><ul class='aui-nav'><li><a href="/jira/secure/Dashboard.jspa" class=" aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax" id="home_link" aria-haspopup="true" aria-controls="home_link-content" title="View and manage your dashboards" accesskey="d" elementtiming="app-header">Dashboards</a><div class="aui-dropdown2 aui-style-default" id="home_link-content" data-aui-dropdown2-ajax-key="home_link"></div></li><li><a href="/jira/browse/SPIGOT" class=" aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax" id="browse_link" aria-haspopup="true" aria-controls="browse_link-content" title="View recent projects and browse a list of projects" accesskey="p">Projects</a><div class="aui-dropdown2 aui-style-default" id="browse_link-content" data-aui-dropdown2-ajax-key="browse_link"></div></li><li><a href="/jira/issues/" class=" aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax" id="find_link" aria-haspopup="true" aria-controls="find_link-content" title="Search for issues and view recent issues" accesskey="i">Issues</a><div class="aui-dropdown2 aui-style-default" id="find_link-content" data-aui-dropdown2-ajax-key="find_link"></div></li>
+</ul></div><div class="aui-header-secondary"><ul class='aui-nav'>
+<li id="quicksearch-menu">
+<form action="/jira/secure/QuickSearch.jspa" method="get" id="quicksearch" class="aui-quicksearch dont-default-focus ajs-dirty-warning-exempt">
+<input id="quickSearchInput" autocomplete="off" class="search" type="text" title="Search" placeholder="Search" name="searchString" accessKey="q" />
+<input type="submit" class="hidden" value="Search">
+</form>
+</li>
+<li><a class="jira-feedback-plugin" role="button" aria-haspopup="true" id="jira-header-feedback-link" href="#"><span class="aui-icon aui-icon-small aui-iconfont-feedback">Give feedback to Atlassian</span></a></li>
+<li id="system-help-menu">
+<a class="aui-nav-link aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" id="help_menu" aria-haspopup="true" aria-owns="system-help-menu-content" href="https://docs.atlassian.com/jira/jcore-docs-0821/" target="_blank" rel="noopener noreferrer" title="Help"><span class="aui-icon aui-icon-small aui-iconfont-question-filled">Help</span></a>
+<div id="system-help-menu-content" class="aui-dropdown2 aui-style-default">
+<div class="aui-dropdown2-section">
+<ul id="jira-help" class="aui-list-truncate">
+<li>
+<a id="view_core_help" class="aui-nav-link " title="Go to the online documentation for Jira Core" href="https://docs.atlassian.com/jira/jcore-docs-0821/" target="_blank">Jira Core help</a>
+</li>
+<li>
+<a id="keyshortscuthelp" class="aui-nav-link " title="Get more information about Jira's Keyboard Shortcuts" href="/jira/secure/ViewKeyboardShortcuts!default.jspa" target="_blank">Keyboard Shortcuts</a>
+</li>
+<li>
+<a id="view_about" class="aui-nav-link " title="Get more information about Jira" href="/jira/secure/AboutPage.jspa">About Jira</a>
+</li>
+<li>
+<a id="view_credits" class="aui-nav-link " title="See who did what" href="/jira/secure/credits/AroundTheWorld!default.jspa" target="_blank">Jira Credits</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li id="user-options">
+<a class="aui-nav-link login-link" href="/jira/login.jsp?os_destination=%2Fbrowse%2FSPIGOT-3835">Log In</a>
+<div id="user-options-content" class="aui-dropdown2 aui-style-default">
+<div class="aui-dropdown2-section">
+</div>
+</div>
+</li>
+</ul></div></div></nav>
+</header>
+<div id="announcement-banner" class="alertHeader">
+<style type="text/css">
+a.user-hover[rel="md_5"] {
+ color: #000;
+ background-color: #ee8814;
+ border-radius: 4px;
+ padding: 2px 5px;
+}
+a.user-hover[rel="md_5"]:before  {
+ content: url(https://hub.spigotmc.org/favicon.ico);
+ position: relative;
+ top: 2px;
+ margin-left: 15px;
+}
+
+a.user-hover[rel="__0x277F"],
+a.user-hover[rel="2008Choco"], 
+a.user-hover[rel="blablubbabc"], 
+a.user-hover[rel="Black-Hole"], 
+a.user-hover[rel="cindy_k"], 
+a.user-hover[rel="DerFrZocker"], 
+a.user-hover[rel="DiamondDagger590"], 
+a.user-hover[rel="MrDoc94"], 
+a.user-hover[rel="Serializator"], 
+a.user-hover[rel="TheAndroidMan"] {
+ color: #fff;
+ background-color: #008500;
+ border-radius: 4px;
+ padding: 2px 5px;
+}
+
+a.user-hover[rel="__0x277F"]:before,
+a.user-hover[rel="2008Choco"]:before, 
+a.user-hover[rel="blablubbabc"]:before, 
+a.user-hover[rel="Black-Hole"]:before, 
+a.user-hover[rel="cindy_k"]:before, 
+a.user-hover[rel="DerFrZocker"]:before, 
+a.user-hover[rel="DiamondDagger590"]:before, 
+a.user-hover[rel="MrDoc94"]:before, 
+a.user-hover[rel="Serializator"]:before, 
+a.user-hover[rel="TheAndroidMan"]:before {
+ content: "[M]";
+ color: #40FF00;
+ position: relative;
+ margin-left: 14px;
+}
+
+a.user-hover[rel="Xor."] {
+ color: #000;
+ background-color: #FF0075;
+ border-radius: 4px;
+ padding: 2px 5px;
+}
+
+a.user-hover[rel="Xor."]:before  {
+ content: "[J]";
+ color: #850085;
+ position: relative;
+ margin-left: 14px;
+}
+</style>
+</div>
+<div id="content">
+<big-pipe data-id="sidebar-id" unresolved></big-pipe><section class="aui-sidebar  sidebar-placeholder"><div class="aui-sidebar-wrapper"><div class="aui-sidebar-body"></div><div class="aui-sidebar-footer"><button class="aui-button aui-button-subtle aui-sidebar-toggle aui-sidebar-footer-tipsy" title="Expand sidebar ( [ )" data-tooltip="Expand sidebar ( [ )"><span class="aui-icon aui-icon-small aui-iconfont-chevron-double-left"></span></button></div></div></section><script id="projects-sidebar-events-attach">
+        (function () {
+            var scriptTag = document.getElementById('projects-sidebar-events-attach');
+            var sidebarElement = document.querySelector('big-pipe[data-id=sidebar-id]');
+            sidebarElement.addEventListener('error', function (e) {
+                require(['jira/projects/sidebar/sidebar-placeholder-initializer'], function (sidebarPlaceholderInitializer) {
+                    sidebarPlaceholderInitializer.onError(e);
+                });
+            });
+            sidebarElement.addEventListener('success', function (e) {
+                require(['jira/projects/sidebar/sidebar-placeholder-initializer'], function (sidebarPlaceholderInitializer) {
+                    sidebarPlaceholderInitializer.onSuccess(e);
+                });
+            });
+            scriptTag.parentElement.removeChild(scriptTag);
+        }())
+    </script><script id="projects-sidebar-init">
+    require(['jira/projects/sidebar/expansion-manager'], function(expansionManager) {
+        var scriptTag = document.getElementById('projects-sidebar-init');
+        var sidebar = AJS.sidebar('.aui-sidebar');
+        expansionManager(sidebar);
+        scriptTag.parentElement.removeChild(scriptTag);
+    });
+    </script><div class="aui-page-panel"><div class="aui-page-panel-inner"><div class="issue-navigator"><main id="main" class="content" role="main"><div class="issue-view"><div class="navigation-tools"><div class="pager-container"></div><div class="collapse-container"></div></div><div class="issue-container"><div id="issue-content" class="issue-edit-form"><header id="stalker" class="issue-header js-stalker"><div class="issue-header-content"><div class="aui-page-header"><div class="aui-page-header-inner"><div class="aui-page-header-image"><span id="10002" class="aui-avatar aui-avatar-large aui-avatar-project"><span class="aui-avatar-inner"><img id="project-avatar" alt="Uploaded image for project: &#39;Spigot&#39;" src="https://hub.spigotmc.org/jira/secure/projectavatar?pid=10002&amp;avatarId=10401" /></span></span></div><div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs"><li><a id="project-name-val" href="/jira/browse/SPIGOT">Spigot</a></li><li><a class="issue-link" data-issue-key="SPIGOT-3835" href="/jira/browse/SPIGOT-3835" id="key-val" rel="20111">SPIGOT-3835</a></li></ol><h1 id="summary-val">Health score tab problem</h1></div><div class="aui-page-header-actions"><div id="issue-header-pager"></div></div></div></div><div class="command-bar"><div class="ops-cont"><div class="ops-menus aui-toolbar2"><div class="aui-toolbar2-inner"><div class="aui-toolbar2-primary"><div id="opsbar-ops-login-lnk_container" class="aui-buttons pluggable-ops"><a id="ops-login-lnk" title="Log In" class="aui-button toolbar-trigger" href="/jira/login.jsp?os_destination=%2Fbrowse%2FSPIGOT-3835"><span class="trigger-label">Log In</span></a></div><div id="opsbar-opsbar-operations" class="aui-buttons pluggable-ops"></div><div id="opsbar-opsbar-transitions" class="aui-buttons pluggable-ops"></div><div id="opsbar-opsbar-admin" class="aui-buttons pluggable-ops"></div><div id="opsbar-opsbar-restore" class="aui-buttons pluggable-ops"></div></div><div class="aui-toolbar2-secondary"><div id="opsbar-jira.issue.tools" class="aui-buttons pluggable-ops"><a href="#" id="viewissue-export" aria-owns="viewissue-export_drop" aria-haspopup="true" title="Export this issue in another format" class="aui-button  aui-dropdown2-trigger" data-aui-alignment-container=".command-bar"><span class="icon icon-default aui-icon aui-icon-small aui-iconfont-export"></span> <span class="dropdown-text">Export</span></a></div></div></div></div><aui-dropdown-menu id="viewissue-export_drop"><ul><aui-item-link href="/jira/si/jira.issueviews:issue-xml/SPIGOT-3835/SPIGOT-3835.xml" id="jira.issueviews:issue-xml"><span class="trigger-label">XML</span></aui-item-link><aui-item-link href="/jira/si/jira.issueviews:issue-word/SPIGOT-3835/SPIGOT-3835.doc" id="jira.issueviews:issue-word"><span class="trigger-label">Word</span></aui-item-link><aui-item-link href="/jira/si/jira.issueviews:issue-html/SPIGOT-3835/SPIGOT-3835.html" id="jira.issueviews:issue-html"><span class="trigger-label">Printable</span></aui-item-link></ul></aui-dropdown-menu></div></div></div></header><div class="issue-body-content"><div class="aui-group issue-body"><div class="aui-item issue-main-column"><div id=details-module class="module toggle-wrap"><div id="details-module_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Details" aria-controls="details-module" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="details-module-label">Details</h4><ul class="ops"></ul></div><div class="mod-content">
+<ul id="issuedetails" class="property-list two-cols">
+<li class="item">
+<div class="wrap">
+<strong class="name" title="Type">
+<label for="issuetype">Type:</label>
+</strong>
+<span id="type-val" class="value">
+<img alt="" height="16" src="/jira/secure/viewavatar?size=xsmall&amp;avatarId=10303&amp;avatarType=issuetype" title="Bug - A problem which impairs or prevents the functions of the product." width="16" /> Bug
+</span>
+</div>
+</li> <li class="item item-right">
+<div class="wrap">
+<strong class="name" title="Status">Status:</strong>
+<span id="status-val" class="value">
+<span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;">Open</span> </span>
+<span class="status-view">(<a href="/jira/browse/SPIGOT-3835?workflowName=Jira+Fixed&amp;stepId=1" class="issueaction-viewworkflow jira-workflow-designer-link" title="Jira Fixed: SPIGOT-3835" data-track-click="issue.viewworkflow">View Workflow</a>)</span>
+</div>
+</li>
+<li class="item new">
+<div class="wrap">
+<strong class="name" title="Priority">
+<label for="priority-field">Priority:</label>
+</strong>
+<span id="priority-val" class="value">
+<img alt="" height="16" src="/jira/images/icons/priorities/minor.svg" title="Minor - Minor loss of function, or other problem where easy workaround is present." width="16" /> Minor </span>
+</div>
+</li>
+<li class="item item-right">
+<div class="wrap">
+<strong class="name" title="Resolution">Resolution:</strong>
+<span id="resolution-val" class="value unresolved">
+Unresolved
+</span>
+</div>
+</li>
+<li class="item">
+<div class="wrap">
+<strong class="name" title="Affects Version/s">
+<label for="versions-textarea">Affects Version/s:</label>
+</strong>
+<span id="versions-val" class="value">
+None
+</span>
+</div>
+</li>
+<li class="item item-right">
+<div class="wrap">
+<strong class="name" title="Fix Version/s">
+<label for="fixVersions">
+Fix Version/s:
+</label>
+</strong>
+<span id="fixfor-val" class="value">
+None
+</span>
+</div>
+</li>
+<li class="item full-width">
+<div class="wrap" id="wrap-labels">
+<strong class="name" title="Labels">
+<label for="labels-textarea">Labels:</label>
+</strong>
+<div class="labels-wrap value">
+<ul class="labels" id="labels-20111-value">
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+Objectives" title="Objectives"><span>Objectives</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+Spigot" title="Spigot"><span>Spigot</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+bug" title="bug"><span>bug</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+displayslot" title="displayslot"><span>displayslot</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+health_tab" title="health_tab"><span>health_tab</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+player_list" title="player_list"><span>player_list</span></a></li>
+<li><a class="lozenge" href="/jira/issues/?jql=labels+%3D+spigot" title="spigot"><span>spigot</span></a></li>
+</ul>
+</div>
+</div>
+</li> </ul>
+<div id="customfieldmodule">
+<div class="aui-tabs horizontal-tabs" id="customfield-tabs">
+<div id="customfield-panel-1" class=" active-pane">
+ <ul class="property-list">
+<li id="rowForcustomfield_10100" class="item">
+<div class="wrap">
+<strong title="Plugin" class="name">
+<label for="customfield_10100">Plugin:</label>
+</strong>
+<div id="customfield_10100-val" class="value type-textfield" data-fieldtype="textfield" data-fieldtypecompletekey="com.atlassian.jira.plugin.system.customfieldtypes:textfield">
+TabList
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div></div>
+</div></div><div id=descriptionmodule class="module toggle-wrap"><div id="descriptionmodule_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Description" aria-controls="descriptionmodule" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="descriptionmodule-label">Description</h4><ul class="ops"></ul></div><div class="mod-content"><div id="description-val" class="field-ignore-highlight">
+<div class="user-content-block">
+<p>The problem is that when a player is available on the server and the server owner is just switching on the health tab, he reloads, but there are players on the server and players do not show the taboos beside their name the health level just a blank space. It only appears when the player re-connects to the server, but I do not want that.</p>
+<p> </p>
+<p>Here is the code:</p>
+<p> </p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">Scoreboard board = pl.getScoreboard();
+Objective objective = board.getObjective(<span class="code-quote">"showhealth"</span>);
+<span class="code-keyword">if</span> (objective == <span class="code-keyword">null</span>) {
+ objective = board.registerNewObjective(<span class="code-quote">"showhealth"</span>, <span class="code-quote">"health"</span>);
+ objective.setDisplaySlot(DisplaySlot.PLAYER_LIST);
+ objective.setDisplayName(ChatColor.RED + <span class="code-quote">"❤"</span>);
+}
+</pre>
+</div></div>
+<p> </p>
+</div>
+</div>
+</div></div><div id=dnd-metadata class="module toggle-wrap"><div id="dnd-metadata_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Attachments" aria-controls="dnd-metadata" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="dnd-metadata-label">Attachments</h4><ul class="ops"></ul></div><div class="mod-content"><div id="dnd-metadata-webpanel" data-can-attach="false" data-project-type="software" data-upload-limit="15728640" data-thumbnails-allowed="true"></div></div></div><div id=attachmentmodule class="module toggle-wrap"><div id="attachmentmodule_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Attachments" aria-controls="attachmentmodule" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="attachmentmodule-label">Attachments</h4><ul class="ops"><li class="drop"><div class="aui-dd-parent"><button class="aui-button aui-button-compact aui-button-subtle js-default-dropdown" title="Options" aria-label="Attachments panel options"><span class="aui-icon aui-icon-small aui-iconfont-more">Options</span></button><div class="aui-dropdown-content aui-list"><ul id="attachment-sorting-options" class="aui-list-section aui-first"><li class="aui-list-item"><a id="attachment-sort-key-name" href="/jira/browse/SPIGOT-3835?attachmentSortBy=fileName#attachmentmodule" class="aui-list-checked aui-checked aui-list-item-link" title="viewissue.subtasks.tab.show.all.name"><span>Sort By Name</span></a></li><li class="aui-list-item"><a id="attachment-sort-key-date" href="/jira/browse/SPIGOT-3835?attachmentSortBy=dateTime#attachmentmodule" class="aui-list-checked aui-list-item-link" title="Sort By Date"><span>Sort By Date</span></a></li></ul><ul id="attachment-sorting-order-options" class="aui-list-section"><li class="aui-list-item"><a id="attachment-sort-direction-asc" href="/jira/browse/SPIGOT-3835?attachmentOrder=asc#attachmentmodule" class="aui-list-checked aui-checked aui-list-item-link" title="Ascending"><span>Ascending</span></a></li><li class="aui-list-item"><a id="attachment-sort-direction-desc" href="/jira/browse/SPIGOT-3835?attachmentOrder=desc#attachmentmodule" class="aui-list-checked aui-list-item-link" title="Descending"><span>Descending</span></a></li></ul><ul id="attachment-view-mode-options" class="aui-list-section"><li class="aui-list-item"><a id="attachment-view-mode-gallery" href="/jira/browse/SPIGOT-3835?attachmentViewMode=gallery#attachmentmodule" class="aui-list-checked aui-checked aui-list-item-link" title="Thumbnails"><span>Thumbnails</span></a></li><li class="aui-list-item"><a id="attachment-view-mode-list" href="/jira/browse/SPIGOT-3835?attachmentViewMode=list#attachmentmodule" class="aui-list-checked aui-list-item-link" title="List"><span>List</span></a></li></ul><ul id="attachment-manage-options" class="aui-list-section aui-last"><li class="aui-list-item"><a id="aszip" href="/jira/secure/attachmentzip/20111.zip" class="aui-list-checked aui-list-item-link" title="Download all attachments as a ZIP file"><span>Download All</span></a></li></ul></div></div></li></ul></div><div class="mod-content"><ol id="attachment_thumbnails" class="item-attachments" data-sort-key="fileName" data-sort-order="asc"><li class="attachment-content js-file-attachment" draggable="true" data-downloadurl="image/png:2018-01-20_14.01.42.png:https://hub.spigotmc.org/jira/secure/attachment/14203/2018-01-20_14.01.42.png" data-issue-id="20111" data-attachment-type="image" data-attachment-thumbnail="true"><div class="attachment-thumb"><a href="/jira/secure/attachment/14203/2018-01-20_14.01.42.png" title="2018-01-20_14.01.42.png - Latest 22/Feb/18 6:20 PM - montlikadani" file-preview-id="14203" file-preview-title="2018-01-20_14.01.42.png" file-preview-type="image" file-preview-url="https://hub.spigotmc.org/jira/secure/thumbnail/14203/_thumb_14203.png"><img loading="lazy" src="https://hub.spigotmc.org/jira/secure/thumbnail/14203/_thumb_14203.png" alt="2018-01-20_14.01.42.png" /></a></div><dl><dt><span class="blender"></span><a href="/jira/secure/attachment/14203/2018-01-20_14.01.42.png" class="attachment-title" title="2018-01-20_14.01.42.png - Latest 22/Feb/18 6:20 PM - montlikadani" file-preview-id="14203" file-preview-title="2018-01-20_14.01.42.png" file-preview-type="image" file-preview-url="https://hub.spigotmc.org/jira/secure/thumbnail/14203/_thumb_14203.png">2018-01-20_14.01.42.png</a></dt><dd class="attachment-size">64 kB</dd><dd class="attachment-date"><time class="livestamp" datetime="2018-02-22T18:20:39.819Z">22/Feb/18 6:20 PM</time></dd></dl></li></ol></div></div><div id=activitymodule class="module toggle-wrap"><div id="activitymodule_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Activity" aria-controls="activitymodule" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="activitymodule-label">Activity</h4><ul class="ops"></ul></div><div class="mod-content">
+<big-pipe data-id="activity-panel-pipe-id" style="height: 70px">
+<div></div>
+</big-pipe>
+</div></div></div><div id="viewissuesidebar" class="aui-item issue-side-column"><div id=peoplemodule class="module toggle-wrap"><div id="peoplemodule_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="People" aria-controls="peoplemodule" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="peoplemodule-label">People</h4><ul class="ops"></ul></div><div class="mod-content">
+<div class="item-details people-details" id="peopledetails">
+<dl>
+<dt title="Assignee">
+<label for="assignee-field">Assignee:</label>
+</dt>
+<dd>
+<span id="assignee-val" class="view-issue-field">
+<span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://hub.spigotmc.org/jira/secure/useravatar?size=small&amp;avatarId=10123" loading="lazy" alt="Unassigned" /></span></span>
+Unassigned
+</span>
+</dd>
+</dl>
+<dl>
+<dt title="Reporter">
+<label for="reporter-field">Reporter:</label>
+</dt>
+<dd>
+<span id="reporter-val" class="view-issue-field">
+<span class="user-hover" id="issue_summary_reporter_montlikadani" rel="montlikadani">
+<span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://hub.spigotmc.org/jira/secure/useravatar?size=small&amp;avatarId=10122" loading="lazy" alt="montlikadani" /></span></span>
+montlikadani
+</span>
+</span>
+</dd>
+</dl> </div>
+<div class="item-details">
+<dl>
+<dt title="Votes">Votes:</dt>
+<dd>
+<aui-badge id="vote-data" class="">0</aui-badge>
+<span id="vote-label" title="You have to be logged in to vote for an issue.">Vote for this issue</span>
+</dd>
+</dl>
+<dl>
+<dt title="Watchers">Watchers:</dt>
+<dd>
+<aui-badge id="watcher-data" class="">4</aui-badge>
+<span id="watch-label" title="You have to be logged in to watch an issue.">Start watching this issue</span>
+</dd>
+</dl>
+</div>
+</div></div><div id=datesmodule class="module toggle-wrap"><div id="datesmodule_heading" class="mod-header"><button class="aui-button toggle-title" aria-label="Dates" aria-controls="datesmodule" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><g fill="none" fill-rule="evenodd"><path d="M3.29175 4.793c-.389.392-.389 1.027 0 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955c.388-.392.388-1.027 0-1.419-.389-.392-1.018-.392-1.406 0l-2.298 2.317-2.307-2.327c-.194-.195-.449-.293-.703-.293-.255 0-.51.098-.703.293z" fill="#344563" /></g></svg></button><h4 class="toggle-title" id="datesmodule-label">Dates</h4><ul class="ops"></ul></div><div class="mod-content">
+<div class="item-details">
+<dl class="dates">
+<dt>
+Created:
+</dt>
+<dd class="date user-tz" title="22/Feb/18 6:25 PM">
+<span data-name="Created" id="created-val" data-fieldtype="datetime">
+<time class="livestamp" datetime="2018-02-22T18:25:05+0000">22/Feb/18 6:25 PM</time> </span>
+</dd>
+</dl>
+<dl class="dates">
+<dt>
+Updated:
+</dt>
+<dd class="date user-tz" title="19/May/19 4:38 PM">
+<span data-name="Updated" id="updated-val" data-fieldtype="datetime">
+<time class="livestamp" datetime="2019-05-19T16:38:13+0000">19/May/19 4:38 PM</time> </span>
+</dd>
+</dl>
+</div>
+</div></div></div></div></div></div></div></div></main></div></div></div><div class="issue-navigator-init"></div>
+</div>
+<footer id="footer" role="contentinfo">
+<section class="footer-body">
+<ul class="atlassian-footer">
+<li>
+Atlassian Jira <a class="seo-link" rel="nofollow" href="https://www.atlassian.com/software/jira">Project Management Software</a>
+</li>
+<li>
+<a id="about-link" rel="nofollow" href="/jira/secure/AboutPage.jspa/secure/AboutPage.jspa">About Jira</a>
+</li>
+<li>
+<a id="footer-report-problem-link" rel="nofollow" href="/jira/secure/CreateIssue!default.jspa">Report a problem</a>
+</li>
+</ul>
+<p class="atlassian-footer">
+<span class="licensemessage">
+Powered by a free Atlassian <a rel='nofollow' href='http://www.atlassian.com/software/jira'>Jira</a> open source license for SpigotMC. Try Jira - <a rel='nofollow' href='http://www.atlassian.com/software/jira'>bug tracking software</a> for <i>your</i> team.
+</span>
+</p>
+<div id="footer-logo"><a rel="nofollow" href="http://www.atlassian.com/">Atlassian</a></div>
+</section>
+<fieldset class="hidden parameters">
+<input type="hidden" title="loggedInUser" value="">
+<input type="hidden" title="ajaxTimeout" value="The call to the Jira server did not complete within the timeout period.  We are unsure of the result of this operation.">
+<input type="hidden" title="JiraVersion" value="8.21.0" />
+<input type="hidden" title="ajaxUnauthorised" value="You are not authorized to perform this operation.  Please log in.">
+<input type="hidden" title="baseURL" value="https://hub.spigotmc.org/jira" />
+<input type="hidden" title="ajaxCommsError" value="The Jira server could not be contacted. This may be a temporary glitch or the server may be down. ">
+<input type="hidden" title="ajaxServerError" value="The Jira server was contacted but has returned an error response. We are unsure of the result of this operation.">
+<input type="hidden" title="ajaxErrorCloseDialog" value="Close this dialog and press refresh in your browser">
+<input type="hidden" title="ajaxErrorDialogHeading" value="Communications Breakdown">
+<input type="hidden" title="dirtyMessage" value="You have entered new data on this page. If you navigate away from this page without first saving your data, the changes will be lost.">
+<input type="hidden" title="dirtyDialogMessage" value="You have entered new data in this dialog. If you navigate away from this dialog without first saving your data, the changes will be lost. Click cancel to return to the dialog.">
+<input type="hidden" title="keyType" value="Type">
+<input type="hidden" title="keyThen" value="then">
+<input type="hidden" title="dblClickToExpand" value="Double click to expand">
+<input type="hidden" title="actions" value="Actions">
+<input type="hidden" title="removeItem" value="Remove">
+<input type="hidden" title="workflow" value="Workflow">
+<input type="hidden" title="labelNew" value="New Label">
+<input type="hidden" title="issueActionsHint" value="Begin typing for available operations or press down to see all">
+<input type="hidden" title="closelink" value="Close">
+<input type="hidden" title="dotOperations" value="Operations">
+<input type="hidden" title="dotLoading" value="Loading...">
+<input type="hidden" title="frotherSuggestions" value="Suggestions">
+<input type="hidden" title="frotherNomatches" value="No Matches">
+<input type="hidden" title="multiselectVersionsError" value="{0} is not a valid version.">
+<input type="hidden" title="multiselectComponentsError" value="{0} is not a valid component.">
+<input type="hidden" title="multiselectGenericError" value="The value {0} is invalid.">
+</fieldset>
+</footer>
+</div>
+<script type="text/javascript" src="/jira/s/d41d8cd98f00b204e9800998ecf8427e-CDN/vvf7g7/821000/1l3encd/1.0/_/download/batch/jira.webresources:bigpipe-js/jira.webresources:bigpipe-js.js" data-wrm-key="jira.webresources:bigpipe-js" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["activity-panel-pipe-id"]="\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n    \u003cdiv class=\\\"tabwrap aui-tabs horizontal-tabs aui-tabs-disabled\\\"\u003e\\n\\n        \u003cul id=\\\"issue-tabs\\\" class=\\\"tabs-menu\\\"\u003e\\n                                \\n            \u003cli class=\\\"menu-item \\\"\\n                id=\\\"all-tabpanel\\\"\\n                data-id=\\\"all-tabpanel\\\"\\n                data-key=\\\"com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel\\\"\\n                data-label=\\\"All\\\"\\n                data-href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel\\\"\\n            \u003e\\n                                    \u003ca id=\\\"all-tabpanel\\\" href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel\\\" class=\\\"ajax-activity-content\\\"\u003eAll\u003c\\/a\u003e\\n                            \u003c\\/li\u003e\\n                                \\n            \u003cli class=\\\"menu-item  active-tab active \\\"\\n                id=\\\"comment-tabpanel\\\"\\n                data-id=\\\"comment-tabpanel\\\"\\n                data-key=\\\"com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel\\\"\\n                data-label=\\\"Comments\\\"\\n                data-href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel\\\"\\n            \u003e\\n                                    \u003ca tabindex=\\\"0\\\"\u003eComments\u003c\\/a\u003e\\n                            \u003c\\/li\u003e\\n                                \\n            \u003cli class=\\\"menu-item \\\"\\n                id=\\\"changehistory-tabpanel\\\"\\n                data-id=\\\"changehistory-tabpanel\\\"\\n                data-key=\\\"com.atlassian.jira.plugin.system.issuetabpanels:changehistory-tabpanel\\\"\\n                data-label=\\\"History\\\"\\n                data-href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:changehistory-tabpanel\\\"\\n            \u003e\\n                                    \u003ca id=\\\"changehistory-tabpanel\\\" href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:changehistory-tabpanel\\\" class=\\\"ajax-activity-content\\\"\u003eHistory\u003c\\/a\u003e\\n                            \u003c\\/li\u003e\\n                                \\n            \u003cli class=\\\"menu-item \\\"\\n                id=\\\"activity-stream-issue-tab\\\"\\n                data-id=\\\"activity-stream-issue-tab\\\"\\n                data-key=\\\"com.atlassian.streams.streams-jira-plugin:activity-stream-issue-tab\\\"\\n                data-label=\\\"Activity\\\"\\n                data-href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.streams.streams-jira-plugin:activity-stream-issue-tab\\\"\\n            \u003e\\n                                    \u003ca id=\\\"activity-stream-issue-tab\\\" href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.streams.streams-jira-plugin:activity-stream-issue-tab\\\" class=\\\"ajax-activity-content\\\"\u003eActivity\u003c\\/a\u003e\\n                            \u003c\\/li\u003e\\n                \u003c\\/ul\u003e\\n\\n                    \u003cdiv class=\\\"sortwrap\\\"\u003e\\n                                    \u003ca class=\\\"issue-activity-sort-link ajax-activity-content\\\" rel=\\\"nofollow\\\" data-tab-sort data-order=\\\"desc\\\" href=\\\"\\/jira\\/browse\\/SPIGOT-3835?actionOrder=desc\\\" title=\\\"Ascending order - Click to sort in descending order\\\"\u003e\\n                        \u003cspan class=\\\"aui-icon aui-icon-small aui-iconfont-up\\\"\u003eAscending order - Click to sort in descending order\u003c\\/span\u003e\\n                    \u003c\\/a\u003e\\n                            \u003c\\/div\u003e\\n                        \u003cdiv class=\\\"tabs-pane active-pane\\\"\u003e\u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"issuePanelWrapper\\\"\u003e\\n        \u003cdiv class=\\\"issuePanelProgress\\\"\u003e\u003c\\/div\u003e\\n        \u003cdiv class=\\\"issuePanelContainer\\\" id=\\\"issue_actions_container\\\"\u003e\\n                                                \u003cdiv class=\\\"message-container\\\"\u003e\\n    \u003ca class=\\\"collapsed-comments show-more-comments aui-button\\\" href=\\\"\\/jira\\/browse\\/SPIGOT-3835?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel&showAll=true\\\" data-collapsed-count=\\\"5\\\" \u003eView 5 older comments\u003c\\/a\u003e\\n\u003c\\/div\u003e                                     \\n\\n\\n\u003cdiv id=\\\"comment-29035\\\" class=\\\"issue-data-block activity-comment twixi-block  expanded\\\"\u003e\\n    \u003cdiv class=\\\"twixi-wrap verbose actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Collapse comment\\\" title=\\\"Collapse comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details\\\"\u003e        \\n    \\n    \\n                                            \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"Senmori\\\" id=\\\"commentauthor_29035_verbose\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=Senmori\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/www.gravatar.com\\/avatar\\/7f7bb13716bbbeaf9874255da2181791?d=mm&amp;s=16\\\" loading=\\\"lazy\\\" alt=\\\"Senmori\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e Senmori\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29035&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29035\' class=\'commentdate_29035_verbose subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'26\\/Feb\\/18 11:46 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-26T23:46:30+0000\'\u003e26\\/Feb\\/18 11:46 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e   - \u003cspan class=\\\"subText update-info\\\" title=\\\"Senmori - 26\\/Feb\\/18 11:46 PM\\\"\u003eedited\u003c\\/span\u003e \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-body flooded\\\"\u003e\u003cp\u003eA bit late, was out of town for a couple days and didn\'t feel like working on it after travelling all day Sunday.\u003c\\/p\u003e\\n\\n\u003cp\u003eIt is caused by MC-111729 like Black Hole suggested, it has nothing to do with how the objective is registered, nor when it is put into a display slot.\u003c\\/p\u003e\\n\\n\u003cp\u003eThe hearts are only rendered when the player\'s health changes (e.g. taking damage). I haven\'t tested all the criteria listed in the MC bug report, but health is present so I can confirm that this is a MC bug, not Spigot.\u003c\\/p\u003e \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-links action-comment-actions\\\"\u003e\\n                                \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"twixi-wrap concise actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Expand comment\\\" title=\\\"Expand comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-collapsed\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details flooded\\\"\u003e\\n                        \\n    \\n    \\n                                            \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"Senmori\\\" id=\\\"commentauthor_29035_concise\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=Senmori\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/www.gravatar.com\\/avatar\\/7f7bb13716bbbeaf9874255da2181791?d=mm&amp;s=16\\\" loading=\\\"lazy\\\" alt=\\\"Senmori\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e Senmori\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29035&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29035\' class=\'commentdate_29035_concise subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'26\\/Feb\\/18 11:46 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-26T23:46:30+0000\'\u003e26\\/Feb\\/18 11:46 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e   - \u003cspan class=\\\"subText update-info\\\" title=\\\"Senmori - 26\\/Feb\\/18 11:46 PM\\\"\u003eedited\u003c\\/span\u003e                   A bit late, was out of town for a couple days and didn\'t feel like working on it after travelling all day Sunday. \\n\\n It is caused by MC-111729 like Black Hole suggested, it has nothing to do with how the objective is registered, nor when it is put into a display slot. \\n\\n The hearts are only rendered when the player\'s health changes (e.g. taking damage). I haven\'t tested all the criteria listed in the MC bug report, but health is present so I can confirm that this is a MC bug, not Spigot.              \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\u003c\\/div\u003e\\n                                     \\n\\n\\n\u003cdiv id=\\\"comment-29036\\\" class=\\\"issue-data-block activity-comment twixi-block  expanded\\\"\u003e\\n    \u003cdiv class=\\\"twixi-wrap verbose actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Collapse comment\\\" title=\\\"Collapse comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details\\\"\u003e        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_29036_verbose\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29036&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29036\' class=\'commentdate_29036_verbose subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 12:51 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T12:51:13+0000\'\u003e27\\/Feb\\/18 12:51 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e  \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-body flooded\\\"\u003e\u003cp\u003eI\'ve already done this to cause damage to the player this has worked, but I do not want that. I can not update because I can not find an update method.\u003c\\/p\u003e \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-links action-comment-actions\\\"\u003e\\n                                \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"twixi-wrap concise actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Expand comment\\\" title=\\\"Expand comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-collapsed\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details flooded\\\"\u003e\\n                        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_29036_concise\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29036&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29036\' class=\'commentdate_29036_concise subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 12:51 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T12:51:13+0000\'\u003e27\\/Feb\\/18 12:51 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e                    I\'ve already done this to cause damage to the player this has worked, but I do not want that. I can not update because I can not find an update method.              \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\u003c\\/div\u003e\\n                                     \\n\\n\\n\u003cdiv id=\\\"comment-29037\\\" class=\\\"issue-data-block activity-comment twixi-block  expanded\\\"\u003e\\n    \u003cdiv class=\\\"twixi-wrap verbose actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Collapse comment\\\" title=\\\"Collapse comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details\\\"\u003e        \\n    \\n    \\n                                            \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"Black-Hole\\\" id=\\\"commentauthor_29037_verbose\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=Black-Hole\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/www.gravatar.com\\/avatar\\/e5ec2f3612b9f08b8bbfce9c1c7dda24?d=mm&amp;s=16\\\" loading=\\\"lazy\\\" alt=\\\"Black-Hole\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e Black Hole\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29037&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29037\' class=\'commentdate_29037_verbose subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 1:19 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T13:19:22+0000\'\u003e27\\/Feb\\/18 1:19 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e   - \u003cspan class=\\\"subText update-info\\\" title=\\\"Black Hole - 27\\/Feb\\/18 1:20 PM\\\"\u003eedited\u003c\\/span\u003e \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-body flooded\\\"\u003e\u003cp\u003eThose objectives are read only, so you can\'t change the score directly. As a workaround you could update the health of the player a little:\u003cbr\\/\u003e\\n{{ double oldHealth = player.getHealth();\u003cbr\\/\u003e\\nplayer.setHealth(oldHealth &gt; 10.0 ? oldHealth - 0.001 : oldHealth + 0.001); }}\u003c\\/p\u003e \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-links action-comment-actions\\\"\u003e\\n                                \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"twixi-wrap concise actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Expand comment\\\" title=\\\"Expand comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-collapsed\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details flooded\\\"\u003e\\n                        \\n    \\n    \\n                                            \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"Black-Hole\\\" id=\\\"commentauthor_29037_concise\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=Black-Hole\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/www.gravatar.com\\/avatar\\/e5ec2f3612b9f08b8bbfce9c1c7dda24?d=mm&amp;s=16\\\" loading=\\\"lazy\\\" alt=\\\"Black-Hole\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e Black Hole\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29037&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29037\' class=\'commentdate_29037_concise subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 1:19 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T13:19:22+0000\'\u003e27\\/Feb\\/18 1:19 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e   - \u003cspan class=\\\"subText update-info\\\" title=\\\"Black Hole - 27\\/Feb\\/18 1:20 PM\\\"\u003eedited\u003c\\/span\u003e                   Those objectives are read only, so you can\'t change the score directly. As a workaround you could update the health of the player a little: \\n{{ double oldHealth = player.getHealth(); \\nplayer.setHealth(oldHealth &gt; 10.0 ? oldHealth - 0.001 : oldHealth + 0.001); }}              \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\u003c\\/div\u003e\\n                                     \\n\\n\\n\u003cdiv id=\\\"comment-29038\\\" class=\\\"issue-data-block activity-comment twixi-block  expanded\\\"\u003e\\n    \u003cdiv class=\\\"twixi-wrap verbose actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Collapse comment\\\" title=\\\"Collapse comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details\\\"\u003e        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_29038_verbose\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29038&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29038\' class=\'commentdate_29038_verbose subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 3:21 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T15:21:09+0000\'\u003e27\\/Feb\\/18 3:21 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e  \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-body flooded\\\"\u003e\u003cp\u003eThe player still hurt. I\'ll try it with task scheduler.\u003c\\/p\u003e \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-links action-comment-actions\\\"\u003e\\n                                \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"twixi-wrap concise actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Expand comment\\\" title=\\\"Expand comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-collapsed\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details flooded\\\"\u003e\\n                        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_29038_concise\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=29038&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-29038\' class=\'commentdate_29038_concise subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'27\\/Feb\\/18 3:21 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2018-02-27T15:21:09+0000\'\u003e27\\/Feb\\/18 3:21 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e                    The player still hurt. I\'ll try it with task scheduler.              \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\u003c\\/div\u003e\\n                                     \\n\\n\\n\u003cdiv id=\\\"comment-33548\\\" class=\\\"issue-data-block activity-comment twixi-block  expanded\\\"\u003e\\n    \u003cdiv class=\\\"twixi-wrap verbose actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Collapse comment\\\" title=\\\"Collapse comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details\\\"\u003e        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_33548_verbose\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=33548&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-33548\' class=\'commentdate_33548_verbose subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'19\\/May\\/19 4:38 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2019-05-19T16:38:13+0000\'\u003e19\\/May\\/19 4:38 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e  \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-body flooded\\\"\u003e\u003cp\u003eWill fixed it by using\u003c\\/p\u003e\\n\u003cdiv class=\\\"code panel\\\" style=\\\"border-width: 1px;\\\"\u003e\u003cdiv class=\\\"codeContent panelContent\\\"\u003e\\n\u003cpre class=\\\"code-java\\\"\u003esetRenderType(RenderType.HEARTS);\\n\u003c\\/pre\u003e\\n\u003c\\/div\u003e\u003c\\/div\u003e\\n\u003cp\u003ecode.\u003c\\/p\u003e \u003c\\/div\u003e\\n        \u003cdiv class=\\\"action-links action-comment-actions\\\"\u003e\\n                                \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n    \u003cdiv class=\\\"twixi-wrap concise actionContainer\\\"\u003e\\n        \u003cdiv class=\\\"action-head\\\"\u003e\\n            \u003cbutton aria-label=\\\"Expand comment\\\" title=\\\"Expand comment\\\" class=\\\"twixi icon-default aui-icon aui-icon-small aui-iconfont-collapsed\\\"\u003e\u003c\\/button\u003e\\n            \u003cdiv class=\\\"action-details flooded\\\"\u003e\\n                        \\n    \\n    \\n    \\n                \\n\\n\\n\\n    \u003ca class=\\\"user-hover user-avatar\\\" rel=\\\"montlikadani\\\" id=\\\"commentauthor_33548_concise\\\" href=\\\"\\/jira\\/secure\\/ViewProfile.jspa?name=montlikadani\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-xsmall\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"https:\\/\\/hub.spigotmc.org\\/jira\\/secure\\/useravatar?size=xsmall&amp;avatarId=10122\\\" loading=\\\"lazy\\\" alt=\\\"montlikadani\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e montlikadani\u003c\\/a\u003e\\n added a comment  - \u003ca href=\'\\/jira\\/browse\\/SPIGOT-3835?focusedCommentId=33548&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-33548\' class=\'commentdate_33548_concise subText comment-created-date-link\'\u003e\u003cspan class=\'date user-tz\' title=\'19\\/May\\/19 4:38 PM\'\u003e\u003ctime class=\'livestamp\' datetime=\'2019-05-19T16:38:13+0000\'\u003e19\\/May\\/19 4:38 PM\u003c\\/time\u003e\u003c\\/span\u003e\u003c\\/a\u003e                    Will fixed it by using \\n  \\n setRenderType(RenderType.HEARTS);\\n \\n  \\n code.              \u003c\\/div\u003e\\n        \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\u003c\\/div\u003e\\n                                     \u003c\\/div\u003e\\n    \u003c\\/div\u003e\\n\"";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["scope-filter-data"]="{\"createScopeActions\":[],\"scopes\":[]}";
+WRM._unparsedData["sidebar-collapsed-by-default"]="true";
+WRM._unparsedData["com.atlassian.jira.projects.shortcuts:can-manage"]="false";
+WRM._unparsedData["com.atlassian.jira.projects.shortcuts:with-icons"]="false";
+WRM._unparsedData["com.atlassian.jira.projects.shortcuts:shortcuts"]="[]";
+WRM._unparsedData["com.atlassian.jira.projects.shortcuts:project-id"]="10002";
+WRM._unparsedData["sidebar-id"]="\"\u003csection class=\\\"aui-sidebar  projects-sidebar sidebar-pending\\\" \u003e\u003cdiv class=\\\"aui-sidebar-wrapper\\\"\u003e\u003cdiv class=\\\"aui-sidebar-body\\\"\u003e\u003cdiv class=\\\"aui-page-header\\\" \u003e\u003cdiv class=\\\"aui-page-header-inner\\\"\u003e\u003cdiv class=\\\"aui-page-header-image\\\" \u003e\u003ca href=\\\"\\/jira\\/projects\\/SPIGOT\\/summary\\\" title=\\\"Spigot\\\" class=\\\"jira-project-avatar\\\"\u003e\u003cspan class=\\\"aui-avatar aui-avatar-large aui-avatar-project\\\"\u003e\u003cspan class=\\\"aui-avatar-inner\\\"\u003e\u003cimg src=\\\"\\/jira\\/secure\\/projectavatar?pid=10002&amp;avatarId=10401\\\" alt=\\\"Spigot\\\" \\/\u003e\u003c\\/span\u003e\u003c\\/span\u003e\u003cimg src=\\\"data:image\\/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGZpbGw9IiNFRDZGMDAiIGN4PSIzNiIgY3k9IjM2IiByPSIzNiIvPjxwYXRoIGQ9Ik0yOS42OCA0OS42MTdhMy4xOTQgMy4xOTQgMCAwMS0yLjI2My0uOTM3TDE3LjExMyAzOC4zNzVhMy44MyAzLjgzIDAgMDEwLTUuNGwxMC4wNC0xMC4wNGEzLjIwOSAzLjIwOSAwIDAxNC41MjggMCAzLjIwNiAzLjIwNiAwIDAxMCA0LjUyOGwtOC4yMTUgOC4yMTMgOC40NzkgOC40OGEzLjIwMSAzLjIwMSAwIDAxLTIuMjY0IDUuNDZNNTAuNjYzIDM3LjQ5NmwuMDE2LjAxNi0uMDE2LS4wMTZ6bS04LjAzNSAxMi4xMmEzLjE5OCAzLjE5OCAwIDAxLTIuMjYyLTUuNDYxbDguNDc3LTguNDgtOC4yMS04LjIxNGEzLjIgMy4yIDAgMDEwLTQuNTI2IDMuMiAzLjIgMCAwMTQuNTIyLjAwMmwxMC4wNCAxMC4wNGEzLjc3NCAzLjc3NCAwIDAxMS4xMiAyLjY5IDMuNzg2IDMuNzg2IDAgMDEtMS4xMiAyLjcwOEw0NC44OSA0OC42OGEzLjE4NiAzLjE4NiAwIDAxLTIuMjYyLjkzN3oiIGZpbGw9IiNGRkYiLz48L2c+PC9zdmc+\\\" alt=\\\"Project Type: software\\\" class=\\\"jira-project-avatar-icon\\\" \\/\u003e\u003c\\/a\u003e\u003c\\/div\u003e\u003cdiv class=\\\"aui-page-header-main\\\" \u003e\u003ch1\u003e\u003cdiv class=\\\"aui-group aui-group-split\\\"\u003e\u003cdiv class=\\\"aui-item project-title\\\"\u003e\u003ca href=\\\"\\/jira\\/projects\\/SPIGOT\\/summary\\\" title=\\\"Spigot\\\"\u003eSpigot\u003c\\/a\u003e\u003c\\/div\u003e\u003c\\/div\u003e\u003c\\/h1\u003e\u003c\\/div\u003e\u003cdiv class=\\\"aui-page-header-main scopeFilterContainer\\\" \u003e\u003c\\/div\u003e\u003c\\/div\u003e\u003c\\/div\u003e\u003cnav class=\\\"aui-navgroup aui-navgroup-vertical\\\"\u003e\u003cdiv class=\\\"aui-navgroup-inner sidebar-content-container jira-navigation\\\"\u003e\u003cdiv class=\\\"aui-sidebar-group aui-sidebar-group-tier-one\\\" data-id=\\\"sidebar-navigation-panel\\\"\u003e\u003cul class=\\\"aui-nav\\\"\u003e\u003cli class=\\\"aui-nav-selected\\\" \u003e\u003ca class=\\\"aui-nav-item \\\" href=\\\"\\/jira\\/projects\\/SPIGOT\\/issues\\\" data-link-id=\\\"com.atlassian.jira.jira-projects-issue-navigator:sidebar-issue-navigator\\\" \u003e\u003cspan class=\\\"aui-icon aui-icon-large icon-sidebar-issues aui-iconfont-issues\\\"\u003e\u003c\\/span\u003e\u003cspan class=\\\"aui-nav-item-label\\\" title=\\\"Issues\\\"\u003eIssues\u003c\\/span\u003e\u003c\\/a\u003e\u003c\\/li\u003e\u003cli  \u003e\u003ca class=\\\"aui-nav-item \\\" href=\\\"\\/jira\\/projects\\/SPIGOT?selectedItem=com.atlassian.jira.jira-projects-plugin:report-page\\\" data-link-id=\\\"com.atlassian.jira.jira-projects-plugin:report-page\\\" \u003e\u003cspan class=\\\"aui-icon aui-icon-large agile-icon-report aui-iconfont-graph-line\\\"\u003e\u003c\\/span\u003e\u003cspan class=\\\"aui-nav-item-label\\\" title=\\\"Reports\\\"\u003eReports\u003c\\/span\u003e\u003c\\/a\u003e\u003c\\/li\u003e\u003cli  \u003e\u003ca class=\\\"aui-nav-item \\\" href=\\\"\\/jira\\/projects\\/SPIGOT?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page\\\" data-link-id=\\\"com.atlassian.jira.jira-projects-plugin:components-page\\\" \u003e\u003cspan class=\\\"aui-icon aui-icon-large icon-sidebar-components\\\"\u003e\u003c\\/span\u003e\u003cspan class=\\\"aui-nav-item-label\\\" title=\\\"Components\\\"\u003eComponents\u003c\\/span\u003e\u003c\\/a\u003e\u003c\\/li\u003e\u003c\\/ul\u003e\u003c\\/div\u003e\u003c\\/div\u003e\u003c\\/nav\u003e\u003c\\/div\u003e\u003cdiv class=\\\"aui-sidebar-footer\\\"\u003e\u003cbutton class=\\\"aui-button aui-button-subtle aui-sidebar-toggle aui-sidebar-footer-tipsy\\\" title=\\\"Expand sidebar ( [ )\\\" data-tooltip=\\\"Expand sidebar ( [ )\\\"\u003e\u003cspan class=\\\"aui-icon aui-icon-small aui-iconfont-chevron-double-left\\\"\u003e\u003c\\/span\u003e\u003c\\/button\u003e\u003c\\/div\u003e\u003c\\/div\u003e\u003c\\/section\u003e\"";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<script type="text/javascript" src="/jira/s/d41d8cd98f00b204e9800998ecf8427e-CDN/vvf7g7/821000/1l3encd/1.0/_/download/batch/jira.webresources:bigpipe-init/jira.webresources:bigpipe-init.js" data-wrm-key="jira.webresources:bigpipe-init" data-wrm-batch-type="resource" data-initially-rendered></script>
+<form id="jira_request_timing_info" class="dont-default-focus">
+<fieldset class="parameters hidden">
+<input type="hidden" title="jira.request.start.millis" value="1642317963009" />
+<input type="hidden" title="jira.request.server.time" value="72" />
+<input type="hidden" title="jira.request.id" value="446x1200723x1" />
+<input type="hidden" title="jira.session.expiry.time" value="1642318022890" />
+<input type="hidden" title="jira.session.expiry.in.mins" value="0" />
+<input id="jiraConcurrentRequests" type="hidden" name="jira.request.concurrent.requests" value="1" />
+<input type="hidden" title="db.reads.time.in.ms" value="6" />
+<input type="hidden" title="db.conns.time.in.ms" value="8" />
+</fieldset>
+</form>
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ce59d041ede3634',m:'46f52c5de70825047a0ff40dc1bb5c104f743ecc-1642317963-0-ARaFzX/qCC1fgOTr5tyAhApAHk7OyTIv4KmUDwpyBzpkEWzvveZ+C2KfVdfl2ZxZw/dSM8zxr8Q8JCskOt/IeW8e5PvKWqk4ckE6vvb11gmH88nPUgOEXCtlFRy5te3z28tIC/aYx0/uxF4VOE/NGF0=',s:[0xf52dff9b71,0x75a6a18c5a],}})();</script></body>
+</html>

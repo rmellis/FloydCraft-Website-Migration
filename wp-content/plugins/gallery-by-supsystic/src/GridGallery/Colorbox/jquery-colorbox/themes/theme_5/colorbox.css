@@ -1,0 +1,43 @@
+/*
+    User Style: Theme 5
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.theme_5 #sggCboxTooltip {left: 0; bottom: 48px; margin: 0 14px; padding: 5px 10px; background: rgba(255, 255, 255,0.5); color: #000; right: 0; text-align: center;}
+.theme_5-overlay{background:#000;}
+.theme_5{outline:0;}
+.theme_5 #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+.theme_5 #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
+.theme_5 #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
+.theme_5 #cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
+.theme_5 #cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left;}
+.theme_5 #cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
+.theme_5 #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
+.theme_5 #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
+.theme_5 #cboxContent{background:#fff; overflow:visible;}
+.theme_5 .cboxIframe{background:#fff;}
+.theme_5 #cboxError{padding:50px; border:1px solid #ccc;}
+.theme_5 #cboxLoadedContent{margin-bottom:5px;}
+.theme_5 #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+.theme_5 #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+.theme_5 #cboxTitle{bottom:-25px; left: 190px; right: 55px; text-align:center; font-weight:bold; color:#7C7C7C;}
+.theme_5 #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+.theme_5 #cboxPrevious, .theme_5 #cboxNext, .theme_5 #cboxSlideshow, .theme_5 #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+.theme_5 #cboxPrevious:active, .theme_5 #cboxNext:active, .theme_5 #cboxSlideshow:active, .theme_5 #cboxClose:active {outline:0; text-align: left;}
+
+.theme_5 #cboxPrevious{left:0px; background-position: -51px -25px;}
+.theme_5 #cboxPrevious:hover{background-position:-51px 0px;}
+.theme_5 #cboxNext{left:27px; background-position:-75px -25px;}
+.theme_5 #cboxNext:hover{background-position:-75px 0px;}
+.theme_5 #cboxSlideshow:hover{background-position:-75px 0px;}
+.theme_5 #cboxClose{right:0; background-position:-100px -25px;}
+.theme_5 #cboxClose:hover{background-position:-100px 0px;}
+
+.cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0px;}
+.cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0px;}

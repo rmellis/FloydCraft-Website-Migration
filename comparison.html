@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison of Minecraft-Discord linking plugins</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+    	* {
+    		font-family: 'Roboto';
+    	}
+        .red, .yellow, .green {
+            text-align: center;
+        }
+        .green {
+            background-color: rgba(0, 255, 0, 0.2);
+        }
+        .yellow {
+            background-color: rgba(255, 255, 0, 0.2);
+        }
+        .red {
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+        .hover:hover {
+            background-color: #dfdfdf;
+        }
+        th {
+            text-align: center;
+        }
+        td[colspan="5"] {
+            text-align: center;
+            font-style: italic;
+            font-weight: 600;
+        }
+        .btn-group {
+            padding-bottom: 3px;
+        }
+        .icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-size: 16px 16px;
+            vertical-align: text-bottom;
+        }
+        .icon.icon-bukkit {
+            background-image: url('https://dev.bukkit.org/media/site-favicons/0/7/favicon.ico');
+        }
+        .icon.icon-spigot {
+            background-image: url('https://www.spigotmc.org/favicon.ico');
+        }
+        .icon.icon-github {
+            background-image: url('https://github.com/fluidicon.png');
+        }
+        .btn img {
+            width: 16px;
+            height: 16px;
+        }
+        .title {
+        	font-weight: bold;
+        }
+
+        .pl3xbot {
+        	text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            <h3>Comparison of Minecraft-Discord linking plugins</h3>
+
+            <p><em><strong>Last updated:</strong> Saturday, 1 Oct 2016</em></p>
+
+            <table class="table" style="table-layout: fixed">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>DiscordSRV</th>
+                        <th>DiscordMC</th>
+                        <th class="pl3xbot">Pl3xBot</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align:center">
+                        <td></td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn btn-primary" href="https://dev.bukkit.org/bukkit-plugins/discordsrv/" target="_blank"><em class="icon icon-bukkit"></em> BukkitDev</a>
+                                <a class="btn btn-primary" href="https://www.spigotmc.org/resources/discordsrv.18494/" target="_blank"><em class="icon icon-spigot"></em> SpigotMC</a>
+                                <a class="btn btn-success" href="https://github.com/Scarsz/DiscordSRV" target="_blank"><em class="icon icon-github"></em> GitHub</a>
+                            </div><br>
+                        </td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn btn-primary" href="https://www.spigotmc.org/resources/discordmc.17067/" target="_blank"><em class="icon icon-spigot"></em> SpigotMC</a>
+                                <a class="btn btn-success" href="https://github.com/manuelgu/DiscordMC" target="_blank"><em class="icon icon-github"></em> GitHub</a>
+                            </div><br>
+                        </td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn btn-primary pl3xbot" href="https://www.spigotmc.org/resources/pl3xbot.26342/" target="_blank"><em class="icon icon-spigot"></em> SpigotMC</a>
+                            </div><br>
+                        </td>
+                    </tr>
+
+                    <tr><td colspan="4" class="title">General Information</td></tr>
+
+                    <tr class="hover">
+                        <td>System</td>
+                        <td><em class="icon icon-bukkit"></em> BukkitDev &amp; <em class="icon icon-spigot"></em> SpigotMC</td>
+                        <td><em class="icon icon-spigot"></em> SpigotMC</td>
+                        <td class="pl3xbot"><em class="icon icon-spigot"></em> SpigotMC</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Version</td>
+                        <td>12.0</td>
+                        <td>1.4.1</td>
+                        <td class="pl3xbot">1.0.6</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Downloads</td>
+                        <td>3,258</td>
+                        <td>1,410</td>
+                        <td class="pl3xbot">6</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Servers active</td>
+                        <td>210</td>
+                        <td>No metrics available</td>
+                        <td class="pl3xbot">No metrics available</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Developer</td>
+                        <td>Scarsz</td>
+                        <td>manuelgu</td>
+                        <td class="pl3xbot">BillyGalbreath</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>License</td>
+                        <td class="green">GPLv3</td>
+                        <td class="green">GPLv2</td>
+                        <td class="red pl3xbot">Closed source</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Required Dependencies</td>
+                        <td class="green">0</td>
+                        <td class="green">0</td>
+                        <td class="red pl3xbot">Pl3xBot-API, Vault</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Configuration options</td>
+                        <td class="green">79</td>
+                        <td class="red">17</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Price</td>
+                        <td class="green">Free</td>
+                        <td class="green">Free</td>
+                        <td class="red pl3xbot">$5</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Developer API</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="green pl3xbot">Yes</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Open source</td>
+                        <td class="green">Yes</td>
+                        <td class="green">Yes</td>
+                        <td class="red pl3xbot">No</td>
+                    </tr>
+                    <tr><td colspan="4" class="title">Minecraft &#8594; Discord</td></tr>
+                    <tr class="hover">
+                        <td>Chat</td>
+                        <td class="green">Yes</td>
+                        <td class="green">Yes</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Complete console relay</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td><code>/say</code> messages</td>
+                        <td class="green">Yes</td>
+                        <td class="yellow">?</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Achievements</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Player join / leave</td>
+                        <td class="green">Yes</td>
+                        <td class="green">Yes</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Player death</td>
+                        <td class="green">Yes</td>
+                        <td class="green">Yes</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Start up / shutdown</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr><td colspan="4" class="title">Discord &#8594; Minecraft</td></tr>
+                    <tr class="hover">
+                        <td>Chat</td>
+                        <td class="green">Yes</td>
+                        <td class="green">Yes</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Execute console commands</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Emojis supported</td>
+                        <td class="yellow">50/50</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Attachments supported</td>
+                        <td class="yellow">Planned</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr><td colspan="4" class="title">Discord Commands</td></tr>
+                    <tr class="hover">
+                        <td><code>online</code></td>
+                        <td class="green">Yes<a href="comparison#footnote-1"><sup>1</sup></a></td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td><code>tps</code></td>
+                        <td class="green">Yes<a href="comparison#footnote-1"><sup>1</sup></a></td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Enable / Disable</td>
+                        <td class="green">Yes<a href="comparison#footnote-1"><sup>1</sup></a></td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Can change the prefix of a command</td>
+                        <td class="green">Yes<a href="comparison#footnote-1"><sup>1</sup></a></td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Limit commands to Discord role</td>
+                        <td class="green">Yes</td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Custom commands that execute Minecraft commands</td>
+                        <td class="green">Yes<a href="comparison#footnote-1"><sup>1</sup></a></td>
+                        <td class="red">No</td>
+                        <td class="yellow pl3xbot">?</td>
+                    </tr>
+                </tbody>
+            </table>
+            <em><strong>Disclaimer:</strong> This comparison is made by the developer of DiscordSRV. This site was templated by permission of Chikachi.</em><br>
+            <a name="footnote-1"><sup>1</sup></a> The plugin allows to run any console command.<br>
+        </div>
+    </div>
+    <br>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6ce5d2bd7dbb7792","version":"2021.12.0","r":1,"token":"37663d217d6d400080f7c5867e8794e2","si":100}' crossorigin="anonymous"></script>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</html>

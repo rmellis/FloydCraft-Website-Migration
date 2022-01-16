@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>database:  # Database backend type, can be set to mysql or sqlite  type: sql - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+            <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="database:  # Database backend type, can be set to mysql or sqlite  type: sql - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/yEBM699Q" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/yEBM699Q" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="FRjfDlhdln5x0RzWiKgvw6punSoCL-hrPef8Ue0AOstUeYZMYSfcDgWcSbL9_2nw_DrHH2RMsigI0s4plVBMmQ==">
+
+<link href="/assets/c80611c4/css/bootstrap.min.css" rel="stylesheet">        
+<link href="/themes/pastebin/css/vendors.bundle.css?ec0a0b6023b5e6c9982d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?ec0a0b6023b5e6c9982d" rel="stylesheet">
+    
+<!-- 0-x2xy94pJ -->
+<script type="text/javascript" src="//services.vlitag.com/adv1/?q=adf050ece17b957604b4bbfc1829059f" defer="" async=""></script><script> var vitag = vitag || {};</script>
+<!-- End Valueimpression Head Script -->
+<script>
+     vitag.smartBannerConfig= {
+          disablePosition:  "top right left",
+     }
+</script>
+<script type="text/javascript">
+        if (window.location.pathname === "/") {
+            vitag = vitag || {};
+            vitag.outStreamConfig = vitag.outStreamConfig || {};
+            vitag.outStreamConfig.enablePC = false;
+        }
+    </script>
+</head>
+<body class="night-auto " data-pr="x2xy94pJ" data-pa="" data-sar="1" data-abd="1">
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Login</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        
+<!-- 0-x2xy94pJ -->
+<div style="padding-bottom:20px; padding-top:20px;">
+<div class="adsbyvli" data-ad-slot="vi_1282550010"></div><script>(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display("vi_1282550010")})</script>
+</div>
+
+                                    
+            
+            
+<link href="/themes/pastebin/css/geshi/light/yaml.css?694707f98000ed24d865" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/yEBM699Q" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/yEBM699Q" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Untitled</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                        a guest                    </div>
+                
+                <div class="date">
+                    <span title="Wednesday 22nd of August 2018 04:29:01 PM CDT">Aug 22nd, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    3,231                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/yaml" class="btn -small h_800">YAML</a> 16.68 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/yEBM699Q" class="btn -small">raw</a>
+                    <a href="/dl/yEBM699Q" class="btn -small">download</a>
+                    <a href="/clone/yEBM699Q" class="btn -small h_800">clone</a>
+                    <a href="/embed/yEBM699Q" class="btn -small h_800">embed</a>
+                    <a href="/print/yEBM699Q" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/yEBM699Q" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style="font-size: px; line-height: px;">
+            <ol class="yaml"><li class="li1"><div class="de1"><span class="co4">database</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Database backend type, can be set to mysql or sqlite</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; type</span><span class="sy2">: </span>sqlite</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL database host</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; mySQLHost</span><span class="sy2">: </span>localhost</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL connection port number</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; mySQLPort</span><span class="sy2">: </span><span class="nu0">3306</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL database name</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; mySQLDatabase</span><span class="sy2">: </span>db</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL database user</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; mySQLUser</span><span class="sy2">: </span>root</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL user's password</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; mySQLPassword</span><span class="sy2">: </span><span class="st0">&quot;&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># MySQL table names</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; tableNames</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; players</span><span class="sy2">: </span><span class="st0">&quot;players&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;Type of the economy which will handle all transactions. </span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;Supported economies:</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;- EXP (default Minecraft experience points)</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;- VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;- MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/)</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;- PLAYER_POINTS (requires https://dev.bukkit.org/projects/playerpoints)</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># &nbsp;- TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">economyType</span><span class="sy2">: </span>VAULT</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Name of the main GUI</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">shopMenuName</span><span class="sy2">: </span><span class="st0">&quot;&amp;3&amp;lShop menu&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">shopMenuSize</span><span class="sy2">: </span><span class="nu0">45</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose an item to fill the empty slots of menu with</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">shopMenuFillItem</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; material</span><span class="sy2">: </span>BLACK_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; name</span><span class="sy2">: </span><span class="st0">&quot; &quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether selling all with middle mouse button is enabled</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">enableSellAll</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether the buy GUI with option to select quantity is enabled</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">enableBuyGUI</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether the sell GUI with option to select quantity is enabled</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">enableSellGUI</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">enableSellGUISellAll</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether after closing/buying/selling the shop GUI should be opened again</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">returnToShop</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">quickBuySell</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether lines containing the %buy% placeholder should be hidden for unbuyable items</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">hideBuyPriceForUnbuyable</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether lines containing the %sell% placeholder should be hidden for unsellable items</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">hideSellPriceForUnsellable</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">invertBuySell</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Maximum amount of enchantments players can add to an item, set to -1 for no limit</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">maxEnchantments</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">limitEnchantmentLevelDiff</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether the amount selection double click bug fix should be enabled</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">enableAmountSelectionFix</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether players should be able to use sell all option to sell all their items (allowAllSellAllStackSizes = true) or only amount multiplied by the original stack size of the shop item (allowAllSellAllStackSizes = false)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">allowAllSellAllStackSizes</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">roundPrices</span><span class="sy2">: </span><span class="kw1">none</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop &lt;id&gt; when you disable it.</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">disableMainMenu</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">useDifferentMessagesForFreeItems</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">capitalizeItemNames</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose the type of price modifiers. (BOTH (permission modifiers have higher priority than command-ones), COMMAND, PERMISSION)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">priceModifiersType</span><span class="sy2">: </span>BOTH</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose if the gui shall be closed after using the Sell All feature</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">closeGuiAfterSellAll</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose if bulk buy/sell guis should be opened immediately after clicking an item (enableBuyGUI and enableSellGUI have to be enabled as well and players need the bulk buy/sell permissions)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">openBulkGuiImmediately</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose which items stack size should be capped at 16 inside the amount selection GUI so players can't buy eg. oversized ender pearl stacks</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Format is same as for regular items in shops.yml</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">itemStackSizeCappedAt</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 1</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; material</span><span class="sy2">: </span>ENDER_PEARL</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; size</span><span class="sy2">: </span><span class="nu0">16</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 2</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; material</span><span class="sy2">: </span>SNOWBALL</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; size</span><span class="sy2">: </span><span class="nu0">16</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 3</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; material</span><span class="sy2">: </span>SIGN</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; size</span><span class="sy2">: </span><span class="nu0">16</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 4</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; material</span><span class="sy2">: </span>EGG</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; size</span><span class="sy2">: </span><span class="nu0">16</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 5</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; material</span><span class="sy2">: </span>BUCKET</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; size</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">disableShopsInGamemodes</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;- ADVENTURE</div></li>
+<li class="li1"><div class="de1">&nbsp; - CREATIVE</div></li>
+<li class="li1"><div class="de1">&nbsp; - SPECTATOR</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">disableShopsInWorlds</span><span class="sy2">: </span><span class="br0">&#91;</span><span class="br0">&#93;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; </div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">displayPriceModifiersInPercents</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose whether the world-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">disableSudoWorldPermissionCheck</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose whether the shop-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">disableSudoShopPermissionCheck</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose whether free items (with sell price of $0) should be excluded from being sold using /sell hand and /sell all</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">sellHandAllExcludeFreeItems</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Choose predefined settings for all items (will be overriden when set explicitly for an item in shops.yml)</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">defaultItemSettings</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Choose whether item meta (name, lore etc.) should be compared when players attempt to sell an item</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; compareMeta</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Choose whether item meta should be removed from an item when it's purchased by a player from the shop</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; stripItemMeta</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Format of item lores in shops, %buy% will be replaced with the buy price and %sell% with sell price</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">shopItemLoreFormat</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># This lore will be applied to items</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Buy price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Sell price</span><span class="sy2">: </span><span class="co6">&amp;a%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; - <span class="st0">&quot;&amp;9Click with MMB to sell all&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; itemBuyGUI</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Buy price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span> &nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; itemSellGUI</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Sell price</span><span class="sy2">: </span><span class="co6">&amp;a%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; itemSellGUISellAll</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Sell all for</span><span class="sy2">: </span><span class="co6">&amp;a%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># This one to permissions</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; permission</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Buy price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># And this one to enchantments</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; enchantment</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Buy price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># And the last one to commands</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; command</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; - &quot;&amp;7Buy price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Logging settings</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">log</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Define whether transactions will be logged to the console/main server log</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; toConsole</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Define whether transactions will be logged to a separate log</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; toFile</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; formatDate</span><span class="sy2">: </span><span class="st0">&quot;yyyy/MM/dd HH:mm:ss&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Log message for bought items</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; formatBuy</span><span class="sy2">: </span><span class="st0">&quot;%player% bought %amount% x %item% for %price%$ from %shop% shop&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Log message for sold items</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; formatSell</span><span class="sy2">: </span><span class="st0">&quot;%player% sold %amount% x %item% for %price%$ to %shop% shop&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Log message for sold all items</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; formatSellAll</span><span class="sy2">: </span><span class="st0">&quot;%player% sold all %amount% x %item% for %price%$ to %shop% shop&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; </div></li>
+<li class="li1"><div class="de1"><span class="co1"># Sell hand command settings</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">sellHand</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; allowAllQuantites</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># When set to true, /sell hand will work same way as /sell handall does</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; sellsAllItems</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Sell all command settings</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">sellAll</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># When set to true, players will get a detailed summary with prices of each item stack sold</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; detailedSummary</span><span class="sy2">: </span>false</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co4">buttons</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># &quot;Go back button&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; goBack</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp;<span class="co1"># Material name, full list can be found here: http://wiki.brcdev.net/Materials</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>BARRIER</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># Amount of the item</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; amount</span><span class="sy2">: </span><span class="nu0">1</span> </div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># (optional) Data value, for example 1 for WOOD:1 means spruce wood planks</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; damage</span><span class="sy2">: </span><span class="nu0">0</span> </div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># (optional) Custom name</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lGo back to categories&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># (optional) Lore, can contain multiple lines</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; lore</span><span class="sy2">: </span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; - <span class="st0">&quot;&amp;7Click here to return&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; - <span class="st0">&quot;&amp;7to the main menu&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># Slot in each shop's GUI</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">49</span> </div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># &quot;Previous page&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; previousPage</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>PAPER</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;e&amp;lPrevious page&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">48</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># &quot;Next page&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; nextPage</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>PAPER</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;e&amp;lNext page&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">50</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Elements of the bulk buy GUI</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">amountSelectionGUIBulkBuy</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; size</span><span class="sy2">: </span><span class="nu0">18</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Choose if buttons type should be replaced with the bought item's type</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; replaceButtonsType</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Buttons</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; buttons</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp;<span class="co1"># &quot;Buy 1 stack&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy1</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp;<span class="co1"># When no material is specified it will be the type of the item being bought</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 1 stack&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># Value indicated the amount of stacks</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">0</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 2 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy2</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 2 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 3 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy3</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 3 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 4 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy4</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 4 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 5 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy5</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 5 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 6 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy6</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 6 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 7 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy7</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 7 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 8 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy8</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 8 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy 9 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buy9</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">9</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aBuy 9 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%buy%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">9</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Cancel&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; cancel</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lCancel&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">13</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; </div></li>
+<li class="li1"><div class="de1"><span class="co1"># Elements of the bulk buy GUI</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">amountSelectionGUIBulkSell</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; size</span><span class="sy2">: </span><span class="nu0">18</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Choose if buttons type should be replaced with the sold item's type</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; replaceButtonsType</span><span class="sy2">: </span>true</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Buttons</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; buttons</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp;<span class="co1"># &quot;Sell 1 stack&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell1</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp;<span class="co1"># When no material is specified it will be the type of the item being bought</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 1 stack&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="co1"># Value indicated the amount of stacks</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">0</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 2 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell2</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 2 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 3 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell3</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 3 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">2</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 4 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell4</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 4 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">3</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 5 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell5</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 5 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">4</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 6 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell6</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 6 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">5</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 7 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell7</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 7 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">6</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 8 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell8</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 8 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">7</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell 9 stacks&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sell9</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">9</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;aSell 9 stacks&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; &nbsp; lore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &quot;&amp;7Price</span><span class="sy2">: </span><span class="co6">&amp;c%sell%$&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; value</span><span class="sy2">: </span><span class="nu0">9</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">8</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Cancel&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; cancel</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lCancel&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">13</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># Elements of the regular buy/sell GUI</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">amountSelectionGUI</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; size</span><span class="sy2">: </span><span class="nu0">54</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Slot of the item being bought/sold</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; itemSlot</span><span class="sy2">: </span><span class="nu0">22</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1"># Buttons</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; buttons</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp;<span class="co1"># &quot;Set to 1&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; set1</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lSet to 1&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">18</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Remove 10&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; remove10</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">10</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lRemove 10&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">19</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Remove 1&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; remove1</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lRemove 1&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">20</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Add 1&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; add1</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lAdd 1&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">24</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Add 10&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; add10</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">10</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lAdd 10&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">25</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Set to 16&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; set16</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">16</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lSet to 16&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">26</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Set to 64&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; set64</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS_PANE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">64</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lSet to 64&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">26</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Confirm&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; confirm</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lConfirm&quot;</span> &nbsp; </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">39</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell all&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sellAll</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lSell all&quot;</span> &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">40</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Buy more&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; buyMore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">64</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lBuy more&quot;</span> &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">49</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Sell more&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; sellMore</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIME_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">64</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;a&amp;lSell more&quot;</span> &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">49</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># &quot;Cancel&quot; button</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; cancel</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>RED_STAINED_GLASS</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;c&amp;lCancel&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">41</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; </div></li>
+<li class="li1"><div class="de1"><span class="co4">shopMenuItems</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp;<span class="co1"># Has to be unique, value doesn't matter</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 1</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp;<span class="co1"># The same rules apply for material, amount, damage and lore as for goBackButton</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>GRASS_BLOCK</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;9&amp;lBlocks&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># Shop ID from shops.yml</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;blocks&quot;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="co1"># Slot in shops menu, counting from 0 to 53</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">11</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; 2</span><span class="sy2">: </span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>COOKED_CHICKEN </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span> </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; damage</span><span class="sy2">: </span><span class="nu0">0</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;2&amp;lFood&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; lore</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp; &nbsp;- <span class="st0">&quot;&amp;7Get some yummy food here!&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;food&quot;</span> </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">12</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; 3</span><span class="sy2">: </span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>GOLD_INGOT </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span> </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; damage</span><span class="sy2">: </span><span class="nu0">0</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;3&amp;lOres&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;ores&quot;</span> </div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">13</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 4</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>IRON_PICKAXE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;8&amp;lTools&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;tools&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">14</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 5</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>DIAMOND_CHESTPLATE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;4&amp;lArmor&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;armor&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">15</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 6</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>WHEAT</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;5&amp;lFarming&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;farming&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">21</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 7</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>SPIDER_EYE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;9&amp;lMob drops&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;drops&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">22</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 8</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>LIGHT_BLUE_DYE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;2&amp;lDyes&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;dyes&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">23</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; 9</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>SADDLE</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;3&amp;lMiscellanous&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; shop</span><span class="sy2">: </span><span class="st0">&quot;miscellanous&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; slot</span><span class="sy2">: </span><span class="nu0">31</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co4">specialElements</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; balance</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; item</span>:</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; material</span><span class="sy2">: </span>GOLD_INGOT</div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; quantity</span><span class="sy2">: </span><span class="nu0">1</span></div></li>
+<li class="li1"><div class="de1"><span class="co3">&nbsp; &nbsp; &nbsp; name</span><span class="sy2">: </span><span class="st0">&quot;&amp;6&amp;lYour balance&quot;</span></div></li>
+<li class="li1"><div class="de1"><span class="co4">&nbsp; &nbsp; &nbsp; lore</span><span class="sy2">:</div></li>
+<li class="li1"><div class="de1"></span> &nbsp; &nbsp; &nbsp; &nbsp;- <span class="st0">&quot;&amp;7$%balance%&quot;</span></div></li>
+</ol>        </div>
+    </div>
+
+    
+                
+<!-- 0-x2xy94pJ -->
+<div style="padding-bottom:10px; padding-top:10px;">
+<div class="adsbyvli" style="width:970px; height:250px" data-ad-slot="vi_1282567605"></div> <script>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("vi_1282567605") })</script>
+</div>
+
+        <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">database:
+  # Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  # MySQL database host
+  mySQLHost: localhost
+  # MySQL connection port number
+  mySQLPort: 3306
+  # MySQL database name
+  mySQLDatabase: db
+  # MySQL database user
+  mySQLUser: root
+  # MySQL user&#039;s password
+  mySQLPassword: &quot;&quot;
+  # MySQL table names
+  tableNames:
+    players: &quot;players&quot;
+
+#  Type of the economy which will handle all transactions. 
+#  Supported economies:
+#  - EXP (default Minecraft experience points)
+#  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
+#  - MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/)
+#  - PLAYER_POINTS (requires https://dev.bukkit.org/projects/playerpoints)
+#  - TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)
+economyType: VAULT
+# Name of the main GUI
+shopMenuName: &quot;&amp;3&amp;lShop menu&quot;
+# Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
+shopMenuSize: 45
+# Choose an item to fill the empty slots of menu with
+shopMenuFillItem:
+  material: BLACK_STAINED_GLASS_PANE
+  name: &quot; &quot;
+# Define whether selling all with middle mouse button is enabled
+enableSellAll: true
+# Define whether the buy GUI with option to select quantity is enabled
+enableBuyGUI: true
+# Define whether the sell GUI with option to select quantity is enabled
+enableSellGUI: true
+# Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
+enableSellGUISellAll: true
+# Define whether after closing/buying/selling the shop GUI should be opened again
+returnToShop: true
+# Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
+quickBuySell: false
+# Define whether lines containing the %buy% placeholder should be hidden for unbuyable items
+hideBuyPriceForUnbuyable: true
+# Define whether lines containing the %sell% placeholder should be hidden for unsellable items
+hideSellPriceForUnsellable: true
+# Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
+invertBuySell: false
+# Maximum amount of enchantments players can add to an item, set to -1 for no limit
+maxEnchantments: 3
+# Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
+limitEnchantmentLevelDiff: false
+# Define whether the amount selection double click bug fix should be enabled
+enableAmountSelectionFix: true
+# Define whether players should be able to use sell all option to sell all their items (allowAllSellAllStackSizes = true) or only amount multiplied by the original stack size of the shop item (allowAllSellAllStackSizes = false)
+allowAllSellAllStackSizes: false
+# Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
+roundPrices: none
+# Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop &lt;id&gt; when you disable it.
+disableMainMenu: false
+# Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
+useDifferentMessagesForFreeItems: true
+# Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick
+capitalizeItemNames: true
+# Choose the type of price modifiers. (BOTH (permission modifiers have higher priority than command-ones), COMMAND, PERMISSION)
+priceModifiersType: BOTH
+# Choose if the gui shall be closed after using the Sell All feature
+closeGuiAfterSellAll: false
+# Choose if bulk buy/sell guis should be opened immediately after clicking an item (enableBuyGUI and enableSellGUI have to be enabled as well and players need the bulk buy/sell permissions)
+openBulkGuiImmediately: false
+# Choose which items stack size should be capped at 16 inside the amount selection GUI so players can&#039;t buy eg. oversized ender pearl stacks
+# Format is same as for regular items in shops.yml
+itemStackSizeCappedAt:
+  1:
+    material: ENDER_PEARL
+    size: 16
+  2:
+    material: SNOWBALL
+    size: 16
+  3:
+    material: SIGN
+    size: 16
+  4:
+    material: EGG
+    size: 16
+  5:
+    material: BUCKET
+    size: 1
+# Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
+disableShopsInGamemodes:
+  - ADVENTURE
+  - CREATIVE
+  - SPECTATOR
+# Choose in which worlds players won&#039;t be able to access the shop. Same list format as disableShopsInGamemodes
+disableShopsInWorlds: []
+  
+# Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
+displayPriceModifiersInPercents: true
+
+# Choose whether the world-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoWorldPermissionCheck: false
+
+# Choose whether the shop-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoShopPermissionCheck: false
+
+# Choose whether free items (with sell price of $0) should be excluded from being sold using /sell hand and /sell all
+sellHandAllExcludeFreeItems: true
+
+# Choose predefined settings for all items (will be overriden when set explicitly for an item in shops.yml)
+defaultItemSettings:
+  # Choose whether item meta (name, lore etc.) should be compared when players attempt to sell an item
+  compareMeta: false
+  # Choose whether item meta should be removed from an item when it&#039;s purchased by a player from the shop
+  stripItemMeta: false
+
+# Format of item lores in shops, %buy% will be replaced with the buy price and %sell% with sell price
+shopItemLoreFormat:
+  # This lore will be applied to items
+  item:
+    - &quot;&amp;7Buy price: &amp;c%buy%$&quot;
+    - &quot;&amp;7Sell price: &amp;a%sell%$&quot;
+    - &quot;&amp;9Click with MMB to sell all&quot;
+  # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
+  itemBuyGUI:
+    - &quot;&amp;7Buy price: &amp;c%buy%$&quot;  
+  # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
+  itemSellGUI:
+    - &quot;&amp;7Sell price: &amp;a%sell%$&quot;
+  # This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
+  itemSellGUISellAll:
+    - &quot;&amp;7Sell all for: &amp;a%sell%$&quot;
+  # This one to permissions
+  permission:
+    - &quot;&amp;7Buy price: &amp;c%buy%$&quot;
+  # And this one to enchantments
+  enchantment:
+    - &quot;&amp;7Buy price: &amp;c%buy%$&quot;
+  # And the last one to commands
+  command:
+    - &quot;&amp;7Buy price: &amp;c%buy%$&quot;
+
+# Logging settings
+log:
+  # Define whether transactions will be logged to the console/main server log
+  toConsole: true
+  # Define whether transactions will be logged to a separate log
+  toFile: false
+  # Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+  formatDate: &quot;yyyy/MM/dd HH:mm:ss&quot;
+  # Log message for bought items
+  formatBuy: &quot;%player% bought %amount% x %item% for %price%$ from %shop% shop&quot;
+  # Log message for sold items
+  formatSell: &quot;%player% sold %amount% x %item% for %price%$ to %shop% shop&quot;
+  # Log message for sold all items
+  formatSellAll: &quot;%player% sold all %amount% x %item% for %price%$ to %shop% shop&quot;
+  
+# Sell hand command settings
+sellHand:
+  # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
+  allowAllQuantites: true
+  # When set to true, /sell hand will work same way as /sell handall does
+  sellsAllItems: false
+
+# Sell all command settings
+sellAll:
+  # When set to true, players will get a detailed summary with prices of each item stack sold
+  detailedSummary: false
+
+buttons:
+  # &quot;Go back button&quot;
+  goBack:
+    item:
+      # Material name, full list can be found here: http://wiki.brcdev.net/Materials
+      material: BARRIER
+      # Amount of the item
+      amount: 1 
+      # (optional) Data value, for example 1 for WOOD:1 means spruce wood planks
+      damage: 0 
+      # (optional) Custom name
+      name: &quot;&amp;c&amp;lGo back to categories&quot;
+      # (optional) Lore, can contain multiple lines
+      lore: 
+        - &quot;&amp;7Click here to return&quot;
+        - &quot;&amp;7to the main menu&quot;
+    # Slot in each shop&#039;s GUI
+    slot: 49 
+  # &quot;Previous page&quot; button
+  previousPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: &quot;&amp;e&amp;lPrevious page&quot;
+    slot: 48
+  # &quot;Next page&quot; button
+  nextPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: &quot;&amp;e&amp;lNext page&quot;
+    slot: 50
+
+# Elements of the bulk buy GUI
+amountSelectionGUIBulkBuy:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 18
+  # Choose if buttons type should be replaced with the bought item&#039;s type
+  replaceButtonsType: true
+  # Buttons
+  buttons:
+    # &quot;Buy 1 stack&quot; button
+    buy1:
+      # When no material is specified it will be the type of the item being bought
+      item:
+        quantity: 1
+        name: &quot;&amp;aBuy 1 stack&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      # Value indicated the amount of stacks
+      value: 1
+      slot: 0
+    # &quot;Buy 2 stacks&quot; button
+    buy2:
+      item:
+        quantity: 2
+        name: &quot;&amp;aBuy 2 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 2
+      slot: 1
+    # &quot;Buy 3 stacks&quot; button
+    buy3:
+      item:
+        quantity: 3
+        name: &quot;&amp;aBuy 3 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 3
+      slot: 2
+    # &quot;Buy 4 stacks&quot; button
+    buy4:
+      item:
+        quantity: 4
+        name: &quot;&amp;aBuy 4 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 4
+      slot: 3
+    # &quot;Buy 5 stacks&quot; button
+    buy5:
+      item:
+        quantity: 5
+        name: &quot;&amp;aBuy 5 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 5
+      slot: 4
+    # &quot;Buy 6 stacks&quot; button
+    buy6:
+      item:
+        quantity: 6
+        name: &quot;&amp;aBuy 6 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 6
+      slot: 5
+    # &quot;Buy 7 stacks&quot; button
+    buy7:
+      item:
+        quantity: 7
+        name: &quot;&amp;aBuy 7 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 7
+      slot: 6
+    # &quot;Buy 8 stacks&quot; button
+    buy8:
+      item:
+        quantity: 8
+        name: &quot;&amp;aBuy 8 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 8
+      slot: 7
+    # &quot;Buy 9 stacks&quot; button
+    buy9:
+      item:
+        quantity: 9
+        name: &quot;&amp;aBuy 9 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%buy%$&quot;
+      value: 9
+      slot: 8
+    # &quot;Cancel&quot; button
+    cancel:
+      item:
+        material: RED_STAINED_GLASS
+        quantity: 1
+        name: &quot;&amp;c&amp;lCancel&quot;
+      slot: 13
+      
+# Elements of the bulk buy GUI
+amountSelectionGUIBulkSell:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 18
+  # Choose if buttons type should be replaced with the sold item&#039;s type
+  replaceButtonsType: true
+  # Buttons
+  buttons:
+    # &quot;Sell 1 stack&quot; button
+    sell1:
+      # When no material is specified it will be the type of the item being bought
+      item:
+        quantity: 1
+        name: &quot;&amp;aSell 1 stack&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      # Value indicated the amount of stacks
+      value: 1
+      slot: 0
+    # &quot;Sell 2 stacks&quot; button
+    sell2:
+      item:
+        quantity: 2
+        name: &quot;&amp;aSell 2 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 2
+      slot: 1
+    # &quot;Sell 3 stacks&quot; button
+    sell3:
+      item:
+        quantity: 3
+        name: &quot;&amp;aSell 3 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 3
+      slot: 2
+    # &quot;Sell 4 stacks&quot; button
+    sell4:
+      item:
+        quantity: 4
+        name: &quot;&amp;aSell 4 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 4
+      slot: 3
+    # &quot;Sell 5 stacks&quot; button
+    sell5:
+      item:
+        quantity: 5
+        name: &quot;&amp;aSell 5 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 5
+      slot: 4
+    # &quot;Sell 6 stacks&quot; button
+    sell6:
+      item:
+        quantity: 6
+        name: &quot;&amp;aSell 6 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 6
+      slot: 5
+    # &quot;Sell 7 stacks&quot; button
+    sell7:
+      item:
+        quantity: 7
+        name: &quot;&amp;aSell 7 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 7
+      slot: 6
+    # &quot;Sell 8 stacks&quot; button
+    sell8:
+      item:
+        quantity: 8
+        name: &quot;&amp;aSell 8 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 8
+      slot: 7
+    # &quot;Sell 9 stacks&quot; button
+    sell9:
+      item:
+        quantity: 9
+        name: &quot;&amp;aSell 9 stacks&quot;
+        lore:
+          - &quot;&amp;7Price: &amp;c%sell%$&quot;
+      value: 9
+      slot: 8
+    # &quot;Cancel&quot; button
+    cancel:
+      item:
+        material: RED_STAINED_GLASS
+        quantity: 1
+        name: &quot;&amp;c&amp;lCancel&quot;
+      slot: 13
+
+# Elements of the regular buy/sell GUI
+amountSelectionGUI:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 54
+  # Slot of the item being bought/sold
+  itemSlot: 22
+  # Buttons
+  buttons:
+    # &quot;Set to 1&quot; button
+    set1:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: &quot;&amp;c&amp;lSet to 1&quot;
+      slot: 18
+    # &quot;Remove 10&quot; button
+    remove10:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 10
+        name: &quot;&amp;c&amp;lRemove 10&quot;
+      slot: 19
+    # &quot;Remove 1&quot; button
+    remove1:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: &quot;&amp;c&amp;lRemove 1&quot;
+      slot: 20
+    # &quot;Add 1&quot; button
+    add1:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 1
+        name: &quot;&amp;a&amp;lAdd 1&quot;
+      slot: 24
+    # &quot;Add 10&quot; button
+    add10:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 10
+        name: &quot;&amp;a&amp;lAdd 10&quot;
+      slot: 25
+    # &quot;Set to 16&quot; button
+    set16:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 16
+        name: &quot;&amp;a&amp;lSet to 16&quot;
+      slot: 26
+    # &quot;Set to 64&quot; button
+    set64:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 64
+        name: &quot;&amp;a&amp;lSet to 64&quot;
+      slot: 26
+    # &quot;Confirm&quot; button
+    confirm:
+      item:
+        material: LIME_STAINED_GLASS
+        quantity: 1
+        name: &quot;&amp;a&amp;lConfirm&quot;   
+      slot: 39
+    # &quot;Sell all&quot; button
+    sellAll:
+      item:
+        material: LIME_STAINED_GLASS
+        quantity: 1
+        name: &quot;&amp;a&amp;lSell all&quot;      
+      slot: 40
+    # &quot;Buy more&quot; button
+    buyMore:
+      item:
+        material: LIME_STAINED_GLASS
+        quantity: 64
+        name: &quot;&amp;a&amp;lBuy more&quot;      
+      slot: 49
+    # &quot;Sell more&quot; button
+    sellMore:
+      item:
+        material: LIME_STAINED_GLASS
+        quantity: 64
+        name: &quot;&amp;a&amp;lSell more&quot;      
+      slot: 49
+    # &quot;Cancel&quot; button
+    cancel:
+      item:
+        material: RED_STAINED_GLASS
+        quantity: 1
+        name: &quot;&amp;c&amp;lCancel&quot;
+      slot: 41
+      
+shopMenuItems:
+  # Has to be unique, value doesn&#039;t matter
+  1:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: GRASS_BLOCK
+      quantity: 1
+      name: &quot;&amp;9&amp;lBlocks&quot;
+    # Shop ID from shops.yml
+    shop: &quot;blocks&quot;
+    # Slot in shops menu, counting from 0 to 53
+    slot: 11
+  2: 
+    item:
+      material: COOKED_CHICKEN 
+      quantity: 1 
+      damage: 0
+      name: &quot;&amp;2&amp;lFood&quot;
+      lore:
+        - &quot;&amp;7Get some yummy food here!&quot;
+    shop: &quot;food&quot; 
+    slot: 12
+  3: 
+    item:
+      material: GOLD_INGOT 
+      quantity: 1 
+      damage: 0
+      name: &quot;&amp;3&amp;lOres&quot;
+    shop: &quot;ores&quot; 
+    slot: 13
+  4:
+    item:
+      material: IRON_PICKAXE
+      quantity: 1
+      name: &quot;&amp;8&amp;lTools&quot;
+    shop: &quot;tools&quot;
+    slot: 14
+  5:
+    item:
+      material: DIAMOND_CHESTPLATE
+      quantity: 1
+      name: &quot;&amp;4&amp;lArmor&quot;
+    shop: &quot;armor&quot;
+    slot: 15
+  6:
+    item:
+      material: WHEAT
+      quantity: 1
+      name: &quot;&amp;5&amp;lFarming&quot;
+    shop: &quot;farming&quot;
+    slot: 21
+  7:
+    item:
+      material: SPIDER_EYE
+      quantity: 1
+      name: &quot;&amp;9&amp;lMob drops&quot;
+    shop: &quot;drops&quot;
+    slot: 22
+  8:
+    item:
+      material: LIGHT_BLUE_DYE
+      quantity: 1
+      name: &quot;&amp;2&amp;lDyes&quot;
+    shop: &quot;dyes&quot;
+    slot: 23
+  9:
+    item:
+      material: SADDLE
+      quantity: 1
+      name: &quot;&amp;3&amp;lMiscellanous&quot;
+    shop: &quot;miscellanous&quot;
+    slot: 31
+
+
+specialElements:
+  balance:
+    item:
+      material: GOLD_INGOT
+      quantity: 1
+      name: &quot;&amp;6&amp;lYour balance&quot;
+      lore:
+        - &quot;&amp;7$%balance%&quot;</textarea>
+    
+        
+</div>            <div style="clear: both;"></div>
+
+                        
+<!-- 0-x2xy94pJ -->
+<div style="padding-bottom:20px; padding-top:20px;">
+<div class="adsbyvli" data-ad-slot="vi_1282577474" style="width: 970px; height: 90px"></div><script>(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display("vi_1282577474")})</script>
+</div>
+        </div>
+
+        <div class="sidebar h_1024">
+            
+
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/qfWnF0QV">WoltLab - install.sql</a>
+                <div class="details">
+                                            SQL |
+                    
+                    4 min ago
+                    | 110.66 KB                </div>
+            </li>
+                    <li>
+                <a href="/RkE9mX0Q">Untitled</a>
+                <div class="details">
+                                            Python |
+                    
+                    18 min ago
+                    | 0.80 KB                </div>
+            </li>
+                    <li>
+                <a href="/ZHsCiNwc">Paste Ping</a>
+                <div class="details">
+                                            C |
+                    
+                    21 min ago
+                    | 0.02 KB                </div>
+            </li>
+                    <li>
+                <a href="/Fwmb80RM">prison. . . prison is a. . . we&#039;re in pr...</a>
+                <div class="details">
+                                            HTML |
+                    
+                    24 min ago
+                    | 4.07 KB                </div>
+            </li>
+                    <li>
+                <a href="/rLi5tkEa">Manoj</a>
+                <div class="details">
+                                            C++ |
+                    
+                    28 min ago
+                    | 4.38 KB                </div>
+            </li>
+                    <li>
+                <a href="/gAJn08py">Luôn Chỉ Mong  Luôn Chỉ Mong - Kiên Trần  | H...</a>
+                <div class="details">
+                                            HTML 5 |
+                    
+                    33 min ago
+                    | 2.05 KB                </div>
+            </li>
+                    <li>
+                <a href="/pxS6TbNF">Untitled</a>
+                <div class="details">
+                                            Python |
+                    
+                    52 min ago
+                    | 2.46 KB                </div>
+            </li>
+                    <li>
+                <a href="/K7Crn36d">Lên  Lên - Gill  | HoatHinh.tv | AgGGwxRR9a3L</a>
+                <div class="details">
+                                            HTML 5 |
+                    
+                    1 hour ago
+                    | 2.77 KB                </div>
+            </li>
+        
+    </ul>
+            
+
+    <div class="sidebar__sticky -on">
+                
+<!-- 0-x2xy94pJ -->
+<div style="padding-bottom:10px; padding-top:20px;">
+<div class="adsbyvli" data-ad-slot="vi_1282578983" style="width: 300px; height: 600px"></div><script>(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display("vi_1282578983")})</script>
+</div>
+    </div>
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/news">news</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/pro" class="pro">pro</a>
+
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2022 Pastebin</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    
+    
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/9ce1885/jquery.min.js"></script>
+<script src="/assets/f04f76b8/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?ec0a0b6023b5e6c9982d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?ec0a0b6023b5e6c9982d"></script>
+
+</body>
+</html>

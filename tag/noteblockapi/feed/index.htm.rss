@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NoteBlockAPI | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/noteblockapi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 06:20:31 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>NoteBlockAPI | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>NoteBlockAPI</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/noteblockapi/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/noteblockapi/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 06:20:10 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[NBS]]></category>
+		<category><![CDATA[Note Block Studio]]></category>
+		<category><![CDATA[Note Blocks]]></category>
+		<category><![CDATA[NoteBlock]]></category>
+		<category><![CDATA[NoteBlockAPI]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3381</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/noteblockapi.19287/ We use this plugin as a dependency for DieMucic which plays music when plyer dies and music, it plays back .nbs files (note Block Studio) Play your favorite songs ingame!​ &#160; Do you want official player? Then use this: NoteBlockMusicPlayer Dev builds are available here The original author is xxmicloxx. You can find his thread here. For&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/noteblockapi/">NoteBlockAPI</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/noteblockapi.19287/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/noteblockapi.19287/</span></span></a></p>
+<blockquote><p>We use this plugin as a dependency for DieMucic which plays music when plyer dies and music, it plays back .nbs files (note Block Studio)</p></blockquote>
+<div><b><iframe loading="lazy" src="https://www.youtube.com/embed/P8tI5ILq2KA?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+Play your favorite songs ingame!</b>​</div>
+<p>&nbsp;</p>
+<div>
+<p><b>Do you want official player? Then use this: <a class="internalLink" href="https://www.spigotmc.org/resources/noteblockmusicplayer.37295/">NoteBlockMusicPlayer</a></b></p>
+<p><b>Dev builds are available <a class="externalLink" href="http://ci.haprosgames.com/" target="_blank" rel="nofollow noopener">here</a></b></p>
+<p><b>The original author is <a class="internalLink" href="https://www.spigotmc.org/members/xxmicloxx.17545/">xxmicloxx</a>. You can find his thread <a class="externalLink" href="https://dev.bukkit.org/projects/noteblockapi" target="_blank" rel="nofollow noopener">here</a>.</b><br />
+For support use PM or join my <a class="externalLink" href="https://discord.gg/TeUBgb5" target="_blank" rel="nofollow noopener">Discord server</a>.​</p>
+</div>
+<p><b>Features</b></p>
+<ul>
+<li>play .nbs files ingame as noteblock sounds</li>
+<li>easy to use</li>
+<li>uses multi threading</li>
+<li>can play custom instruments via resource pack and pling</li>
+</ul>
+<p><b>Plugins that use NoteBlockAPI</b><br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/noteblockplayer" target="_blank" rel="nofollow noopener">NoteBlockPlayer</a>: play for certain or all players .nbs files<br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/pl3xpager" target="_blank" rel="nofollow noopener">Pl3xPager</a>: get your attention by playing .nbs files<br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/mcmusic/" target="_blank" rel="nofollow noopener">McMusic</a>: play .nbs files<br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/icjukebox/" target="_blank" rel="nofollow noopener">icJukeBox</a>: song selector with a fancy chest-gui<br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/dubstep-gun/" target="_blank" rel="nofollow noopener">Dubstep Gun</a>: use the power of Dupstep<br />
+<a class="externalLink" href="http://dev.bukkit.org/projects/joinmusik/" target="_blank" rel="nofollow noopener">JoinMusik</a>: play a .nbs file for players that join your server<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/jukebox-music-plugin.40580/">JukeBox</a><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/%E2%99%AA-noteblock-worldguard-%E2%99%AA-%E2%9C%93-free-%E2%9C%93-betterbar-support-%E2%9C%93-1-8-1-12.45570/">♪ Noteblock Worldguard ♪</a><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/colorfulmix-minigame.46104/">ColorfulMix</a> &#8211; music in lobby and arena<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/musicbox.67949/">MusicBox</a><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/battlemusic.73435/">BattleMusic</a> &#8211; play music when you fight with monters<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/advancednbs.81195/">AdvancedNBS</a><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/lasers-enigma-create-solve-and-share-puzzles-based-on-light.73626/">Lasers Enigma</a></p>
+<p><b>Instruments from 1.12 and 1.14 on 1.8 &#8211; 1.13 servers</b><br />
+By default they are simply skipped. You can enable them by using <a class="externalLink" href="https://github.com/koca2000/NoteBlockAPI/raw/master/Instruments.zip" target="_blank" rel="nofollow noopener">resource pack</a>.</p>
+<p><b>How to get .nbs</b><br />
+<b>Download .nbs files</b><br />
+You can simply download a few songs here:<br />
+<a class="externalLink" href="http://dev.bukkit.org/bukkit-plugins/icjukebox/pages/tracks/" target="_blank" rel="nofollow noopener">.nbs list</a> or <a class="externalLink" href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-tools/1260747-minecraft-note-block-studio-300-000-downloads" target="_blank" rel="nofollow noopener">scroll down for another list</a></p>
+<p><b>Convert .midi to .nbs</b><br />
+Use Minecraft Note Block Studio:<br />
+<a class="externalLink" href="https://github.com/HielkeMinecraft/OpenNoteBlockStudio/releases" target="_blank" rel="nofollow noopener">https://github.com/HielkeMinecraft/OpenNoteBlockStudio/releases</a><br />
+1. import your .midi file to Note Block Studio;<br />
+2. save the file as .nbs file in your plugin folder</p>
+<p><b>How to use</b><br />
+See wiki on <a class="externalLink" href="https://github.com/koca2000/NoteBlockAPI/wiki" target="_blank" rel="nofollow noopener">Github</a></p>
+<p><b>GitHub (new)</b><br />
+<a class="externalLink" href="https://github.com/koca2000/NoteBlockAPI" target="_blank" rel="nofollow noopener">https://github.com/koca2000/NoteBlockAPI</a></p>
+<p><b>GitHub (original)</b><br />
+<a class="externalLink" href="https://github.com/xxmicloxx/NoteBlockAPI" target="_blank" rel="nofollow noopener">https:<i>github.com/xxmicloxx/NoteBlockAPI</i></a></p>
+<p><b>Donators</b><br />
+<a class="internalLink" href="https://www.spigotmc.org/members/goldenflame2.416947/"><b>Goldenflame2</b></a> &#8211; 10$ + 5€<br />
+<a class="internalLink" href="https://www.spigotmc.org/members/john2k4.642634/"><b>John2k4</b></a> &#8211; 5$</p>
+<p>If you like my updates please consider making a donation:<br />
+<a class="externalLink" href="https://www.paypal.me/koca2000/0usd" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/3b1c47e37c25be91c1d8806db63fe17814d9df7f?url=https%3A%2F%2Fwww.paypalobjects.com%2Fen_US%2Fi%2Fbtn%2Fbtn_donate_LG.gif" alt="[​IMG]" data-url="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a><br />
+I will be grateful for every donation and you will be listed here.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/noteblockapi/">NoteBlockAPI</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/noteblockapi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DieMusic</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/diemusic/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/diemusic/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:22:11 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Death Music]]></category>
+		<category><![CDATA[DeathMusic]]></category>
+		<category><![CDATA[DieMusic]]></category>
+		<category><![CDATA[Murderd by Music]]></category>
+		<category><![CDATA[Music On Death]]></category>
+		<category><![CDATA[MusicalDeath]]></category>
+		<category><![CDATA[MusicDeath]]></category>
+		<category><![CDATA[NoteBlockAPI]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3299</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/diemusic.73207/ NoteBlockApi required Plugin plays random music from folder, after players die Sound list</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/diemusic/">DieMusic</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/diemusic.73207/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/diemusic.73207/</span></span></a></p>
+<p><b><span style="text-decoration: underline;"><span style="color: #00ccff;"><a class="internalLink" style="color: #00ccff; text-decoration: underline;" href="https://www.spigotmc.org/resources/noteblockapi.19287/">NoteBlockApi</a></span></span> required</b><br />
+Plugin plays random music from folder, after players die</p>
+<p><a class="externalLink" href="https://soundcloud.com/user-936872185/sets/diemusic-spigot-plugin" target="_blank" rel="nofollow noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">Sound list</span></span></a><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/tyKl1aSNvPU?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/diemusic/">DieMusic</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/diemusic/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

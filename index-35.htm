@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>inventivetalent - Development and Web Design</title>
+<script src="/cdn-cgi/apps/head/-G3T56fm2TtFV7pImkOCAbYCMsc.js"></script><link rel="stylesheet" href="logo.css">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="style.css">
+<link id="favicon" rel="shortcut icon" type="image/ico" href="favicon.ico">
+<link rel="manifest" href="manifest.json">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="inventivetalent,yeleha,web design,development,developer,designer,java,html,php,javascript,css,spiget,spigotmc,mineskin,tools,webrender,web render">
+<meta name="description" content="I'm inventivetalent and I create Software, APIs, Websites, Backend Systems & design Frontend User Interfaces.">
+<meta name="author" content="Haylee Schäfer">
+
+
+<meta name="theme-color" content="#298fa3">
+
+<meta name="msapplication-navbutton-color" content="#298fa3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#298fa3">
+
+
+<meta property="og:title" content="inventivetalent - Development and Web Design">
+<meta property="og:site_name" content="inventivetalent - Development and Web Design">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://inventivetalent.org/img/avatar-x256.png">
+<meta property="og:description" content="I'm inventivetalent and I create Software, APIs, Websites, Backend Systems & design Frontend User Interfaces.">
+<meta property="og:url" content="https://inventivetalent.org">
+
+<meta name="twitter:title" content="inventivetalent - Development and Web Design">
+<meta name="twitter:description" content="I'm inventivetalent and I create Software, APIs, Websites, Backend Systems & design Frontend User Interfaces.">
+<meta name="twitter:url" content="https://inventivetlent.org">
+<meta name="twitter:image" content="https://inventivetalent.org/img/avatar-x256.png">
+<meta name="twitter:site" content="@Inventivtalent">
+<meta name="twitter:creator" content="@Inventivtalent">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index, follow">
+<meta name="flattr:id" content="okelw0">
+
+<script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {hjid: 1027851, hjsv: 6};
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-2604356629473365",
+                enable_page_level_ads: true
+            });
+        </script>
+
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "inventivetalent",
+  "url": "https://inventivetalent.org"
+}
+        </script>
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "person",
+  "name": "Haylee Schäfer",
+  "url": "https://inventivetalent.org",
+  "email": "mail@inventivetalent.org",
+  "birthDate": "1999-10-03"
+}
+        </script>
+
+</head>
+<body>
+<header>
+<div class="row logo-background">
+<div class="col s12">
+<img src="img/flame-blender-x640.png" class="logo" id="lightbulb">
+<svg class="separator" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 16">
+<line class="separator_line" id="separator_line" x1="0" y1="16" x2="1024" y2="16"></line>
+</svg>
+</div>
+</div>
+</header>
+<main class="hidden">
+<div class="row content upper-content">
+<div class="container flow-text">
+<div class="row">
+<div class="col l2 m3 s4">
+<img data-src="img/avatar-x128.png" alt="Blue-Haired Mercy" class="avatar-img" id="mercy" src="data:image/png;base64,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">
+</div>
+<div class="col l10 m9 s8 welcome-text">
+<h3>Hi!</h3>
+<p>
+I'm Haylee and I create Software, APIs, Websites, Backend Systems & Frontend Designs.<br />
+I also develop stuff for the <a href="https://hypixel.net" target="_blank">Hypixel Network</a>.<br />
+Below you can find some of the things I made :)
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row content slideshow-content">
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://trashapp.inventivetalent.org">
+<div class="white-text">
+<img class="card-bg" src="img/trashapp-background.jpg">
+<span class="card-title">TrashApp</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/trashapp/trashcan_arrow-x256.png">
+<p class="card-text">Android App to find nearby trashcans</p>
+<div class="project-languages">
+<div class="language" title="Android"><i class="fab fa-android"></i></div><div class="language" title="Java"><i class="fab fa-java"></i></div><div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://key.pics">
+<div class="white-text">
+<img class="card-bg" src="img/keypics-background.jpg">
+<span class="card-title">Key.Pics</span>
+<img class="card-icon" src="https://key.pics/key/K.png">
+<p class="card-text">Quick, Simple, Consistent, Scalable Key & Button Icons for visualizing inputs</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://pluginblueprint.net">
+<div class="white-text">
+<img class="card-bg" src="img/pluginblueprint-background.jpg">
+<span class="card-title">PluginBlueprint</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/pluginblueprint/Small-x256.png">
+<p class="card-text">Create Plugins for Bukkit/Spigot with a node-based drag&drop system, inspired by UE4 Blueprints</p>
+<div class="project-languages">
+<div class="language" title="Electron">Electron</div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="Java"><i class="fab fa-java"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://minerender.org">
+<div class="white-text">
+<img class="card-bg" src="img/minerender-background.jpg">
+<span class="card-title">MineRender</span>
+<img class="card-icon" src="https://minerender.org/img/minerender-x256.png">
+<p class="card-text">Library for client-side 3D renders of Minecraft Blocks, Skins, Items and more</p>
+<div class="project-languages">
+<div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="Three.js">Three.js</div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://spiget.org">
+<div class="white-text">
+<img class="card-bg" src="img/spiget-background.jpg">
+<span class="card-title">Spiget</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/spiget/logo_text-x256.png">
+<p class="card-text">REST-API to get information about resources and authors from SpigotMC.org</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="PHP"><i class="fab fa-php"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://mineskin.org">
+<div class="white-text">
+<img class="card-bg" src="img/mineskin-background.jpg">
+<span class="card-title">MineSkin</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/mineskin/mineskin-x256.png">
+<p class="card-text">Generator for Mojang-signed custom skin data</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="AngularJS">AngularJS</div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://www.spigotmc.org/resources/authors/inventivetalent.6643/">
+<div class="white-text">
+<img class="card-bg" src="img/spigot-background.png">
+<span class="card-title">Spigot Plugins</span>
+<img class="card-icon" src="img/spigot.png">
+<p class="card-text">Various Minecraft plugins for Spigot/Bukkit</p>
+<div class="project-languages">
+<div class="language" title="Java"><i class="fab fa-java"></i></div><div class="language" title="Kotlin">Kotlin</div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://minecraft.id">
+<div class="white-text">
+<img class="card-bg" src="img/mcauth-background.jpg">
+ <span class="card-title">MinecraftID</span>
+<img class="card-icon" src="https://minecraft.id/img/mcauth-256.png">
+<p class="card-text">API to authenticate & connect Minecraft accounts to websites</p>
+<div class="project-languages">
+<div class="language" title="Java"><i class="fab fa-java"></i></div><div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="PHP"><i class="fab fa-php"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://remote-sli.de">
+<div class="white-text">
+<img class="card-bg" src="img/remoteslide-background.jpg">
+<span class="card-title">RemoteSlide</span>
+<img class="card-icon" src="https://remote-sli.de/img/logo-256.png">
+<p class="card-text">Web App for controlling slides on your PC from your smartphone</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://mcasset.cloud">
+<div class="white-text">
+<img class="card-bg" src="img/mcassets-background.jpg">
+<span class="card-title">MCAssets</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/mcassets/mcassets-x256.png">
+<p class="card-text">Online Browser for Minecraft's asset files like Textures, Models & Sounds</p>
+<div class="project-languages">
+<div class="language" title="AngularJS">AngularJS</div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div><div class="language" title="CSS3"><i class="fab fa-css3"></i></div><div class="language" title="Java"><i class="fab fa-java"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://webrender.co">
+<div class="white-text">
+<img class="card-bg" src="img/webrender-background.jpg">
+<span class="card-title">WebRender</span>
+<img class="card-icon" src="https://webrender.co/img/webrender-x256.png">
+<p class="card-text">Take screenshots of any website</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://vrknock.app">
+<div class="white-text">
+<img class="card-bg" src="img/vrknock-background.jpg">
+<span class="card-title">VRKnock</span>
+<img class="card-icon" src="https://vrknock.app/img/web_hi_res_512.png">
+<p class="card-text">App to send messages to people in virtual reality</p>
+<div class="project-languages">
+<div class="language" title="Android"><i class="fab fa-android"></i></div><div class="language" title="Java"><i class="fab fa-java"></i></div><div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="Vue.js"><i class="fab fa-vuejs"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://github.com/InventivetalentDev/PostBoxObserver">
+<div class="white-text">
+<img class="card-bg" src="img/postbox-background.jpg">
+<span class="card-title">PostBoxObserver</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/postbox/eye_letter-x256.png">
+<p class="card-text">Utilize an old Smartphone to be notified about Mail in a PostBox!</p>
+<div class="project-languages">
+<div class="language" title="Android"><i class="fab fa-android"></i></div><div class="language" title="Kotlin">Kotlin</div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://user-agent.dev">
+<div class="white-text">
+<img class="card-bg" src="img/useragent-background.jpg">
+<span class="card-title">User-Agent.Dev</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/ua/ua-x256.png">
+<p class="card-text">Collection of code snippets for adding custom User-Agents to web requests</p>
+<div class="project-languages">
+<div class="language" title="Vue.js"><i class="fab fa-vuejs"></i></div><div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div>
+</div>
+</div>
+</div>
+</div>
+<div class="project-wrapper col s12 m6 l4">
+<div class="project-card slideshow-item card blue-grey darken-1" data-href="https://capes.dev">
+<div class="white-text">
+<img class="card-bg" src="img/useragent-background.jpg">
+<span class="card-title">capes.dev</span>
+<img class="card-icon" src="https://res.cloudinary.com/inventivetalent/image/upload//brand/capes/capes.png">
+<p class="card-text">Minecraft Capes API, History & CDN</p>
+<div class="project-languages">
+<div class="language" title="NodeJS"><i class="fab fa-node-js"></i></div><div class="language" title="JavaScript"><i class="fab fa-js"></i></div><div class="language" title="HTML5"><i class="fab fa-html5"></i></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row content lower-content">
+<div class="container">
+<div class="row">
+<p>
+I usually make things that are publicly accessible for everyone & free of charge.<br />
+If you <i>do</i> need something special, feel free to contact me via the links below.
+</p>
+</div>
+</div>
+</div>
+<div class="row content contact-content">
+<div class="container flow-text">
+<div class="row">
+<div class="col s12 m6">
+<h4>Social & Links</h4>
+<div class="contacts">
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://twitter.com/Inventivtalent" title="Twitter">
+<i class="fab fa-twitter"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://github.com/InventivetalentDev" title="GitHub">
+<i class="fab fa-github"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://discord.gg/nzAdvPc" title="Discord">
+<i class="fab fa-discord"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://keybase.io/inventivetalent" title="Keybase">
+<i class="fab fa-keybase"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://www.reddit.com/user/inventivetalentDev/" title="Reddit">
+<i class="fab fa-reddit"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://codepen.io/inventivetalent/" title="CodePen">
+<i class="fab fa-codepen"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://www.npmjs.com/~inventivetalent" title="NPM.js">
+<i class="fab fa-npm"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://www.youtube.com/inventivetalent" title="YouTube">
+<i class="fab fa-youtube"></i>
+</a>
+</div>
+<div class="contact">
+<a target="_blank" rel="noopener" href="https://www.paypal.me/inventivetalent" title="PayPal">
+<i class="fab fa-paypal"></i>
+</a>
+</div>
+<div class="contact">
+ <a target="_blank" rel="noopener" href="https://www.patreon.com/inventivetalent" title="Patreon">
+<i class="fab fa-patreon"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="col s12 m6">
+<h4>Languages & Technologies</h4>
+<div class="languages">
+<div class="language">
+<span>Java</span>
+</div>
+<div class="language">
+<span>Kotlin</span>
+</div>
+<div class="language">
+<span>HTML5</span>
+</div>
+<div class="language">
+<span>PHP</span>
+</div>
+<div class="language">
+<span>JavaScript</span>
+</div>
+<div class="language">
+<span>CSS3</span>
+</div>
+<div class="language">
+<span>Angular</span>
+</div>
+<div class="language">
+<span>React</span>
+</div>
+<div class="language">
+<span>NodeJS</span>
+</div>
+<div class="language">
+<span>Electron</span>
+</div>
+<div class="language">
+<span>MongoDB</span>
+</div>
+<div class="language">
+<span>MySQL</span>
+</div>
+<div class="language">
+<span>Android</span>
+</div>
+<div class="language">
+<span>Ionic</span>
+</div>
+<div class="language">
+<span>Cordova</span>
+</div>
+<div class="language">
+<span>Apache Velocity</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row content embed-content">
+<div class="container">
+<div class="row">
+<div class="col s12 m12 l6">
+<div class="embed">
+<a class="twitter-timeline" data-width="350" data-height="500" data-theme="dark" href="https://twitter.com/Inventivtalent?ref_src=twsrc%5Etfw">Tweets by Inventivtalent</a>
+<script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+<div class="col s12 m12 l6">
+<div class="embed">
+<iframe class="discord-embed" src="https://discordapp.com/widget?id=398243219961413653&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </main>
+<footer class="page-footer">
+<div class="footer-copyright right-align">
+<div class="container">
+<span>© inventivetalent</span>
+<span class="copyright-separator">&nbsp;|&nbsp;</span>
+<span>
+<a href="#imprint-modal" class="modal-trigger">Imprint</a>&nbsp;
+<a href="#privacy-modal" class="modal-trigger">Privacy Policy</a>
+</span>
+</div>
+</div>
+</footer>
+
+<div id="imprint-modal" class="modal">
+<div class="modal-content">
+<h1>Imprint</h1>
+<h2>Legal Disclosure</h2>
+
+Information in accordance with section 5 TMG
+<br />
+<br />
+Haylee Sch&auml;fer
+<br />
+[Address Redacted For Privacy]
+[Use Email Below for Contact]
+<br />
+<br />
+<h3>Contact</h3>
+E-Mail: <a href="/cdn-cgi/l/email-protection#9df0fcf4f1ddf4f3ebf8f3e9f4ebf8e9fcf1f8f3e9b3f2effa"><span class="__cf_email__" data-cfemail="771a161e1b371e19011219031e011203161b12190359180510">[email&#160;protected]</span></a>
+<br />
+<br />
+
+<h3>Disclaimer</h3>
+Accountability for content
+<br />
+The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third
+parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per &sect;&sect; 8 to 10 of the Telemedia Act (TMG).
+<br />
+<br />
+Accountability for links
+<br />
+Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.<br /><br />Copyright
+<br />
+Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law (&sect; 44a et seq. of the copyright law), every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are allowed only for private
+use, so must not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is punishable (&sect; 106 of the copyright law).
+<br />
+<br />
+<i>Quelle: </i><a href="http://www.twigg.de/haftungsausschlussimpressumenglisch.htm" target="_blank" rel="noopener">twigg.de</a><br /><br />
+</div>
+</div>
+<div id="privacy-modal" class="modal">
+<div class="modal-content">
+<h1>Privacy Policy</h1>
+<p>Effective date: March 16, 2019</p>
+<p>inventivetalent ("us", "we", or "our") operates the https://inventivetalent.org website and various other websites potentially linking to this policy (the "Service").</p>
+<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Inventivetalent is created with the help of the <a href="https://www.freeprivacypolicy.com/">Free Privacy Policy website</a>.</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://inventivetalent.org</p>
+<h2>Information Collection And Use</h2>
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+<h3>Types of Data Collected</h3>
+<h4>Personal Data</h4>
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Email address</li>
+<li>Cookies and Usage Data</li>
+</ul>
+<h4>Usage Data</h4>
+<p>We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic
+data.</p>
+<h4>Tracking & Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+<li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+<li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+<li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+<h2>Use of Data</h2>
+<p>inventivetalent uses the collected data for various purposes:</p>
+<ul>
+<li>To provide and maintain the Service</li>
+<li>To notify you about changes to our Service</li>
+<li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+<li>To provide customer care and support</li>
+<li>To provide analysis or valuable information so that we can improve the Service</li>
+<li>To monitor the usage of the Service</li>
+<li>To detect, prevent and address technical issues</li>
+</ul>
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Germany and choose to provide information to us, please note that we transfer the data, including Personal Data, to Germany and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>inventivetalent will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2>Disclosure Of Data</h2>
+<h3>Legal Requirements</h3>
+<p>Inventivetalent may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+<li>To comply with a legal obligation</li>
+<li>To protect and defend the rights or property of inventivetalent</li>
+<li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+<li>To protect the personal safety of users of the Service or the public</li>
+<li>To protect against legal liability</li>
+</ul>
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<h3>Analytics</h3>
+<p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>
+<ul>
+<li>
+<p><strong>Google Analytics</strong></p>
+<p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</p>
+<p>You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.</p>
+<p>For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: <a href="https://policies.google.com/privacy?hl=en">https://policies.google.com/privacy?hl=en</a></p>
+</li>
+</ul>
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2>Children's Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from
+ our servers.</p>
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+<li>By email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e68b878f8aa68f88908388928f908392878a838892c8899481">[email&#160;protected]</a></li>
+</ul>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/filamentgroup/loadCSS/v2.0.1/src/cssrelpreload.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous" defer></script>
+<script src="anims.js" async></script>
+<script src="script.js" defer></script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d9f3cb86c553457ca007fdeb6cd49f91"}'></script>
+
+</body>
+</html>

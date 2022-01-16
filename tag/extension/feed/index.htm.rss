@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Extension | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/extension/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:23:57 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Extension | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Holographic Extension</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/holographic-extension/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/holographic-extension/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:23:35 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Holographic]]></category>
+		<category><![CDATA[Holographic Extension]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3328</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/holographicextension.18461/ We use this plugin to display some stats in spawn without the need to setup a separate Hologram with the Holographic Displays plugin with Placehoolders. Implement amazing animations into HolographicDisplays with automated creation of scrollers, typewriters and glowing text! It also injects your favourite placeholders from PlaceholderAPI (requires ProtocolLib)​ Video tutorial by SoulStriker_: &#8211;&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-extension/">Holographic Extension</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/holographicextension.18461/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;">https://www.spigotmc.org/resources/holographicextension.18461/</span></a></div>
+<blockquote>
+<div>We use this plugin to display some stats in spawn without the need to setup a separate Hologram with the Holographic Displays plugin with Placehoolders.</div>
+</blockquote>
+<div></div>
+<div>
+<p>Implement amazing animations into HolographicDisplays with automated creation of scrollers, typewriters and glowing text!</p>
+<p>It also injects your favourite placeholders from PlaceholderAPI (requires <b>ProtocolLib</b>)​</p>
+</div>
+<p>Video tutorial by SoulStriker_:<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/juooznpPseE?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/hextrainbow-gif.319715/" alt="hextrainbow.gif" /><br />
+&#8211; Simple and effective implementation.<br />
+&#8211; High quality animation generation.<br />
+&#8211; A ton of fully customisable animations.<br />
+&#8211; Easily create scrollers, typewriters, healthbars and more.<br />
+&#8211; Full colour support + multiline.<br />
+&#8211; Special character support (unicode)<br />
+&#8211; Support per player placeholders from PlaceholderAPI</p>
+<p><b>Requirements:</b><br />
+<b>HolographicDisplays (Required)</b><br />
+<b>ProtocolLib (Placeholders)</b><br />
+<b>PlaceholderAPI (Placeholders)</b></p>
+<p><b>Default Animations File:</b></p>
+<p><b>Implementing The Animations:</b><br />
+In the default configuration above, we have an animation called &#8220;example&#8221;, to include this animation in our hologram we use the placeholder &#8220;{ext:example}&#8221; This rule applies to all animations.</p>
+<p>For example, if we have an animation named &#8220;welcome-msg&#8221;, the format for the placeholder would be &#8220;{ext:welcome-msg}&#8221;</p>
+<p>Creating a hologram: &#8216;/hd create myHologram {ext:example}&#8217;</p>
+<p><b>Implementing Placeholders:</b><br />
+Make sure you have ProtocolLib and PlaceholderAPI before attempting to add placeholders.</p>
+<p><b>To make sure the placeholders update you will need to add refresh holders.</b></p>
+<p><b>Versions 1.9.3 and below:</b><br />
+{r1} &#8211; 1 second refresh.<br />
+{r0.1} 0.1 second refresh<br />
+{r10} &#8211; 10 second refresh<br />
+{r5} &#8211; 5 second refresh<br />
+{r2} &#8211; 2 second refresh</p>
+<p><b>Versions 1.10.0 and above:</b><br />
+{fastest} &#8211; 0.1 seconds.<br />
+{fast} &#8211; 0.5 seconds<br />
+{medium} &#8211; 1 seconds<br />
+{slow} &#8211; 5 seconds<br />
+{slowest} &#8211; 10 seconds.</p>
+<p><b>Example:</b><br />
+<b>/hd add test {fast}%player_time%</b></p>
+<p><b>Commands:</b><br />
+There are no editing commands provided with this plugin, all holograms are managed by the HolographicDisplays plugin.</p>
+<p>/hext reload &#8211; Reload the animation files.<br />
+/hext list &#8211; list all loaded animations.<br />
+/hext support &#8211; Check placeholder and protocol lib problems<br />
+/hext about plugin information</p>
+<p>Alternative options include: /ext</p>
+<p><b>Permissions:</b><br />
+Permissions for command usage are automatically given to operators and the console.<br />
+Permission for using the commands are: <b>h</b><b>ext.admin</b><br />
+<b>hext.help</b><br />
+<b>hext.info</b><br />
+<b>hext.about</b><br />
+<b>hext.reload</b><br />
+<b>hext.list</b></p>
+<p><b>Quick Animations:</b><br />
+Using animations provided, see wiki page:<br />
+<a class="externalLink" href="https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations" target="_blank" rel="nofollow noopener">https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations</a></p>
+<p><b>What to do once you have installed the plugin:</b><br />
+<b>&#8211; Visit the plugin data folder and edit the animations.yml to your needs and then reload the plugin with /ext-reload</b><br />
+<b>&#8211; Create a hologram with HolographicDisplays and include the animation placeholders.</b></p>
+<p><b>Terms and Conditions:</b><br />
+&#8211; Do not claim this resource as your own.<br />
+&#8211; You may modify/make changes for private use. This does not include usage in any redistributed software without express permission by me.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-extension/">Holographic Extension</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/holographic-extension/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

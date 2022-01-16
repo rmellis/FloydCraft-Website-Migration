@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Download | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/download/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 03 Jun 2020 23:23:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Download | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>FunnyDeathMessages [Removed]</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Thu, 16 May 2019 06:21:27 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Download]]></category>
+		<category><![CDATA[FunnyDeathMessages]]></category>
+		<category><![CDATA[Spigot]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=1042</guid>
+
+					<description><![CDATA[<p>Source: https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/ Funny Death Messages is the Plugin we use that makes Funny messages appear in chat when a player dies, it has a different funny Death message for every type of death. However whilst looking for this plugin to list its info from we noticed that is seems to have complacently vanished! I&#8217;ve had&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/">FunnyDeathMessages [Removed]</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source:<a href="https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/"> https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/</a></p>
+<p><span style="color: #ffff99;">Funny Death Messages is the Plugin we use that makes Funny messages appear in chat when a player dies, it has a different funny Death message for every type of death.</span><br />
+<span style="color: #ffcc99;">However whilst looking for this plugin to list its info from we noticed that is seems to have complacently vanished!</span><br />
+<span style="color: #ffcc99;">I&#8217;ve had a good look around Spigot, Bukkit and Google and found Nothing, Not sure why its vanished but it works very well.</span><br />
+<span style="color: #ccffcc;">If you want the plugin then we are hosting it Here:</span> <span style="color: #00ccff;"><a style="color: #00ccff;" href="https://cdn.floydcraft.co.uk/FunnyDeathMessages.jar"><img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f4e5.png" alt="📥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a><a style="color: #00ccff;" href="https://cdn.floydcraft.co.uk/FunnyDeathMessages.jar">https://cdn.floydcraft.co.uk/FunnyDeathMessages.jar<img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f4e5.png" alt="📥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></span> <span style="color: #ccffff;">(Might be the last remaining copy)</span></p>
+<p><span style="color: #cc99ff;">Below is a copy of the config <strong>YML</strong> file aswell as the Messages <strong>YML</strong> file from <strong>FloydCraft</strong> you can use as an example:</span></p>
+<p>Config: (<strong>YAML</strong>)</p>
+<table style="height: 66px; width: 125px;" width="151">
+<tbody>
+<tr style="height: 66px;">
+<td style="width: 16px; height: 66px;"><span style="color: #ffffd1;">1</span><br />
+<span style="color: #ffffd1;">2</span><br />
+<span style="color: #ffffd1;">3</span><br />
+<span style="color: #ffffd1;">4</span></td>
+<td style="width: 93px; height: 66px;">loaded: true<br />
+enabled: true<br />
+opRequired: true<br />
+defColor: &#8216;&amp;f&#8217;</td>
+</tr>
+</tbody>
+</table>
+<p>Messages: (<strong>YAML</strong>)</p>
+<table style="height: 101px;" width="696">
+<tbody>
+<tr>
+<td style="width: 33px;"><span style="color: #ffffd1;">1</span><br />
+<span style="color: #ffffd1;">2</span><br />
+<span style="color: #ffffd1;">3</span><br />
+<span style="color: #ffffd1;">4</span><br />
+<span style="color: #ffffd1;">5</span><br />
+<span style="color: #ffffd1;">6</span><br />
+<span style="color: #ffffd1;">7</span><br />
+<span style="color: #ffffd1;">8</span><br />
+<span style="color: #ffffd1;">9</span><br />
+<span style="color: #ffffd1;">10</span><br />
+<span style="color: #ffffd1;">11</span><br />
+<span style="color: #ffffd1;">12</span><br />
+<span style="color: #ffffd1;">13</span><br />
+<span style="color: #ffffd1;">14</span><br />
+<span style="color: #ffffd1;">15</span><br />
+<span style="color: #ffffd1;">16</span><br />
+<span style="color: #ffffd1;">17</span><br />
+<span style="color: #ffffd1;">18</span><br />
+<span style="color: #ffffd1;">19</span><br />
+<span style="color: #ffffd1;">20</span><br />
+<span style="color: #ffffd1;">21</span><br />
+<span style="color: #ffffd1;">22</span><br />
+<span style="color: #ffffd1;">23</span><br />
+<span style="color: #ffffd1;">24</span><br />
+<span style="color: #ffffd1;">25</span><br />
+<span style="color: #ffffd1;">26</span><br />
+<span style="color: #ffffd1;">27</span><br />
+<span style="color: #ffffd1;">28</span><br />
+<span style="color: #ffffd1;">29</span><br />
+<span style="color: #ffffd1;">30</span><br />
+<span style="color: #ffffd1;">31</span><br />
+<span style="color: #ffffd1;">32</span><br />
+<span style="color: #ffffd1;">33</span><br />
+<span style="color: #ffffd1;">34</span><br />
+<span style="color: #ffffd1;">35</span><br />
+<span style="color: #ffffd1;">36</span><br />
+<span style="color: #ffffd1;">37</span><br />
+<span style="color: #ffffd1;">38</span><br />
+<span style="color: #ffffd1;">39</span><br />
+<span style="color: #ffffd1;">40</span><br />
+<span style="color: #ffffd1;">41</span><br />
+<span style="color: #ffffd1;">42</span><br />
+<span style="color: #ffffd1;">43</span><br />
+<span style="color: #ffffd1;">44</span><br />
+<span style="color: #ffffd1;">45</span><br />
+<span style="color: #ffffd1;">46</span><br />
+<span style="color: #ffffd1;">47</span><br />
+<span style="color: #ffffd1;">48</span><br />
+<span style="color: #ffffd1;">49</span><br />
+<span style="color: #ffffd1;">50</span><br />
+<span style="color: #ffffd1;">51</span><br />
+<span style="color: #ffffd1;">52</span><br />
+<span style="color: #ffffd1;">53</span><br />
+<span style="color: #ffffd1;">54</span><br />
+<span style="color: #ffffd1;">55</span><br />
+<span style="color: #ffffd1;">56</span><br />
+<span style="color: #ffffd1;">57</span><br />
+<span style="color: #ffffd1;">58</span><br />
+<span style="color: #ffffd1;">59</span><br />
+<span style="color: #ffffd1;">60</span><br />
+<span style="color: #ffffd1;">61</span><br />
+<span style="color: #ffffd1;">62</span><br />
+<span style="color: #ffffd1;">63</span><br />
+<span style="color: #ffffd1;">64</span><br />
+<span style="color: #ffffd1;">65</span><br />
+<span style="color: #ffffd1;">66</span><br />
+<span style="color: #ffffd1;">67</span><br />
+<span style="color: #ffffd1;">68</span><br />
+<span style="color: #ffffd1;">69</span><br />
+<span style="color: #ffffd1;">70</span><br />
+<span style="color: #ffffd1;">71</span><br />
+<span style="color: #ffffd1;">72</span><br />
+<span style="color: #ffffd1;">73</span><br />
+<span style="color: #ffffd1;">74</span><br />
+<span style="color: #ffffd1;">75</span><br />
+<span style="color: #ffffd1;">76</span><br />
+<span style="color: #ffffd1;">77</span><br />
+<span style="color: #ffffd1;">78</span><br />
+<span style="color: #ffffd1;">79</span><br />
+<span style="color: #ffffd1;">80</span><br />
+<span style="color: #ffffd1;">81</span><br />
+<span style="color: #ffffd1;">82</span><br />
+<span style="color: #ffffd1;">83</span><br />
+<span style="color: #ffffd1;">84</span><br />
+<span style="color: #ffffd1;">85</span><br />
+<span style="color: #ffffd1;">86</span><br />
+<span style="color: #ffffd1;">87</span><br />
+<span style="color: #ffffd1;">88</span><br />
+<span style="color: #ffffd1;">89</span><br />
+<span style="color: #ffffd1;">90</span><br />
+<span style="color: #ffffd1;">91</span><br />
+<span style="color: #ffffd1;">92</span><br />
+<span style="color: #ffffd1;">93</span><br />
+<span style="color: #ffffd1;">94</span><br />
+<span style="color: #ffffd1;">95</span><br />
+<span style="color: #ffffd1;">96</span><br />
+<span style="color: #ffffd1;">97</span><br />
+<span style="color: #ffffd1;">98</span><br />
+<span style="color: #ffffd1;">99</span><br />
+<span style="color: #ffffd1;">100</span><br />
+<span style="color: #ffffd1;">101</span><br />
+<span style="color: #ffffd1;">102</span><br />
+<span style="color: #ffffd1;">103</span><br />
+<span style="color: #ffffd1;">104</span><br />
+<span style="color: #ffffd1;">105</span><br />
+<span style="color: #ffffd1;">106</span><br />
+<span style="color: #ffffd1;">107</span><br />
+<span style="color: #ffffd1;">108</span><br />
+<span style="color: #ffffd1;">109</span><br />
+<span style="color: #ffffd1;">110</span><br />
+<span style="color: #ffffd1;">111</span><br />
+<span style="color: #ffffd1;">112</span><br />
+<span style="color: #ffffd1;">113</span><br />
+<span style="color: #ffffd1;">114</span><br />
+<span style="color: #ffffd1;">115</span><br />
+<span style="color: #ffffd1;">116</span><br />
+<span style="color: #ffffd1;">117</span><br />
+<span style="color: #ffffd1;">118</span><br />
+<span style="color: #ffffd1;">119</span><br />
+<span style="color: #ffffd1;">120</span><br />
+<span style="color: #ffffd1;">121</span><br />
+<span style="color: #ffffd1;">122</span><br />
+<span style="color: #ffffd1;">123</span><br />
+<span style="color: #ffffd1;">124</span><br />
+<span style="color: #ffffd1;">125</span><br />
+<span style="color: #ffffd1;">126</span><br />
+<span style="color: #ffffd1;">127</span><br />
+<span style="color: #ffffd1;">128</span><br />
+<span style="color: #ffffd1;">129</span></td>
+<td style="width: 647px;">loaded: true<br />
+AREA_EFFECT_CLOUD:<br />
+message: &#8216;%s, DON&#8221;T STAND IN THE FIRE! 50 DKP MINUS!!!&#8217;<br />
+ARROW:<br />
+message: &#8216;%s has taken an arrow to the knee!&#8217;<br />
+BLAZE:<br />
+message: &#8216;%s got blazed.&#8217;<br />
+BLOCK_EXPLOSION:<br />
+message: &#8216;%s has been blown up into a million teeny-tiny pieces!&#8217;<br />
+CAVE_SPIDER:<br />
+message: &#8216;%s is currently being dragged into some dank cave-spider lair! Weeeee!&#8217;<br />
+CONTACT:<br />
+message: &#8216;%s has been given a total cactus-needle probing!&#8217;<br />
+CRAMMING:<br />
+message: &#8216;%s was annihilated from the fabric of space-time in a mass-collision event!&#8217;<br />
+CREEPER:<br />
+message: &#8216;%s met a creeper and was turned into a fine mist!&#8217;<br />
+CUSTOM:<br />
+message: I&#8217;m not even really sure what killed %s that time!<br />
+DRAGON_BREATH:<br />
+message: &#8216;%s was cooked well-done by a dragon. Dinner time!&#8217;<br />
+DRAGON_FIREBALL:<br />
+message: &#8216;%s was cooked well-done by a dragon. Dinner time!&#8217;<br />
+DROWNING:<br />
+message: &#8216;%s is now sleepin&#8221; with da fishes.&#8217;<br />
+ELDER_GUARDIAN:<br />
+message: &#8216;%s tried sleepin&#8221; with da fishes, but was eaten instead!&#8217;<br />
+ENDER_DRAGON:<br />
+message: &#8216;%s was cooked well-done by a dragon. Dinner time!&#8217;<br />
+ENDERMAN:<br />
+message: &#8216;%s looked the wrong way at some tall, creepy dude!&#8217;<br />
+ENDERMITE:<br />
+message: &#8216;%s was killed by smallest hostile mob in the entire game, congratulations!&#8217;<br />
+ENTITY_EXPLOSION:<br />
+message: &#8216;%s met a creeper and was turned into a fine mist!&#8217;<br />
+FALL:<br />
+message: &#8216;%s is now ready to be mopped up off the floor!&#8217;<br />
+FALLING_BLOCK:<br />
+message: &#8216;%s got beaned in the noggin from above!&#8217;<br />
+FIRE:<br />
+message: &#8216;%s tried to play with fire!&#8217;<br />
+FIRE_TICK:<br />
+message: &#8216;%s was set ablaze and immolated!&#8217;<br />
+FIRE_BALL:<br />
+message: &#8216;%s discovered how many licks it takes to get to the center of a fireball!&#8217;<br />
+FLY_INTO_WALL:<br />
+message: &#8216;%s has been turned into a pancake by velocity&#8230; EXTREEEEME!&#8217;<br />
+GHAST:<br />
+message: &#8216;%s has just been left a-GHAST by his plight! Get it? Ghast?! Aha.. ha..<br />
+ugh..&#8217;<br />
+GUARDIAN:<br />
+message: &#8216;%s tried sleepin&#8221; with da fishes, but was eaten instead!&#8217;<br />
+HOT_FLOOR:<br />
+message: &#8216;%s decided to take a stroll out on a bed of magma!&#8217;<br />
+IRON_GOLEM:<br />
+message: &#8216;%s picked a fight with a golem twice their size and made of metal. Well<br />
+done!&#8217;<br />
+LAVA:<br />
+message: &#8216;%s has discovered that, literally, the floor is now lava!&#8217;<br />
+LIGHTNING:<br />
+message: &#8216;%s has been struck by lightning and turned into a superhero!&#8217;<br />
+LLAMA:<br />
+message: The llamas have turned on %s!<br />
+LLAMA_SPIT:<br />
+message: The llamas have turned on %s!<br />
+MAGIC:<br />
+message: Yer a wizzerd, %s!<br />
+MAGMA_CUBE:<br />
+message: &#8216;%s was assimilated into the magma cube!&#8217;<br />
+MELTING:<br />
+message: &#8216;%s is apparently a snowman and has melted, who knew?&#8217;<br />
+PIG_ZOMBIE:<br />
+message: &#8216;%s is about to have a really hard time in the Nether!&#8217;<br />
+PLAYER:<br />
+message: &#8216;%s just got a straight-up slap-down whack-a-mole bee-bop doo-wop boppin&#8221;<br />
+on the noodle-noggin by %2$s, yo!&#8217;<br />
+POISON:<br />
+message: &#8216;%s has suffered a slow and terrible death by poisoning &#8212; the death of<br />
+choice by historic emperors!&#8217;<br />
+POLAR_BEAR:<br />
+message: &#8216;%s lost a round of fisticuffs with a polar bear!&#8217;<br />
+PROJECTILE:<br />
+message: &#8216;%s just learned a hard lesson about standing in a projectile&#8221;s trajectory!&#8217;<br />
+SHULKER:<br />
+message: &#8216;%s ate lead! &#8230;or whatever it is that shulkers shoot!&#8217;<br />
+SHULKER_BULLET:<br />
+message: &#8216;%s ate lead! &#8230;or whatever it is that shulkers shoot!&#8217;<br />
+SILVERFISH:<br />
+message: &#8216;%s is now raging at Monster Eggs!&#8217;<br />
+SKELETON:<br />
+message: &#8216;%s got 2spooped by mr. skeltal! doot doot!&#8217;<br />
+SKELETON_HORSE:<br />
+message: &#8216;%s got 2spooped by mr. skeltal! doot doot!&#8217;<br />
+SLIME:<br />
+message: &#8216;%s was assimilated into the Blob!&#8217;<br />
+SPIDER:<br />
+message: &#8216;%s was eaten by their friendly neighborhood spider, man!&#8217;<br />
+STARVATION:<br />
+message: &#8216;%s needs to eat a Snickers!&#8217;<br />
+SUFFOCATION:<br />
+message: Don&#8217;t forget to breath, %s!<br />
+SUICIDE:<br />
+message: Screw you guys; %s is going home.<br />
+THORNS:<br />
+message: &#8216;%s was turned into swiss cheese by the thorns of their enemies!&#8217;<br />
+VEX:<br />
+message: &#8216;%s got their butt kicked by a little flying fairy thing-a-majig! HA!&#8217;<br />
+VINDICATOR:<br />
+message: &#8216;%s got vindicated!&#8217;<br />
+VOID:<br />
+message: &#8216;%s tried to explore the vast unknown, with little success!&#8217;<br />
+WITCH:<br />
+message: &#8216;%s stood on the wrong side of someone&#8221;s Avada Kedavra!&#8217;<br />
+WITHER:<br />
+message: &#8216;%s has been withered away to a husk by some horrible curse! Yaaay!&#8217;<br />
+WITHER_SKELETON:<br />
+message: &#8216;%s has been withered away to a husk by some horrible curse! Yaaay!&#8217;<br />
+WOLF:<br />
+message: &#8216;%s is now dogmeat!&#8217;<br />
+ZOMBIE:<br />
+message: &#8216;%s is now experiencing a strong craving.. for.. for braaains.. BRAAAAAAAAINNNSSS!!&#8217;<br />
+ZOMBIE_HORSE:<br />
+message: &#8216;%s is now experiencing a strong craving.. for.. for braaains.. BRAAAAAAAAINNNSSS!!&#8217;<br />
+ZOMBIE_VILLAGER:<br />
+message: &#8216;%s is now experiencing a strong craving.. for.. for braaains.. BRAAAAAAAAINNNSSS!!&#8217;<br />
+DEFAULT:<br />
+message: &#8216;%s has died mysteriously and without a trace!&#8217;<br />
+TRIPLE:<br />
+message: Yee-haw! Someone&#8217;s on a dying spree!</td>
+</tr>
+</tbody>
+</table>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/">FunnyDeathMessages [Removed]</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/funnydeathmessages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

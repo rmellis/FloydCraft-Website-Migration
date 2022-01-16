@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fast Minecart | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/fast-minecart/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:46:52 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Fast Minecart | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Minecart Speed Plus</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/minecart-speed-plus/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/minecart-speed-plus/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:46:52 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Dynamic Minecarts]]></category>
+		<category><![CDATA[DynCart]]></category>
+		<category><![CDATA[Fast Minecart]]></category>
+		<category><![CDATA[FastCart]]></category>
+		<category><![CDATA[Minecart]]></category>
+		<category><![CDATA[Minecart Speed Plus]]></category>
+		<category><![CDATA[MinecartSpeed+]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3369</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/minecart-speed-plus.69639/ This plugin was abandoned but we now maintain it and provide it with updates to allow players to dynamically adjust the speed of there minecarts. Have you ever been taking a minecart ride and thinking to yourself “This is taking too long” Well then this is the plugin for you! With MinecartSpeedPlus you can&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/minecart-speed-plus/">Minecart Speed Plus</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/minecart-speed-plus.69639/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/minecart-speed-plus.69639/</span></span></a></p>
+<blockquote><p>This plugin was abandoned but we now maintain it and provide it with updates to allow players to dynamically adjust the speed of there minecarts.</p></blockquote>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-39-png.442369/" alt="upload_2019-7-24_3-55-39.png" /><br />
+Have you ever been taking a minecart ride and thinking to yourself “This is taking too long”<br />
+Well then this is the plugin for you! With MinecartSpeedPlus you can dynamically adjust the speed of minecarts at every desired part of the track, As well as that you can Glide across large gaps<br />
+!</p>
+<p><b>1.16 update notice:</b><br />
+This plugin has now been updated to work for 1.16.x in both Spigot and Paper</p>
+<p><b>1.15 update notice:</b><br />
+in <i>1.15.2</i> you can now change the speed of minecarts via sign, Please keep in mind that because MSP is compiled against <i>1.13</i> and only oak Wood Signs existed then you <b>must use oak wood signs</b> else there&#8217;s a high possibility the signs will have no effect on the speed of your minecarts.</p>
+<p>This plugin was listed on bukkit but was abandoned at <b><i>1.5.2</i></b>, I have updated this the best I can so I could use it myself and Decided to finish off the updates I was working on and upload it here for everyone to enjoy on a Modern version of Minecraft light waight and bug free!<br />
+I was unable to find any details on the origional auther of the old bukkit resource so i cant credit them for the origional project. (<b>Edit:</b> i have now found the origional authors name.. it is Varesa, Origionaly when i checked the author profile said just &#8220;Bukkit User&#8221; but has since changed. If you would like to donate to him you can do so <a class="externalLink" href="https://www.paypal.com/cgi-bin/webscr?return=https://dev.bukkit.org/projects/31453&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=esa%40kuivanto.fi&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://dev.bukkit.org/projects/31453&amp;lc=US&amp;item_name=Minecart+speed%2b+(from+bukkit.org)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" target="_blank" rel="nofollow noopener">By clicking here</a>)<br />
+This plugin is compatable with Spigot 1.13 and will work great on anything higher, for older versions of Minecraft please use the old version (1.5 &#8211; 1.12 ) by <a class="externalLink" href="https://dev.bukkit.org/projects/msp/files/706392/download" target="_blank" rel="nofollow noopener">clicking here</a> else for 1.13 &#8211; 1.14 use the Download button at the top right of this page.<br />
+<b>License</b> &#8211; This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.<br />
+<b>View</b> it at: <a class="externalLink" href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow noopener">http://creativecommons.org/licenses/by-nc-sa/3.0/</a><br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-39-png.442370/" alt="upload_2019-7-24_3-55-39.png" /></p>
+<ul>
+<li>Set minecart speed with Ability for minecart to change speed as pass a sign.</li>
+<li>Makes you minecarts fly! (They glide through the air!)</li>
+<li>simple command to change ALL minecarts on the server.</li>
+</ul>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-39-png.442371/" alt="upload_2019-7-24_3-55-39.png" /><br />
+Installation is simple, just drop the .jar file in the plugins folder.<br />
+Tested Working in: [Paper | Spigot | CraftBukkit ]
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-39-png.442372/" alt="upload_2019-7-24_3-55-39.png" /><br />
+This is a very simple to use plugin with no configuration needed, Instructions are detailed below.<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-40-png.442373/" alt="upload_2019-7-24_3-55-40.png" /><br />
+This is used to Adjust the default speed for ALL minecarts permanently!<br />
+To use simply type &#8220;/msp &lt;multiplier here&gt;&#8221; Replacing Multiplier with any number between 0 and 50.<br />
+<i><b>0.5</b></i> is <i><b>half</b></i> the normal speed, <b>1</b> is the normal speed, and <b>2 </b>is <b><i>double</i></b> the normal speed.</p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-40-png.442374/" alt="upload_2019-7-24_3-55-40.png" /><br />
+The sign method is the best way to manage your Minecart rails as they won&#8217;t affect the Minecarts of other player&#8217;s Minecart Tracks however they will still work for the all players on your track with the set signs.<br />
+To do this you simply need to place an oak sign besides the rail where you want the speed to change (you can also hide the sign underground 1 block below) and type:<br />
+<b>Line 1: </b>[msp]
+<b>Line 2: </b>&lt;multiplier&gt;<br />
+Replacing Multiplier with any number between 0 and 50. and again <i><b>0.5</b></i> is <i><b>half</b></i> the normal speed, <b>1</b> is the normal speed, and <b>2 </b>is <b><i>double</i></b> the normal speed.<br />
+Please note you must use an additional sign just before every corner else the cart will fly clean off the track&#8230; They will speed and slow down instantly as they pass the signs you have placed so you can speed it right back up after the turn is passed.<br />
+<b>also the sign&#8217;s MUST be placed alongside Powerd Redstone Rail.</b><br />
+If you&#8217;re having trouble understanding the sign layout still below is an image example:<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-40-png.442377/" alt="upload_2019-7-24_3-55-40.png" /></p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-40-png.442376/" alt="upload_2019-7-24_3-55-40.png" /><br />
+Gliding Minecarts is a fun feature that will allow you to bridge long gaps without track, the glide works kind of how the guild in Spyro The Dragon works, once you pass a “Fly Sign” you will then Glide!<br />
+To do this you simply need to place the sign besides the rail where you want the Glide to start and type:<br />
+<b>Line 1: </b>[msp]
+<b>Line 2: </b>fly<br />
+To turn off the gluid effect with another sign you can simply place the sign besides the rail where you want to disable the glide effect and type:<br />
+<b>Line 1: </b>[msp]
+<b>Line 2: </b>nofly</p>
+<p>If you&#8217;re having trouble understanding the sign layout still below is an image example:<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/upload_2019-7-24_3-55-40-png.442375/" alt="upload_2019-7-24_3-55-40.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/76f5218a0b3c102d79508b981fd860b62cdf31fe?url=https%3A%2F%2Fi.imgur.com%2F2ZhXbTd.png" alt="[​IMG]" data-url="https://i.imgur.com/2ZhXbTd.png" /><br />
+msp.* <b>—</b> Gives access to all msp features default: OP<br />
+Msp.cmd <b>— </b>Allows you to use speed cmd default: OP<br />
+msp.signs <b>—</b> Allows you to create both signs for speed and fly default: op<br />
+msp.signs.speed <b>—</b> Sub permission of msp.signs that Allows you to create speed sign default: op<br />
+Msp.signs.fly <b>—</b> Sub permission of msp.signs that Allows you to create fly-signs default: op</p>
+<div>_____________________________________________________________________________________________________________</p>
+<p><a class="externalLink" href="http://www.craftserver.xyz/" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/eb397827aa7b10bb1992e0af177c86f145cabc23?url=https%3A%2F%2Fi.imgur.com%2FRN72ntc.png" alt="[​IMG]" data-url="https://i.imgur.com/RN72ntc.png" /></a> <a class="internalLink" href="https://www.spigotmc.org/resources/minecart-speed-plus.69639/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/d8590f19b1b2f9dee79f28db910983ae365aac2a?url=https%3A%2F%2Fi.imgur.com%2FQGeKFMg.png" alt="[​IMG]" data-url="https://i.imgur.com/QGeKFMg.png" /></a> <a class="internalLink" href="https://www.spigotmc.org/resources/better-broadcaster.76980/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/3184450d49d9094dd2386a82251e3f6620c77625?url=https%3A%2F%2Fi.imgur.com%2FLG8CKEV.png" alt="[​IMG]" data-url="https://i.imgur.com/LG8CKEV.png" /></a> <a class="internalLink" href="https://www.spigotmc.org/resources/weathernews.68529/"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a89d7e0245aef7f6cc1a4066ec9e4172acc06546?url=https%3A%2F%2Fi.imgur.com%2FwmRTbnW.png" alt="[​IMG]" data-url="https://i.imgur.com/wmRTbnW.png" /></a></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/minecart-speed-plus/">Minecart Speed Plus</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/minecart-speed-plus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

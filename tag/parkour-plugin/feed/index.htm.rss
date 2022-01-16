@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Parkour Plugin | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/parkour-plugin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 06:42:49 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Parkour Plugin | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Parkour</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/parkour/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/parkour/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 06:42:49 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Adventure Parkours]]></category>
+		<category><![CDATA[Parkour]]></category>
+		<category><![CDATA[Parkour Plugin]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3389</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/parkour.23685/ We use this plugin to give players a parkour system to easily manage there parkour playthrough automatically . ​ Parkour is the original, highly customizable, powerful and fun plugin that will integrate easily into any server. There is no limit to how many courses / checkpoints you can create; Each can be as&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/parkour/">Parkour</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <span style="color: #00ccff;"><a style="color: #00ccff;" href="https://www.spigotmc.org/resources/parkour.23685/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/parkour.23685/</a></span></p>
+<blockquote><p>We use this plugin to give players a parkour system to easily manage there parkour playthrough automatically .</p></blockquote>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8b9e1ab947cce9686d7d9cad4f49a257f21a8d13?url=http%3A%2F%2Fi.imgur.com%2FjZ8IKdO.png" alt="[​IMG]" data-url="http://i.imgur.com/jZ8IKdO.png" />​</div>
+<p>Parkour is the original, highly customizable, powerful and fun plugin that will integrate easily into any server.<br />
+There is no limit to how many courses / checkpoints you can create; Each can be as unique and customized as you want.</p>
+<p>Parkour will track your times, your deaths and display them all in a leaderboard to compare with the rest of the server!</p>
+<p>Each course has its own set of &#8216;Parkour Blocks&#8217; which adds a whole new element of fun to any course, never achieved before.<br />
+Reward players with items after completion, and use Parkours level system to restrict certain courses to only the best Parkour players!</p>
+<div><a class="externalLink" href="https://a5h73y.github.io/Parkour/" target="_blank" rel="nofollow noopener"><b>Find the full official Parkour documentation here; including permissions, tutorials and more.</b></a></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/97b1484a0023ca97560e26278e669f16555ff1f1?url=http%3A%2F%2Fi.imgur.com%2Fz92zM4F.png" alt="[​IMG]" data-url="http://i.imgur.com/z92zM4F.png" />​</div>
+<ul>
+<li>Incredibly powerful and customizable plugin</li>
+<li>Create unlimited courses, with unlimited checkpoints</li>
+<li>Setup is easy, will work with any server</li>
+<li>Simple commands, each with their own help section</li>
+<li>Fun and customisable Parkour Blocks</li>
+<li>Full sign integration</li>
+<li>Easy to understand and advanced configuration</li>
+<li>Leaderboards to store time and deaths</li>
+<li>Friendly and helpful creator</li>
+<li>Will always support existing versions</li>
+<li>Been supported and updated since July 2012!</li>
+<li><b>FREE!! </b>(and always will be.)</li>
+</ul>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/d863f60e3cca811af75e8d317128fc95f1aa3f48?url=http%3A%2F%2Fi.imgur.com%2FSTlkf3F.png" alt="[​IMG]" data-url="http://i.imgur.com/STlkf3F.png" />​</div>
+<p>Installation is made incredibly easy. Simply drag and drop the plugin in to your &#8220;/plugins&#8221; folder and restart the server.<br />
+Parkour will automatically create all the files it needs to store it&#8217;s data, and will notify you of it&#8217;s progress in the console on its first start up.<br />
+There is no configuration changes required for the plugin to work, everything will be set to my default suggestion to minimize conflicts with the server.<br />
+If you want to get the most of the plugin and fully customize it to your liking, I suggest you take some time to look at the config.yml file and amend it to best suit your server.</p>
+<div><iframe loading="lazy" src="https://www.youtube.com/embed/EydPvllnAo0?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2452ada4d8132f471a62cad1d368fae36d866c5c?url=http%3A%2F%2Fi.imgur.com%2FTUeei0I.png" alt="[​IMG]" data-url="http://i.imgur.com/TUeei0I.png" />​</div>
+<p>There are currently <i>3</i> plugins that Parkour officially supports.</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Vault</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">Once the plugin has detected Vault installed, you will be able to configure an economy file to charge and reward the player with any amount once they complete certain courses. You need an economy plugin installed (such as iConomy).<br />
+<a class="externalLink" href="https://dev.bukkit.org/projects/vault" target="_blank" rel="nofollow noopener">https://dev.bukkit.org/projects/vault</a></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">BountifulAPI</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">A new addition as of Parkour 4.0. This allows the plugin to link in with the API and display messages in locations that wouldn&#8217;t usually be possible. This is not a requirement, however to fully enjoy the plugin I suggest trying this plugin out.<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/bountifulapi-1-8-1-9-1-10.1394/">https://www.spigotmc.org/resources/bountifulapi-1-8-1-9-1-10.1394/</a></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">PlaceholderAPI</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">Created by a Parkour contributor steve4744, add PlaceholderAPI support to the plugin via a plugin he created.<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/parkour-expansion.41874/">https://www.spigotmc.org/resources/parkour-expansion.41874/</a></div>
+</div>
+<p>&nbsp;</p>
+<div><b>Need support or have a question?</b><br />
+<a class="externalLink" href="https://discord.gg/aENfFKK" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/55c030da7ab6650876c48bbfaa15c3392609d075?url=https%3A%2F%2Fi.imgur.com%2FXEMxgdi.png" alt="[​IMG]" data-url="https://i.imgur.com/XEMxgdi.png" /></a><br />
+Like the plugin? Consider leaving a review. <img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" />​</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/parkour/">Parkour</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/parkour/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

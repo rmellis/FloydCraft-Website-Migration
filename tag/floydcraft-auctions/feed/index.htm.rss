@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>FloydCraft Auctions | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/floydcraft-auctions/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:04:57 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>FloydCraft Auctions | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Crazy Auctions</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/crazy-auctions/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/crazy-auctions/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:04:35 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Auction House Alternative]]></category>
+		<category><![CDATA[CraftBay]]></category>
+		<category><![CDATA[Crazy Auctions]]></category>
+		<category><![CDATA[FloydCraft Auctions]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3283</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/crazy-auctions.25219/ We use CrazyAuctions as a replacement for AuctionHouse Which was used to replace CraftBay, It functions as out Auction Villagers Inventory within the shops. Welcome to the Crazy Auctions plugin page. This plugin allows players to sell/bid their items to other players across the server. With an easy to use GUI, players can&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/crazy-auctions/">Crazy Auctions</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/crazy-auctions.25219/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;">https://www.spigotmc.org/resources/crazy-auctions.25219/</span></a></p>
+<blockquote><p>We use CrazyAuctions as a replacement for AuctionHouse Which was used to replace CraftBay, It functions as out Auction Villagers Inventory within the shops.</p></blockquote>
+<p>Welcome to the Crazy Auctions plugin page. This plugin allows players to sell/bid their items to other players across the server. With an easy to use GUI, players can buy, sell, and even bid on items.</p>
+<p>Features:</p>
+<ul>
+<li>Selling Items</li>
+<li>Buying Items</li>
+<li>Bidding items</li>
+<li>Category selector</li>
+<li>Easy to use GUI</li>
+<li>Customizable messages</li>
+<li>Allowing Damaged Items Toggle</li>
+<li>Black List Items</li>
+<li>Max/Min bidding and buying</li>
+<li>And More!!!!</li>
+</ul>
+<p>Commands and Permissions:<br />
+https://github.com/badbones69/Crazy-Auctions/wiki/Commands-and-Permissions</p>
+<p>Translation Files:<br />
+https://github.com/badbones69/Crazy-Auctions/wiki/Language-Files</p>
+<div>
+<p>Videos:</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">English Videos</span></button></div>
+<p>​</p>
+</div>
+<p>&nbsp;</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f9bd33b0649f812c946c0816ca654df4384bdd90?url=https%3A%2F%2Fimage.ibb.co%2FcvQ01F%2FGitHub.png" alt="[​IMG]" data-url="https://image.ibb.co/cvQ01F/GitHub.png" /><br />
+Source Code<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/26fed360bfa890be7ce90c7cb2c40cde3a23e7f8?url=https%3A%2F%2Fimage.ibb.co%2FjGrwaa%2FDonate_250x250.png" alt="[​IMG]" data-url="https://image.ibb.co/jGrwaa/Donate_250x250.png" /></p>
+<p><b><i>Want to live chat? Join my Discord server.</i></b><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/baa36004a18fe007a7e7a754870789473487c037?url=https%3A%2F%2Fimage.ibb.co%2Fkqtbaa%2FDiscord_Logo_Wordmark_Black.png" alt="[​IMG]" data-url="https://image.ibb.co/kqtbaa/Discord_Logo_Wordmark_Black.png" /><br />
+<b><i>&gt;&gt;Join Now&lt;&lt;</i></b></p>
+<p><b><i>If any bugs are found please report them here.<br />
+&gt;&gt;Report Bugs Here&lt;&lt;</i></b></p>
+</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/crazy-auctions/">Crazy Auctions</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/crazy-auctions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

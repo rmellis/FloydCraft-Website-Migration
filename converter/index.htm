@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Citizens Converter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Citizens Converter">
+        <meta name="author" content="AgentKid">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+        </style>
+        <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="navbar-inner">
+                <a class="brand" href="https://citizensnpcs.co/converter/">C2 Converter</a>
+                <ul class="nav">
+                    <li class="active"><a href="https://citizensnpcs.co/converter/npc-profiles/">NPC-Profiles.yml</a></li>
+                    <li><a href="https://citizensnpcs.co/converter/npc-profiles/">Quests.yml</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+
+                <h3>Convert your Citizens1 npc-profiles.yml to Citizens2 standards</h3>
+        <form action="#" method="post" enctype="multipart/form-data">
+                        <input type="radio" name="traderMode" value="none" checked/> Do not convert trader data<br />
+            <input type="radio" name="traderMode" value="CitiTraders" /> Convert Trader data to CitiTraders<br />
+            <input type="radio" name="traderMode" value="DtlTraders" /> Convert Trader data to DtlTraders <small class="muted">Doesn't work yet. Sorry</small><br /><br />
+            <input type="checkbox" name="json" value="true" /> This file is JSON <br /><br />
+            <label for="file">Filename:</label>
+            <input type="file" name="file" id="file" /><br>
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+<br><p>For assistance with the converter, please contact AgentK on <a href="irc://irc.esper.net/citizens">#citizens on Esper</a> or agentkid20 (4T) gmail DOT c0m</p><br><br><br>
+            <footer class="footer">
+                <center>Copyright &copy; 2012 - CitizensNPCs<br>Converter by AgentKid</center>
+            </footer>
+        </div>
+        <script src="../assets/js/jquery.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

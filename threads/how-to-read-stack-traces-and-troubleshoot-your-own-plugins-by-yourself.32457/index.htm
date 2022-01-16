@@ -1,0 +1,5626 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public LoggedOut NoSidebar" xmlns:fb="//www.facebook.com/2008/fbml">
+<head>
+
+    <meta charset="utf-8" />
+<meta name="google-site-verification" content="fnjUrmd3azc4GH8dDBhYuQnAslOqYeuxnygs4oK9-Kg" />
+<script src="https://lngtd.com/bukkit.js"></script>
+<meta name="bitly-verification" content="272f2f58ee21"/>
+     
+
+<script>
+document.write('<base href="' + 'https://bukkit.org/'.replace('http:', 'https:') + '" />');
+</script>
+<noscript>
+		<base href="https://bukkit.org/" />
+</noscript>
+
+	   
+    <title>How to read stack-traces, and troubleshoot your own plugins (by yourself) | Bukkit Forums</title>
+    
+    <noscript><style>.JsOnly { display: none !important; }</style></noscript>
+    <link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+    <link rel="stylesheet" href="css.php?css=bb_code,bbcm_js,likes_summary,login_bar,message,message_user_info,share_page,thread_view&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+
+    
+
+    <script>
+
+	var _gaq = [['_setAccount', 'UA-20541082-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="js/xenforo/xenforo.js?_v=c2a3bd65"></script>
+
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS feed for Bukkit Forums" href="forums/-/index.rss" />
+    
+    <link rel="next" href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-2" />
+	<link rel="canonical" href="https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" />
+	<meta name="description" content="Introduction:
+It has come to my attention, recently, that a lot of new developers do not understand the true reason of a stack-trace: Trouble-shooting..." />
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/bukkit.org?location=topic&amp;tid=32457&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://307880732/tapatalk/bukkit.org?location=topic&amp;tid=32457&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <!-- Tapatalk Detect style start -->
+<style type="text/css">
+.ui-mobile [data-role="page"], .ui-mobile [data-role="dialog"], .ui-page
+{
+top:auto;
+}
+</style>
+<!-- Tapatalk Detect banner style end -->
+                
+	
+	<script type="text/javascript" src="js/kingk/bbcm/bbcodes.js"></script>
+
+
+    <script>
+        var script = document.createElement('script');
+        var tstamp = new Date();
+        script.id = 'factorem';
+        script.src = '//cdm.cursecdn.com/js/bukkit/cdmfactorem_min.js?misc=' + tstamp.getTime();
+        script.async = false;
+        script.type='text/javascript';
+        document.head.appendChild(script);
+    </script>
+
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1642324554 82.46.10.18';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		</head>
+<body class="node5 node1 SelectQuotable">
+
+
+
+    
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+    <div id="headerProxy"></div>
+
+<div id="content" class="thread_view">
+    <div class="pageWidth">
+        
+
+        
+									
+		
+		       
+                    
+<div class="atflb" style="text-align: center; margin-bottom: 25px;">
+<div id='cdm-zone-01'></div>
+</div>
+                    
+        <div class="pageContent">
+
+            <!-- main content area -->
+
+            
+                        
+
+                        
+                        <div class="breadBoxTop">
+                            
+                            
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-5" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/forums/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb" rel="up" itemprop="url"><span itemprop="title">Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+                        </div>
+                        
+                        
+                        
+
+                        
+                                              
+                            <!-- h1 title, description -->
+                            <div class="titleBar">
+                            	
+                                <h1>How to read stack-traces, and troubleshoot your own plugins (by yourself)</h1>
+                                
+                                <p id="pageDescription" class="muted ">
+	Discussion in '<a href="forums/plugin-development.5/">Plugin Development</a>' started by <a href="members/drbowenur.36753/" class="username" dir="auto">DrBoweNur</a>, <a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/"><span class="DateTime" title="Aug 19, 2011 at 4:24 PM">Aug 19, 2011</span></a>.
+</p>
+                            </div>
+                        
+                        
+
+                        
+                        
+                        <!-- main template -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="2"
+	data-last="3"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 3</span>
+	
+	<nav>
+		
+		
+		<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" class="currentPage " rel="start">1</a>
+		
+		
+		
+		
+			<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-2" class="">2</a>
+		
+		
+		
+		
+		<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-3" class="">3</a>
+		
+		
+			<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+</div>
+
+
+
+
+
+<form action="inline-mod/post/switch" method="post"
+	class="InlineModForm section"
+	data-cookieName="posts"
+	data-controls="#InlineModControls"
+	data-imodOptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-595757" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<span style="color: rgb(20, 20, 20)"><span style="font-size: 22px"><span style="text-decoration: underline"><b>Introduction:</b></span></span></span><br />
+<span style="color: rgb(20, 20, 20)">It has come to my attention, recently, that a lot of new developers do not understand the true reason of a stack-trace: Trouble-shooting and bug testing.</span><br />
+<br />
+<span style="color: rgb(20, 20, 20)">Far too often, I see posts inside of Plugin Development of developers who want other devs to check their stack-trace, and then allocate the problem for them. Usually, this takes about 3 steps more than it should, as the helper typically needs to ask for the code, the line-number, and then one last follow-up question.</span><br />
+<br />
+<span style="color: rgb(20, 20, 20)">So, to help prevent this, I&#039;ve written a short guide on reading a stack-trace, and finding out what&#039;s wrong based on the results (on your own).</span><br />
+<br />
+<span style="color: rgb(20, 20, 20)">Something rather important to note, before going into this, is that this guide is helpful to both developers <b>AND</b> server administrators alike. <span style="color: rgb(255, 0, 0)">Yes, you heard me,</span></span><span style="color: rgb(255, 0, 0)"> this is useful knowledge to plugin-users as well.</span> <span style="color: rgb(0, 0, 0)">If you know how to read the errors of another plugin, you can post a much more in-depth bug report. Not only will this help fix the issue sooner, but you might gain a little appreciation from the developer (which is always good for feature requests)</span><br />
+<br />
+<span style="color: rgb(0, 0, 0)">Anyways, let&#039;s begin: </span><br />
+<br />
+<span style="text-decoration: underline"><span style="color: rgb(20, 20, 20)"><span style="font-size: 22px"><b>What is a stack-trace?</b></span></span></span><br />
+<span style="color: rgb(20, 20, 20)">Well, essentially, this is a stack-trace:</span><br />
+<div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Stack-Trace</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Stack-Trace (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Stack-Trace (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote><br />
+<img src="http://i.imgur.com/F24mC.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/F24mC.jpg" /><br />
+ </blockquote></div>
+						</div>
+					</div><br />
+<span style="color: rgb(20, 20, 20)">As you can see, its what several people refer to as the server log, console log, error log, what have you. It&#039;s where everything is going to be broadcasted whenever something goes wrong with a plugin. As you can see, I <i>do</i> <i>have</i> an error with my ComPassionate plugin.</span><br />
+<br />
+<span style="color: rgb(20, 20, 20)">Let&#039;s talk about how to fix it:</span><br />
+<br />
+<span style="text-decoration: underline"><span style="color: rgb(20, 20, 20)"><span style="font-size: 22px"><b>How do I decipher a stack-trace?</b></span></span></span><br />
+<span style="color: rgb(20, 20, 20)"><span style="font-size: 15px">Standard Response:</span></span><br />
+<span style="color: rgb(20, 20, 20)"><span style="color: rgb(255, 0, 0)"><span style="font-size: 12px"><i><b>&quot;Oh my gosh! An error! Dear lord, look at all the lines, I can&#039;t translate that gibberish! Time to go to the Plugin Development section and ask for help!&quot;</b></i> </span></span></span><br />
+<br />
+Don&#039;t panic! Stack-traces are actually <i>really</i> easy to read! Let&#039;s take the last example, and focus in on the error itself. I will then talk about how to &#039;read&#039; it.<br />
+<div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Stack-Trace of the Error</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Stack-Trace of the Error (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Stack-Trace of the Error (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote><br />
+<img src="http://i.imgur.com/3mth7.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/3mth7.jpg" /><br />
+</blockquote></div>
+						</div>
+					</div><br />
+<br />
+<span style="color: rgb(20, 20, 20)">Ok, when troubleshooting any error, there are a few simple steps you must follow:</span><br />
+<ol>
+<li>Make sure that it&#039;s actually a problem with <b>your</b> plugin! Look for any class-name or variable that pertains to your plugin, and if you find a match, continue on!<br />
+                       <br />
+</li>
+<li>Look for the actual <b>error</b>. These are typically found at the start of the stack-trace, but will sometimes be located towards the middle. In either situation, its not hard to find it!. <br />
+                        As you can see, I have a <b>Null Pointer Exception</b>. This means that something, somewhere, is null (and I&#039;ve tried to invoke a change upon it). <br />
+                        <br />
+                        For a list of all exception types, and what they mean, you can poke around <a href="http://download.oracle.com/javase/1,5.0/docs/api/java/lang/Exception.html" target="_blank" class="externalLink" rel="nofollow">here</a><br />
+                     <br />
+</li>
+<li>Find the file that the error occurs in. These generally appear in (parentheses) <span style="text-decoration: underline">NOTE:</span> (They might look like &quot;&lt;, &gt;&quot; on Windows), and will always be named one of your plugin files! For instance, my error occurs in <b>LocationUpdater.java<br />
+                        </b><br />
+</li>
+<li>The last, and probably the most important step in trouble-shooting, is to note the <b>line number!</b> This will tell you EXACTLY where the error occurs at, and will help with a speedy bug-fix. These will <b>always</b> appear after the file (mentioned above). I have indicated that my error occurs on line 29.<br />
+        <br />
+        If this happens to be you:<br />
+        <span style="color: rgb(255, 0, 0)">&quot;OMG, I don&#039;t have line numbers! PANIC MODE ENGAGE!&quot;</span><br />
+        <div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Showing line numbers in Eclipse</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Showing line numbers in Eclipse (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Showing line numbers in Eclipse (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote>Windows--&gt;Preferences--&gt;General--&gt;Editors--&gt;Text-Editors   |  Then check the &#039;Show line numbers&#039; box. </blockquote></div>
+						</div>
+					</div><div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Showing line numbers in Netbeans</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Showing line numbers in Netbeans (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Showing line numbers in Netbeans (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote>View--&gt;Show Line Numbers</blockquote></div>
+						</div>
+					</div></li>
+</ol><i>Additional Note:</i><br />
+Once you&#039;ve followed all of these steps, anything after that exception will likely be useless, as it generally involves internal things that you can&#039;t change. I&#039;ve crossed out all of this useless info with a <span style="color: rgb(255, 0, 0)">red X</span>.<br />
+<br />
+<span style="text-decoration: underline"><b><span style="font-size: 22px">Now that I know exactly where to look, what do I do?</span></b></span><br />
+<span style="font-size: 15px">This is the easy part! You do what you do best : <b>code</b></span><br />
+<br />
+<span style="font-size: 15px">I&#039;ll go ahead and post a picture of the actual error <b>in my code</b>, to show you that I knew exactly where to look (and found the error immediately) </span><br />
+<div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Error in Code</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Error in Code (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Error in Code (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote><br />
+<img src="http://i.imgur.com/1Tjaa.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/1Tjaa.jpg" /><br />
+</blockquote></div>
+						</div>
+					</div><br />
+<br />
+As you can see, I went straight to <b>LocationUpdater.java,</b> scrolled down to line <b>29</b>, and immediately saw that I was calling isDead() on an entity, without ever directly checking to see if it was null. I fixed this in 30 seconds, and moved on with my life! Hooray!<br />
+<br />
+<span style="font-size: 22px"><b><span style="text-decoration: underline">Additional Examples:</span></b></span><br />
+<ol>
+<li><b>A stack-trace involving onCommand() -<br />
+  </b> (This is the type of stack-trace that gives you the useful info half-way through. I mentioned it briefly, above)<br />
+    <div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">onCommand Stack-Trace</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">onCommand Stack-Trace (open)</span>
+								<span class="bbcm_spoiler_hide" style="display:none">onCommand Stack-Trace (close)</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote><br />
+   <i>Note: Not my own stack-trace</i><br />
+    <img src="http://i.imgur.com/ARsQk.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/ARsQk.jpg" /><br />
+    </blockquote></div>
+						</div>
+					</div><br />
+    In any error that involves onCommand, the useful stuff is going to be after a bunch of gibberish. The key is to look for the <span style="text-decoration: underline">&#039;Caused by:&#039;</span> , because that is where the info actually starts.If you look in the picture, you can see that there&#039;s a <b>Null Pointer Exception</b>. It&#039;s located in <b>theboot.java, </b>on line <b>67</b>.</li>
+</ol><span style="text-decoration: underline"><b><span style="font-size: 22px">Conclusion:</span></b></span><br />
+<span style="font-size: 12px">Stack-traces can be a pretty scary thing, I get that! But once you learn how to properly decipher them, you&#039;ll find that fixing bugs <b>by yourself</b> becomes monumentally easier!</span><br />
+<br />
+<span style="font-size: 12px">If you didn&#039;t know how to read a stack-trace before, hopefully you do now!</span><br />
+<span style="font-size: 12px">If you did, and just decided to read, hopefully you think its a good guide for starters!</span><br />
+<br />
+<span style="font-size: 12px">Now get out there and trouble-shoot!</span><br />
+<span style="font-size: 15px"><span style="font-size: 10px">And stop spamming Plugin Development with stack-traces because you aren&#039;t quite sure how to read them! <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /> </span></span><br />
+<br />
+<span style="font-size: 10px"><b>Disclaimer<i>:</i></b><i> Some of the errors/stack-traces/snippets of code in this post were real products of my own stupidity. They did actually occur, and I did actually wait for them to occur (for use of this post). </i></span><br />
+<br />
+<span style="font-size: 10px"><i>No servers were crashed in the making of this guide--okay, maybe one.</i></span><br />
+<br />
+As a side note, I can not get those double spoilers to go away, no matter what I try. :|<br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="May 18, 2016 at 7:35 PM">May 18, 2016</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:24 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595757/permalink">#1</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595757">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/akilogramofstone.91389062/" class="username" dir="auto">Akilogramofstone</a>, <a href="members/tlm920.91279139/" class="username" dir="auto">tlm920</a>, <a href="members/abductedsnake.91298693/" class="username" dir="auto">AbductedSnake</a> and <a href="posts/595757/likes" class="OverlayTrigger">149 others</a> like this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595788" class="message   " data-author="Forge_User_55332298">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/forge_user_55332298.94801/" class="avatar Av94801m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/94/94801.jpg?1309859532')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/forge_user_55332298.94801/" class="username" dir="auto" itemprop="name">Forge_User_55332298</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					*thumbs up*<br />
+I hope people will read that (though I am too pessimistic to really believe that).
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/forge_user_55332298.94801/" class="username author" dir="auto">Forge_User_55332298</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595788" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:29 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595788" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595788/permalink">#2</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595788"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595796" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Pandemoneus">
+	<aside>
+		
+			<div class="attribution type">Pandemoneus said:
+				
+					<a href="goto/post?id=595788#post-595788" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">*thumbs up*<br />
+I hope people will read that (though I am too pessimistic to really believe that).</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I&#039;d like to think that the pretty-pictures I included, along with my Picasso-esque drawing skills would be enough for people to get the general idea. <br />
+<br />
+The intro and conclusion are there just because they&#039;re an industry standard <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595796" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:32 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595796" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595796/permalink">#3</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595796">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/minermax7.90696402/" class="username" dir="auto">Minermax7</a>, <a href="members/spideynn.90736957/" class="username" dir="auto">spideynn</a> and <a href="members/shoottomaim.90596049/" class="username" dir="auto">ShootToMaim</a> like this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595808" class="message   " data-author="Forge_User_55332298">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/forge_user_55332298.94801/" class="avatar Av94801m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/94/94801.jpg?1309859532')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/forge_user_55332298.94801/" class="username" dir="auto" itemprop="name">Forge_User_55332298</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					It&#039;s not about the wall of text, it&#039;s rather about the &quot;Hm, I might search the forum for helpful topics first, there already might be a solution to my problem.&quot;
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/forge_user_55332298.94801/" class="username author" dir="auto">Forge_User_55332298</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595808" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:35 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595808" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595808/permalink">#4</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595808"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595815" class="message   " data-author="wwsean08">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/wwsean08.84245/" class="avatar Av84245m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/84/84245.jpg?1307916194')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/wwsean08.84245/" class="username" dir="auto" itemprop="name">wwsean08</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					great job, I hope that people new to java do read this as it is well laid out and could teach them a few things
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/wwsean08.84245/" class="username author" dir="auto">wwsean08</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595815" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:37 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595815" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595815/permalink">#5</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595815"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595826" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Pandemoneus">
+	<aside>
+		
+			<div class="attribution type">Pandemoneus said:
+				
+					<a href="goto/post?id=595808#post-595808" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">It&#039;s not about the wall of text, it&#039;s rather about the &quot;Hm, I might search the forum for helpful topics first, there already might be a solution to my problem.&quot;</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>In the long run, my goal is to get this stickied to prevent it from dropping. There just seems to be a lot of posts that went along the lines of this:<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote">
+	<aside>
+		
+		<blockquote class="quoteContainer"><div class="quote"><i>&quot;I have an error, help&quot;</i><br />
+-Stacktrace?<br />
+<i>&quot;Here it is&quot;</i><br />
+-Which line of code is line <b>x</b>?<br />
+<i>&quot;This one&quot;</i><br />
+-Oh, there&#039;s an issue with <b>y</b></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>In any case, the post is a bit long to even be considered for stickying (in my opinion). However, if the Moderators find it &#039;worthy&#039; (for lack of a better word), I can shape it up to their liking.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595826" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:41 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595826" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595826/permalink">#6</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595826"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595835" class="message   " data-author="Grammar Troll">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/grammar-troll.91235/" class="avatar Av91235m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/91/91235.jpg?1309251929')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/grammar-troll.91235/" class="username" dir="auto" itemprop="name">Grammar Troll</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="DrBoweNur">
+	<aside>
+		
+			<div class="attribution type">DrBoweNur said:
+				
+					<a href="goto/post?id=595771#post-595771" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">As a side note, I can not get those double spoilers to go away, no matter what I try. :|</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Try to select everything in the spoilers and click &quot;Remove formatting&quot; (next to font selection).
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/grammar-troll.91235/" class="username author" dir="auto">Grammar Troll</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595835" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:44 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595835" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595835/permalink">#7</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595835"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595839" class="message   " data-author="Forge_User_55332298">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/forge_user_55332298.94801/" class="avatar Av94801m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/94/94801.jpg?1309859532')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/forge_user_55332298.94801/" class="username" dir="auto" itemprop="name">Forge_User_55332298</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="DrBoweNur">
+	<aside>
+		
+			<div class="attribution type">DrBoweNur said:
+				
+					<a href="goto/post?id=595826#post-595826" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">In the long run, my goal is to get this stickied to prevent it from dropping. There just seems to be a lot of posts that went along the lines of this:</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I know there is, that&#039;s why I&#039;ve put a *like* on your post. <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" /><br />
+<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="DrBoweNur">
+	<aside>
+		
+			<div class="attribution type">DrBoweNur said:
+				
+					<a href="goto/post?id=595826#post-595826" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">In any case, the post is a bit long to  even be considered for stickying (in my opinion). However, if the  Moderators find it &#039;worthy&#039; (for lack of a better word), I can shape it  up to their liking.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>The length shouldn&#039;t be a criteria for a sticky in my opinion. It just matters that your topic is helpful to the general audience that visits the forum here.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/forge_user_55332298.94801/" class="username author" dir="auto">Forge_User_55332298</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595839" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:45 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595839" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595839/permalink">#8</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595839"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595856" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Ack! Messed up post, give me a second!<br />
+<br />
+EDIT:<br />
+Fixed the double-spoilers<br />
+<br />
+@<a href="http://forums.bukkit.org/members/grammar-troll.91235/" target="_blank" class="externalLink" rel="nofollow">Grammar Troll</a><br />
+&lt;3
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595856" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:47 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595856" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595856/permalink">#9</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595856"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595873" class="message   " data-author="EdTheLoon">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/edtheloon.97248/" class="avatar Av97248m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/97/97248.jpg?1323824845')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/edtheloon.97248/" class="username" dir="auto" itemprop="name">EdTheLoon</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Nice thread <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /> Hopefully people will read this at some point to aid themselves in fixing their errors; it&#039;s not that I don&#039;t like to help others, but it would be a lot better if the easier stuff was solved by themselves leaving us to help with the more complicated issues.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/edtheloon.97248/" class="username author" dir="auto">EdTheLoon</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595873" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:50 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595873" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595873/permalink">#10</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595873"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595906" class="message   " data-author="Slash1987">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slash1987.90566919/" class="avatar Av90566919m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90566/90566919.jpg?1314307923')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slash1987.90566919/" class="username" dir="auto" itemprop="name">Slash1987</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Everyone who would like to code in java(or another language) shoul know first how to read errors and fix them, not just try random changes in the code and think *Crap, the error is still here*
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slash1987.90566919/" class="username author" dir="auto">Slash1987</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595906" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 4:56 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595906" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595906/permalink">#11</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595906"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595927" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/slash1987.90566919/" target="_blank" class="externalLink" rel="nofollow">Slash1987</a><br />
+My sentiments exactly. I <i>love</i> to help people in the development forums, but at some point, you have to push the bird out of its nest.<br />
+<br />
+If you don&#039;t learn how to properly read a stack-trace, then you will never learn how to properly troubleshoot a plugin (which is CRITICAL for ANY programming profession) As a side note, its one of the reasons that I find HTML so frustrating: There are very little error logs to indicate what&#039;s gone wrong. You just have to poke around until you find it yourself.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595927" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 5:01 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595927" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595927/permalink">#12</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595927">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/slash1987.90566919/" class="username" dir="auto">Slash1987</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-595946" class="message   " data-author="Slash1987">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slash1987.90566919/" class="avatar Av90566919m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90566/90566919.jpg?1314307923')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slash1987.90566919/" class="username" dir="auto" itemprop="name">Slash1987</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/drbowenur.36753/" target="_blank" class="externalLink" rel="nofollow">DrBoweNur</a><br />
+<br />
+I&#039;m the first one banging my head into the wall trying to decode those shitty stack-trace when i studied Java at University, but now I can easily find error throug the millions of line printend in my test server. The only error that still give me problem is &quot;Cannot pass [random_event] to [random_class].... XD
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slash1987.90566919/" class="username author" dir="auto">Slash1987</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595946" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 5:07 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-595946" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/595946/permalink">#13</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-595946"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-596734" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Small Update:<br />
+Added extra paragraph to the intro, to help clarify that this is useful information for both plugin-users, as well as developers. (In the event that a non-developer happens to stumble across this)
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-596734" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 19, 2011 at 9:43 PM">Aug 19, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-596734" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/596734/permalink">#14</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-596734">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/1cec0ld.84770/" class="username" dir="auto">1cec0ld</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-597703" class="message   " data-author="mindless728">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/mindless728.105/" class="avatar Av105m" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/flexile/xenforo/avatars/avatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/mindless728.105/" class="username" dir="auto" itemprop="name">mindless728</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Good job on this, i am sure it will help quite a few (by people linking to this when people have a stack trace)<br />
+<br />
+this should be stickied
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/mindless728.105/" class="username author" dir="auto">mindless728</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597703" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 5:54 AM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597703" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/597703/permalink">#15</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-597703"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-597809" class="message   " data-author="bergerkiller">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/bergerkiller.96957/" class="avatar Av96957m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/96/96957.jpg?1310234119')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/bergerkiller.96957/" class="username" dir="auto" itemprop="name">bergerkiller</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Really nice article Bowe, also + that you started with the null reference exception error. This is the most common exception in Java, especially when you interact with slots of any type.<br />
+<br />
+My method of locating the reason for the exception is to look at all veriables and method calls followed up by a &#039;.&#039;<br />
+It is almost always the case that you tried to execute a member function in a null variable.<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote">
+	<aside>
+		
+		<blockquote class="quoteContainer"><div class="quote">Block b = event.getBlock();<br />
+<span style="color: rgb(255, 0, 0)">b</span>.setTypeId(event.<span style="color: rgb(255, 102, 0)">getMaterial()</span>.getId());</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>The first dot now has the main focus, b could be null. If this is checked and it still happens, getMaterial() could return null. Generally it is best to look from left to right when processing lines with an error.<br />
+<br />
+Not sure if it adds something, just felt like posting it. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" /><br />
+<br />
+EDIT<br />
+<br />
+If you ever end up with a stacktrace not leading to any plugin, and you are sure you are the cause, <a href="https://github.com/Bukkit/CraftBukkit/tree/master/src/main/java/net/minecraft/server" target="_blank" class="externalLink" rel="nofollow">try looking at the native Minecraft coding</a>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/bergerkiller.96957/" class="username author" dir="auto">bergerkiller</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597809" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 6:44 AM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597809" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/597809/permalink">#16</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-597809">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/delocaz.90582120/" class="username" dir="auto">Delocaz</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-597952" class="message   " data-author="Shamebot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/shamebot.32086/" class="avatar Av32086m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/32/32086.jpg?1308773241')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/shamebot.32086/" class="username" dir="auto" itemprop="name">Shamebot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Nice tutorial, maybe add how to enable line numbering in the common IDEs.<br />
+Also you could add a stacktrace of an exception thrown in onCommand so people see that the important part is after the [CAUSED BY].<br />
+<br />
+Adding to what <a href="members/bergerkiller.96957/" class="internalLink" rel="nofollow">bergerkiller</a> said, NullPointerExceptions can occur when you pass null to a method, too.<br />
+In this case your code isn&#039;t mentioned at the top of the stacktrace, but a few lines below.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/shamebot.32086/" class="username author" dir="auto">Shamebot</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597952" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 7:49 AM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-597952" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/597952/permalink">#17</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-597952"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-598894" class="message   " data-author="Perdog">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/perdog.99770/" class="avatar Av99770m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/99/99770.jpg?1324647437')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/perdog.99770/" class="username" dir="auto" itemprop="name">Perdog</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					.... And I finally actually understand those jumbled things :O Thank you soooo much!
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/perdog.99770/" class="username author" dir="auto">Perdog</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-598894" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 12:04 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-598894" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/598894/permalink">#18</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-598894"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-599037" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Shamebot">
+	<aside>
+		
+			<div class="attribution type">Shamebot said:
+				
+					<a href="goto/post?id=597952#post-597952" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Nice tutorial, maybe add how to enable line numbering in the common IDEs.<br />
+Also you could add a stacktrace of an exception thrown in onCommand so people see that the important part is after the [CAUSED BY].<br />
+<br />
+Adding to what <a href="members/bergerkiller.96957/" class="internalLink" rel="nofollow">bergerkiller</a> said, NullPointerExceptions can occur when you pass null to a method, too.<br />
+In this case your code isn&#039;t mentioned at the top of the stacktrace, but a few lines below.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I&#039;m going to be toying with commands today for this exact plugin demonstrated here, so I&#039;ll try and be sloppy to produce a CAUSED BY error.<br />
+<br />
+Also, I&#039;ll upload a screenshot of how to enable line-viewing. Thanks.<br />
+<br />
+@<a href="http://forums.bukkit.org/members/bergerkiller.96957/" target="_blank" class="externalLink" rel="nofollow">bergerkiller</a><br />
+Yeah, 9 times out of 10, the exception will be an NPE. Every once in a while you&#039;ll get issues with async threads or command executions.<br />
+<br />
+@<a href="http://forums.bukkit.org/members/perdog.99770/" target="_blank" class="externalLink" rel="nofollow">Perdog</a><br />
+Glad it helped! <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599037" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 12:52 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599037" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/599037/permalink">#19</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-599037"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-599319" class="message   " data-author="bergerkiller">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/bergerkiller.96957/" class="avatar Av96957m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/96/96957.jpg?1310234119')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/bergerkiller.96957/" class="username" dir="auto" itemprop="name">bergerkiller</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Sticky please? This is also one of those things people ask a lot on the forums, don&#039;t want it to disappear from plain view. <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/bergerkiller.96957/" class="username author" dir="auto">bergerkiller</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599319" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 2:20 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599319" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/599319/permalink">#20</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-599319"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-599396" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/bergerkiller.96957/" target="_blank" class="externalLink" rel="nofollow">bergerkiller</a><br />
+To my knowledge, moderators don&#039;t really come into plugin development all too often. In any case, I&#039;m not about to beg for a sticky. Don&#039;t get me wrong, a sticky would be great...but as long as I have this post to link people to whenever they post stack-trace errors, I&#039;ll be content. <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" /><br />
+<br />
+Added info on how to enable line-numbers, if you don&#039;t know already.<br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="May 18, 2016 at 7:35 PM">May 18, 2016</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599396" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 2:39 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599396" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/599396/permalink">#21</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-599396"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-599935" class="message   " data-author="Forge_User_42331429">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/forge_user_42331429.62249/" class="avatar Av62249m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/62/62249.jpg?1307733939')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/forge_user_42331429.62249/" class="username" dir="auto" itemprop="name">Forge_User_42331429</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Good job! I thought about writing some &quot;quick guides&quot; (stack-traces, @Override and stuff like that) for quite some time, but I never got the patience for it.<br />
+I doubt that it will stop people from posting annoying stuff like you mentioned - even when this gets stickied -, but at least we have a decent thread to link to now!<br />
+Thank you, well described!<br />
+<br />
+Side note:<br />
+
+
+
+<div class="bbCodeBlock bbCodeQuote">
+	<aside>
+		
+		<blockquote class="quoteContainer"><div class="quote">Find the file that the error occurs in. These generally appear in &quot;&lt;,  &gt;&quot;, and will always be named one of your plugin files! For instance,  my error occurs in <b>LocationUpdater.java</b></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>It&#039;s actually not &quot;&lt;&quot;s and &quot;&gt;&quot;s, but &quot;(&quot;s and &quot;)&quot;s surrounding the filename. Looks crappy on windows consoles, though <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" /><br />
+Just a little remark because I fail to find a bigger issue with that awesome tutorial <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/forge_user_42331429.62249/" class="username author" dir="auto">Forge_User_42331429</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599935" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 5:02 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599935" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/599935/permalink">#22</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-599935"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-599947" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/bone008.62249/" target="_blank" class="externalLink" rel="nofollow">Bone008</a><br />
+Thanks! Fixed that in the OP. <br />
+Oh Windows, you so crazy.  <img src="smilies/rolleyes.gif" class="mceSmilie" alt=":rolleyes:" title="Roll Eyes    :rolleyes:" /><br />
+<br />
+Updated post with an additional section (for additional examples, go-figure).<br />
+<br />
+Got an example of the onCommand() stack-trace that you were talking about, @<a href="http://forums.bukkit.org/members/shamebot.32086/" target="_blank" class="externalLink" rel="nofollow">Shamebot</a><br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="May 18, 2016 at 7:35 PM">May 18, 2016</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599947" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 5:06 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-599947" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/599947/permalink">#23</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-599947"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-600559" class="message   " data-author="BrandonHopkins">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/brandonhopkins.96827/" class="avatar Av96827m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/96/96827.jpg?1390182581')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/brandonhopkins.96827/" class="username" dir="auto" itemprop="name">BrandonHopkins</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					I still cant figure out mine lol.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/brandonhopkins.96827/" class="username author" dir="auto">BrandonHopkins</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-600559" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 8:49 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-600559" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/600559/permalink">#24</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-600559"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-600573" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="BrandonHopkins">
+	<aside>
+		
+			<div class="attribution type">BrandonHopkins said:
+				
+					<a href="goto/post?id=600559#post-600559" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">I still cant figure out mine lol.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>What about it can&#039;t you figure out? If you can manage to get the line #, and the file that its in, then you&#039;ve &quot;read the stack-trace&quot;. After that, its a matter of finding out what exactly is going wrong (which the Exception can help you decipher)
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-600573" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 20, 2011 at 8:55 PM">Aug 20, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-600573" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/600573/permalink">#25</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-600573"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-605795" class="message   " data-author="pmx">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/pmx.1243/" class="avatar Av1243m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/0350050a0c2612be0a6a28514a9b0ee2?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/pmx.1243/" class="username" dir="auto" itemprop="name">pmx</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Great information. This will be really helpfull to me so thanks very much for taking the time to do it.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/pmx.1243/" class="username author" dir="auto">pmx</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-605795" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 22, 2011 at 5:45 AM">Aug 22, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-605795" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/605795/permalink">#26</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-605795"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-606096" class="message   " data-author="Metalmeerkat">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/metalmeerkat.101711/" class="avatar Av101711m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/101/101711.jpg?1313910669')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/metalmeerkat.101711/" class="username" dir="auto" itemprop="name">Metalmeerkat</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slash1987">
+	<aside>
+		
+			<div class="attribution type">Slash1987 said:
+				
+					<a href="goto/post?id=595906#post-595906" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Everyone who would like to code in java(or another language) shoul know first how to read errors and fix them, not just try random changes in the code and think *Crap, the error is still here*</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Anybody who likes to code should be grateful for stack traces. They are a tool, not a curse. Vanilla segmentation faults are just no fun to work with at all. <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/metalmeerkat.101711/" class="username author" dir="auto">Metalmeerkat</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-606096" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 22, 2011 at 7:24 AM">Aug 22, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-606096" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/606096/permalink">#27</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-606096">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/infamous-jeezy.90708414/" class="username" dir="auto">Infamous Jeezy</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-606128" class="message   " data-author="thehutch">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/thehutch.67066/" class="avatar Av67066m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/67/67066.jpg?1335569967')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/thehutch.67066/" class="username" dir="auto" itemprop="name">thehutch</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Thank you so much @<a href="http://forums.bukkit.org/members/drbowenur.36753/" target="_blank" class="externalLink" rel="nofollow">DrBoweNur</a> now I can decipher my error without posting an error help in plugin development and waiting 30mins+ for an answer <img src="smilies/happy.gif" class="mceSmilie" alt=":)" title="Smile    :)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/thehutch.67066/" class="username author" dir="auto">thehutch</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-606128" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 22, 2011 at 7:33 AM">Aug 22, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-606128" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/606128/permalink">#28</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-606128"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-607272" class="message   " data-author="DrBowe">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/drbowe.36753/" class="avatar Av36753m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/36/36753.jpg?1354853008')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/drbowe.36753/" class="username" dir="auto" itemprop="name">DrBowe</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/pmx.1243/" target="_blank" class="externalLink" rel="nofollow">pmx</a><br />
+@<a href="http://forums.bukkit.org/members/thehutch.67066/" target="_blank" class="externalLink" rel="nofollow">thehutch</a><br />
+<br />
+Well, that was my point in writing it <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" /><br />
+Glad it helped you both!
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/drbowe.36753/" class="username author" dir="auto">DrBowe</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-607272" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 22, 2011 at 1:13 PM">Aug 22, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-607272" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/607272/permalink">#29</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-607272"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-610669" class="message   " data-author="stelar7">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/stelar7.70676/" class="avatar Av70676m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/e51255a53cac2fa9532971b67824f0a7?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/stelar7.70676/" class="username" dir="auto" itemprop="name">stelar7</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@<a href="http://forums.bukkit.org/members/drbowenur.36753/" target="_blank" class="externalLink" rel="nofollow">DrBoweNur</a><br />
+mind helping me with one?<br />
+i know how to read them, but I&#039;ve never encountered one of these before...<br />
+NOTE: line 79 is below...<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>
+151 recipes
+16 achievements
+19:17:49 [INFO] Starting minecraft server version Beta 1.7.3
+19:17:49 [INFO] Loading properties
+19:17:49 [INFO] Starting Minecraft server on *:25565
+19:17:49 [INFO] This server is running Craftbukkit version git-Bukkit-0.0.0-980-
+g4ed23b1-b1060jnks (MC: 1.7.3)
+19:17:49 [INFO] Preparing level &quot;World&quot;
+19:17:49 [INFO] Preparing start region for level 0 (Seed: 6651205974854271449)
+19:17:49 [INFO] Preparing start region for level 1 (Seed: 6651205974854271449)
+19:17:50 [SEVERE] Error occurred while enabling NameChanger v1.7 (Is it up to da
+te?): org.bukkit.Bukkit.getScheduler()Lorg/bukkit/scheduler/BukkitScheduler;
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getScheduler()Lorg/bukkit/schedul
+er/BukkitScheduler;
+        at my.plugin.stelar7.namechanger.namechanger.onEnable(namechanger.java:7
+9)
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:126)
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader
+.java:885)
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManage
+r.java:278)
+        at org.bukkit.craftbukkit.CraftServer.loadPlugin(CraftServer.java:178)
+        at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:161
+)
+        at net.minecraft.server.MinecraftServer.e(MinecraftServer.java:286)
+        at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:273)
+        at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:149)
+        at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:337)
+        at net.minecraft.server.ThreadServerApplication.run(SourceFile:422)
+19:17:50 [INFO] Server permissions file permissions.yml is empty, ignoring it
+19:17:50 [INFO] Done (0,089s)! For help, type &quot;help&quot; or &quot;?&quot;
+&gt;
+</pre>
+</div>
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>
+//this line!!
+Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
+//that line!!
+    public void run() {
+    config.load();
+        if (allowall == true) {
+        config.removeProperty(&quot;valid config test&quot;);
+        }
+        config.save();
+    }
+}, 100L, 200L);
+</pre>
+</div>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/stelar7.70676/" class="username author" dir="auto">stelar7</a>,</span>
+					<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-610669" title="Permalink" class="datePermalink"><span class="DateTime" title="Aug 23, 2011 at 10:18 AM">Aug 23, 2011</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/#post-610669" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/610669/permalink">#30</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-610669"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+
+			
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="2"
+	data-last="3"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 3</span>
+	
+	<nav>
+		
+		
+		<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" class="currentPage " rel="start">1</a>
+		
+		
+		
+		
+			<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-2" class="">2</a>
+		
+		
+		
+		
+		<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-3" class="">3</a>
+		
+		
+			<a href="threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+	
+
+	<div class="sharePage">
+		<h3 class="textHeading larger">Share This Page</h3>
+		
+			
+			
+				<div class="tweet shareControl">
+					<a href="https://twitter.com/share" class="twitter-share-button"
+						data-count="horizontal"
+						data-lang="en-US"
+						data-url="https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/"
+						data-text="How to read stack-traces, and troubleshoot your own plugins (by yourself)"
+						data-via="cursenetwork"
+						>Tweet</a>
+				</div>
+			
+			
+				<div class="plusone shareControl">
+					<div class="g-plusone" data-size="medium" data-count="true" data-href="https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/"></div>
+				</div>
+			
+			
+				<div class="facebookLike shareControl">
+					
+					<div class="fb-like" data-href="https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" data-width="400" data-layout="standard" data-action="recommend" data-show-faces="true" data-colorscheme="light"></div>
+				</div>
+			
+			
+		
+	</div>
+
+
+                        
+                        
+                        
+                            <!-- login form, to be moved to the upper drop-down -->
+                            
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Your name or email address:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Do you already have an account?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						No, create an account now.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Yes, my password is:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a>
+</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+                        
+                        
+                    
+            
+            <div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-5" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://bukkit.org/" class="crumb"><span>Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://bukkit.org/forums/" class="crumb"><span>Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb"><span>Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb"><span>Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav></div>
+
+
+        </div>
+
+        
+    </div>
+     
+            
+<div class="btflb" style="text-align: center; margin-top: 25px;">
+<div id='cdm-zone-04'></div>
+</div>
+            
+</div>
+
+<header>
+    
+<div id="header">
+	
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+
+
+
+
+
+			
+			<div id="logo"><a href="https://bukkit.org/forums/">
+				<span></span>
+				<img src="/logo.png" alt="Bukkit Forums" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+<div class="secondaryBar"></div>
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal Popup PopupControl PopupClosed">
+			
+				<a href="https://bukkit.org/" class="navLink">Home</a>
+				<!--<a href="https://bukkit.org/" class="SplitCtrl" rel="Menu"></a>-->
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Home</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	
+	<li><a href="recent-activity/">Recent Activity</a></li>
+	<li><a href="find-new/threads">What's New?</a></li>
+	<li><a href="help/">Help</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			
+				<li class="navTab forums selected">
+					<a href="https://bukkit.org/forums/" class="navLink">Forums</a>
+					<!--<a href="https://bukkit.org/forums/" class="SplitCtrl" rel="Menu"></a>-->
+					
+					<div class="tabLinks">
+						<div class="primaryContent menuHeader">
+							<h3>Forums</h3>
+							<div class="muted">Quick Links</div>
+						</div>
+						<ul class="secondaryContent blockLinksList">
+						
+							
+							<li><a href="https://bukkit.org/members/">Members</a></li>
+							<!-- STAFF LINK -->
+							<li><a href="/XenStaff/">Staff</a></li>
+							<!-- END STAFF LINK -->
+							<li><a href="search/?type=post">Search Forums</a></li>
+							
+							<li><a href="find-new/threads">What's New?</a></li>
+						
+						</ul>
+					</div>
+				</li>
+			
+				
+		
+		
+		
+		<!-- extra tabs -->
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+
+		
+		<!-- extra tabs: end -->
+		
+<li class="navTab PopupClosed">
+					<a href="/help/terms" class="navLink">Rules</a>
+					
+				</li>
+			
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/" class="navLink">Docs</a>
+					
+				</li>
+				<!-- Removed for now.
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Getting_Involved" class="navLink">Get Involved</a>
+				</li>		
+				-->
+			
+				<li class="navTab PopupClosed">
+					<a href="pages/about-us/" class="navLink">About Us</a>
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Setting_up_a_server" class="navLink">Get CraftBukkit</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="http://dev.bukkit.org" class="navLink">BukkitDev</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://www.curseforge.com/minecraft/bukkit-plugins" class="navLink">Get Plugins</a>
+					
+				</li>
+		
+
+		<!-- no selection -->
+		
+		
+	</ul>
+	<!-- navigation_visitor_tab include here -->
+	
+</div>
+			
+<span class="helper"></span>
+
+		</nav>	
+	</div>
+</div>
+	
+
+<div id="searchBar" class="pageWidth">
+	
+	<!-- <span id="QuickSearchPlaceholder" title="Search">Search</span> -->
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Posted by Member:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Separate names with a comma.</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Newer Than:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+								
+									<li><label title="Search only How to read stack-traces, and troubleshoot your own plugins (by yourself)"><input type="checkbox" name="type[post][thread_id]" value="32457"
+	id="search_bar_thread" class="AutoChecker"
+	data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Search this thread only</label></li>
+								
+									<li><label title="Search only Plugin Development"><input type="checkbox" name="nodes[]" value="5"
+	id="search_bar_nodes" class="Disabler AutoChecker" checked="checked"
+	data-uncheck="#search_bar_thread" /> Search this forum only</label>
+	<ul id="search_bar_nodes_Disabler">
+		<li><label><input type="checkbox" name="type[post][group_discussion]" value="1"
+			id="search_bar_group_discussion" class="AutoChecker"
+			data-uncheck="#search_bar_thread" /> Display results as threads</label></li>
+	</ul></li>
+								
+						</ul></dd>
+					</dl>
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Useful Searches</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+
+</header>
+
+</div>
+
+<footer>
+    
+
+
+<div class="footer">
+<script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(
+    ['_setAccount', 'UA-1045810-67'],
+    ['_setDomainName', 'bukkit.org'],
+    ['_addIgnoredRef', 'bukkit.org'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-1045810-22'],
+    ['b._setDomainName', 'bukkit.org'],
+    ['b._addIgnoredRef', 'bukkit.org'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-20541082-1'], 
+    ['c._trackPageview']
+);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+</div>
+
+<div class="footerLegal">
+<div class="PageWidth">
+<div class="pageContent">
+			<div id="copyright"></div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Terms and Rules</a></li>
+				
+			
+			</ul>
+</div></div>
+
+</footer>
+
+<script>
+
+
+var addTag = function(e) {
+  	e.preventDefault();
+  	var editor = $(".redactor_BbCodeWysiwygEditor")[0].contentWindow.document.body;
+  	$(".placeholder").remove()
+  	if (editor.innerHTML == "<p><br></p>") {
+  		editor.innerHTML = $(this).attr("data-content");
+  		return;
+  	} else if (editor.innerHTML.substr(editor.innerHTML.length - 6) != "&nbsp;") {
+  		editor.innerHTML += " ";
+  	}
+  	
+	editor.innerHTML += $(this).attr("data-content");
+};
+$(".TagUser").click(addTag).show();
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1642324554,
+		today: 1642320000,
+		todayDow: 0
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"likes_summary":true,"share_page":true,"bbcm_js":true,"login_bar":true},
+	_cookieConfig: { path: "/", domain: ".bukkit.org", prefix: "f_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "c2a3bd65"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+
+
+
+
+<div id='cdm-zone-skin'></div>
+<div id="cdm-zone-end"></div>
+
+</body>
+</html>

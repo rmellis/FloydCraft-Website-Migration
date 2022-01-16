@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Weather | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/weather/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:54:44 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Weather | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Weather News</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/weather-news/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/weather-news/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:51:59 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Weather]]></category>
+		<category><![CDATA[Weather News]]></category>
+		<category><![CDATA[WNews]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3424</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/weathernews.68529/ This plugin was abandoned a long time ago, it is now maintained on spigot by us so that other servers can once again use this resource, It&#8217;s used to show detailed weather information in chat as it changes. WeatherNews is a small, simple yet powerful plugin that shows weather information in chat. Every&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/weather-news/">Weather News</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/weathernews.68529/">https://www.spigotmc.org/resources/weathernews.68529/</a></p>
+<blockquote><p>This plugin was abandoned a long time ago, it is now maintained on spigot by us so that other servers can once again use this resource, It&#8217;s used to show detailed weather information in chat as it changes.</p></blockquote>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/39229466097c79f73b15355e363f9ed01cb32da1?url=https%3A%2F%2Fi.imgur.com%2Fm8YkXJ2.png" alt="[​IMG]" data-url="https://i.imgur.com/m8YkXJ2.png" /><br />
+WeatherNews is a small, simple yet powerful plugin that shows weather information in chat.<br />
+Every time the weather changes it will be announced, It will explain in detail what&#8217;s happening, how long it will stay that way and what&#8217;s most likely to be next.<br />
+This plugin was originally made by Namarius in early 2011, I used it back on Minecraft 1.2 back in 2012 and it was a great addition for a survival server but unfortunately it had not received an update since 2012.<br />
+I&#8217;ve updated this best i can and made some nice adjustments including two new variables for Italic and Bold text aswell as a modern new look, see example screenshots below&#8230;<br />
+&#8216; Enjoy!​</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/dfa98b5280195c588fb2060b2b40be7670c339c6?url=https%3A%2F%2Fi.imgur.com%2F6gv4OHE.png" alt="[​IMG]" data-url="https://i.imgur.com/6gv4OHE.png" /><br />
+When you Download this you will get a .zip file, open that and select the version that you need for your server, Then simply drop the .jar file in the plugins folder.</p>
+<p>Tested Working in: [Paper | Spigot | CraftBukkit | Tuinity]
+<p style="text-align: center;"><b>******** More information on the Spigot Listing <a href="https://www.spigotmc.org/resources/weathernews.68529/" target="_blank" rel="noopener">Here</a> ********</b></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/weather-news/">Weather News</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/weather-news/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

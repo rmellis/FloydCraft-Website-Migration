@@ -1,0 +1,5800 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public LoggedOut NoSidebar" xmlns:fb="//www.facebook.com/2008/fbml">
+<head>
+
+    <meta charset="utf-8" />
+<meta name="google-site-verification" content="fnjUrmd3azc4GH8dDBhYuQnAslOqYeuxnygs4oK9-Kg" />
+<script src="https://lngtd.com/bukkit.js"></script>
+<meta name="bitly-verification" content="272f2f58ee21"/>
+     
+
+<script>
+document.write('<base href="' + 'https://bukkit.org/'.replace('http:', 'https:') + '" />');
+</script>
+<noscript>
+		<base href="https://bukkit.org/" />
+</noscript>
+
+	   
+    <title>Library - EffectLib - Manage your effects the nice way. (Text/Image in Particles) | Bukkit Forums</title>
+    
+    <noscript><style>.JsOnly { display: none !important; }</style></noscript>
+    <link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+    <link rel="stylesheet" href="css.php?css=bb_code,bb_code_syntaxhighlight_vibrant_ink,bbcm_js,likes_summary,login_bar,message,message_user_info,share_page,thread_view&amp;style=10&amp;dir=LTR&amp;d=1642275782" />
+
+    
+
+    <script>
+
+	var _gaq = [['_setAccount', 'UA-20541082-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="js/xenforo/xenforo.js?_v=c2a3bd65"></script>
+
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS feed for Bukkit Forums" href="forums/-/index.rss" />
+    
+    <link rel="next" href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-2" />
+	<link rel="canonical" href="https://bukkit.org/threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" />
+	<meta name="description" content="EffectLib - Manage your effects the nice way.
+Find it on BukkitDev: http://dev.bukkit.org/bukkit-plugins/effectlib/
+ 
+ 
+Description:
+When I started to..." />
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/bukkit.org?location=topic&amp;tid=259879&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://307880732/tapatalk/bukkit.org?location=topic&amp;tid=259879&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <!-- Tapatalk Detect style start -->
+<style type="text/css">
+.ui-mobile [data-role="page"], .ui-mobile [data-role="dialog"], .ui-page
+{
+top:auto;
+}
+</style>
+<!-- Tapatalk Detect banner style end -->
+                
+	
+	<script type="text/javascript" src="js/kingk/bbcm/bbcodes.js"></script>
+
+
+    <script>
+        var script = document.createElement('script');
+        var tstamp = new Date();
+        script.id = 'factorem';
+        script.src = '//cdm.cursecdn.com/js/bukkit/cdmfactorem_min.js?misc=' + tstamp.getTime();
+        script.async = false;
+        script.type='text/javascript';
+        document.head.appendChild(script);
+    </script>
+
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1642320358 82.46.10.18';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		</head>
+<body class="node60 node1 node5 SelectQuotable">
+
+
+
+    
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+    <div id="headerProxy"></div>
+
+<div id="content" class="thread_view">
+    <div class="pageWidth">
+        
+
+        
+									
+		
+		       
+                    
+<div class="atflb" style="text-align: center; margin-bottom: 25px;">
+<div id='cdm-zone-01'></div>
+</div>
+                    
+        <div class="pageContent">
+
+            <!-- main content area -->
+
+            
+                        
+
+                        
+                        <div class="breadBoxTop">
+                            
+                            
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-60" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/forums/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb" rel="up" itemprop="url"><span itemprop="title">Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/resources.60/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Resources</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+                        </div>
+                        
+                        
+                        
+
+                        
+                                              
+                            <!-- h1 title, description -->
+                            <div class="titleBar">
+                            	
+                                <h1><span class="prefix prefixOrange">Library</span> EffectLib - Manage your effects the nice way. (Text/Image in Particles)</h1>
+                                
+                                <p id="pageDescription" class="muted ">
+	Discussion in '<a href="forums/resources.60/">Resources</a>' started by <a href="members/slikey.85768/" class="username" dir="auto">Slikey</a>, <a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/"><span class="DateTime" title="Apr 21, 2014 at 2:01 PM">Apr 21, 2014</span></a>.
+</p>
+                            </div>
+                        
+                        
+
+                        
+                        
+                        <!-- main template -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="6"
+	data-last="16"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 16</span>
+	
+	<nav>
+		
+		
+		<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" class="currentPage " rel="start">1</a>
+		
+		
+			<a class="PageNavPrev hidden">&larr;</a> <span class="scrollable"><span class="items">
+		
+		
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-2" class="">2</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-3" class="">3</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-4" class="">4</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-5" class="">5</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-6" class="">6</a>
+		
+		
+		
+			</span></span> <a class="PageNavNext ">&rarr;</a>
+		
+		
+		<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-16" class="">16</a>
+		
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+</div>
+
+
+
+
+
+<form action="inline-mod/post/switch" method="post"
+	class="InlineModForm section"
+	data-cookieName="posts"
+	data-controls="#InlineModControls"
+	data-imodOptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-2431855" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<b><span style="font-size: 22px"><span style="font-family: 'arial'"><span style="color: #888888"><span style="color: #000000">EffectLib</span> </span></span></span></b><i><span style="font-size: 22px"><span style="font-family: 'arial'"><span style="color: #888888"><span style="color: #333333">- Manage your effects the nice way.</span></span></span></span></i><br />
+<span style="font-family: 'georgia'">Find it on <b>BukkitDev</b>: <a href="http://dev.bukkit.org/bukkit-plugins/effectlib/" target="_blank" class="externalLink" rel="nofollow">http://dev.bukkit.org/bukkit-plugins/effectlib/</a></span><br />
+ <br />
+ <br />
+<span style="font-family: 'georgia'"><span style="text-decoration: underline"><b>Description:</b></span></span><br />
+When I started to program my own games on <b>BukkitAPI</b>, I started to <b>spend a lot of time</b> on effects.<br />
+Back then, I dreamed of my own EffectLibrary and now, it has come. I think that I am ready to release this little tool<b> to help you devs</b> out.<br />
+The library takes care of your <b>effects</b> and you <b>do not need to run any tasks</b> on the scheduler. Just pass your values in the <b>effect and start</b> it. Depended on your effect, it will wait, repeat, start instantly.<br />
+ <br />
+<span style="font-family: 'georgia'"><span style="text-decoration: underline"><b>Screenshots:</b></span></span><br />
+Screenshots of currently added effects. This list is not complete.<br />
+<img src="http://i.imgur.com/t9ty2HK.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/t9ty2HK.jpg" /><br />
+<img src="http://s1.directupload.net/images/140422/q7pkkty8.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s1.directupload.net/images/140422/q7pkkty8.jpg" /><br />
+<img src="http://i.imgur.com/eRuxeof.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/eRuxeof.jpg" /><br />
+<img src="http://i.imgur.com/5WQRYAJ.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/5WQRYAJ.jpg" /><br />
+<img src="http://i.imgur.com/UIDUx7i.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://i.imgur.com/UIDUx7i.jpg" /><br />
+<b>More Screenshots:</b><br />
+<div class="bbCodeBlock bbCodeQuote bbcmSpoilerBlock">
+						<div class="attribution type"><noscript><span class="bbcm_spoil_noscript_hastitle">Spoiler</span> <span class="bbcm_spoil_noscript_desc">(Move your mouse to the spoiler area to reveal the content)</span></noscript>			
+							<span class="button JsOnly">
+								<span class="bbcm_spoiler_show">Show Spoiler</span>
+								<span class="bbcm_spoiler_hide" style="display:none">Hide Spoiler</span>
+							</span>
+						</div>
+						<div class="quotecontent">
+							<div class="bbcm_spoiler_noscript"><blockquote><img src="http://s1.directupload.net/images/140421/7bpnvx7l.jpg" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s1.directupload.net/images/140421/7bpnvx7l.jpg" /></blockquote></div>
+						</div>
+					</div><br />
+ <br />
+<span style="text-decoration: underline"><b><span style="font-family: 'georgia'">Usage:</span></b></span><br />
+This is an <b>example plugin</b>. It&#039;ll create a <b>bleeding effect</b> on each joining player.<br />
+<a href="http://dev.bukkit.org/paste/9800/" target="_blank" class="externalLink" rel="nofollow">http://dev.bukkit.org/paste/9800/</a><br />
+ <br />
+<span style="font-family: 'georgia'"><span style="text-decoration: underline"><b>Source:</b></span></span><br />
+ <br />
+Get all builds on <b>Jenkins </b>(<a href="members/nathanwolf.1034/" class="internalLink" rel="nofollow">NathanWolf</a>): <a href="http://jenkins.elmakers.com/job/EffectLib/" target="_blank" class="externalLink" rel="nofollow">http://jenkins.elmakers.com/job/EffectLib/</a><br />
+Get the source on <b>GitHub</b>: <a href="https://github.com/Slikey/EffectLib" target="_blank" class="externalLink" rel="nofollow">https://github.com/Slikey/EffectLib</a><br />
+ <br />
+<span style="font-family: 'georgia'"><span style="text-decoration: underline"><b>Special Thanks:</b></span></span><br />
+<a href="members/darkbladee12.90749545/" class="internalLink" rel="nofollow">DarkBladee12</a><span style="font-family: 'georgia'"> for the ReflectionHandler and ParticleEffect Lib. It saves me some time, so that I don&#039;t have to reinvent the wheel. Thank you. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /></span><br />
+<a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> for maintaining the Lib, while I am busy. Cheers!<br />
+ <br />
+<span style="font-family: 'georgia'"><span style="text-decoration: underline"><b>Help Me:</b></span></span><br />
+This libary comes with a <b>handy bundle of premade effects</b>. You can tweak every effect or create your own. If you want to contribute, please <b>add your own effects</b> to the library by sending them per <b>PM</b> or <b>Ticket</b>.<br />
+You might also send me <b>your ideas for effects</b>. I have some time now and it wants to be filled. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<b>I appreciate every submission. Thank you!</b><br />
+ <br />
+I try to take <b>care</b> on <b>every problem</b>. Please include a <b>stacktrace</b> on error.<br />
+ <br />
+Slikey<br />
+<br />
+<span style="font-family: 'arial black'"><span style="font-size: 22px"><span style="font-family: 'arial'"><b>How To: </b></span><i><span style="font-family: 'arial'"><span style="color: #333333">C</span><span style="color: #333333">reate your own Effect</span></span></i></span></span><br />
+ <br />
+<b>1. Create a class which extends <i>de.slikey.effectlib.Effect</i></b><br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> FlameEntityEffect <span class="kw1">extends</span> EntityEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol></pre></div>
+</div><br />
+ <br />
+<b>2. Implement unimplemented methods</b><br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> FlameEntityEffect <span class="kw1">extends</span> EntityEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> FlameEntityEffect<span class="br0">&#40;</span>EffectManager effectManager, <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Aentity+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Entity</span></a> entity<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">    <span class="kw1">super</span><span class="br0">&#40;</span>effectManager, entity<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">@Override</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">void</span> onRun<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol></pre></div>
+</div><br />
+ <br />
+<b>3. Choose EffectType and corresponding values</b><br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> FlameEntityEffect <span class="kw1">extends</span> EntityEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> FlameEntityEffect<span class="br0">&#40;</span>EffectManager effectManager, <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Aentity+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Entity</span></a> entity<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">    <span class="kw1">super</span><span class="br0">&#40;</span>effectManager, entity<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    <span class="co1">// Repeat this effect every &quot;period&quot; ticks and &quot;iterations&quot; times.</span></div></li><li class="li1"><div class="de1">    type <span class="sy0">=</span> EffectType.<span class="me1">REPEATING</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    <span class="co1">// Run this effect each tick</span></div></li><li class="li1"><div class="de1">    period <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    <span class="co1">// Run this effect 600 times</span></div></li><li class="li1"><div class="de1">    iterations <span class="sy0">=</span> <span class="nu0">600</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">@Override</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">void</span> onRun<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol></pre></div>
+</div><br />
+ <br />
+<b><i>4. Add the visual effect in the .onRun() Method</i></b><br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> FlameEntityEffect <span class="kw1">extends</span> EntityEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> FlameEntityEffect<span class="br0">&#40;</span>EffectManager effectManager, <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Aentity+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Entity</span></a> entity<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">    <span class="kw1">super</span><span class="br0">&#40;</span>effectManager, entity<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    type <span class="sy0">=</span> EffectType.<span class="me1">REPEATING</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    period <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    iterations <span class="sy0">=</span> <span class="nu0">600</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">@Override</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">void</span> onRun<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">    <span class="co1">// Create 10 particles per iteration</span></div></li><li class="li1"><div class="de1">    <span class="kw1">for</span> <span class="br0">&#40;</span><span class="kw4">int</span> i <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span> i <span class="sy0">&lt;</span> <span class="nu0">10</span><span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">        <span class="co1">// Location of effect</span></div></li><li class="li1"><div class="de1">        Location location <span class="sy0">=</span> entity.<span class="me1">getLocation</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        <span class="co1">// Randomize the location within a circle from 0 to 0.6 radius</span></div></li><li class="li1"><div class="de1">        location.<span class="me1">add</span><span class="br0">&#40;</span>RandomUtil.<span class="me1">getRandomCircleVector</span><span class="br0">&#40;</span><span class="br0">&#41;</span>.<span class="me1">multiply</span><span class="br0">&#40;</span>RandomUtil.<span class="me1">random</span>.<span class="me1">nextDouble</span><span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="sy0">*</span> 0.6d<span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        <span class="co1">// Randomize height</span></div></li><li class="li1"><div class="de1">        location.<span class="me1">add</span><span class="br0">&#40;</span><span class="nu0">0</span>, RandomUtil.<span class="me1">random</span>.<span class="me1">nextFloat</span><span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="sy0">*</span> <span class="nu0">2</span>, <span class="nu0">0</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        <span class="co1">// Create packet, to send to the player</span></div></li><li class="li1"><div class="de1">        PacketPlayOutWorldParticles packet <span class="sy0">=</span> <span class="kw1">new</span> PacketPlayOutWorldParticles<span class="br0">&#40;</span>ParticleType.<span class="me1">FLAME</span>.<span class="me1">getParticleName</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getX</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getY</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getZ</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        <span class="co1">// Sends the effect to every player within &quot;visibleRadiusSquared&quot; radius</span></div></li><li class="li1"><div class="de1">        sendPacket<span class="br0">&#40;</span>packet, location, visibleRadiusSquared<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    <span class="br0">&#125;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li></ol></pre></div>
+</div><br />
+ <br />
+<b><i>5. We are done!</i></b><br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="Oct 29, 2015 at 2:28 PM">Oct 29, 2015</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2014 at 2:01 PM">Apr 21, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2431855/permalink">#1</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2431855">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/zthana.91051210/" class="username" dir="auto">zThana</a>, <a href="members/thenewtao.91143883/" class="username" dir="auto">TheNewTao</a>, <a href="members/marind99.90861691/" class="username" dir="auto">MarinD99</a> and <a href="posts/2431855/likes" class="OverlayTrigger">50 others</a> like this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2433947" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div style="text-align: center"><span style="font-size: 22px"><b><span style="font-family: 'arial black'"><a href="http://www.kevin-carstens.de/EffectLib.zip" target="_blank" class="externalLink" rel="nofollow"><span style="font-family: 'arial'">DOWNLOAD</span> </a>CURRENT VERSION <span style="font-family: 'arial'">with</span> TEST PLUGIN</span></b></span>&#8203;</div> <br />
+<b>Version</b> <b>2.5</b><br />
+Type in your chat <b>/help EffectLibTest </b>to get a list of commands.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433947" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 10:15 AM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433947" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2433947/permalink">#2</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2433947">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/stirante.90723179/" class="username" dir="auto">stirante</a>, <a href="members/mrkeals.90883525/" class="username" dir="auto">MrKeals</a>, <a href="members/rockindavies21.90840437/" class="username" dir="auto">Rockindavies21</a> and <a href="posts/2433947/likes" class="OverlayTrigger">1 other person</a> like this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2433983" class="message   " data-author="bigteddy98">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/bigteddy98.90831720/" class="avatar Av90831720m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90831/90831720.jpg?1388945285')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/bigteddy98.90831720/" class="username" dir="auto" itemprop="name">bigteddy98</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					This is what I call awesome <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Only one thing, servers with a limit on the packets per seconds can get in problems when using this often, be careful with it.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/bigteddy98.90831720/" class="username author" dir="auto">bigteddy98</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433983" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 10:26 AM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433983" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2433983/permalink">#3</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2433983">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/slikey.85768/" class="username" dir="auto">Slikey</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2433999" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="bigteddy98">
+	<aside>
+		
+			<div class="attribution type">bigteddy98 said:
+				
+					<a href="goto/post?id=2433983#post-2433983" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">This is what I call awesome <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Only one thing, servers with a limit on the packets per seconds can get in problems when using this often, be careful with it.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div> <br />
+Of course. Effects are bandwidth-intense. But these servers can control the particles spawned in the effects for themselfes to descrese their amount. Most of the intensive effects have a public variable called &quot;particles&quot;. Just change it and you should be fine. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Thank you for mentioning!<br />
+<br />
+<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Oh.. I compiled EffectLib with the a development build of CraftBukkit..<br />
+<a href="http://dl.bukkit.org/downloads/craftbukkit/" target="_blank" class="externalLink" rel="nofollow">http://dl.bukkit.org/downloads/craftbukkit/</a><br />
+ <br />
+<a href="members/coco5843.90675830/" class="internalLink" rel="nofollow">coco5843</a> I am happy that it helps you :3<br />
+ <br />
+I think I will have to look in an better way to call the NMS-classes. Time for some self-reflection. HAHA. lol.<br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="Jan 4, 2016 at 11:57 AM">Jan 4, 2016</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433999" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 10:36 AM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2433999" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2433999/permalink">#4</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2433999">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/mrkeals.90883525/" class="username" dir="auto">MrKeals</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434241" class="message   " data-author="Phasesaber">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/phasesaber.90811902/" class="avatar Av90811902m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90811/90811902.jpg?1421654732')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/phasesaber.90811902/" class="username" dir="auto" itemprop="name">Phasesaber</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Looks neato. I love the big swirl.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/phasesaber.90811902/" class="username author" dir="auto">Phasesaber</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434241" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 12:27 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434241" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434241/permalink">#5</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434241"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434253" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/phasesaber.90811902/" class="internalLink" rel="nofollow">Phasesaber</a> Yeah, it&#039;s mine too. If you have some ideas, I&#039;d be happy to implement them.. I am running out of ideas <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+ <br />
+If I had a server, I&#039;d put the big swirl around an obelisk on the hub or main city^^
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434253" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 12:31 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434253" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434253/permalink">#6</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434253">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/mrkeals.90883525/" class="username" dir="auto">MrKeals</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434743" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2434253#post-2434253" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/phasesaber.90811902/" class="internalLink" rel="nofollow">Phasesaber</a> Yeah, it&#039;s mine too. If you have some ideas, I&#039;d be happy to implement them.. I am running out of ideas <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+ <br />
+If I had a server, I&#039;d put the big swirl around an obelisk on the hub or main city^^</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Can I have a download! Its still pending! <img src="smilies/ranting.gif" class="mceSmilie" alt=":mad:" title="Mad    :mad:" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434743" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 3:53 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434743" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434743/permalink">#7</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434743"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434793" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Look at the third post in the Thread. There is a <a href="http://www.kevin-carstens.de/EffectLib.zip" target="_blank" class="externalLink" rel="nofollow">DOWNLOAD</a>. Even though this is not the newest version. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434793" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:08 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434793" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434793/permalink">#8</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434793">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/mrkeals.90883525/" class="username" dir="auto">MrKeals</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434823" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2434793#post-2434793" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Look at the third post in the Thread. There is a <a href="http://www.kevin-carstens.de/EffectLib.zip" target="_blank" class="externalLink" rel="nofollow">DOWNLOAD</a>. Even though this is not the newest version. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Lol I did&#039;t even notice that! Can you send me the source for the spiral!
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434823" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:16 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434823" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434823/permalink">#9</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434823"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434837" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="VictoryShot">
+	<aside>
+		
+			<div class="attribution type">VictoryShot said:
+				
+					<a href="goto/post?id=2434823#post-2434823" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Lol, didn&#039;t even notice that! Can you show a source of that spiral you did?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Of course... Wait for some legendary maths.. 14 years of school to learn that.. aaaand..<br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">net.minecraft.server.v1_7_R3.PacketPlayOutWorldParticles</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">org.bukkit.Location</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.EffectManager</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.EffectType</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.util.ParticleType</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> HelixLocationEffect <span class="kw1">extends</span> LocationEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Particle to form the helix</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> ParticleType particle <span class="sy0">=</span> ParticleType.<span class="me1">FLAME</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Amount of strands</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">int</span> strands <span class="sy0">=</span> <span class="nu0">8</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Particles per strand</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">int</span> particles <span class="sy0">=</span> <span class="nu0">80</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Radius of helix</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">float</span> radius <span class="sy0">=</span> <span class="nu0">10</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Factor for the curves. Negative values reverse rotation.</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">float</span> curve <span class="sy0">=</span> <span class="nu0">10</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   * Rotation of the helix (Fraction of PI)</span></div></li><li class="li1"><div class="de1"><span class="co3">&nbsp;   */</span></div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">double</span> rotation <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">/</span> <span class="nu0">4</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> HelixLocationEffect<span class="br0">&#40;</span>EffectManager effectManager, Location location<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">        <span class="kw1">super</span><span class="br0">&#40;</span>effectManager, location<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        type <span class="sy0">=</span> EffectType.<span class="me1">REPEATING</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        period <span class="sy0">=</span> <span class="nu0">5</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">        iterations <span class="sy0">=</span> <span class="nu0">10</span> <span class="sy0">*</span> <span class="nu0">4</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">    <span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">    @Override</div></li><li class="li1"><div class="de1">    <span class="kw1">public</span> <span class="kw4">void</span> onRun<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">        <span class="kw1">for</span> <span class="br0">&#40;</span><span class="kw4">int</span> i <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> i <span class="sy0">&lt;=</span> strands<span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">            <span class="kw1">for</span> <span class="br0">&#40;</span><span class="kw4">int</span> j <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> j <span class="sy0">&lt;=</span> particles<span class="sy0">;</span> j<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1">                <span class="kw4">float</span> ratio <span class="sy0">=</span> <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> j <span class="sy0">/</span> particles<span class="sy0">;</span></div></li><li class="li1"><div class="de1">                <span class="kw4">double</span> angle <span class="sy0">=</span> curve <span class="sy0">*</span> ratio <span class="sy0">*</span> <span class="nu0">2</span> <span class="sy0">*</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">/</span> strands <span class="sy0">+</span> <span class="br0">&#40;</span><span class="nu0">2</span> <span class="sy0">*</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">*</span> i <span class="sy0">/</span> strands<span class="br0">&#41;</span> <span class="sy0">+</span> rotation<span class="sy0">;</span></div></li><li class="li1"><div class="de1">                <span class="kw4">double</span> x <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">cos</span><span class="br0">&#40;</span>angle<span class="br0">&#41;</span> <span class="sy0">*</span> ratio <span class="sy0">*</span> radius<span class="sy0">;</span></div></li><li class="li1"><div class="de1">                <span class="kw4">double</span> z <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">sin</span><span class="br0">&#40;</span>angle<span class="br0">&#41;</span> <span class="sy0">*</span> ratio <span class="sy0">*</span> radius<span class="sy0">;</span></div></li><li class="li1"><div class="de1">                location.<span class="me1">add</span><span class="br0">&#40;</span>x, <span class="nu0">0</span>, z<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">                PacketPlayOutWorldParticles packet <span class="sy0">=</span> <span class="kw1">new</span> PacketPlayOutWorldParticles<span class="br0">&#40;</span>particle.<span class="me1">getParticleName</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getX</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getY</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getZ</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">                sendPacket<span class="br0">&#40;</span>packet, location, visibleRadiusSquared<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">                <span class="co1">// Subtracting x and z to get to the first location again.</span></div></li><li class="li1"><div class="de1">                location.<span class="me1">subtract</span><span class="br0">&#40;</span>x, <span class="nu0">0</span>, z<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">            <span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">        <span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">    <span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li></ol></pre></div>
+</div>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434837" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:22 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434837" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434837/permalink">#10</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434837"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434843" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2434837#post-2434837" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Of course... Wait for some legendary maths.. 14 years of school to learn that.. aaaand..<br />
+
+
+
+<div class="bbCodeBlock">
+	<div class="type">Code:java</div>
+	<div class="code"><pre class="java"><ol><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">net.minecraft.server.v1_7_R3.PacketPlayOutWorldParticles</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">org.bukkit.Location</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.EffectManager</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.EffectType</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw1">import</span> <span class="co2">de.slikey.effectlib.util.ParticleType</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw1">class</span> HelixLocationEffect <span class="kw1">extends</span> LocationEffect <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Particle to form the helix</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> ParticleType particle <span class="sy0">=</span> ParticleType.<span class="me1">FLAME</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Amount of strands</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">int</span> strands <span class="sy0">=</span> <span class="nu0">8</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Particles per strand</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">int</span> particles <span class="sy0">=</span> <span class="nu0">80</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Radius of helix</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">float</span> radius <span class="sy0">=</span> <span class="nu0">10</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Factor for the curves. Negative values reverse rotation.</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">float</span> curve <span class="sy0">=</span> <span class="nu0">10</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co3">/**</span></div></li><li class="li1"><div class="de1"><span class="co3">* Rotation of the helix (Fraction of PI)</span></div></li><li class="li1"><div class="de1"><span class="co3">*/</span></div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">double</span> rotation <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">/</span> <span class="nu0">4</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> HelixLocationEffect<span class="br0">&#40;</span>EffectManager effectManager, Location location<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1"><span class="kw1">super</span><span class="br0">&#40;</span>effectManager, location<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">type <span class="sy0">=</span> EffectType.<span class="me1">REPEATING</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">period <span class="sy0">=</span> <span class="nu0">5</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">iterations <span class="sy0">=</span> <span class="nu0">10</span> <span class="sy0">*</span> <span class="nu0">4</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">@Override</div></li><li class="li1"><div class="de1"><span class="kw1">public</span> <span class="kw4">void</span> onRun<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1"><span class="kw1">for</span> <span class="br0">&#40;</span><span class="kw4">int</span> i <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> i <span class="sy0">&lt;=</span> strands<span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1"><span class="kw1">for</span> <span class="br0">&#40;</span><span class="kw4">int</span> j <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> j <span class="sy0">&lt;=</span> particles<span class="sy0">;</span> j<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li><li class="li1"><div class="de1"><span class="kw4">float</span> ratio <span class="sy0">=</span> <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> j <span class="sy0">/</span> particles<span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw4">double</span> angle <span class="sy0">=</span> curve <span class="sy0">*</span> ratio <span class="sy0">*</span> <span class="nu0">2</span> <span class="sy0">*</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">/</span> strands <span class="sy0">+</span> <span class="br0">&#40;</span><span class="nu0">2</span> <span class="sy0">*</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">PI</span> <span class="sy0">*</span> i <span class="sy0">/</span> strands<span class="br0">&#41;</span> <span class="sy0">+</span> rotation<span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw4">double</span> x <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">cos</span><span class="br0">&#40;</span>angle<span class="br0">&#41;</span> <span class="sy0">*</span> ratio <span class="sy0">*</span> radius<span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="kw4">double</span> z <span class="sy0">=</span> <a href="http://www.google.com/search?hl=en&amp;q=allinurl%3Amath+java.sun.com&amp;btnI=I%27m%20Feeling%20Lucky"><span class="kw3">Math</span></a>.<span class="me1">sin</span><span class="br0">&#40;</span>angle<span class="br0">&#41;</span> <span class="sy0">*</span> ratio <span class="sy0">*</span> radius<span class="sy0">;</span></div></li><li class="li1"><div class="de1">location.<span class="me1">add</span><span class="br0">&#40;</span>x, <span class="nu0">0</span>, z<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">PacketPlayOutWorldParticles packet <span class="sy0">=</span> <span class="kw1">new</span> PacketPlayOutWorldParticles<span class="br0">&#40;</span>particle.<span class="me1">getParticleName</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getX</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getY</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="br0">&#40;</span><span class="kw4">float</span><span class="br0">&#41;</span> location.<span class="me1">getZ</span><span class="br0">&#40;</span><span class="br0">&#41;</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">sendPacket<span class="br0">&#40;</span>packet, location, visibleRadiusSquared<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co1">// Subtracting x and z to get to the first location again.</span></div></li><li class="li1"><div class="de1">location.<span class="me1">subtract</span><span class="br0">&#40;</span>x, <span class="nu0">0</span>, z<span class="br0">&#41;</span><span class="sy0">;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li></ol></pre></div>
+</div></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><br />
+Im getting an error?<br />
+<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>[18:23:04 INFO]: mike1665 issued server command: /shield
+[18:23:04 ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'shie
+ld' in plugin EffectLibTest vv1.0-TEST
+        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[cra
+ftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:17
+5) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at org.bukkit.craftbukkit.v1_7_R1.CraftServer.dispatchCommand(CraftServe
+r.java:683) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.PlayerConnection.handleCommand(PlayerCon
+nection.java:952) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java
+:814) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java
+:28) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.PacketPlayInChat.handle(PacketPlayInChat
+.java:47) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:146
+) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) [craf
+tbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:6
+55) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:2
+50) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:5
+45) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java
+:457) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:6
+17) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/v1_7_R3/Packet
+        at de.slikey.effectlib.test.command.ShieldCommand.effect(ShieldCommand.j
+ava:16) ~[?:?]
+        at de.slikey.effectlib.test.command.CommandBase.onCommand(CommandBase.ja
+va:21) ~[?:?]
+        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[cra
+ftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        ... 13 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_7_R3.Packet
+ 
+        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.
+java:67) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.
+java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_25]
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_25]
+        at de.slikey.effectlib.test.command.ShieldCommand.effect(ShieldCommand.j
+ava:16) ~[?:?]
+        at de.slikey.effectlib.test.command.CommandBase.onCommand(CommandBase.ja
+va:21) ~[?:?]
+        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[cra
+ftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+        ... 13 more</pre>
+</div>
+
+
+<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2434906#post-2434906" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Oh.. I compiled EffectLib with the a development build of CraftBukkit..<br />
+<a href="http://dl.bukkit.org/downloads/craftbukkit/" target="_blank" class="externalLink" rel="nofollow">http://dl.bukkit.org/downloads/craftbukkit/</a><br />
+ <br />
+<a href="members/coco5843.90675830/" class="internalLink" rel="nofollow">coco5843</a> I am happy that it helps you :3<br />
+ <br />
+I think I will have to look in an better way to call the NMS-classes. Time for some self-reflection. HAHA. lol.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>You know what I would love to see, is this:<br />
+<br />
+<object width="500" height="300" data="https://www.youtube.com/v/na1bHqJC4fE&fs=1" type="application/x-shockwave-flash">
+	<param name="movie" value="https://www.youtube.com/v/na1bHqJC4fE&fs=1" />
+	<param name="allowFullScreen" value="true" />
+	<param name="wmode" value="opaque" />
+	<embed src="https://www.youtube.com/v/na1bHqJC4fE&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" wmode="opaque" width="500" height="300" />
+</object><br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="Jan 23, 2016 at 10:42 AM">Jan 23, 2016</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434843" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:24 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434843" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434843/permalink">#11</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434843"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434933" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Wuhahaha.. Nice. I am going to implement this.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434933" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:48 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434933" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434933/permalink">#12</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434933"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434941" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2434933#post-2434933" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Wuhahaha.. Nice. I am going to implement this.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Really! That would be AMAZING! Can&#039;t wait :3
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434941" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 4:54 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434941" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434941/permalink">#13</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434941"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2434977" class="message   " data-author="coco5843">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/coco5843.90675830/" class="avatar Av90675830m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90675/90675830.jpg?1393121845')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/coco5843.90675830/" class="username" dir="auto" itemprop="name">coco5843</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Helix Ability is just amazing !Lol
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/coco5843.90675830/" class="username author" dir="auto">coco5843</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434977" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 5:06 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2434977" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2434977/permalink">#14</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2434977"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2435129" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="coco5843">
+	<aside>
+		
+			<div class="attribution type">coco5843 said:
+				
+					<a href="goto/post?id=2434977#post-2434977" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Helix Ability is just amazing !Lol</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>It&#039;s also kinda laggy.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2435129" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 6:07 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2435129" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2435129/permalink">#15</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2435129"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2435267" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="VictoryShot">
+	<aside>
+		
+			<div class="attribution type">VictoryShot said:
+				
+					<a href="goto/post?id=2435129#post-2435129" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">It&#039;s also kinda laggy.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Yeah. You have to control it for yourself... Scale down the particles.. If you create alot of them, you are going to have a problem with the bandwidth the packets use. You might set the period of the helix to 10. I think I left this relict behind, from testing.. I create my effect always with period = 1, to get best visual effect.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2435267" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 22, 2014 at 7:09 PM">Apr 22, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2435267" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2435267/permalink">#16</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2435267"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436111" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> <a href="members/slikey.85768/" class="internalLink" rel="nofollow">Slikey</a> I would also like to see that! <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" /><br />
+<br />
+By the way, I am trying to do the Helix, but it only shows one strand :/<br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited by a moderator: <span class="DateTime" title="Oct 29, 2015 at 2:29 PM">Oct 29, 2015</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436111" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 5:28 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436111" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436111/permalink">#17</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436111"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436391" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="LCastr0">
+	<aside>
+		
+			<div class="attribution type">LCastr0 said:
+				
+					<a href="goto/post?id=2436115#post-2436115" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">By the way, I am trying to do the Helix, but it only shows one strand :/</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div> <br />
+<a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Hmm.. Do you have some code for me, or are you using the test-plugin?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436391" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:01 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436391" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436391/permalink">#18</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436391"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436394" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2436391#post-2436391" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Hmm.. Do you have some code for me, or are you using the test-plugin?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div> <br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>public int strands = 8;
+    public int particles = 80;
+    public float radius = 10;
+    public float curve = 10;
+    public double rotation = Math.PI / 4;
+    public Plugin pl = this;
+ 
+    public void start(final Player p) {
+        getServer().getScheduler().scheduleSyncDelayedTask(this,
+                new Runnable() {
+                    public void run() {
+                        final int s;
+                        s = getServer().getScheduler().scheduleSyncRepeatingTask(pl, new Runnable(){
+                            public void run(){
+                                Location location = p.getLocation().add(0, 10, 0);
+                                for (int i = 1; i &lt;= strands; i++) {
+                                    for (int j = 1; j &lt;= particles; j++) {
+                                        float ratio = (float) j / particles;
+                                        double angle = curve * ratio * 2 * Math.PI
+                                                / strands + (2 * Math.PI * i / strands)
+                                                + rotation;
+                                        double x = Math.cos(angle) * ratio * radius;
+                                        double z = Math.sin(angle) * ratio * radius;
+                                        location.add(x, 0, z);
+ 
+                                        ParticleEffect.FLAME.display(location, 0, 0, 0,
+                                                0, particles);
+ 
+                                        // Subtracting x and z to get to the first
+                                        // location again.
+                                        location.subtract(x, 0, z);
+                                    }
+                                }
+                            }
+                        }, 10L, 10L);
+                       
+                        getServer().getScheduler().scheduleSyncDelayedTask(pl, new Runnable(){
+                            public void run(){
+                                getServer().getScheduler().cancelTask(s);
+                            }
+                        }, 40L);
+                       
+                    }
+                }, 40L);
+    }</pre>
+</div>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436394" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:02 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436394" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436394/permalink">#19</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436394"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436401" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Oh.. The copy&amp;paste is strong in this one.. I think you have to figure it out yourself.. I don&#039;t know what &quot;ParticleEffect.Flame.display()&quot; does. Sorry
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436401" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:07 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436401" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436401/permalink">#20</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436401"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436408" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2436401#post-2436401" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Oh.. The copy&amp;paste is strong in this one.. I think you have to figure it out yourself.. I don&#039;t know what &quot;ParticleEffect.Flame.display()&quot; does. Sorry</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>This is the lib I use to show the particles <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436408" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:10 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436408" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436408/permalink">#21</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436408"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436415" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					@LCastr0Why do you pass &quot;particles&quot; to it? It is just the amount of particles per strand.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436415" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:11 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436415" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436415/permalink">#22</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436415"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436476" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2436415#post-2436415" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">@LCastr0Why do you pass &quot;particles&quot; to it? It is just the amount of particles per strand.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I know, just to keep the same amount of particles in each location. I&#039;m still trying to find a way to repeat it :/
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436476" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 8:42 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436476" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436476/permalink">#23</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436476"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436747" class="message   " data-author="coco5843">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/coco5843.90675830/" class="avatar Av90675830m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90675/90675830.jpg?1393121845')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/coco5843.90675830/" class="username" dir="auto" itemprop="name">coco5843</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					You can make this ?<br />
+ <br />
+<object width="500" height="300" data="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" type="application/x-shockwave-flash">
+	<param name="movie" value="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" />
+	<param name="allowFullScreen" value="true" />
+	<param name="wmode" value="opaque" />
+	<embed src="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" wmode="opaque" width="500" height="300" />
+</object><br />
+ <br />
+if you need the source code , tell me ! <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/coco5843.90675830/" class="username author" dir="auto">coco5843</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436747" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 10:23 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436747" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436747/permalink">#24</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436747"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2436918" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="coco5843">
+	<aside>
+		
+			<div class="attribution type">coco5843 said:
+				
+					<a href="goto/post?id=2436747#post-2436747" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">You can make this ?<br />
+ <br />
+<object width="500" height="300" data="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" type="application/x-shockwave-flash">
+	<param name="movie" value="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" />
+	<param name="allowFullScreen" value="true" />
+	<param name="wmode" value="opaque" />
+	<embed src="https://www.youtube.com/v/TyC7EcL3H1c&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" wmode="opaque" width="500" height="300" />
+</object><br />
+ <br />
+if you need the source code , tell me ! <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>I want that code <img src="smilies/confused.gif" class="mceSmilie" alt=":confused:" title="Confused    :confused:" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436918" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 11:26 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2436918" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2436918/permalink">#25</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2436918">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/dread9nought.90808749/" class="username" dir="auto">Dread9Nought</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2437019" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> I&#039;ll do something similar to that after I finish the cone.<br />
+<a href="members/coco5843.90675830/" class="internalLink" rel="nofollow">coco5843</a> If you have the source, I&#039;d appreciate if you&#039;d open the source to everyone. I&#039;d save some time on doing the math.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Maybe, I&#039;ll release a new version tonight with the cone.. I just have to turn it around the Z-Axis. Now reading about rotation-matricies.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Current Progress down here.<br />
+ <br />
+<img src="http://s7.directupload.net/images/140423/huylh9h3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s7.directupload.net/images/140423/huylh9h3.png" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437019" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 11:56 AM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437019" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2437019/permalink">#26</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2437019">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto">LCastr0</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2437104" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2437019#post-2437019" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> I&#039;ll do something similar to that after I finish the cone.<br />
+<a href="members/coco5843.90675830/" class="internalLink" rel="nofollow">coco5843</a> If you have the source, I&#039;d appreciate if you&#039;d open the source to everyone. I&#039;d save some time on doing the math.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Maybe, I&#039;ll release a new version tonight with the cone.. I just have to turn it around the Z-Axis. Now reading about rotation-matricies.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Current Progress down here.<br />
+ <br />
+<img src="http://s7.directupload.net/images/140423/huylh9h3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s7.directupload.net/images/140423/huylh9h3.png" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Can&#039;t wait! <img src="smilies/tongue.gif" class="mceSmilie" alt=":p" title="Stick Out Tongue    :p" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437104" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 12:28 PM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437104" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2437104/permalink">#27</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2437104"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2437342" class="message   " data-author="VictoryShot">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/victoryshot.90881958/" class="avatar Av90881958m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/90881/90881958.jpg?1506697534')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/victoryshot.90881958/" class="username" dir="auto" itemprop="name">VictoryShot</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2437019#post-2437019" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> I&#039;ll do something similar to that after I finish the cone.<br />
+<a href="members/coco5843.90675830/" class="internalLink" rel="nofollow">coco5843</a> If you have the source, I&#039;d appreciate if you&#039;d open the source to everyone. I&#039;d save some time on doing the math.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /><br />
+<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> Maybe, I&#039;ll release a new version tonight with the cone.. I just have to turn it around the Z-Axis. Now reading about rotation-matricies.. <img src="smilies/winkanimated.gif" class="mceSmilie" alt=";)" title="Wink    ;)" /> Current Progress down here.<br />
+ <br />
+<img src="http://s7.directupload.net/images/140423/huylh9h3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s7.directupload.net/images/140423/huylh9h3.png" /></div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Zomg sickk dude cant wait <img src="smilies/grin.gif" class="mceSmilie" alt=":D" title="Big Grin    :D" />
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/victoryshot.90881958/" class="username author" dir="auto">VictoryShot</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437342" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 1:51 PM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437342" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2437342/permalink">#28</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2437342"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2437401" class="message   " data-author="Slikey">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/slikey.85768/" class="avatar Av85768m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/85/85768.jpg?1398168742')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/slikey.85768/" class="username" dir="auto" itemprop="name">Slikey</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> <a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Just finished it. The cone goes into the direction you pass the player with the location. If you pass the effect a location of a player. It&#039;ll fire the cone in the direction the player is looking.<br />
+ <br />
+If someone has the ability to make a video of my effects, please do so. I don&#039;t want to install Fraps at the moment.<br />
+ <br />
+EDIT: I don&#039;t know, why I don&#039;t get approved on BukkitDev.. Too sad, nobody is looking into my project..<br />
+ <br />
+<img src="http://s14.directupload.net/images/140423/luxoetm3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s14.directupload.net/images/140423/luxoetm3.png" /><br />
+ <br />
+<b>DOWNLOAD LINK UPDATED</b><br />
+ <br />
+EDIT 2:<br />
+I also added these classes: MathUtils, VectorUtil and RandomUtil. <br />
+MathUtils adds extras like degreeToRadians and better cosinus, sinus algorithms.<br />
+VectorUtil includes rotation-matricies and later some projection-matricies (ASAP)<br />
+RandomUtil provides random angles, vectors, circles, etc..
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/slikey.85768/" class="username author" dir="auto">Slikey</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437401" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 2:17 PM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437401" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2437401/permalink">#29</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2437401">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/bobacadodl.90595184/" class="username" dir="auto">bobacadodl</a> likes this.
+		</span>
+	</div>
+</div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-2437471" class="message   " data-author="LCastr0">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/lcastr0.90865462/" class="avatar Av90865462m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/ed85bb4000a0169e6ad9b0ef4dac6781?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/lcastr0.90865462/" class="username" dir="auto" itemprop="name">LCastr0</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="Slikey">
+	<aside>
+		
+			<div class="attribution type">Slikey said:
+				
+					<a href="goto/post?id=2437401#post-2437401" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/victoryshot.90881958/" class="internalLink" rel="nofollow">VictoryShot</a> <a href="members/lcastr0.90865462/" class="internalLink" rel="nofollow">LCastr0</a> Just finished it. The cone goes into the direction you pass the player with the location. If you pass the effect a location of a player. It&#039;ll fire the cone in the direction the player is looking.<br />
+ <br />
+If someone has the ability to make a video of my effects, please do so. I don&#039;t want to install Fraps at the moment.<br />
+ <br />
+EDIT: I don&#039;t know, why I don&#039;t get approved on BukkitDev.. Too sad, nobody is looking into my project..<br />
+ <br />
+<img src="http://s14.directupload.net/images/140423/luxoetm3.png" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="http://s14.directupload.net/images/140423/luxoetm3.png" /><br />
+ <br />
+<b>DOWNLOAD LINK UPDATED</b><br />
+ <br />
+EDIT 2:<br />
+I also added these classes: MathUtils, VectorUtil and RandomUtil.<br />
+MathUtils adds extras like degreeToRadians and better cosinus, sinus algorithms.<br />
+VectorUtil includes rotation-matricies and later some projection-matricies (ASAP)<br />
+RandomUtil provides random angles, vectors, circles, etc..</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Can you post the source?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/lcastr0.90865462/" class="username author" dir="auto">LCastr0</a>,</span>
+					<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437471" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 23, 2014 at 2:45 PM">Apr 23, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/#post-2437471" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/2437471/permalink">#30</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-2437471"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+
+			
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="6"
+	data-last="16"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Page 1 of 16</span>
+	
+	<nav>
+		
+		
+		<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" class="currentPage " rel="start">1</a>
+		
+		
+			<a class="PageNavPrev hidden">&larr;</a> <span class="scrollable"><span class="items">
+		
+		
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-2" class="">2</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-3" class="">3</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-4" class="">4</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-5" class="">5</a>
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-6" class="">6</a>
+		
+		
+		
+			</span></span> <a class="PageNavNext ">&rarr;</a>
+		
+		
+		<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-16" class="">16</a>
+		
+		
+			<a href="threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/page-2" class="text">Next &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+	
+
+	<div class="sharePage">
+		<h3 class="textHeading larger">Share This Page</h3>
+		
+			
+			
+				<div class="tweet shareControl">
+					<a href="https://twitter.com/share" class="twitter-share-button"
+						data-count="horizontal"
+						data-lang="en-US"
+						data-url="https://bukkit.org/threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/"
+						data-text="Library - EffectLib - Manage your effects the nice way. (Text/Image in Particles)"
+						data-via="cursenetwork"
+						>Tweet</a>
+				</div>
+			
+			
+				<div class="plusone shareControl">
+					<div class="g-plusone" data-size="medium" data-count="true" data-href="https://bukkit.org/threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/"></div>
+				</div>
+			
+			
+				<div class="facebookLike shareControl">
+					
+					<div class="fb-like" data-href="https://bukkit.org/threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" data-width="400" data-layout="standard" data-action="recommend" data-show-faces="true" data-colorscheme="light"></div>
+				</div>
+			
+			
+		
+	</div>
+
+
+                        
+                        
+                        
+                            <!-- login form, to be moved to the upper drop-down -->
+                            
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Your name or email address:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Do you already have an account?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						No, create an account now.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Yes, my password is:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a>
+</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/threads/effectlib-manage-your-effects-the-nice-way-text-image-in-particles.259879/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+                        
+                        
+                    
+            
+            <div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-60" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://bukkit.org/" class="crumb"><span>Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://bukkit.org/forums/" class="crumb"><span>Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb"><span>Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb"><span>Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/resources.60/" class="crumb"><span>Resources</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav></div>
+
+
+        </div>
+
+        
+    </div>
+     
+            
+<div class="btflb" style="text-align: center; margin-top: 25px;">
+<div id='cdm-zone-04'></div>
+</div>
+            
+</div>
+
+<header>
+    
+<div id="header">
+	
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+
+
+
+
+
+			
+			<div id="logo"><a href="https://bukkit.org/forums/">
+				<span></span>
+				<img src="/logo.png" alt="Bukkit Forums" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+<div class="secondaryBar"></div>
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal Popup PopupControl PopupClosed">
+			
+				<a href="https://bukkit.org/" class="navLink">Home</a>
+				<!--<a href="https://bukkit.org/" class="SplitCtrl" rel="Menu"></a>-->
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Home</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	
+	<li><a href="recent-activity/">Recent Activity</a></li>
+	<li><a href="find-new/threads">What's New?</a></li>
+	<li><a href="help/">Help</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			
+				<li class="navTab forums selected">
+					<a href="https://bukkit.org/forums/" class="navLink">Forums</a>
+					<!--<a href="https://bukkit.org/forums/" class="SplitCtrl" rel="Menu"></a>-->
+					
+					<div class="tabLinks">
+						<div class="primaryContent menuHeader">
+							<h3>Forums</h3>
+							<div class="muted">Quick Links</div>
+						</div>
+						<ul class="secondaryContent blockLinksList">
+						
+							
+							<li><a href="https://bukkit.org/members/">Members</a></li>
+							<!-- STAFF LINK -->
+							<li><a href="/XenStaff/">Staff</a></li>
+							<!-- END STAFF LINK -->
+							<li><a href="search/?type=post">Search Forums</a></li>
+							
+							<li><a href="find-new/threads">What's New?</a></li>
+						
+						</ul>
+					</div>
+				</li>
+			
+				
+		
+		
+		
+		<!-- extra tabs -->
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+
+		
+		<!-- extra tabs: end -->
+		
+<li class="navTab PopupClosed">
+					<a href="/help/terms" class="navLink">Rules</a>
+					
+				</li>
+			
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/" class="navLink">Docs</a>
+					
+				</li>
+				<!-- Removed for now.
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Getting_Involved" class="navLink">Get Involved</a>
+				</li>		
+				-->
+			
+				<li class="navTab PopupClosed">
+					<a href="pages/about-us/" class="navLink">About Us</a>
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Setting_up_a_server" class="navLink">Get CraftBukkit</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="http://dev.bukkit.org" class="navLink">BukkitDev</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://www.curseforge.com/minecraft/bukkit-plugins" class="navLink">Get Plugins</a>
+					
+				</li>
+		
+
+		<!-- no selection -->
+		
+		
+	</ul>
+	<!-- navigation_visitor_tab include here -->
+	
+</div>
+			
+<span class="helper"></span>
+
+		</nav>	
+	</div>
+</div>
+	
+
+<div id="searchBar" class="pageWidth">
+	
+	<!-- <span id="QuickSearchPlaceholder" title="Search">Search</span> -->
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Posted by Member:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Separate names with a comma.</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Newer Than:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+								
+									<li><label title="Search only EffectLib - Manage your effects the nice way. (Text/Image in Particles)"><input type="checkbox" name="type[post][thread_id]" value="259879"
+	id="search_bar_thread" class="AutoChecker"
+	data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Search this thread only</label></li>
+								
+									<li><label title="Search only Resources"><input type="checkbox" name="nodes[]" value="60"
+	id="search_bar_nodes" class="Disabler AutoChecker" checked="checked"
+	data-uncheck="#search_bar_thread" /> Search this forum only</label>
+	<ul id="search_bar_nodes_Disabler">
+		<li><label><input type="checkbox" name="type[post][group_discussion]" value="1"
+			id="search_bar_group_discussion" class="AutoChecker"
+			data-uncheck="#search_bar_thread" /> Display results as threads</label></li>
+	</ul></li>
+								
+						</ul></dd>
+					</dl>
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Useful Searches</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+
+</header>
+
+</div>
+
+<footer>
+    
+
+
+<div class="footer">
+<script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(
+    ['_setAccount', 'UA-1045810-67'],
+    ['_setDomainName', 'bukkit.org'],
+    ['_addIgnoredRef', 'bukkit.org'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-1045810-22'],
+    ['b._setDomainName', 'bukkit.org'],
+    ['b._addIgnoredRef', 'bukkit.org'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-20541082-1'], 
+    ['c._trackPageview']
+);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+</div>
+
+<div class="footerLegal">
+<div class="PageWidth">
+<div class="pageContent">
+			<div id="copyright"></div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Terms and Rules</a></li>
+				
+			
+			</ul>
+</div></div>
+
+</footer>
+
+<script>
+
+
+var addTag = function(e) {
+  	e.preventDefault();
+  	var editor = $(".redactor_BbCodeWysiwygEditor")[0].contentWindow.document.body;
+  	$(".placeholder").remove()
+  	if (editor.innerHTML == "<p><br></p>") {
+  		editor.innerHTML = $(this).attr("data-content");
+  		return;
+  	} else if (editor.innerHTML.substr(editor.innerHTML.length - 6) != "&nbsp;") {
+  		editor.innerHTML += " ";
+  	}
+  	
+	editor.innerHTML += $(this).attr("data-content");
+};
+$(".TagUser").click(addTag).show();
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1642320358,
+		today: 1642320000,
+		todayDow: 0
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"bb_code_syntaxhighlight_vibrant_ink":true,"likes_summary":true,"share_page":true,"bbcm_js":true,"login_bar":true},
+	_cookieConfig: { path: "/", domain: ".bukkit.org", prefix: "f_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "c2a3bd65"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+
+
+
+
+<div id='cdm-zone-skin'></div>
+<div id="cdm-zone-end"></div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Color GUI | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/color-gui/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 02:45:19 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Color GUI | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>EZColors</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/ezcolors/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/ezcolors/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 02:45:19 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Color GUI]]></category>
+		<category><![CDATA[colors]]></category>
+		<category><![CDATA[EZolors]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3309</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/1-8-8-1-16-4-ezcolors.69871/ We use this plugin to make admins chat a different color to everyone else to make them stand out a bit more in chat. Tested in 1.15.2, 1.16.3, and 1.16.4. Should work with ALL versions 1.8.8+. Please report ALL BUGS! EZolors EZColors is a chat color plugin with a stunning GUI. Including 16&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/ezcolors/">EZColors</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source:<a href="https://www.spigotmc.org/resources/1-8-8-1-16-4-ezcolors.69871/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;"> https://www.spigotmc.org/resources/1-8-8-1-16-4-ezcolors.69871/</span></span></a></p>
+<blockquote><p>We use this plugin to make admins chat a different color to everyone else to make them stand out a bit more in chat.</p></blockquote>
+<p>Tested in 1.15.2, 1.16.3, and 1.16.4. Should work with ALL versions 1.8.8+.<br />
+<b>Please report ALL BUGS!</p>
+<p>EZolors</b><br />
+EZColors is a chat color plugin with a stunning GUI. Including 16 colors, and two rainbow colors to choose from.<br />
+With more features coming soon. EZColors is an all in one Chat Color Plugin&#8230; FOR FREE!<br />
+Added PlaceholderAPI Placeholders!</p>
+<p><b>NEW!</b> Hex Values (1.16+)</p>
+<p><b>Commands</b></p>
+<p>/ezcolors &#8211; Opens chat Chat Color GUI.<br />
+/ezcolors reload &#8211; Reloads the plugin &amp; languages.<br />
+/ezcolors languages &#8211; Open the Language GUI.<br />
+/ezcolors &lt;color&gt; &#8211; Set a certain color (supports hex values 1.16+).</p>
+<p><b>Aliases:</b><br />
+/color, /colors, /chatcolor,<br />
+/chatcolors, /ezcolor, /colorchat</p>
+<p><b>Placeholders</b></p>
+<p>%ezcolors_color% &#8211; Returns the player&#8217;s Chat Color.<br />
+%ezcolors_color_msg_&lt;msg&gt;% &#8211; Returns the message formatted with the player&#8217;s color.<br />
+%ezcolors_color_set% &#8211; Returns True or False depending on if the player has a color set.</p>
+<p><b>Permissions</b></p>
+<p>ezcolors.color.darkred &#8211; Permission to set your color to Dark Red.<br />
+ezcolors.color.green &#8211; Permission to set your color to Green.<br />
+ezcolors.color.blue &#8211; Permission to set your color to Blue.<br />
+ezcolors.color.cyan &#8211; Permission to set your color to Cyan.<br />
+ezcolors.color.purple &#8211; Permission to set your color to Purple.<br />
+ezcolors.color.gold &#8211; Permission to set your color to Gold.<br />
+ezcolors.color.darkgray &#8211; Permission to set your color to Dark Gray.<br />
+ezcolors.color.red &#8211; Permission to set your color to Red.<br />
+ezcolors.color.lime &#8211; Permission to set your color to Lime.<br />
+ezcolors.color.lightblue &#8211; Permission to set your color to Light Blue.<br />
+ezcolors.color.black &#8211; Permission to set your color to Black.<br />
+ezcolors.color.pink &#8211; Permission to set your color to Pink.<br />
+ezcolors.color.yellow &#8211; Permission to set your color to Yellow.<br />
+ezcolors.color.gray &#8211; Permission to set your color to Gray.<br />
+ezcolors.color.aqua &#8211; Permission to set your color to Aqua.<br />
+ezcolors.color.white &#8211; Permission to set your color to White.<br />
+ezcolors.color.rainbow &#8211; Permission to set your color to Rainbow.<br />
+ezcolors.color.reset &#8211; Permission to reset your color.<br />
+ezcolors.color.hex- Permission to set your color to a hex value (1.16+).</p>
+<p>ezcolors.gui &#8211; Permission to Open the Chat Color GUI.<br />
+ezcolors.color.* &#8211; Permission to set your color to Any Color.<br />
+ezcolors.color.custom &#8211; Permissiont to set your color to a Custom Color.<br />
+ezcolors.reload &#8211; Permission to reload the plugin. (Execute /color reload)<br />
+ezcolors.languages &#8211; Permission to open the Languages GUI (Execute /color languages)</p>
+<p>ezcolors.showlanguage &#8211; Shows the languages item in the gui.<br />
+ezcolors.showrainbow &#8211; Shows the rainbow item in the gui.</p>
+<p>ezcolors.* &#8211; Permission to everything.</p>
+<p><b>Pictures</b></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b8a8bacb686710e9a15c3470ca3343fe989411d3?url=https%3A%2F%2Fi.eazyftw.com%2Ffiles%2F7yHWcob.png" alt="[​IMG]" data-url="https://i.eazyftw.com/files/7yHWcob.png" /></p>
+<p><b>Videos</b><br />
+<i>v1.3.2 by </i>@stevesensei <b>OUTDATED</b><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/LCgnDu9k91U?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>v1.2.0 by @BGHDDevelopment <b>OUTDATED</b><br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/x9Zm7db3wIM?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/ezcolors/">EZColors</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/ezcolors/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

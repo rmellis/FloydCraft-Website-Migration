@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Command Signs | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/command-signs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:56:22 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Command Signs | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Command Signs</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/command-signs/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/command-signs/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:56:22 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[CMD Signs]]></category>
+		<category><![CDATA[Comand]]></category>
+		<category><![CDATA[Command Signs]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3279</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/command-signs.10512/ We use this to put various functions onto signs, this is rarely used but here for future use. Description : This plugin provides to admins the possibility to create special blocks (Signs, Buttons or Pressure Plates) which when a player interact with them will execute the commands that has been set for this&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/command-signs/">Command Signs</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/command-signs.10512/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #00ccff;">https://www.spigotmc.org/resources/command-signs.10512/</span></a></p>
+<blockquote><p>We use this to put various functions onto signs, this is rarely used but here for future use.</p></blockquote>
+<p><b>Description :</b><br />
+This plugin provides to admins the possibility to create special blocks (Signs, Buttons or Pressure Plates) which when a player interact with them will execute the commands that has been set for this specific block.</p>
+<p>Admins also have the possibility to grant temporary permissions to players.<br />
+E.g : if your players do not have the warp permission but you want them to be able to <b>/warp arena</b> by a command sign, you could add the temporary permissions :<br />
+<i>essentials.warp<br />
+essentials.warps.arena</i></p>
+<p>You can also set required permission for the command block to be usable.<br />
+E.g : If you want only VIP people to go into a specific area, you could add the required permission<br />
+<i>server.permissions.vip<br />
+</i><br />
+<b>Basic tutorial </b>(by ServerMiner)<b> :</b><br />
+<i><iframe loading="lazy" src="https://www.youtube.com/embed/JlFmH2OCres?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+</i><br />
+<b>Basic Commands :</b><br />
+<i>/commandsign create<br />
+/commandsign edit<br />
+/commandsign help</i></p>
+<p><b>/!\Warning</b></p>
+<ul>
+<li>Spigot 1.14 is only supported by CommandSigns version 2.1.x and 2.2.x</li>
+</ul>
+<ul>
+<li>Spigot 1.13 is only supported by CommandSigns version 1.6.8 and 2.0.x and 2.2.x</li>
+</ul>
+<ul>
+<li>Spigot 1.12 is only supported by CommandSigns version 1.6.7</li>
+</ul>
+<p>(See version history to get the one you need)</p>
+<p><b>User Guide:</b><br />
+<a class="externalLink" href="https://github.com/Nokorbis/ar-command-signs/wiki" target="_blank" rel="nofollow noopener">https://github.com/Nokorbis/ar-command-signs/wiki</a></p>
+<p><b>Common problems</b></p>
+<ul>
+<li>If your block is in a Worldguard area, you might want to add the Use/Interact permission in the zone permissions.</li>
+</ul>
+<p><b>How to ask for help ?</b><br />
+These should be in every help request :</p>
+<ol>
+<li>Note the version of spigot you are using</li>
+<li>Note the version of command signs (/ncs version)</li>
+<li>Note any error in the logs</li>
+<li>Note the configuration of the sign that is not working</li>
+</ol>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/command-signs/">Command Signs</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/command-signs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

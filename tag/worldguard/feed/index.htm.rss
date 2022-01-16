@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>WorldGuard | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/worldguard/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 15:06:28 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>WorldGuard | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WorldGuard Extra Flags</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/worldguard-extra-flags/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/worldguard-extra-flags/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 15:06:28 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Flags]]></category>
+		<category><![CDATA[more region flags]]></category>
+		<category><![CDATA[region]]></category>
+		<category><![CDATA[WG]]></category>
+		<category><![CDATA[WorldGuard]]></category>
+		<category><![CDATA[WorldGuard Extra Flags]]></category>
+		<category><![CDATA[WorldGuard Flags]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3433</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/worldguard-extra-flags.4823/ We use this plugin to allow admins to set extra flags in there WorldGuard Claims, some of which we use ourselves sometimes, Check which WorldGuard version you need to use from the FAQ in order for the plugin to work properly! FAQ is at the end Dev builds: Jenkins​ WorldGuard Extra Flags is&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/worldguard-extra-flags/">WorldGuard Extra Flags</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <span style="text-decoration: underline;"><span style="color: #00ccff;"><a style="color: #00ccff; text-decoration: underline;" href="https://www.spigotmc.org/resources/worldguard-extra-flags.4823/">https://www.spigotmc.org/resources/worldguard-extra-flags.4823/</a></span></span></p>
+<blockquote><p>We use this plugin to allow admins to set extra flags in there WorldGuard Claims, some of which we use ourselves sometimes,</p></blockquote>
+<div><b>Check which WorldGuard version you need to use from the FAQ in order for the plugin to work properly!</b><br />
+<b><br />
+FAQ is at the end</p>
+<p>Dev builds:<br />
+<a class="externalLink" href="https://jenkins.isokissa3.fi/job/WorldGuardExtraFlags/" target="_blank" rel="nofollow noopener">Jenkins</a></b>​</div>
+<p>WorldGuard Extra Flags is extension to WorldGuard that adds 29 new flags listed below!</p>
+<ul>
+<li>teleport-on-entry &amp; teleport-on-exit | Teleports the player to given location when player enters/exists the region</li>
+<li>command-on-entry &amp; command-on-exit | Executes a command when player enters/exists the region (Use %username% for player username placeholder)!</li>
+<li>console-command-on-entry &amp; console-command-on-exit | Executes a command as console when player enters/exists the region (Use %username% for player username placeholder)!</li>
+<li>walk-speed | Sets the walking speed inside the region</li>
+<li>keep-inventory | Does the player keep their inventory on death inside the region</li>
+<li>keep-exp | Does the player keep their exp on death inside the region</li>
+<li>chat-prefix | Chat prefix shown when inside the region</li>
+<li>chat-suffix | Chat suffix shown when inside the region</li>
+<li>godmode | Does the player the damage inside the region</li>
+<li>blocked-effects | Block effects inside the region</li>
+<li>respawn-location | Sets the players respawn location when inside the region</li>
+<li>worldedit | Is WorldEdit permitted inside the region</li>
+<li>give-effects | Gives effects while inside the region and restores old effects on region leave with correct time left</li>
+<li>fly | Whatever flying is enabled or disabled when entering the region</li>
+<li>play-sounds | Allows you to play sounds once or on repeat. When running 1.9 server or above the sound will stop playing once the player leaves the region</li>
+<li>frostwalker | Is frostwalker permitted inside the region</li>
+<li>nether-portals | Is creation of nether portals permitted inside the region</li>
+<li>allow-block-place | Specifies which block(s) are allowed to be placed inside the region (Only in WG6)</li>
+<li>allow-block-break | Specifies which block(s) are allowed to be broken inside the region (Only in WG6)</li>
+<li>deny-block-place | Specifies which block(s) are denied from being placed inside the region (Only in WG6)</li>
+<li>deny-block-break | Specifies which block(s) are denied from being broken inside the region (Only in WG6)</li>
+<li>glide | Is flying with Elytra allowed inside the region. Can also be used to give the player glide effect without wearing one</li>
+<li>chunk-unload | Is chunk unloading permitted inside the region</li>
+<li>item-durability | Is item durability allowed inside the region</li>
+<li>join-location | Teleports the player to given location when logging in to the region</li>
+</ul>
+<p><b>How to use?</b><br />
+Simply use the WorldGuard region flag command. All of the flags can be interacted that way, just like any other flag.</p>
+<p><b>FAQ:</p>
+<p>Which Minecraft versions are supported?</b><br />
+From 1.7 even up to 1.16.4, please keep in mind you still need to pick the correct WorldGuard version, which are listed below</p>
+<p><b>Which WorldGuard version should I use?</b><br />
+The most up to date version that is compatible with your version of Minecraft. These are tested versions and works as intended.</p>
+<ul>
+<li><b>WorldGuard 6.1.2 OR LOWER</b>
+<ul>
+<li><b>NOT SUPPORTED, PLEASE UPGRADE, READ BELOW FOR RECOMMENDED VERSIONS</b></li>
+</ul>
+</li>
+<li>WorldGuard 6.2.0
+<ul>
+<li><b>Minecraft:</b> From 1.7 up to 1.11</li>
+</ul>
+</li>
+<li>WorldGuard 6.2.2
+<ul>
+<li><b>Minecraft</b>: 1.12</li>
+</ul>
+</li>
+<li>WorldGuard 7.0.0
+<ul>
+<li><b>Minecraft: </b>1.13</li>
+</ul>
+</li>
+<li>WorldGuard 7.0.3
+<ul>
+<li><b>Minecraft: </b>From 1.14 to 1.15</li>
+</ul>
+</li>
+<li>WorldGuard 7.0.4
+<ul>
+<li><b>Minecraft: </b>1.16</li>
+</ul>
+</li>
+</ul>
+<p><b>Can I bypass flag with permissions?</b><br />
+You can bypass any flag by using the following permission node:</p>
+<p>worldguard.region.bypass.&lt;world&gt;.&lt;region&gt;.&lt;flag&gt;</p>
+<p>If your permission plugin supports wildcars they can by used to block all custom flags in region using:</p>
+<p>worldguard.region.bypass.&lt;world&gt;.&lt;region&gt;.*</p>
+<p><b>Flag is not working:</b><br />
+Make sure you do not have permissions for the following permission node:</p>
+<p>worldguard.region.bypass.&lt;world&gt;.&lt;region&gt;.&lt;flag&gt;</p>
+<p>Also make sure you have use-player-move-event set to true in WorldGuard config.</p>
+<p>Please also note that if you are OP you have all the permissions, meaning that you are bypassing every flag the plugin provides. This can look like the plugin is not working.</p>
+<p>Also /rg bypass doesn&#8217;t work, at least yet.</p>
+<p><b>Respawn-location flag is not working:</b><br />
+Read up the flag is not working part first before trying this. Some other plugins are known to cause problems with respawn-location flag by choosing some other location to respawn the player instead of the location provided by the flag.</p>
+<p>If you are using Essentials you can fix this by changing the respawn-listener-priority to lowest or low in the Essentials config.</p>
+<p><b>Can I use multiple commands?</b><br />
+Yes, use comma to separate them.</p>
+<p><b>Can I get the player&#8217;s username when executing a command?</b><br />
+You can use the %username% placeholder</p>
+<p><b>What if my command contains commas?</b><br />
+Wrap the command in quotation marks and it will be seen as one whole command.</p>
+<p><b>A word about custom commands</b><br />
+Custom commands do not work as they are not &#8220;real&#8221; commands. Using plugins like Skript where you can define your own commands are seen as &#8220;fake&#8221; commands and their existence is unknown.</p>
+<p><b>What are the values for walk-speed?</b><br />
+The flag uses same values as Minecraft does. The default value being 0.2</p>
+<p><b>What are the values for play-sounds?</b><br />
+These values depend on your Minecraft server version. Any value that works with /playsound works as value here.</p>
+<p><b>Server crashes when using teleport commands in command-on-entry or in command-on-exit:</b><br />
+Using teleport commands is not supported and there is a special flags for them; teleport-on-entry and teleport-on-exit. These flags are more careful when teleporting the player around and tries to prevent any circular teleport loops.</p>
+<p><b>When using keep-inventory flag my inventory gets duplicated:</b><br />
+This is not the plugins fault and some other plugin is conflicting with the flag.</p>
+<p><b>I want to give a player permission when they enter a region.</b><br />
+You should <b>NEVER </b>in any situation to use command-on-entry flag&#8217;s to give out permissions. Instead, you should use the following extension for LuckPerms: <a class="externalLink" href="https://github.com/LuckPerms/ExtraContexts" target="_blank" rel="nofollow noopener">https://github.com/LuckPerms/ExtraContexts</a></p>
+<p><b>Not working on Thermos:</b><br />
+<a class="externalLink" href="https://github.com/CyberdyneCC/Thermos/issues/498#issuecomment-247083549" target="_blank" rel="nofollow noopener">https://github.com/CyberdyneCC/Thermos/issues/498#issuecomment-247083549</a></p>
+<p><b>Need help?</b><br />
+If something is not covered in here you can come ask help from our Discord server in the #support channel</p>
+<p><a class="externalLink" href="https://discord.gg/hbgCMne" target="_blank" rel="nofollow noopener">Click here for invite link</a></p>
+<p>Make sure you have made sure that your problem isn&#8217;t covered above!</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/worldguard-extra-flags/">WorldGuard Extra Flags</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/worldguard-extra-flags/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

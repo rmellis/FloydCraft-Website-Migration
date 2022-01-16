@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PlayTime | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/playtime/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 07:04:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>PlayTime | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PlayTime</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/playtime/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/playtime/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 07:04:42 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Play Time]]></category>
+		<category><![CDATA[PlayTime]]></category>
+		<category><![CDATA[Time Player]]></category>
+		<category><![CDATA[TimePlayer]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3399</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/playtime.26016/ We use this plugin to let players easily keep track of how long they have played. Allow Players to View their playing time. Description: Playtime is a simple plugin that i made to allow players to view their time played or another player&#8217;s time played on the server. playtime is fully customizable and&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/playtime/">PlayTime</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div><i>Source: <a href="https://www.spigotmc.org/resources/playtime.26016/" target="_blank" rel="nofollow noopener">https://www.spigotmc.org/resources/playtime.26016/</a></i></div>
+<blockquote>
+<div>We use this plugin to let players easily keep track of how long they have played.</div>
+</blockquote>
+<div><i>Allow Players to View their playing time.</i></p>
+<p><b>Description:</b><br />
+Playtime is a simple plugin that i made to allow players to view their time played or another player&#8217;s time played on the server. playtime is fully customizable and can be done from the configuration file.</p>
+<p><b>Commands:</b><br />
+<i>&#8211; <b>/playtime</b> &#8211; shows your time played on the server &#8211; Permission: playtime.check</i><br />
+<i>&#8211; <b>/playtime &lt;player&gt;</b> &#8211; shows another player&#8217;s time played on the server</i><br />
+<i>&#8211; /<b>serveruptime</b> &#8211; shows the server online time &#8211; Permission: playtime.uptime</i></p>
+<p><i>playtime:</i><br />
+<i>aliases: [timeplayed, pt]</i></p>
+<p><i>serveruptime:</i><br />
+<i>aliases: [uptime, sp]</i></p>
+<p><b>Images:<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/2-png.150046/" alt="2.png" /> <img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/1-png.150047/" alt="1.png" /> <img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/068224b3f74555a153266a42455ee988-png.151540/" alt="068224b3f74555a153266a42455ee988.png" /></b><br />
+​</div>
+<p><b>Configuration:</b></p>
+<div><code># # Playtime By F64_Rx - Need Help? PM me on Spigot or post in the discussion.</code></div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<div class="SpoilerTarget bbCodeSpoilerText"><code># # =================</code><br />
+<code># # | CONFIGURATION |</code><br />
+<code># # =================</code><br />
+<code>#</code><br />
+<code># # available placeholders</code><br />
+<code># # %player% - returns the player name</code><br />
+<code># # %time% - shows time played</code><br />
+<code># # %timesjoined% - shows the amount of times the player has joined the server</code><br />
+<code># # %serveruptime% - shows the uptime of the server</code><br />
+<code># # %prefix% - shows the prefix</code></p>
+<p><code>prefix: '&amp;3[&amp;aPlaytime&amp;3]'</code><br />
+<code>time:</code><br />
+<code>second: s</code><br />
+<code>minute: m</code><br />
+<code>hour: h</code><br />
+<code>day: d</code><br />
+<code>messages:</code><br />
+<code>no_permission:</code><br />
+<code>- ''</code><br />
+<code>- '&amp;8[&amp;bPlayTime&amp;8] &amp;cYou don''t have permission.'</code><br />
+<code>- ''</code><br />
+<code>not_online:</code><br />
+<code>- ''</code><br />
+<code>- '&amp;8[&amp;bPlayTime&amp;8] &amp;cPlayer %player% is not online!'</code><br />
+<code>- ''</code><br />
+<code>player:</code><br />
+<code>- ''</code><br />
+<code>- '&amp;8[&amp;bPlayTime&amp;8]'</code><br />
+<code>- '&amp;b%player%''s Stats are:'</code><br />
+<code>- '&amp;bPlayTime: &amp;7%time%'</code><br />
+<code>- '&amp;bTimes Joined: &amp;7%timesjoined%'</code><br />
+<code>- ''</code><br />
+<code>other_players:</code><br />
+<code>- ''</code><br />
+<code>- '&amp;8[&amp;bPlayTime&amp;8]'</code><br />
+<code>- '&amp;b%player%''s Stats are:'</code><br />
+<code>- '&amp;bPlayTime: &amp;7%time%'</code><br />
+<code>- '&amp;bTimes Joined: &amp;7%timesjoined%'</code><br />
+<code>- ''</code><br />
+<code>server_uptime:</code><br />
+<code>- ''</code><br />
+<code>- '&amp;8[&amp;bPlayTime&amp;8] &amp;bServer''s total uptime is %serveruptime%'</code><br />
+<code>- ''</code></div>
+</div>
+<div>​</div>
+<div><b>Update Plans:</b><br />
+&#8211; add top # list<br />
+&#8211; add afk vs active playtime<br />
+&#8211; add rewards to be given to the player after x amount of playtime.<br />
+​</div>
+<div>want support for PlaceholderAPI and MVdWPAPI you will have to add this expansion to your papi folder &#8220;<i>plugins/placeholderapi/expansions</i>&#8221;<br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/expansion-playtime.26043/" target="_blank" rel="nofollow noopener">Link</a>​</div>
+<div>​</div>
+<div>If you find any problems please let me know in the discussion page and not in the review section thanks.</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/playtime/">PlayTime</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/playtime/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

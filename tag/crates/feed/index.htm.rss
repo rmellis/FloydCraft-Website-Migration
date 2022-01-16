@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Crates | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/crates/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:09:47 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Crates | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>GoldenCrates</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/goldencrates/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/goldencrates/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:07:52 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Chest]]></category>
+		<category><![CDATA[Crate Key]]></category>
+		<category><![CDATA[Crates]]></category>
+		<category><![CDATA[GoldenCrates]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3321</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/goldencrates-%E2%80%A2-advanced-custom-crates-1-14-1-16.48732/ We use this plugin to allow players to open a crate as a future reward for votes, until then the keys are often sold in the Auction&#8217;s found in the Shops. Simple, but powerful crates plugin! Create crates via in-game GUI editor, manage crate options and rewards!         ​ • In-game GUI Editor: ▸&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/goldencrates/">GoldenCrates</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/goldencrates-%E2%80%A2-advanced-custom-crates-1-14-1-16.48732/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/goldencrates-%E2%80%A2-advanced-custom-crates-1-14-1-16.48732/</a></p>
+<blockquote>
+<div>We use this plugin to allow players to open a crate as a future reward for votes, until then the keys are often sold in the Auction&#8217;s found in the Shops.</div>
+</blockquote>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b060bbf50add14dcf35d59cf344ff6418d4692d5?url=https%3A%2F%2Fa.radikal.ru%2Fa40%2F2001%2F45%2F8987ce71183d.png" alt="[​IMG]" data-url="https://a.radikal.ru/a40/2001/45/8987ce71183d.png" /><br />
+Simple, but powerful crates plugin! Create crates via in-game GUI editor, manage crate options and rewards!<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/229bf6db962f1568000addaab0142e0df33741d0?url=https%3A%2F%2Fa.radikal.ru%2Fa15%2F2011%2Fb5%2F21381d47f6ee.png" alt="[​IMG]" data-url="https://a.radikal.ru/a15/2011/b5/21381d47f6ee.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c6ff88fcfbdf62267fcc99fc8152a008b66f8ca7?url=https%3A%2F%2Fc.radikal.ru%2Fc02%2F2011%2Fda%2F2cf8ea2a6ab3.png" alt="[​IMG]" data-url="https://c.radikal.ru/c02/2011/da/2cf8ea2a6ab3.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9b03963ad6a1cae6da899fef8779661197dc98ad?url=https%3A%2F%2Fb.radikal.ru%2Fb04%2F2011%2F14%2F1df258241e96.png" alt="[​IMG]" data-url="https://b.radikal.ru/b04/2011/14/1df258241e96.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6bb71084e41ad63a4c81772103e6d7f9d9d557a5?url=https%3A%2F%2Fa.radikal.ru%2Fa17%2F2011%2F84%2Ff978d2ee7444.png" alt="[​IMG]" data-url="https://a.radikal.ru/a17/2011/84/f978d2ee7444.png" /><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a524e2350a7db47c8d0b96bdb7891e6ea6f5c5ff?url=https%3A%2F%2Fd.radikal.ru%2Fd21%2F2001%2Ff2%2Fac777c09737f.png" alt="[​IMG]" data-url="https://d.radikal.ru/d21/2001/f2/ac777c09737f.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e236e334c47aea7bfe5847e88b9bb61ed00a246f?url=https%3A%2F%2Fd.radikal.ru%2Fd08%2F2011%2F4a%2F6199dfaa4508.png" alt="[​IMG]" data-url="https://d.radikal.ru/d08/2011/4a/6199dfaa4508.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/cc1434dd208bef428a85965be5187b5d1f41a770?url=https%3A%2F%2Fb.radikal.ru%2Fb32%2F2011%2F12%2F6706b2015515.png" alt="[​IMG]" data-url="https://b.radikal.ru/b32/2011/12/6706b2015515.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2cbe4a9ee22f40118b4a5cbc294728ab2617e6c4?url=https%3A%2F%2Fb.radikal.ru%2Fb35%2F2011%2Fa1%2F827157683998.png" alt="[​IMG]" data-url="https://b.radikal.ru/b35/2011/a1/827157683998.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/87565e9647d832a336cfd09f6ff3aa4b5144e37d?url=https%3A%2F%2Fd.radikal.ru%2Fd09%2F2011%2F18%2F895d1d3c156a.png" alt="[​IMG]" data-url="https://d.radikal.ru/d09/2011/18/895d1d3c156a.png" /> <img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2d8dd40bf630854c5221f0cbfe7dad4843595a01?url=https%3A%2F%2Fb.radikal.ru%2Fb27%2F2011%2F3a%2F412ae9eeb18e.png" alt="[​IMG]" data-url="https://b.radikal.ru/b27/2011/3a/412ae9eeb18e.png" /> ​</p>
+</div>
+<p>• <b>In-game GUI Editor:</b></p>
+<div>▸ Easy way to create and manage your crates!<br />
+▸ Change all crate settings in simple GUI.<br />
+▸ Add and modify crate rewards by drag and drop items!​</div>
+<p>• <b>Crate Rewards:</b></p>
+<div>▸ Custom win chance for each reward.<br />
+▸ Support for custom items with any NBT tags!<br />
+▸ Execute commands when player wins reward!<br />
+▸ Define min. and max. rewards amount that player can win at once!<br />
+▸ Prevent player to open a crate when he don&#8217;t have enough space in inventory to prevent reward loss.<br />
+• <b>Rewards Preview:</b></p>
+<div>▸ Allows players to view crate content before open it!<br />
+▸ Allows you to display chances in reward lore.<br />
+▸ Crate preview can be disabled totally.​</div>
+</div>
+<p>• <b>Crate Types:</b></p>
+<div>▸ Give any crate as an item to player inventory and open it by Right-Click!<br />
+▸ Attach any crate to any block in the world and open it by Right-Click! You can attach the same crate to multiple blocks in multiple worlds!<br />
+▸ Add any crate to customizable internal GUIs and open it by click!​</div>
+<p>• <b>Crate Keys:</b></p>
+<div>▸ Create custom keys to open crates!<br />
+▸ Multiple crates may require the same key to open!<br />
+▸ Make the key virtual! Virtual keys are stored in the database.<br />
+▸ Support for offline players when giving keys.​</div>
+<p>• <b>Crate Cooldowns:</b></p>
+<div>▸ Define the duration for each crate that player have to wait before open a crate again.<br />
+▸ All times are supported: <b>Seconds</b>, <b>Minutes</b>, <b>Hours</b>, <b>Days</b>, <b>Months</b>, <b>Years</b>!​</div>
+<p>• <b>Crate Animation Templates:</b></p>
+<div>▸ 7 templates included by default: <b>CSGO</b>, <b>Mystery</b>, <b>Roll</b>, <b>Wander</b> and others!<br />
+▸ Create your own animated rewards GUI!<br />
+▸ Define the roll speed, sounds and effects.<br />
+▸ Define reward positions and final win slot.​</div>
+<p>• <b>Compatibility:</b></p>
+<div>▸ Attach any crate to <b>Citizens NPCs</b>! Players will able to view crate content or open a crate by clicking NPC!<br />
+▸ Add custom <b>holograms</b> upon crate block in the world via <b>HolographicDisplays</b>!<br />
+▸ Make crate require a certain amount of money to open it with <b>Vault</b>!​</div>
+<p>• <b>PlaceholderAPI Support:</b></p>
+<div>▸ <b>%goldencrates_keys_&lt;key&gt;%</b> &#8211; Displays amount of specified key.<br />
+▸ <b>%goldencrates_cooldown_&lt;crate&gt;%</b> &#8211; Displays amount of time before specified crate can be opened again.<br />
+​</div>
+<div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6059ca5b19e581789d674c45e836d7c4d2603589?url=https%3A%2F%2Fc.radikal.ru%2Fc29%2F2001%2F84%2Fe1b10a94f1d4.png" alt="[​IMG]" data-url="https://c.radikal.ru/c29/2001/84/e1b10a94f1d4.png" /></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Screenshots</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/f4b6bdfe1e1f9d5e0538c77ad27018e543643936?url=https%3A%2F%2Fa.radikal.ru%2Fa43%2F1910%2F13%2Ff526fe738a72.png" alt="[​IMG]" data-url="https://a.radikal.ru/a43/1910/13/f526fe738a72.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/3da904bdd004d4db606a0ac459570ddc993e660e?url=https%3A%2F%2Fd.radikal.ru%2Fd43%2F1910%2Ffc%2F2e8ed0dc461b.png" alt="[​IMG]" data-url="https://d.radikal.ru/d43/1910/fc/2e8ed0dc461b.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a406e028668283976c22e1b9ebcfd627125e07c0?url=https%3A%2F%2Fb.radikal.ru%2Fb17%2F1910%2Fe4%2F699d27cd6031.png" alt="[​IMG]" data-url="https://b.radikal.ru/b17/1910/e4/699d27cd6031.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/eda9d120f47e0e78c4592c9fca411e65099074a8?url=https%3A%2F%2Fa.radikal.ru%2Fa11%2F1910%2Fd7%2F6e99b4083111.png" alt="[​IMG]" data-url="https://a.radikal.ru/a11/1910/d7/6e99b4083111.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/4500deecb85356085f653c553930e6f9d9df13fa?url=https%3A%2F%2Fa.radikal.ru%2Fa29%2F1910%2F9e%2F6ef440e8faf6.png" alt="[​IMG]" data-url="https://a.radikal.ru/a29/1910/9e/6ef440e8faf6.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer">
+<p><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">GIFs</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6d08c0024d3999e378c8dbef65a16f78f459d93d?url=https%3A%2F%2Fc.radikal.ru%2Fc15%2F1910%2Fce%2Fd1438578c58d.gif" alt="[​IMG]" data-url="https://c.radikal.ru/c15/1910/ce/d1438578c58d.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c88cc4d800187f1e2d3efa96474c94f20f2615e1?url=https%3A%2F%2Fb.radikal.ru%2Fb28%2F1910%2Fae%2Fd6461765d1e3.gif" alt="[​IMG]" data-url="https://b.radikal.ru/b28/1910/ae/d6461765d1e3.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e6fefbbfa6d1d9dac7b987a87aa88092c9c1b6c4?url=https%3A%2F%2Fc.radikal.ru%2Fc29%2F1910%2F7d%2F01809bce6cc0.gif" alt="[​IMG]" data-url="https://c.radikal.ru/c29/1910/7d/01809bce6cc0.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c15a08e4776b0be4cd8356c80192b5894154d9d2?url=https%3A%2F%2Fc.radikal.ru%2Fc34%2F2005%2Fad%2Fad3afafb88fd.gif" alt="[​IMG]" data-url="https://c.radikal.ru/c34/2005/ad/ad3afafb88fd.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/ab3208e2ba31f8f2dedecdf25ede8361ff6f8177?url=https%3A%2F%2Fc.radikal.ru%2Fc30%2F2005%2F11%2F7d8d0a3c8d4c.gif" alt="[​IMG]" data-url="https://c.radikal.ru/c30/2005/11/7d8d0a3c8d4c.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/92cac96e6ec8e02ee238c679ea8ed1624bf24fa9?url=https%3A%2F%2Fb.radikal.ru%2Fb14%2F2005%2F25%2Ff1c95fac3406.gif" alt="[​IMG]" data-url="https://b.radikal.ru/b14/2005/25/f1c95fac3406.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/5d342a3800c738ecde4fb4faff2e9e4f5570eeec?url=http%3A%2F%2Fs016.radikal.ru%2Fi335%2F1710%2F6a%2F627ed9d10863.gif" alt="[​IMG]" data-url="http://s016.radikal.ru/i335/1710/6a/627ed9d10863.gif" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/97c7cec3516dd7691494cff1ec6a4ff47571412f?url=http%3A%2F%2Fs015.radikal.ru%2Fi332%2F1710%2F04%2Fa4297725f7ea.gif" alt="[​IMG]" data-url="http://s015.radikal.ru/i332/1710/04/a4297725f7ea.gif" /></div>
+</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/781da48bc8ac9e47bb397b1c447022efefeef8d7?url=https%3A%2F%2Fb.radikal.ru%2Fb13%2F2001%2F25%2F94614551b18d.png" alt="[​IMG]" data-url="https://b.radikal.ru/b13/2001/25/94614551b18d.png" /><br />
+Type <b>/crate editor </b>and click on <b>New Crate</b>!</p>
+<p><b>F.A.Q.</b>​</p>
+</div>
+<div><b>Q:</b> Would it be possible to make it so that some rewards with certain perms will be eliminated for users who have that perm, so you can only get each thing once?<br />
+<b>A:</b> No.<b>Q:</b> I added crate in the world, but players can&#8217;t open it!<br />
+<b>A:</b> Check your claim plugins and spawn-protection setting.​</div>
+<p>&nbsp;</p>
+<div><b>Q:</b> How do I give keys/crates for voting?<br />
+<b>A:</b> Ask your vote plugin. This plugin does nothing with voting.​</div>
+<p>&nbsp;</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b713db1596597017014ed68cdf65870adee9e81a?url=https%3A%2F%2Fb.radikal.ru%2Fb22%2F2001%2Fc7%2F6b994e126e76.png" alt="[​IMG]" data-url="https://b.radikal.ru/b22/2001/c7/6b994e126e76.png" />​</div>
+<p>• <b>/crate editor</b> &#8211; Open GUI Editor.<br />
+• <b>/crate menu &lt;menu&gt;</b> &#8211; Open custom crate menu.<br />
+• <b>/crate give &lt;player|*&gt; &lt;crate&gt; [amount]</b> &#8211; Give crate to specified player(s).<br />
+• <b>/crate givekey &lt;player|*&gt; &lt;key&gt; [amount]</b> &#8211; Give crate key to specified player(s).<br />
+• <b>/crate keys [player]</b> &#8211; Displays amount of player keys.<br />
+• <b>/crate reload</b> &#8211; Reload the plugin.</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/91e72aa64286aa0a2e7efc914c8962b12e152cb1?url=https%3A%2F%2Fc.radikal.ru%2Fc10%2F2001%2F8f%2Fa07fb7ac1938.png" alt="[​IMG]" data-url="https://c.radikal.ru/c10/2001/8f/a07fb7ac1938.png" />​</div>
+<p>• <b>goldencrates.user</b> &#8211; User access <i>(Given by default)</i><br />
+• <b>goldencrates.admin</b> &#8211; Admin access<br />
+• <b>goldencrates.cmd.keys</b> &#8211; Access to keys sub-command.</p>
+<div>• <b>goldencrates.cmd.keys.others</b> &#8211; Allows to specify player name.​</div>
+<p>• <b>golcencrates.open.[crate]</b> &#8211; Allows to open specified crate when permission is required.<br />
+• <b>goldencrates.bypass.cooldown</b> &#8211; Bypass crate cooldown.<br />
+• <b>goldencrates.bypass.cost</b> &#8211; Bypass crate cost.</p>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/abb73ad5757614ff9006a3f5ac24d4bdb1515ff2?url=https%3A%2F%2Fa.radikal.ru%2Fa26%2F2001%2Ffb%2F5a28f081af28.png" alt="[​IMG]" data-url="https://a.radikal.ru/a26/2001/fb/5a28f081af28.png" />​</div>
+<p>✓ <b>HolographicDisplays </b><a class="externalLink" href="https://dev.bukkit.org/projects/holographic-displays" target="_blank" rel="nofollow noopener">[Link]</a><br />
+✓<b> Citizens </b><a class="internalLink" href="https://www.spigotmc.org/resources/citizens.13811/">[Link]</a><br />
+✓ <b>Vault </b><a class="externalLink" href="https://dev.bukkit.org/projects/vault" target="_blank" rel="nofollow noopener">[Link]</a></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/goldencrates/">GoldenCrates</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/goldencrates/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

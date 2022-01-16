@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs LoggedOut Sidebar  Responsive pageIsLtr hasWelcomeBlock  hasTabLinks  hasSearch   is-sidebarOpen hasRightSidebar is-setWidth navStyle_0 pageStyle_0 hasFlexbox" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="https://minesuperior.com/" />
+<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://minesuperior.com/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+<title>MineSuperior Community</title>
+<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=2&amp;dir=LTR&amp;d=1631438997" />
+<link rel="stylesheet" href="css.php?css=EWRblock_RecentNews,EWRporta,bb_code,login_bar,message_user_info,moderator_bar,nat_public_css,uix_welcomeBlock&amp;style=2&amp;dir=LTR&amp;d=1631438997" />
+<link rel="stylesheet" href="css.php?css=uix,uix_style&amp;style=2&amp;dir=LTR&amp;d=1631438997" />
+<style>
+	/*** UIX -- PER USER STYLES ***/
+	
+	
+	
+	
+	
+	
+		
+
+</style>
+<link rel="stylesheet" href="css.php?css=EXTRA&amp;style=2&amp;dir=LTR&amp;d=1631438997" />
+<style>
+/* Node Styling */
+.node.node_25 > .nodeInfo {}.node.node_41 > .nodeInfo {.message .messageInfo article blockquote span {color:rgb(44, 44, 44) !important;font-size:11pt !important;font-weight:400 !important;font-style:normal !important;}}.node.node_45 > .nodeInfo {}
+</style>
+<link href="styles/uix/uix/css/font-awesome.min.css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
+<script src="js/jquery/jquery-1.11.0.min.js"></script>
+<script src="js/xenforo/xenforo.js?_v=7fc0d7ef"></script>
+<!--[if lt IE 9]>
+	
+		 
+        	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	        
+	        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	        
+	        <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	
+
+<![endif]-->
+<script>
+	uix = {
+		elm: {},
+		fn:{},
+		init: function(){
+			if (uix.betaMode) {
+				console.group('uix.%cinit()', 'color:#3498DB');
+			}
+			for(var x=0;x<uix.events.init.length;x++){
+				uix.events.init[x]()
+		  	}
+		  	console.groupEnd('uix.%cinit()','color:#3498DB')
+		},
+	  	events: {init:[]},
+	  	on: function(event, fn){
+	  		if(event=='init'){
+	  			uix.events.init.push(fn)
+	  		}
+	  	},
+	  
+		betaMode				: parseInt('0'),
+		jsPathUsed				: 'uix_style',
+		jsGlobal				: parseInt('0'),
+		
+	  
+	  	version					: '1.5.7.0',
+	  	jsHeadVersion				: '1.5.7.0',
+	  	addonVersion				: '1001070',
+	  	contentTemplate				: 'EWRporta_Portal',
+	  
+		globalPadding 				: parseInt('16px'),
+		sidebarWidth				: parseInt('250px'),
+		mainContainerMargin  	        	: '266px',
+		maxResponsiveWideWidth   		: parseInt('800px'),
+		maxResponsiveMediumWidth 		: parseInt('610px'),
+		maxResponsiveNarrowWidth 		: parseInt('480px'),
+		sidebarMaxResponsiveWidth		: parseInt('800px'),
+		
+			responsiveMessageBreakpoint		: parseInt('610px'),
+		
+		sidebarMaxResponsiveWidthStr		: '800px',
+		
+		
+			offCanvasRightTriggerWidth	: parseInt('800px'),
+		
+		
+		
+			offCanvasLeftTriggerWidth	: parseInt('800px'),
+		
+		
+		
+			
+				offCanvasNavTriggerWidth	: parseInt('800px'),
+			
+		
+		
+			
+				offCanvasVisitorTriggerWidth	: parseInt('800px'),
+			
+		
+		
+		offcanvasTriggerAnimationDuration	: parseInt('300ms'),
+		
+		
+		
+		
+		dropdownMenuAnimationSpeed		: parseInt('0ms'),
+		inlineAlertBalloons			: (parseInt('1') && !parseInt('1')) || parseInt('1'),
+	  
+		jumpToFixedDelayHide			: parseInt('1'),
+	  
+		stickyNavigationMinWidth 		: parseInt('0'),
+		stickyNavigationMinHeight		: parseInt('600'),
+		stickyNavigationMaxWidth 		: parseInt('0'),
+		stickyNavigationMaxHeight		: parseInt('0'),
+		stickyNavigationPortraitMinWidth 	: parseInt('320'),
+		stickyNavigationPortraitMinHeight	: parseInt('500'),
+		stickyNavigationPortraitMaxWidth 	: parseInt('0'),
+		stickyNavigationPortraitMaxHeight	: parseInt('0'),
+		stickySidebar 				: 0,
+		
+			sidebarInnerFloat		: "right",
+		
+		RTL					: 0,
+		stickyItems 				: {},
+		stickyGlobalMinimumPosition		: parseInt('200px'),
+		stickyGlobalScrollUp			: parseInt('0'),
+		stickyDisableIOSThirdParty		: parseInt('1'),
+		preventAlwaysSticky			: parseInt('0'),
+		
+		searchMinimalSize			: parseInt('610px'),
+		
+		searchPosition				: parseInt('2'),
+		
+		nodeStyle				: parseInt('3'),
+		pageStyle				: parseInt('0'),
+		
+		enableBorderCheck			: parseInt('1'),
+		enableULManager				: parseInt('1'),
+		
+		threadSlidingAvatar			: parseInt('0'),
+		threadSlidingExtra			: parseInt('0'),
+		threadSlidingHover			: parseInt('0'),
+		threadSlidingStaffShow			: parseInt('0'),
+		threadSlidingGlobalEnable		: parseInt('1'),
+		
+		signatureHidingEnabled			: parseInt('0'),
+		signatureHidingEnabledAddon		: parseInt('1'),
+		signatureMaxHeight			: parseInt('100px'),
+		signatureHoverEnabled			: parseInt('0'),
+		
+		enableStickyFooter 			: parseInt('1'),
+		stickyFooterBottomOffset 		: parseInt('16px') * 2,
+		
+		
+			sidebarStickyBottomOffset	: parseInt('4'),
+		
+	  
+	  	
+			offCanvasSidebar			: 1,
+
+			
+				offCanvasSidebarVisitorTabs		: 1,
+			
+		
+		
+		
+		offcanvasLeftStatic			: 1 && parseInt('0') && parseInt('1'),
+		offcanvasRightStatic			: 0 && parseInt('0') && parseInt('1'),
+		offcanvasLeftStaticBreakpoint		: parseInt('1300px'),
+		offcanvasRightStaticBreakpoint		: parseInt('1300px'),
+	  
+		reinsertWelcomeBlock			: parseInt('0'),
+	  
+		sidebarCookieExpire			: '',
+		canCollapseSidebar			: '',
+		
+		cookiePrefix				: 'xf_',
+		sidebarLocation 			: parseInt('0'),
+		
+		collapsibleSidebar			: parseInt('1'),
+		collapsedNodesDefault			: '',
+		widthToggleUpper			: '100%',
+		widthToggleLower			: '1170px',
+		
+			toggleWidthEnabled		: parseInt('1'),
+		
+		toggleWidthBreakpoint			: parseInt('1202'),
+		collapsibleNodes			: parseInt('1'),
+		collapsibleSticky			: parseInt('1'),
+		ajaxWidthToggleLink			: 'uix/toggle-width',
+		ajaxStickyThreadToggleLink		: 'uix/toggle-sticky-threads',
+		ajaxStickyThreadExpandLink		: 'uix/expand-sticky-threads',
+		ajaxStickyThreadCollapseLink		: 'uix/collapse-sticky-threads',
+		ajaxSidebarToggleLink			: 'uix/toggle-sidebar',
+		
+		stickySidebarDelayInit			: parseInt('1'),
+		
+		user					: {
+								'themeName'		: 'MineSuperior',
+								'-themeParents'		: '2,0',
+								'-themeModified'	: '1631438997',
+								'-themeSelectable'	: '1',
+								languageName		: 'English (US)',
+								stickyEnableUserbar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableNav		: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableSidebar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								widthToggleState	: (parseInt('0') == parseInt('0')) ? parseInt('0') : parseInt('0'),
+								stickyThreadsState	: (parseInt('') == parseInt('')) ? (parseInt('') > 0) : 0,
+								
+									sidebarState	: 0,
+								
+								
+									collapseUserInfo : 1,
+								
+								
+									signatureHiding : 1,
+								
+								isAdmin			: parseInt('0"')
+							}
+	};
+	
+	if(uix.stickyNavigationMaxWidth == 0){uix.stickyNavigationMaxWidth = 999999}
+	if(uix.stickyNavigationMaxHeight == 0){uix.stickyNavigationMaxHeight = 999999}
+	if(uix.stickyNavigationPortraitMaxWidth == 0){uix.stickyNavigationPortraitMaxWidth = 999999}
+	if(uix.stickyNavigationPortraitMaxHeight == 0){uix.stickyNavigationPortraitMaxHeight = 999999}
+	
+	
+	
+	
+	
+	$(document).ready(function(){
+	
+	//put jquery code here
+	
+
+});
+	
+	uix.debug = function() {
+		result = "\n\n############============   Begin Copying Here   ============############\n\n";
+		result += "Error: the functions file was not found.";
+		result += "\n\n############============   End Copying Here   ============############\n\n";
+
+		console.log(result);
+	}
+
+</script>
+<script src="js/audentio/uix_style/functions.min.js?_v=7fc0d7ef_1.5.7.0"></script>
+<script>
+	uix.adminJsError = function(errMsg) {
+		console.error(errMsg);
+		
+		
+	}
+	
+	uix.fixJsVisibility = function() {
+		var userBar = $('.hasJs #userBar');
+		var nodeList = $('.hasJs #forums, .hasJs .category_view .nodeList, .hasJs .watch_forums .nodeList');
+		var panels = $('.js-uix_panels')
+		if (userBar.length) userBar.css('display', 'block');
+		if (nodeList.length) nodeList.css('visibility', 'visible');
+		if (panels.length) $('.js-uix_panels').removeClass('needsInit');
+	}
+	
+	uix.catchJsError = function(err) {
+		console.log("\n\n############============   Begin Copying Here   ============############\n\n")
+		var errMsg = "Uh Oh!  It looks like there's an error in your page's javascript.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this and believe it is due to a bug in your Audentio Design theme, contact Audentio support and include a copy of the text between the designated areas from your javascript console.  This is the error: \n\n" + err ;
+		uix.fixJsVisibility();	
+		uix.adminJsError(errMsg);
+		console.log("\n\n");
+		console.log(err);
+		console.log("\n\n");
+		try {
+			uix.debug(true);
+		} catch (err) {
+			console.log("Unable to include uix.debug();");
+		}
+		
+		console.log("\n\n############============   End Copying Here   ============############\n\n");
+	}
+
+	$(document).ready(function(){
+		if (typeof(audentio) === 'undefined') {
+			var errMsg = 'Uh Oh!  It looks like the javascript for your theme was not found in /js/audentio/uix_style/.\n\n';
+			if (uix.jsGlobal) {
+				errMsg += 'Your forum is set to use the same javascript directory for all your themes.  Consider disabling this or modifying the directory.  Options are located under Options > [UI.X] General.\n\n'
+			} else {
+				errMsg += 'Your theme has set the location of its javascript directory.  You may need to modify the javascript directory location style property located under [UI.X] Global Settings > Javascript Path.\n\n'
+			}
+			errMsg += 'If your files are in the directory specified, ensure that your file permissions allow them to be read.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this, contact Audentio support.  This error has also been logged to the javascript console.';
+			
+			uix.fixJsVisibility();
+			
+			uix.adminJsError(errMsg);
+		} else if (uix.jsHeadVersion != uix.jsVersion) {
+			var errMsg = 'Uh Oh! It looks like the version of your javascript functions file does not match the version of your page_container_js_head template.  \n\nYour javascript functions file is version "' + uix.jsVersion + '". \nYour page_container_js_head is version "' + uix.jsHeadVersion + '".  \n\nIf your functions file version number is higher, ensure that you have merged all templates (especially page_container_js_head).  If your page_container_js_head version number is higher, ensure that you have correctly uploaded the latest version of the javascript functions file and that you have cleared anything that could cache an old version of the javascript (CDN / Cloudflare / etc.). \n\nThis issue could cause parts of your forum to not display or function correctly.  If this does not resolve the issue contact Audentio support.  This error has also been logged to the javascript console.';
+			uix.adminJsError(errMsg);
+		}
+	});
+</script>
+<script>
+	try {
+		uix.dateHelper.phrase = {
+			now: 'now',
+			second: 's',
+			minute: 'm',
+			hour: 'h',
+			day: 'd',
+			week: 'w',
+			year: 'y',
+			century: 'c',
+			ago: '{time} ago',
+			future: 'in {time}'
+		}
+		
+		
+		uix.sticky.stickyMinDist = parseInt('50');
+		
+		$(document).ready(function(){
+			try {
+				
+					audentio.grid.parse('{"default":{"maximum_columns":{"value":"6"},"minimum_column_width":{"value":"330"},"fill_last_row":{"value":"1"},"column_widths":{"value":"0"},"custom_column_widths":{"count":"","layouts":{"2":{"1":"","2":""},"3":{"1":"","2":"","3":""},"4":{"1":"","2":"","3":"","4":""},"5":{"1":"","2":"","3":"","4":"","5":""},"6":{"1":"","2":"","3":"","4":"","5":"","6":""}}},"separator":true},"category":{"maximum_columns":{"value":"1"},"minimum_column_width":{"value":""},"fill_last_row":{"value":"0"},"column_widths":{"value":"0"},"custom_column_widths":{"count":"","layouts":{"1":{"1":""}}},"separator":true}}');
+					
+
+audentio.grid.addSizeListener('global', 'audentio_grid_xs', 200, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_sm', 300, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_md', 400, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_lg', 600, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_xl', 10000, 0);
+
+audentio.grid.addSizeListener('global', 'below-xs', 200, 0);
+audentio.grid.addSizeListener('global', 'below-sm', 300, 0);
+audentio.grid.addSizeListener('global', 'below-md', 400, 0);
+audentio.grid.addSizeListener('global', 'below-lg', 600, 0);
+audentio.grid.addSizeListener('global', 'below-xl', 10000, 0);
+
+audentio.grid.addSizeListener('global', 'above-xs', 99999, 201);
+audentio.grid.addSizeListener('global', 'above-sm', 99999, 301);
+audentio.grid.addSizeListener('global', 'above-md', 99999, 401);
+audentio.grid.addSizeListener('global', 'above-lg', 99999, 601);
+audentio.grid.addSizeListener('global', 'above-xl', 99999, 10001);
+
+audentio.grid.addSizeListener('global', 'node--xs', 300, 0);
+audentio.grid.addSizeListener('global', 'node--sm', 400, 301);
+audentio.grid.addSizeListener('global', 'node--md', 600, 401);
+audentio.grid.addSizeListener('global', 'node--lg', 10000, 601);
+audentio.grid.addSizeListener('global', 'node--xl', 99999, 10001);
+				
+																				
+					audentio.pagination.enabled = true;
+					
+						audentio.grid.parentEle = 'navigation';
+					
+					audentio.pagination.outOfPhrase = '<span id="audentio_postPaginationCurrent" class="uix_postPagination_x"></span> / <span id="audentio_postPaginationTotal" class="uix_postPagination_y"></span>';
+					audentio.pagination.enterIndexPhrase = 'Enter Index';
+					audentio.pagination.offset = parseInt('0px');
+				
+				
+				uix.initFunc();
+			} catch (err) {
+				uix.catchJsError(err);
+			}
+		});
+	} catch (err) {
+		uix.catchJsError(err);
+	}
+</script>
+<script src="js/audentio/uix_style/backstretch.min.js?_v=7fc0d7ef_1.5.7.0"></script>
+<script>
+$(document).ready(function() {
+	var backstretchImages = ["styles/uix/uix/bg.jpg"];
+	function shuffle(array) {
+	  var m = array.length, t, i;
+	
+	  // While there remain elements to shuffle…
+	  while (m) {
+	
+	    // Pick a remaining element…
+	    i = Math.floor(Math.random() * m--);
+	
+	    // And swap it with the current element.
+	    t = array[m];
+	    array[m] = array[i];
+	    array[i] = t;
+	  }
+	
+	  return array;
+	}
+	backstretchImages = shuffle(backstretchImages);
+
+	$.backstretch(backstretchImages, {
+		fade: 500,
+		duration: 4000
+	});
+});
+</script>
+<link rel="apple-touch-icon" href="https://minesuperior.com/styles/default/xenforo/logo.og.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS feed for MineSuperior Community" href="forums/-/index.rss" />
+<link rel="next" href="articles/?page=2" /><link rel="canonical" href="https://minesuperior.com/" />
+<meta name="description" content="Community Forums  for the MineSuperior Minecraft Server" />
+<link rel="alternate" type="application/rss+xml" title="RSS feed for MineSuperior Community" href="portal/index.rss" />
+<meta property="og:site_name" content="MineSuperior Community" />
+<meta property="og:image" content="https://minesuperior.com/styles/default/xenforo/logo.og.png" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://minesuperior.com/" />
+<meta property="og:title" content="MineSuperior Community" />
+<meta name="theme-color" content="rgb(29, 158, 59)">
+</head>
+<body>
+<div id="loginBar">
+<div class="pageContent">
+<span class="helper"></span>
+</div>
+<div class="pageWidth">
+</div>
+</div>
+<div class="js-uix_panels uix_panels ">
+<aside class="js-sidePanelWrapper sidePanelWrapper  sidePanelWrapper--left">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="sidePanel sidePanel--nav">
+<nav>
+<ul class="sidePanel__navTabs">
+
+
+<li class="navTab portal selected">
+<a href="https://minesuperior.com/" class="navLink">Home</a>
+<a href="https://minesuperior.com/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="secondaryContent blockLinksList">
+<li><a href="recent-activity/">Recent Activity</a></li>
+<li><a href="find-new/threads">What's New?</a></li>
+<li><a href="help/">Help</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab forums ">
+<a href="https://minesuperior.com/forums/" class="navLink">Forums</a>
+<a href="https://minesuperior.com/forums/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="blockLinksList">
+<li><a href="search/?type=post">Search Forums</a></li>
+<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab xfx_staff ">
+<a href="XenStaff/" class="navLink">Staff</a>
+<a href="XenStaff/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="secondaryContent blockLinksList">
+<li><a href="XenStaff/#Senior Moderator">Senior Moderator</a></li>
+<li><a href="XenStaff/#Moderator">Moderator</a></li>
+<li><a href="XenStaff/#Junior Moderator">Junior Moderator</a></li>
+<li><a href="XenStaff/#Admin">Admin</a></li>
+<li><a href="XenStaff/#Owner">Owner</a></li>
+<li><a href="XenStaff/#Developer">Developer</a></li>
+<li><a href="XenStaff/#Manager">Manager</a></li>
+<li><a href="XenStaff/#Helper">Helper</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab members ">
+<a href="https://minesuperior.com/members/" class="navLink">Members</a>
+<a href="https://minesuperior.com/members/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="blockLinksList">
+<li><a href="members/">Notable Members</a></li>
+<li><a href="members/list">Registered Members</a></li>
+<li><a href="online/">Current Visitors</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab nodetab35 ">
+<a href="https://minesuperior.com/link-forums/bans.35/" class="navLink">Bans</a>
+</li>
+<li class="navTab nodetab46 ">
+<a href="https://minesuperior.com/link-forums/discord.46/" class="navLink">Discord</a>
+</li>
+<li class="navTab nodetab47 ">
+<a href="https://minesuperior.com/link-forums/rules.47/" class="navLink">Rules</a>
+</li>
+<li class="navTab nodetab36 ">
+<a href="https://minesuperior.com/link-forums/store.36/" class="navLink">Store</a>
+</li>
+<li class="navTab nodetab37 ">
+<a href="https://minesuperior.com/link-forums/vote.37/" class="navLink">Vote</a>
+</li>
+</ul>
+</nav>
+</div>
+</aside>
+<aside class="js-sidePanelWrapper sidePanelWrapper  sidePanelWrapper--right">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="sidePanel sidePanel--login">
+<form action="login/login" method="post" class="xenForm--uixLoginForm xenForm">
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_login">Your name or email address:</label></dt>
+<dd><input type="text" name="login" value="" id="ctrl_pageLogin_login" class="textCtrl uix_fixIOSClickInput" tabindex="1" /></dd>
+</dl>
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_password">Password:</label></dt>
+<dd>
+<input type="password" name="password" class="textCtrl uix_fixIOSClickInput" id="ctrl_pageLogin_password" tabindex="2" />
+<div><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="6">Forgot your password?</a></div>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dd>
+<input type="submit" class="button primary" value="Log in" data-loginPhrase="Log in" data-signupPhrase="Sign up" tabindex="4" />
+<label class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_pageLogin_remember" tabindex="3" /> Stay logged in</label>
+</dd>
+</dl>
+<input type="hidden" name="cookie_check" value="1" />
+<input type="hidden" name="_xfToken" value="" />
+<input type="hidden" name="redirect" value="/" />
+</form>
+</div>
+</aside>
+<div class="mainPanelWrapper">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+<div id="uix_wrapper">
+<div id="headerMover">
+<div id="headerProxy"></div>
+<header>
+<div id="header">
+<div id="logoBlock" class="header__blockItem ">
+<div class="pageWidth">
+<div class="pageContent">
+<div id="logo"><a href="https://minesuperior.com/">
+<span></span>
+<img src="styles/uix/uix/logo.png" alt="MineSuperior Community" />
+</a></div>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div id="navigation" class="header__blockItem withSearch ">
+<div class="sticky_wrapper">
+<div class="uix_navigationWrapper">
+<div class="pageWidth">
+<div class="pageContent">
+<nav>
+<div class="navTabs">
+<ul class="publicTabs navLeft">
+<li class="navTab  navTab--panelTrigger navTab--navPanelTrigger PopupClosed">
+<a class="navLink js-leftPanelTrigger" href="#">
+<i class="uix_icon uix_icon-menu"></i><span class="trigger__phrase">Menu</span>
+</a>
+</li>
+
+
+<li class="navTab portal selected">
+<a href="https://minesuperior.com/" class="navLink"><i class="uix_icon uix_icon-home" title="Home"></i></a>
+<a href="https://minesuperior.com/" class="SplitCtrl" rel="Menu"></a>
+<div class="tabLinks portalTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Home</h3>
+<div class="muted">Quick Links</div>
+</div>
+ <ul class="secondaryContent blockLinksList">
+<li><a href="recent-activity/">Recent Activity</a></li>
+<li><a href="find-new/threads">What's New?</a></li>
+<li><a href="help/">Help</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab forums Popup PopupControl PopupClosed">
+<a href="https://minesuperior.com/forums/" class="navLink">Forums</a>
+<a href="https://minesuperior.com/forums/" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu forumsTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Forums</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+<li><a href="search/?type=post">Search Forums</a></li>
+<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab members Popup PopupControl PopupClosed">
+<a href="https://minesuperior.com/members/" class="navLink">Members</a>
+<a href="https://minesuperior.com/members/" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu membersTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Members</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+<li><a href="members/">Notable Members</a></li>
+<li><a href="members/list">Registered Members</a></li>
+<li><a href="online/">Current Visitors</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab xfx_staff Popup PopupControl PopupClosed">
+<a href="XenStaff/" class="navLink">Staff</a>
+<a href="XenStaff/" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu xfx_staffTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Staff</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+<li><a href="XenStaff/#Senior Moderator">Senior Moderator</a></li>
+<li><a href="XenStaff/#Moderator">Moderator</a></li>
+<li><a href="XenStaff/#Junior Moderator">Junior Moderator</a></li>
+<li><a href="XenStaff/#Admin">Admin</a></li>
+<li><a href="XenStaff/#Owner">Owner</a></li>
+<li><a href="XenStaff/#Developer">Developer</a></li>
+<li><a href="XenStaff/#Manager">Manager</a></li>
+<li><a href="XenStaff/#Helper">Helper</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab nodetab35 PopupClosed">
+<a href="https://minesuperior.com/link-forums/bans.35/" class="navLink">Bans</a>
+</li>
+<li class="navTab nodetab46 PopupClosed">
+<a href="https://minesuperior.com/link-forums/discord.46/" class="navLink">Discord</a>
+</li>
+<li class="navTab nodetab47 PopupClosed">
+<a href="https://minesuperior.com/link-forums/rules.47/" class="navLink">Rules</a>
+</li>
+<li class="navTab nodetab36 PopupClosed">
+<a href="https://minesuperior.com/link-forums/store.36/" class="navLink">Store</a>
+</li>
+<li class="navTab nodetab37 PopupClosed">
+<a href="https://minesuperior.com/link-forums/vote.37/" class="navLink">Vote</a>
+</li>
+
+<li class="navTab navigationHiddenTabs navTab--justIcon Popup PopupControl PopupClosed" style="display:none">
+<a rel="Menu" class="navLink NoPopupGadget uix_dropdownDesktopMenu"><i class="uix_icon uix_icon-navOverflow"></i><span class="uix_hide menuIcon">Menu</span></a>
+<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+</li>
+
+</ul>
+<ul class="navRight visitorTabs">
+<li class="navTab login PopupClosed">
+<a href="login/" class="navLink uix_dropdownDesktopMenu OverlayTrigger" data-cacheOverlay="false">
+<strong class="loginText">Log in</strong>
+</a>
+</li>
+<li class="navTab register PopupClosed">
+<a href="register/" class="navLink">
+<strong>Sign up</strong>
+</a>
+</li>
+<li class="navTab uix_searchTab">
+<div id="searchBar" class="hasSearchButton">
+<i id="QuickSearchPlaceholder" class="uix_icon uix_icon-search" title="Search"></i>
+<fieldset id="QuickSearch">
+<form action="search/search" method="post" class="formPopup">
+<div class="primaryControls">
+
+<i class="uix_icon uix_icon-search" onclick='$("#QuickSearch form").submit()'></i>
+<input type="search" name="keywords" value="" class="textCtrl" placeholder="Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />
+
+</div>
+<div class="secondaryControls">
+<div class="controlsWrapper">
+
+<dl class="ctrlUnit">
+<dt></dt>
+<dd><ul>
+<li><label><input type="checkbox" name="title_only" value="1" id="search_bar_title_only" class="AutoChecker" data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+</ul></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_users">Posted by Member:</label></dt>
+<dd>
+<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+<p class="explain">Separate names with a comma.</p>
+</dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_date">Newer Than:</label></dt>
+<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+</dl>
+</div>
+
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+<div class="Popup" id="commonSearches">
+<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+<div class="Menu">
+<div class="primaryContent menuHeader">
+<h3>Useful Searches</h3>
+</div>
+<ul class="secondaryContent blockLinksList">
+
+<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+
+</ul>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</fieldset>
+</div>
+</li>
+</ul>
+<div id="uix_searchMinimal">
+<form action="search/search" method="post">
+<i id="uix_searchMinimalClose" class="uix_icon uix_icon-close" title="Close"></i>
+<i id="uix_searchMinimalOptions" class="uix_icon uix_icon-cog" title="Options"></i>
+<div id="uix_searchMinimalInput">
+<input type="search" name="keywords" value="" placeholder="Search..." results="0" />
+</div>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</div>
+</div>
+<span class="helper"></span>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="content" class="EWRporta_Portal">
+<div class="pageWidth">
+<div class="pageContent">
+
+<div id="uix_welcomeBlock" class="">
+<span class="uix_welcomeBlock__icon"><i class="uix_icon fa fa-info-circle"></i></span>
+<a href="#" class="close"><i class="uix_icon uix_icon-close"></i></a>
+<div class="uix_welcomeBlock__content">
+<h3 class="uix_welcomeBlock__header">Welcome to MineSuperior!</h3>
+<p class="uix_welcomeBlock__message">Hi there, and welcome to the MineSuperior community! In order to participate, you are required to register. To do so, please click the "Sign Up" button below. Doing so will grant you the ability to create discussions, post replies, create polls, share your game experience and much more!</p>
+<div class="uix_welcomeBlock__button"><a href="index.php?register" class="signupButton"><span>Sign Up</span></a></div>
+</div>
+</div>
+<div class="uix_contentFix">
+<div class="mainContainer">
+<div class="mainContent">
+<!--[if lt IE 8]>
+							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+						<![endif]-->
+
+<div class="sidebar topRightBlocks ">
+<div id="recentNews">
+<div class="section sectionMain recentNews" id="62736">
+<div class="primaryContent leftDate">
+<div class="subHeading">
+<div style="float: right; white-space: nowrap;">
+<a href="threads/factions-mystic-were-back-season-xxx-detailed.62736/"><span class="DateTime" title="Jan 8, 2022 at 4:33 AM">Jan 8, 2022</span></a>
+</div>
+<h2><a href="threads/factions-mystic-were-back-season-xxx-detailed.62736/" class="newsTitle"><span class="prefix prefixRed">Important</span> Factions Mystic: We&#039;re back! Season XXX detailed</a></h2>
+</div>
+<div class="newsDate secondaryContent">
+<div class="newsMonth heading">Jan</div>
+<div class="newsDay">08</div>
+</div>
+<div class="messageUserBlock">
+<div class="avatarHolder">
+<a href="threads/factions-mystic-were-back-season-xxx-detailed.62736/"><img src="https://lh5.googleusercontent.com/OkoSiqBq3kjTMBeVj2J2L_c8v5uXXjHXGeoQKut-GJQWo9CvbA0mgg-1xYlNnoQh2KkWgxmItBCxu6Pi6FIISM_3hIFevP0Q3WwnK63It76xMG7lhEcX-UGH8rdxOwd2UcAMA5Wi" alt="https://lh5.googleusercontent.com/OkoSiqBq3kjTMBeVj2J2L_c8v5uXXjHXGeoQKut-GJQWo9CvbA0mgg-1xYlNnoQh2KkWgxmItBCxu6Pi6FIISM_3hIFevP0Q3WwnK63It76xMG7lhEcX-UGH8rdxOwd2UcAMA5Wi" style="max-height: 150px; max-width: 150px;" /></a>
+</div>
+</div>
+<div class="messageContent baseHtml">
+<div class="postedBy">
+<span class="posted iconKey"><div class="sticky"></div>by <a href="members/titanicfreak.3/" class="username">TitanicFreak</a> at <a href="threads/factions-mystic-were-back-season-xxx-detailed.62736/">4:33 AM</a></span>
+<span class="views">(838 Views / 0 Likes)</span>
+<span class="comments iconKey"><div class="new"></div><a href="threads/factions-mystic-were-back-season-xxx-detailed.62736/unread">17 Comments</a></span>
+</div>
+<div class="newsText"><div style="text-align: center"><br />
+<br />
+<img src="proxy.php?image=https%3A%2F%2Flh3.googleusercontent.com%2FQ9qoV4F5E0l-MY2EC0yxahScAHxwWqImzAjNq3fwW17NQ2trIL5s89Q6NqnYgj2EbCInfzDUKMKMDageKYL76dDH0v2HsiCMDWeY6zTKVX4ZZVBZ8JwH9tzpQr3Jh_qYxqN71Mka&amp;hash=3235a41649b976ab1b14c2a14a24f96c" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="https://lh3.googleusercontent.com/Q9qoV4F5E0l-MY2EC0yxahScAHxwWqImzAjNq3fwW17NQ2trIL5s89Q6NqnYgj2EbCInfzDUKMKMDageKYL76dDH0v2HsiCMDWeY6zTKVX4ZZVBZ8JwH9tzpQr3Jh_qYxqN71Mka" /><br />
+<br />
+<img src="proxy.php?image=https%3A%2F%2Flh5.googleusercontent.com%2F_RhikbtnWeDOoUGt9Nen1J71dF5gRDhkESfL6W649_7mHPzur98TSHGkAkXHwp--qw4ZS97aef56RE58dIIkJ5IiXeR21lz300m9wWOt2rwizgEyjP4UH1Y0m8GWdXOwIs2AhK9j&amp;hash=c0ae3af4e5c2d2a25aed5a87d3c15003" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="https://lh5.googleusercontent.com/_RhikbtnWeDOoUGt9Nen1J71dF5gRDhkESfL6W649_7mHPzur98TSHGkAkXHwp--qw4ZS97aef56RE58dIIkJ5IiXeR21lz300m9wWOt2rwizgEyjP4UH1Y0m8GWdXOwIs2AhK9j" />&#8203;</div><br />
+Good afternoon MineSuperior Community!<br />
+<br />
+It has been a long time since we’ve talked about Factions, why’s that? To be honest we have been going through several months of planning on figuring out how to make Factions work in the EULA compliant era. We’ve had several people in our management team investigate the possibility of utilizing resource packs to introduce better cosmetics for the server, moving the store ingame to help us be more flexible with our packages, as well as looking into systems to reward returning players and supporters alike just to name a few examples..<br />
+<br />
+All of this research was needed...</div>
+<div class="clearFix"></div>
+</div>
+<div class="sectionFooter">
+<div class="categories">
+<ul>
+</ul>
+</div>
+<div class="continue">
+<a class="iconKey button" href="threads/factions-mystic-were-back-season-xxx-detailed.62736/">
+<div class="redirect"></div>
+Continue reading...
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section sectionMain recentNews" id="62665">
+<div class="primaryContent leftDate">
+<div class="subHeading">
+<div style="float: right; white-space: nowrap;">
+<a href="threads/staff-update-december.62665/"><span class="DateTime" title="Jan 1, 2022 at 3:17 PM">Jan 1, 2022</span></a>
+</div>
+<h2><a href="threads/staff-update-december.62665/" class="newsTitle"><span class="prefix prefixYellow">Updates</span> Staff Update - December</a></h2>
+</div>
+<div class="newsDate secondaryContent">
+<div class="newsMonth heading">Jan</div>
+<div class="newsDay">01</div>
+</div>
+<div class="messageUserBlock">
+<div class="avatarHolder">
+<a href="members/_jtg.32581/" class="avatar Av32581m" itemprop="photo" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/32/32581.jpg?1603798577')"></span></a>
+</div>
+</div>
+<div class="messageContent baseHtml">
+<div class="postedBy">
+<span class="posted iconKey"><div class="sticky"></div>by <a href="members/_jtg.32581/" class="username">_JTG</a> at <a href="threads/staff-update-december.62665/">3:17 PM</a></span>
+<span class="views">(329 Views / 0 Likes)</span>
+<span class="comments iconKey"><div class="new"></div><a href="threads/staff-update-december.62665/unread">5 Comments</a></span>
+</div>
+<div class="newsText"><div style="text-align: center"><b>»»——————- ✧ ——————-««<br />
+<br />
+<b><span style="font-size: 22px"><span style="color: rgb(89, 179, 0)">Mine</span><span style="color: rgb(191, 191, 191)">Superior</span> Staff Update</span></b></b><br />
+<span style="font-size: 22px"><b>December</b></span><br />
+<br />
+<b>»»——————- ✧ ——————-««</b><br />
+<br />
+<b>Hired</b><br />
+<b>________________________________________<br />
+<br />
+Re-Hired</b><br />
+<a href="https://minesuperior.com/members/74179/" class="username" data-user="74179, @mxffen">@mxffen</a><br />
+<b>________________________________________</b><br />
+<br />
+<b>Promoted</b><br />
+<a href="https://minesuperior.com/members/121619/" class="username" data-user="121619, @TitanGod_">@TitanGod_</a> (Jr.Mod → Moderator)<br />
+<a href="https://minesuperior.com/members/123315/" class="username" data-user="123315, @Ph4nt0m_Spryth">@Ph4nt0m_Spryth</a> (Helper → Jr.Mod)<br />
+<a href="https://minesuperior.com/members/64135/" class="username" data-user="64135, @AjMac">@AjMac</a> (Moderator → Sr.Mod)<br />
+<a href="https://minesuperior.com/members/109462/" class="username" data-user="109462, @Eilene">@Eilene</a> (Moderator → Sr.Mod)<br />
+<a href="https://minesuperior.com/members/43622/" class="username" data-user="43622, @fromggie">@fromggie</a> (Moderator → Sr.Mod)<br />
+<b>________________________________________<br />
+<br />
+Demoted</b><br />
+<a href="https://minesuperior.com/members/111931/" class="username" data-user="111931, @dylan23430">@dylan23430</a><br />
+<b>________________________________________</b><br />
+<br />
+<b>Resigned</b><br />
+<a href="https://minesuperior.com/members/915/" class="username" data-user="915, @TemChan">@TemChan</a><br />
+<a href="https://minesuperior.com/members/92850/" class="username" data-user="92850, @xXGoldenStrikeXx">@xXGoldenStrikeXx</a><br />
+<b>________________________________________<br />
+<br />
+Current Judges</b><br />
+<a href="https://minesuperior.com/members/38186/" class="username" data-user="38186, @Vexmae">@Vexmae</a><br />
+<a href="https://minesuperior.com/members/32581/" class="username" data-user="32581, @_JTG">@_JTG</a><br />
+<a href="https://minesuperior.com/members/39029/" class="username" data-user="39029, @Nfronz95">@Nfronz95</a>...&#8203;</div></div>
+<div class="clearFix"></div>
+</div>
+<div class="sectionFooter">
+<div class="categories">
+<ul>
+</ul>
+</div>
+<div class="continue">
+<a class="iconKey button" href="threads/staff-update-december.62665/">
+<div class="redirect"></div>
+Continue reading...
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section sectionMain recentNews" id="62642">
+<div class="primaryContent leftDate">
+<div class="subHeading">
+<div style="float: right; white-space: nowrap;">
+<a href="threads/kitpvp-update.62642/"><span class="DateTime" title="Dec 31, 2021 at 7:24 PM">Dec 31, 2021</span></a>
+</div>
+<h2><a href="threads/kitpvp-update.62642/" class="newsTitle"><span class="prefix prefixRed">Important</span> KitPvP Update</a></h2>
+</div>
+<div class="newsDate secondaryContent">
+<div class="newsMonth heading">Dec</div>
+<div class="newsDay">31</div>
+</div>
+<div class="messageUserBlock">
+<div class="avatarHolder">
+<a href="threads/kitpvp-update.62642/"><img src="https://minesuperior.com/proxy.php?image=https%3A%2F%2Flh3.googleusercontent.com%2FrAfccVt7PB9Haqg6wZ5IVb714hUA_BJ2mjmJDyHSpZExDuMF6u_2JvYS0JQ8brkJK4WmGCTM6-QQnr_kv_TU4YTHolPqL64CRDJ6kW4AGOEeMiBwURHK5FIN8Evue712aObEJZRm&amp;hash=5f86aba93de13c10d91ecf22f15cf951" alt="https://minesuperior.com/proxy.php?image=https%3A%2F%2Flh3.googleusercontent.com%2FrAfccVt7PB9Haqg6wZ5IVb714hUA_BJ2mjmJDyHSpZExDuMF6u_2JvYS0JQ8brkJK4WmGCTM6-QQnr_kv_TU4YTHolPqL64CRDJ6kW4AGOEeMiBwURHK5FIN8Evue712aObEJZRm&amp;hash=5f86aba93de13c10d91ecf22f15cf951" style="max-height: 150px; max-width: 150px;" /></a>
+ </div>
+</div>
+<div class="messageContent baseHtml">
+<div class="postedBy">
+<span class="posted iconKey"><div class="sticky"></div>by <a href="members/xaxv.68912/" class="username">xAxv</a> at <a href="threads/kitpvp-update.62642/">7:24 PM</a></span>
+<span class="views">(449 Views / 0 Likes)</span>
+<span class="comments iconKey"><div class="new"></div><a href="threads/kitpvp-update.62642/unread">13 Comments</a></span>
+</div>
+<div class="newsText"><div style="text-align: center"><br />
+<img src="https://minesuperior.com/proxy.php?image=https%3A%2F%2Flh5.googleusercontent.com%2F3V_j2SqMdLolVupAz8ZpSjwm49Qj0_zXlZuFpyG4x57vglGzJgg_g5PPNlYSH7YR-R_6unvqf6gKFVH2uvYorHOj38WqUkOroOXpAqFPYX1lytF0DkCiRcA0iAkq5Gzs_R0DrHku&amp;hash=67f91e82b432241bad10c2c93d309f57" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="https://minesuperior.com/proxy.php?image=https%3A%2F%2Flh5.googleusercontent.com%2F3V_j2SqMdLolVupAz8ZpSjwm49Qj0_zXlZuFpyG4x57vglGzJgg_g5PPNlYSH7YR-R_6unvqf6gKFVH2uvYorHOj38WqUkOroOXpAqFPYX1lytF0DkCiRcA0iAkq5Gzs_R0DrHku&amp;hash=67f91e82b432241bad10c2c93d309f57" /><br />
+<img src="https://minesuperior.com/proxy.php?image=https%3A%2F%2Fcdn.reactivecore.org%2F77ZBarEnjxPeVBtSpcEqUwZZ%2Foverview.png&amp;hash=21dcc6d11056a242358aa976dc6d3039" class="bbCodeImage LbImage" alt="[&#x200B;IMG]" data-url="https://minesuperior.com/proxy.php?image=https%3A%2F%2Fcdn.reactivecore.org%2F77ZBarEnjxPeVBtSpcEqUwZZ%2Foverview.png&amp;hash=21dcc6d11056a242358aa976dc6d3039" />&#8203;</div><br />
+Good morning MineSuperior community!<br />
+<br />
+Today I am finally able to show off the beginning of an updated KitPvP server. I understand this update has been promised frequently over the past few months/years and I am glad to finally implement some of the changes that have been asked for. I&#039;d like to apologise for the time it has taken for kit to receive a partial-revamp but I hope that this will be the beginning of many changes for KitPvP over the next few months.<br />
+<br />
+Now it is time to explain the changes that KitPvP will receive later today....</div>
+<div class="clearFix"></div>
+</div>
+<div class="sectionFooter">
+<div class="categories">
+<ul>
+</ul>
+</div>
+<div class="continue">
+<a class="iconKey button" href="threads/kitpvp-update.62642/">
+<div class="redirect"></div>
+Continue reading...
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section sectionMain">
+<div class="PageNav" data-page="1" data-range="2" data-start="2" data-end="6" data-last="67" data-sentinel="{{sentinel}}" data-baseurl="articles/?page=%7B%7Bsentinel%7D%7D">
+<span class="pageNavHeader">Page 1 of 67</span>
+<nav>
+<a href="articles/" class="currentPage " rel="start">1</a>
+<a class="PageNavPrev hidden">&larr;</a> <span class="scrollable"><span class="items">
+<a href="articles/?page=2" class="">2</a>
+<a href="articles/?page=3" class="">3</a>
+<a href="articles/?page=4" class="">4</a>
+<a href="articles/?page=5" class="">5</a>
+<a href="articles/?page=6" class="">6</a>
+</span></span> <a class="PageNavNext ">&rarr;</a>
+<a href="articles/?page=67" class="">67</a>
+<a href="articles/?page=2" class="text">Next &gt;</a>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="portaCopy copyright muted">
+<a href="https://xenforo.com/community/resources/90/">XenPorta</a>
+&copy; Jason Axelrod from <a href="http://8wayrun.com/">8WAYRUN.COM</a>
+</div>
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+<div class="ctrlWrapper">
+<dl class="ctrlUnit">
+<dt><label for="LoginControl">Your name or email address:</label></dt>
+<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt>
+<label for="ctrl_password">Do you already have an account?</label>
+</dt>
+<dd>
+<ul>
+<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+No, create an account now.</label></li>
+<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+Yes, my password is:</label></li>
+<li id="ctrl_registered_Disabler">
+<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a></div>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="cookie_check" value="1" />
+<input type="hidden" name="redirect" value="/" />
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</div>
+</div>
+
+<aside class="uix_mainSidebar">
+<div class="inner_wrapper">
+<div class="sidebar">
+<div class="section loginButton">
+<div class="secondaryContent">
+<label id="SignupButton"><a href="login/" class="inner OverlayTrigger" data-cacheOverlay="false">Sign up now!</a></label>
+</div>
+</div>
+<div class="section">
+<div class="secondaryContent" id="twitter">
+<h3>Twitter Feed</h3>
+<a class="twitter-timeline" href="https://twitter.com" height="250" data-dnt="true" data-theme="light" data-widget-id="723630179088760834" data-related="MineSuperior" data-chrome="noheader nofooter noborders transparent">
+Twitter Feed
+</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+
+
+
+<div class="section membersOnline userList">
+<div class="secondaryContent">
+<h3><a href="online/" title="See all online users">Members Online Now</a></h3>
+<ol class="listInline">
+<li>
+<a href="members/doctordungeon.125918/" dir="auto" class="username">doctordungeon</a>
+</li>
+</ol>
+<div class="footnote">
+Total: 57 (members: 1, guests: 46, robots: 10)
+</div>
+</div>
+</div>
+
+<div class="section">
+<div class="secondaryContent statsList" id="boardStats">
+<h3>Forum Statistics</h3>
+<div class="pairsJustified">
+<dl class="discussionCount"><dt>Discussions:</dt>
+<dd>49,454</dd></dl>
+<dl class="messageCount"><dt>Messages:</dt>
+<dd>194,927</dd></dl>
+<dl class="memberCount"><dt>Members:</dt>
+<dd>82,732</dd></dl>
+<dl class="mostCount"><dt>User Record:</dt>
+<dd class="Tooltip" title="Apr 2, 2020">3,895</dd></dl>
+<dl><dt>Latest Member:</dt>
+<dd><a href="members/cody-nichols.126169/" class="username" dir="auto" text="rich">cody nichols</a></dd></dl>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="footer">
+<div class="pageWidth">
+<div class="pageContent">
+<dl class="choosers chooser_widthToggle">
+<dt>Toggle Width</dt>
+<dd><a href="javascript: uix.toggleWidth.toggle()" class='Tooltip' title="Toggle Width" rel="nofollow"><span class="uix_icon js-widthIcon uix_icon-expandWidth"></span></a></dd>
+</dl>
+<ul class="footerLinks">
+<li><a href="https://minesuperior.com/" class="homeLink">Home</a></li>
+<li><a href="misc/contact" class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}">Contact Us</a></li>
+<li><a href="help/">Help</a></li>
+<li><a href="help/terms">Terms and Rules</a></li>
+<li><a href="">Privacy Policy</a></li>
+<li class="topLink"><a href="/#XenForo"><i class="uix_icon uix_icon-jumpToTop"></i> <span class="uix_hide">Top</span></a></li>
+</ul>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div id="uix_stickyFooterSpacer"></div>
+<div class="footerLegal">
+<div class="pageWidth">
+<div class="pageContent">
+<ul class="uix_socialMediaLinks">
+<li class="uix_socialLink uix_socialLink--twitter"><a href="https://twitter.com/MineSuperior" target="_blank"><i class="uix_icon uix_icon-twitter"></i></a></li>
+
+<li class="uix_socialLink uix_socialLink--rss"><a href="forums/-/index.rss" rel="alternate}" target="_blank"><i class="uix_icon uix_icon-rss"></i></a></li>
+</ul>
+<div id="copyright">
+<a href="https://xenforo.com" class="concealed" target="_blank">Forum software by XenForo<sup>&reg;</sup> <span>&copy; 2010-2019 XenForo Ltd.</span></a>
+
+<div id="WMTBRANDCR"><style>@media (max-width:480px){.Responsive #WMTBRANDCR span{display: none;}}</style><a href="http://wmtech.net/" target="wmtech" class="concealed" title="XenForo Quality Add-Ons by WMTech">Quality Add-Ons by WMTech <span> &copy; 2018 WebMachine Technologies, Inc.</span></a></div>
+
+<div class="adCopyrightNoticeStyle">Theme designed by <a href="https://www.audentio.com/shop/xenforo-themes" title="Premium XenForo Themes" rel="nofollow" target="_blank">Audentio Design</a>.</div>
+</div>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div id="uix_jumpToFixed">
+<a href="#XenForo" title="Top" data-position="top"><i class="uix_icon uix_icon-jumpToTop"></i></a>
+<a href="#XenForo" title="Bottom" data-position="bottom"><i class="uix_icon uix_icon-jumpToBottom"></i></a>
+</div>
+</footer>
+<div class="bottomFixer">
+</div>
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1642326047,
+		today: 1642291200,
+		todayDow: 0
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "0.5",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 100,
+		closeSpeed: 50,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 100,
+			closeSpeed: 50
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"nat_public_css":true,"EWRporta":true,"message_user_info":true,"bb_code":true,"EWRblock_RecentNews":true,"login_bar":true,"moderator_bar":true,"uix_welcomeBlock":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "7fc0d7ef",
+	_noRtnProtect: false,
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+
+
+
+
+
+
+
+
+
+
+	$('.navTabs .navTab.nodetab36 > a.navLink').attr('target', '_blank');
+
+
+
+
+
+
+</script>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://minesuperior.com/",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://minesuperior.com/search/search?keywords={search_keywords}",
+		"query-input": "required name=search_keywords"
+	}
+}
+</script>
+</div>
+<div class="uix_wrapperFix" style="height: 1px; margin-top: -1px;"></div>
+</div>
+</div>
+<script>
+
+</script>
+
+</body>
+</html>

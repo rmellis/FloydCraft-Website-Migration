@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Adventure Parkour</title>
+<link>https://cdn.floydcraft.co.uk/forum/forum/adventure-parkour/</link>
+<description>Help with the Adventure Parkour Minigame</description>
+<language>en</language>
+<lastBuildDate>Sun, 16 Jan 2022 09:59:29 +0000</lastBuildDate>
+<generator>Asgaros Forum</generator>
+<ttl>60</ttl>
+<atom:link href="https://cdn.floydcraft.co.uk/forum/forum/adventure-parkour/?showfeed=rss2" rel="self" type="application/rss+xml" />
+</channel>
+</rss>

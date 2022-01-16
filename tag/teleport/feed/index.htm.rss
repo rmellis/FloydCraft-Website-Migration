@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Teleport | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/teleport/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:58:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Teleport | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WildTP</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/wildtp/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/wildtp/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:58:17 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[/rtp]]></category>
+		<category><![CDATA[r teleport]]></category>
+		<category><![CDATA[random teleport]]></category>
+		<category><![CDATA[random tp]]></category>
+		<category><![CDATA[Teleport]]></category>
+		<category><![CDATA[TP]]></category>
+		<category><![CDATA[Wild Teleport]]></category>
+		<category><![CDATA[Wild TP]]></category>
+		<category><![CDATA[Wilderness]]></category>
+		<category><![CDATA[WildTP]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3431</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/wildtp.11653/#:~:text=WildTP%20is%20a%20plugin%20where,pvp%20teleporting%2C%20if%20you%20desire. We use this plugin to allow players to teleport to a random location in specified worlds, this makes it easy to find somewhere to build out of the way and fast. WildTP is a plugin where you can use a command to tp to a random location, always on a block so there&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/wildtp/">WildTP</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/wildtp.11653/#:~:text=WildTP%20is%20a%20plugin%20where,pvp%20teleporting%2C%20if%20you%20desire." target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/wildtp.11653/#:~:text=WildTP%20is%20a%20plugin%20where,pvp%20teleporting%2C%20if%20you%20desire.</span></span></a></p>
+<blockquote><p>We use this plugin to allow players to teleport to a random location in specified worlds, this makes it easy to find somewhere to build out of the way and fast.</p></blockquote>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/2710cd95defc2d5e78402659525245b40acd44b6?url=https%3A%2F%2Fimages.cooltext.com%2F5026301.png" alt="[​IMG]" data-url="https://images.cooltext.com/5026301.png" /><br />
+WildTP is a plugin where you can use a command to tp to a random location, always on a block so there is no fall damage. You can set a Minimum and Maximum X and Z cords. Also has a teleport timer that prevents pvp teleporting, if you desire.</p>
+<p>Contains support for Factions + MassiveCore and FactionsUUID</p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Config.yml</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><code>###########################################</code><br />
+<code># #</code><br />
+<code># Plugin made by Creeperzombi3 #</code><br />
+<code># #</code><br />
+<code># Configuration file for WildTP #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code>###########################################</code><br />
+<code># #</code><br />
+<code># Factions Configurations #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code>factions:</code><br />
+<code># Choose whether to integrate factions</code><br />
+<code>enabled: false</code></p>
+<p><code># Pick which factions land is safe to teleport in</code><br />
+<code>wilderness: true</code><br />
+<code>safezone: false</code><br />
+<code>warzone: true</code><br />
+<code>neutral: true</code><br />
+<code>ally: true</code><br />
+<code>enemy: false</code></p>
+<p><code>###########################################</code><br />
+<code># #</code><br />
+<code># World Teleportation Configurations #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code># There is 2 options for world teleportation</code><br />
+<code># Option 1: You use the command and teleport to a certain world</code><br />
+<code># Option 2: You can use it in multiple worlds and randomly teleport in each</code></p>
+<p><code>world-teleportation:</code><br />
+<code># Set to true for Option 1 and false for Option 2</code><br />
+<code>option-1: true</code></p>
+<p><code># Option 1: The world where players will be teleported</code><br />
+<code>teleport-world: world</code></p>
+<p><code># Option 2: Which worlds the command is allowed in</code><br />
+<code># Nether is currently not supported</code><br />
+<code>command-worlds:</code><br />
+<code>- 'world'</code><br />
+<code>- 'world_the_end'</code></p>
+<p><code>###########################################</code><br />
+<code># #</code><br />
+<code># Teleportation Configurations #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code>teleportation:</code><br />
+<code># How long players wait before they are teleported in seconds</code><br />
+<code>delay: 5</code></p>
+<p><code># How long players have to wait before using the command again in seconds</code><br />
+<code>cooldown: 30</code></p>
+<p><code># Enable this to make it so people don't teleport in water</code><br />
+<code>no-teleport-in-water: false</code></p>
+<p><code># Min and Max for how far players teleport</code><br />
+<code>minimum-x: -1000</code><br />
+<code>minimum-z: -1000</code><br />
+<code>maximum-x: 1000</code><br />
+<code>maximum-z: 1000</code></p>
+<p><code>###########################################</code><br />
+<code># #</code><br />
+<code># Other Configurations #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code># What you want the sign to say for them to teleport</code><br />
+<code># Colors don't matter and only the first line will be matched</code><br />
+<code>sign-text: '[Wild]'</code></p>
+<p><code># How %cords% is going to look in the teleport message</code><br />
+<code>cords-format: '&amp;3X: &amp;9%x%, &amp;3Y: &amp;9%y%, &amp;3Z: &amp;9%z%'</code></p>
+<p><code>###########################################</code><br />
+<code># #</code><br />
+<code># WildTP Messages #</code><br />
+<code># #</code><br />
+<code>###########################################</code></p>
+<p><code>messages:</code><br />
+<code>disabled-world: '&amp;bWild&amp;aTP &amp;7» &amp;5The world you are in does not allow that command.'</code><br />
+<code>teleport-cancelled: '&amp;bWild&amp;aTP &amp;7» &amp;9Teleporting canceled because you moved.'</code><br />
+<code>no-permission: '&amp;bWild&amp;aTP &amp;7» &amp;4You do not have permission for that!'</code><br />
+<code>reloaded: '&amp;bWild&amp;aTP &amp;7» &amp;7Reload complete!'</code></p>
+<p><code># Use %time% for how long players have to wait</code><br />
+<code>teleporting: '&amp;bWild&amp;aTP &amp;7» &amp;9Teleporting to random location. Please wait &amp;e%time% &amp;9seconds.'</code></p>
+<p><code># Use %cords% to display the X, Y, and Z you decided previously in this file</code><br />
+<code># %world% displays which world the player teleported in</code><br />
+<code># %blocksaway% is how many blocks away from the original location the new location is</code><br />
+<code>teleported: '&amp;bWild&amp;aTP &amp;7» &amp;aYou were teleported to %cords%, &amp;6%blocksaway% &amp;ablocks away in &amp;6%world%!'</code></p>
+<p><code># %timeleft% is how much time the player is in cooldown for</code><br />
+<code>in-cooldown: '&amp;bWild&amp;aTP &amp;7» &amp;bYou are currently in cooldown for %timeleft%!'</code></div>
+</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b1af54975b9b353203404ecd2df50559a3ee52db?url=https%3A%2F%2Fimages.cooltext.com%2F5026306.png" alt="[​IMG]" data-url="https://images.cooltext.com/5026306.png" /><br />
+Absolutely none!</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/fe324c67571337d8494b8a6f4663713707708313?url=https%3A%2F%2Fimages.cooltext.com%2F5026307.png" alt="[​IMG]" data-url="https://images.cooltext.com/5026307.png" /><br />
+wildtp.wild &#8211; Ability to use /wild<br />
+wildtp.bypass &#8211; Bypass the teleport delay<br />
+wildtp.reload &#8211; Access to /wild reload<br />
+wildtp.clear &#8211; Access to /wild clear<br />
+wildtp.debug &#8211; Access to /wild debug</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8ce958f3841e4983f5564e0a990df650e8f8ec5b?url=https%3A%2F%2Fimages.cooltext.com%2F5026308.png" alt="[​IMG]" data-url="https://images.cooltext.com/5026308.png" /><br />
+/wild | wilderness &#8211; Teleport to a wild area between the cords set in config<br />
+/wild reload &#8211; Reload the config<br />
+/wild clear &#8211; Clear the delays for everyone<br />
+/wild debug &#8211; Show debug information about the plugin</p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/aa34c5b6de99102203f8d612563f92ee0ac73cf9?url=https%3A%2F%2Fimages.cooltext.com%2F5026309.png" alt="[​IMG]" data-url="https://images.cooltext.com/5026309.png" /><br />
+<a class="internalLink" href="https://www.spigotmc.org/resources/wildtp.11653/updates" target="_blank" rel="noopener">https://www.spigotmc.org/resources/wildtp.11653/updates</a><br />
+<b><br />
+More to come! I would love to hear your suggestions.</b></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/wildtp/">WildTP</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/wildtp/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

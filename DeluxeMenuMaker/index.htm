@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DeluxeMenus Maker</title>
+		<meta name="description" content="Create Custom Menus Online (DeluxeMenus)">
+		<meta name="image" content="https://avatars1.githubusercontent.com/u/37001286?s=200&v=4">
+		<meta itemprop="name" content="DeluxeMenus Menu Creator">
+		<meta itemprop="description" content="Create Custom Menus Online (DeluxeMenus)">
+		<meta name="og:title" content="DeluxeMenus Menu Creator">
+		<meta name="og:description" content="Create Custom Menus Online (DeluxeMenus)">
+		<meta name="og:image" content="https://avatars1.githubusercontent.com/u/37001286?s=200&v=4">
+		<meta name="og:url" content="https://placeholderapi.github.io/DeluxeMenuMaker/">
+		<meta name="og:site_name" content="DeluxeMenus Menu Creator">
+		<meta name="og:locale" content="en_US">
+		<meta name="og:type" content="website">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/introjs.min.css">
+		<link rel="stylesheet" href="assets/css/style.css" media="screen">
+        <link rel="shortcut icon" type="image/png" href="assets/favicon_1.ico"/>
+	</head>
+	<body>
+		<div class="overlay">
+			<h2>DeluxeMenuMaker does not currently support mobile devices.</h2>
+		</div>
+		
+<pre><code>menu_title: '<span id="menu-title">&bAwesome Menu</span>'
+open_command: <span id="menu-open-command">menu</span>
+size: <span id="menu-size">9</span>
+update_interval: <span id="menu-update-interval">1</span>
+open_requirement:
+  requirements:
+    <span id="menu-requirement-name">anythinghere</span>:
+      type: <span id="menu-type"></span>
+	  deny_commands: <span id="deny-commands">[]</span>
+      <span id="input-1">input:</span> '<span id="input-1-info"></span>'
+      <span id="output-1">output:</span> <span id="output-1-info"></span>
+items: <span class="items"><span id="1">
+  '<span id="item-1-name">1</span>':
+    material: <span id="item-1-material">IRON_SWORD</span>
+    data: <span id ="item-1-data">0</span>
+    amount: <span id="item-1-amount">1</span>
+    slot: <span id="item-1-slot">1</span>
+    priority: <span id="item-1-priority">1</span>
+    display_name: '<span id="item-1-display-name">&fIron Sword</span>'
+    lore: <span id="item-1-lore">[]</span>
+    left_click_commands: <span id="item-1-left-click-commands">[]</span>
+    right_click_commands: <span id="item-1-right-click-commands">[]</span>
+    update: <span id="item-1-update">true</span></span></span>
+		</code></pre>
+	
+		<div id="output"></div>
+		
+		<div id="input">
+			<div class="head">
+				<button class="btn btn-primary" onclick="javascript:introJs().start();">Tutorial</button>
+				<button class="btn btn-primary toggle" data-toggle="menu" data-step="1" data-intro="Click here to toggle view of the menu.">Toggle Menu</button>
+				<button class="btn btn-primary toggle" data-toggle="items-wrapper" data-step="2" data-intro="Click here to toggle view of the items.">Toggle Items</button>
+				<a href="https://github.com/PlaceholderAPI/DeluxeMenuMaker" target="_blank"><button class="btn btn-primary" data-intro="Click here to view the source code of this project.">Source Code</button></a>
+				<a href="https://wiki.helpch.at/clips-plugins/deluxemenus" target="_blank"><button class="btn btn-primary" data-intro="Click here to go to the wiki">Wiki</button></a>
+                <p style="padding-top: 15px;">Made with ❤️by <a href="https://github.com/darbyjack">Glare</a></p>
+                <button class="btn btn-primary" onclick="download()">Download Menu</button>
+			</div>
+			<div class="section-head">
+				Menu
+			</div>
+			<div class="menu">
+				<div class="input-group">
+					<label>Title</label>
+					<input class="form-control" type="text" id="menu-title_keyup" value="&bAwesome Menu"  data-step="3" data-intro="Changes made to the menu and items will automatically apply to your configuration on the left." />
+				</div>
+				<br>
+				<div class="input-group">
+					<label>Command</label>
+					<input class="form-control" type="text" id="menu-open-command_keyup" value="menu" />
+				</div>
+				<br>
+				<div class="input-group">
+					<label>Size (factors of 9)</label>
+					<input class="form-control" type="number" id="menu-size_keyup" value="9" step="9" />
+				</div>
+				<br>
+				<div class="input-group">
+					<label>Update Interval</label>
+					<input class="form-control" type="number" id="menu-update-interval_keyup" value="1" />
+				</div>
+                <br>
+                <div class="input-group">
+                    <label>Requirement name</label>
+                    <input class="form-control" type="text" id="menu-requirement-name_keyup" value="anythinghere" />
+                </div>
+                <br>
+                <div class="input-group">
+                    <label>Type</label>
+                    <select name="menu-type-selector" id="menu-type-selector">
+                        <option value="has money">has money</option>
+                        <option value="has permission">has permission</option>
+                        <option value="string contains">string contains</option>
+                        <option value="string equals">string equals</option>
+                        <option value="stringequalsignorecase">stringequalsignorecase</option>
+						<option value="'>'">></option>
+                        <option value="'>='">>=</option>
+                        <option value="'=='">==</option>
+                        <option value="'<='"><=</option>
+                        <option value="'<'"><</option>
+                    </select>
+                </div>
+                <br>
+                <div class="input-group">
+                    <label><span id="type-name"></span></label>
+                    <input class="form-control" type="text" id="menu-handler_keyup" value="" />
+                </div>
+				<br>
+				<div class="input-group">
+					<label>Deny Commands</label>
+					<textarea class="form-control" id="deny-commands_keyup" placeholder="[close]"></textarea>
+				</div>
+                <br>
+                <div class="input-group">
+                    <label><span id="input-1-label">Input (Do not touch unless required)</span></label>
+                    <input class="form-control" type="text" id="input-1-info_keyup" value="" />
+                </div>
+                <br>
+                <div class="input-group">
+                    <label><span id="output-1-label">Output (Do not touch unless required)</span></label>
+                    <input class="form-control" type="text" id="output-1-info_keyup" value="" />
+                </div>
+			</div>
+			<div class="section-head">
+				Items
+			</div>
+			<div class="items-wrapper">
+				<div class="items-edit">
+					<div id="1">
+						<div class="item-head">
+							1
+						</div>
+						<div class="item-body">
+							<label>ID</label>
+							<input class="form-control" type="text" id="item-1-name_keyup" value="1" />
+							<br>
+							<label>Material</label>
+							<input class="form-control" type="text" id="item-1-material_keyup" value="IRON_SWORD" />
+                            <br>
+                            <label>Data</label>
+                            <input class="form-control" type="text" id="item-1-data_keyup" value = "0" />
+							<br>
+                            <label>Amount</label>
+                            <input class="form-control" type="text" id="item-1-amount_keyup" value="1" />
+                            <br>
+							<label>Slot</label>
+							<input class="form-control" type="text" id="item-1-slot_keyup" value="1" />
+                            <br>
+                            <label>Priority</label>
+                            <input class="form-control" type="text" id="item-1-priority_keyup" value="1" />
+							<br>
+							<label>Display Name</label>
+							<input class="form-control" type="text" id="item-1-display-name_keyup" value="&fIron Sword" />
+							<br>
+							<label>Lore (supports multiple lines, just hit enter)</label>
+							<textarea class="form-control" id="item-1-lore_keyup" placeholder="&5This is a legendary iron sword."></textarea>
+							<br>
+							<label>Left Click Commands (Must start with []) <br> Options: [player], [console], [commandevent], [message], [openguimenu], [connect], and [close].</label>
+							<textarea class="form-control" id="item-1-left-click-commands_keyup" placeholder="[close]"></textarea>
+							<br>
+							<label>Right Click Commands (Must start with []) <br> Options: [player], [console], [commandevent], [message], [openguimenu], [connect], and [close].</label>
+							<textarea class="form-control" id="item-1-right-click-commands_keyup" placeholder="[connect] hub"></textarea>
+                            <br>
+							<label>Update</label>
+							<input class="form-control" type="text" id="item-1-update_keyup" value="true" />
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-primary newItem">Create Item</button>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.8/ace.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.8/mode-yaml.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.8/theme-chrome.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/intro.min.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+    <script>
+        function notEmpty() {
+            var e = document.getElementById("menu-type-selector");
+            var strUser = e.options[e.selectedIndex].value;
+            document.getElementById("menu-type").innerText = strUser;
+        }
+        notEmpty();
+        document.getElementById("menu-type-selector").onchange = notEmpty;
+    </script>
+        <script>
+            window.onbeforeunload = function (e) {
+                return "";
+            };
+            $(document).ready(function() {
+                $('#input-1').html('');
+                $('#output-1').html('');
+            });
+            function download() {
+                var a = document.body.appendChild(document.createElement("a"));
+                a.download = "menu.yml";
+                a.href = "data:text/html," + document.getElementById("output").innerText;
+                a.click();
+            }
+        </script>
+        <script>
+            $('#menu-type-selector').change(function () {
+               var value = $(this).find('option:selected').text();
+
+               if (value == "has permission") {
+                   $('#amount').remove();
+                   $('#permission').remove();
+                   $('#type-name').html('Permission ');
+                   $('#menu-type').after("\n      <span id=\"permission\">permission: <span id=\"menu-handler\">");
+                   $('#input-1').html('');
+                   $('#output-1').html('');
+               }
+                if (value == "has money") {
+                    $('#permission').remove();
+                    $('#type-name').html('Amount ');
+                    $('#menu-type').after("\n      <span id=\"amount\">amount:</span> <span id=\"menu-handler\">");
+                    $('#input-1').html('');
+                    $('#output-1').html('');
+                }
+                if (value == "string contains") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == "string equals") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == "stringequalsignorecase") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == ">") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == ">=") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == "==") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == "<=") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+                if (value == "<") {
+                    $('#amount').remove();
+                    $('#permission').remove();
+                    $('#input-1').html('input:');
+                    $('#output-1').html('output:');
+                }
+            });
+        </script>
+	<script type="text/javascript">
+	alert("Beware: This is outdated. No plans to update. Refer to wiki for time being. https://wiki.helpch.at/clips-plugins/deluxemenus");
+	</script>
+	</body>
+</html>

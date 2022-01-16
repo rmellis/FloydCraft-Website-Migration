@@ -1,0 +1,82 @@
+<!doctype html>
+    <!--
+        Designed by epicgamer133
+    -->
+<html lang="en">
+
+
+<head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        
+        <title>BreakingMC | Home</title>
+
+        <link rel="icon" href="favicon.html">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+        <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/jquery.firefly.js"></script>
+       
+        <script>
+            $(document).ready(function() {
+	           $.firefly({images : ['img/1.jpg', 'img/2.jpg'],total : 40}); 	
+            });
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <section class="rain"></section>
+        
+        <div id="top-bar">
+          <div id="server-join">
+            <p>Come join us: <span>play.breakingmc.net</span></p>
+          </div>
+          <div id="server-ip">
+                <script>
+                    $.getJSON( '', function( status ) {
+                        document.querySelector('.players-online').innerHTML = '<span class="color">' + status.online + '</span> Players Online';
+                    });
+    			</script>
+                <span class="players-online"><span class="color">N/A</span> Players Online</span><br><br>
+          </div>
+        </div>
+        <header role="banner">
+            
+            <div id="logo">
+                <img src="img/logo.png" alt="Server Logo">
+            </div>
+            
+            <nav role="navigation">
+                <ul>
+                    <li><a href="https://breakingmc.net/community"><span>FORUM</span></a></li>
+                    <li><a href="https://store.breakingmc.net"><span>STORE</span></a></li>
+                    <li><a href="https://breakingmc.net/community/staff/"><span>STAFF</span></a></li>
+                    <li><a href="vote/"><span>VOTE</span></a></li>
+                    <li><a href="https://discord.gg/bmc"><span>Discord</span></a></li>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3362449b94cd38bbe871d8/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+                </ul>
+            </nav>
+        </header>
+        
+    </body>
+
+</html>

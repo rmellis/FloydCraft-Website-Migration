@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>&emsp;𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩&emsp; | Xjoostyx | Activity</title>
+	<link>https://cdn.floydcraft.co.uk/members/xjoostyx/activity/</link>
+	<atom:link href="https://cdn.floydcraft.co.uk/members/xjoostyx/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for Xjoostyx.</description>
+	<lastBuildDate>Sun, 10 Oct 2021 14:14:22 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=9.1.1</generator>
+	<language>en</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">832eb86a4b6fd5ee03b3ea6ff79e062d</guid>
+				<title>Xjoostyx changed their profile picture</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/265/</link>
+				<pubDate>Mon, 16 Nov 2020 08:59:11 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">99fa9d281ac6770883728fb5a8f6d1a1</guid>
+				<title>Xjoostyx posted an update: hey Guys remember me? Im back! When will the server be on to [&#133;]</title>
+				<link>https://cdn.floydcraft.co.uk/activity/p/31/</link>
+				<pubDate>Fri, 06 Mar 2020 23:30:26 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>hey Guys remember me? Im back! When will the server be on to play?!<br />
+If You forgot, my Ig-name: Donator Farao xjoostyx <a href='https://cdn.floydcraft.co.uk/members/admin/' rel="nofollow ugc">@admin</a> </p>
+]]></content:encoded>
+				
+									<slash:comments>1</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta content="Documentation" name="title" />
+<meta content="An easy-to-use security suite with regularly updated knowledge base." name="description" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>BitNinja Documentation &mdash; BitNinja 2.28.16 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="BitNinja 2.28.16 documentation" href="#"/>
+        <link rel="next" title="Overview" href="overview/overview.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> BitNinja
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.28
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="overview/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ip_filter/index.html">IP reputation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/index.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command_line_interface.html">Command-Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="investigations.html">Investigations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cdnintegration.html">CDN integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rest_api/index.html">REST API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slack_integration.html">Slack integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Agent_changelog.html">Agent changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="UI_changelog/index.html">UI changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">BitNinja</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>BitNinja Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-bitninja-s-documentation">
+<h1>Welcome to BitNinja&#8217;s documentation!<a class="headerlink" href="#welcome-to-bitninja-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview/overview.html">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="overview/overview.html#what-is-bitninja">What is BitNinja</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview/overview.html#our-mission">Our mission</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation/index.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/system_requirements.html">System requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/compatibility.html">Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/quickstart_guide.html">Quickstart guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/ispmanager.html">ISPmanager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/virtuozzo_openvz.html">Virtuozzo/OpenVZ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/whm.html">WHM Server protection plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/whm.html#whm-reseller-plugin">WHM reseller plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/ipset_from_source.html">Ipset from source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/testing.html">Testing BitNinja</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/updating_bitninja.html">Updating BitNinja</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/stopping_and_uninstalling.html">Stopping and Uninstalling</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ip_filter/index.html">IP reputation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ip_filter/ip_reputation.html">IP reputation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ip_filter/whitelisted_domains.html">Domains whitelisted by deafult</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules/index.html">Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules/antiflood.html">AntiFlood</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/captchaftp.html">Captcha Ftp module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/captchahttp.html">Captcha Http module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/captchasmtp.html">Captcha Smtp module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/defenserobot.html">DefenseRobot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/dosdetection.html">DosDetection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/general.html">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/malware-detection.html">MalwareDetection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/sandbox_scanner.html">SandboxScanner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/outboundwaf.html">Outbound Web Application Firewall</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/port_honeypot.html">Port Honeypot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/proxyfilter.html">ProxyFilter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/senselog.html">SenseLog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/sslterminating.html">SslTerminating</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/waf2.html">Web Application Firewall 2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/web_honeypot.html">Web Honeypot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/disabling_modules.html">Disabling modules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="command_line_interface.html">Command-Line Interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="command_line_interface.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="command_line_interface.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="command_line_interface.html#module-options">Module Options</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="investigations.html">Investigations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="investigations.html#incident-reports-explained">Incident Reports Explained</a></li>
+<li class="toctree-l2"><a class="reference internal" href="investigations.html#detecting-outgoing-http-attacks">Detecting outgoing http attacks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="investigations.html#discovering-blocked-ips">Discovering blocked IPs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="investigations.html#investigating-established-connections">Investigating established connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="investigations.html#troubleshooting-the-greylist">Troubleshooting the greylist</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cdnintegration.html">CDN integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rest_api/index.html">REST API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rest_api/apiv2.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rest_api/usage.html">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rest_api/changelog.html">Changelog</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="slack_integration.html">Slack integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Agent_changelog.html">Agent changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="UI_changelog/index.html">UI changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html">Site Protection UI changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id1">2021-12-16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id2">2021-12-07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id3">2021-12-03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id4">2021-12-02</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id5">2021-11-23</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id6">2021-11-22</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id7">2021-11-10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id8">2021-10-28</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id9">2021-10-27</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id10">2021-10-21</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id11">2021-10-19</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Site_Protection_UIchangelog.html#id12">2021-10-06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html">Server Protection UI changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id1">2021-11-22</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id2">2021-11-18</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id3">2021-11-15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id4">2021-11-10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id5">2021-11-09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UI_changelog/Server_Protection_UIchangelog.html#id6">2021-10-06</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="overview/overview.html" class="btn btn-neutral float-right" title="Overview" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2022, BitNinja.IO.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.28.16',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

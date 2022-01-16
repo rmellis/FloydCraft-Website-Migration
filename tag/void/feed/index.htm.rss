@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Void | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/void/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:42:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Void | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>VoidGenerator</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/voidgenerator/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/voidgenerator/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:42:42 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Empty World Generator]]></category>
+		<category><![CDATA[EmptyWorldGen]]></category>
+		<category><![CDATA[Generator]]></category>
+		<category><![CDATA[Void]]></category>
+		<category><![CDATA[Void World]]></category>
+		<category><![CDATA[VoidGenerator]]></category>
+		<category><![CDATA[VoidWorld]]></category>
+		<category><![CDATA[WorldGen]]></category>
+		<category><![CDATA[WorldGenerator]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3418</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/voidgenerator.25391/ This plugin was added because JimmyDaRat wanted it.. and like most things Jimmy starts it was abandoned very quickly and never used again&#8230; typical&#8230; but it remains on the server for future use Create custom void worlds with a powerful and lightweight generator system that allows you to add countless empty worlds. Voidgenerator&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/voidgenerator/">VoidGenerator</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: https://www.spigotmc.org/resources/voidgenerator.25391/</p>
+<blockquote><p>This plugin was added because JimmyDaRat wanted it.. and like most things Jimmy starts it was abandoned very quickly and never used again&#8230; typical&#8230; but it remains on the server for future use</p></blockquote>
+<div>Create custom void worlds with a powerful and lightweight generator system that allows you to add countless empty worlds.<br />
+Voidgenerator is made to handle all aspects of how you create void worlds.<br />
+Now includes full biome control!​</div>
+<p>&nbsp;</p>
+<div><i>This plugin should be compatible with most world management+creation plugins. It will not override any vanilla/default generators but it will establish its own tools to create the worlds defined by you. (This will never override any existing worlds and only be taken into effect once new chunks get created.)<br />
+</i>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/48a63325400c4cda945cda810d3d1224cae18409?url=https%3A%2F%2Fypict.de%2Fimg%2Fupload%2FBdVQ2hV9eAyyUhO6.png" alt="[​IMG]" data-url="https://ypict.de/img/upload/BdVQ2hV9eAyyUhO6.png" /></p>
+<div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Video tutorials</span></button></div>
+</div>
+<p>STEP 1<br />
+<b>Setting up the bukkit.yml</b> <b>(</b> recommended <b>)</b></p>
+<div>First, open up the <span class="BBcodeInlineCode">bukkit.yml</span> file from your server directory and go to the end of the file. Here we add the worlds we want the plugin to generate. This snipped needs to be added to the end of the file:</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (YAML):</div>
+<div class="code">worlds:<br />
+&lt;worldname&gt;:<br />
+generator: VoidGenerator:&lt;biome&gt;</div>
+</div>
+<p>• <b>&lt;worldname&gt;</b> &#8211; This is the name of the world you want the plugin to work in.<br />
+• <b>&lt;biome&gt;</b> &#8211; is an optional parameter. Leaving the value out, is equivalent to specifying <span class="BBcodeInlineCode">THE_VOID</span> as the biome to use. If you want the vanilla biome grid, simply apply the value <span class="BBcodeInlineCode">VANILLA</span>. All possible biomes for the latest spigot version can be found <a class="externalLink" href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html" target="_blank" rel="nofollow noopener">here</a>.<br />
+• <b>Void darkness</b> &#8211; start at around Y=64, if you want them to start at Y=0, set the <span class="BBcodeInlineCode">level-type</span> in the <span class="BBcodeInlineCode">server.properties</span> file to <span class="BBcodeInlineCode">FLAT</span>.</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (PROPERTIES):</div>
+<div class="code">level-type=FLAT</div>
+</div>
+</div>
+<p>STEP 2<br />
+<b>Worldmanagement</b></p>
+<div>If you are using VoidGenerator for your default world and are not using any worldmanagement plugins like Mutliverse, you are done here. Reload your server and the plugin should function as intended.<br />
+In case you are running a world management plugin like <a class="externalLink" href="https://dev.bukkit.org/projects/multiverse-core" target="_blank" rel="nofollow noopener">Multiverse</a> this is important for you. If you are not using Multiverse use the corresponding commands from your plugin of choice.<br />
+You have three different choices, <b>Create</b> a world, <b>Import</b> a world and/or use the <b>default world</b>.</p>
+<p><b>Create:</b> Use the following command, when creating a new World:</p>
+<div>
+<div class="bbCodeBlock bbCodeHtml">
+<div class="type">HTML:</div>
+<div class="code">/mv create &lt;worldname&gt; &lt;env&gt; -g VoidGenerator:&lt;biome&gt; -t FLAT</div>
+</div>
+<p>• <b>&lt;worldname&gt;</b> &#8211; This is the name of the world you want the plugin to work in.<br />
+• <b>&lt;env&gt;</b> &#8211; represents the environment of the world, use <span class="BBcodeInlineCode">/mv env</span> to see a list of all possible environments. Most common ones are <span class="BBcodeInlineCode">NORMAL</span> and <span class="BBcodeInlineCode">NETHER</span><br />
+• <b>&lt;biome&gt;</b> &#8211; is an optional parameter. Leaving the value out, is equivalent to specifying <span class="BBcodeInlineCode">THE_VOID</span> as the biome to use. If you want the vanilla biome grid, simply apply the value <span class="BBcodeInlineCode">VANILLA</span>. All possible biomes for the latest spigot version can be found <a class="externalLink" href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html" target="_blank" rel="nofollow noopener">here</a>.<br />
+• <b>Void darkness</b> start at around Y=64, if you want them to start at Y=0, set the <span class="BBcodeInlineCode">level-type</span> in the <span class="BBcodeInlineCode">server.properties</span> file to <span class="BBcodeInlineCode">FLAT</span>.</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (PROPERTIES):</div>
+<div class="code">level-type=FLAT</div>
+</div>
+</div>
+<p><b>Import:</b> Use the following command, when creating a new World:</p>
+<div>
+<div class="bbCodeBlock bbCodeHtml">
+<div class="type">HTML:</div>
+<div class="code">/mv import &lt;worldname&gt; &lt;env&gt; -g VoidGenerator:&lt;biome&gt; -t FLAT</div>
+</div>
+<p>• <b>&lt;worldname&gt;</b>[/COLOR] represents the name of the world you want to generate.<br />
+• <b>&lt;env&gt;</b>[/COLOR] represents the environment of the world, use <span class="BBcodeInlineCode">/mv env</span> to see a list of all possible environments. Most common ones are <span class="BBcodeInlineCode">NORMAL</span> and <span class="BBcodeInlineCode">NETHER</span><br />
+• <b>&lt;biome&gt;</b>[/COLOR] is optional. Leaving the value out, is equivalent to specifying <span class="BBcodeInlineCode">THE_VOID</span> as the biome to use. All possible biomes for the latest spigot version can be found <a class="externalLink" href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html" target="_blank" rel="nofollow noopener">here</a>.</p>
+<p>​</p></div>
+<p><b>Default world:</b> We already specified the generator in the <span class="BBcodeInlineCode">bukkit.yml</span> file. But we also need to change the generator in our multiverse world file to:</p>
+<div>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (YAML):</div>
+<div class="code">generator: VoidGenerator:&lt;biome&gt;</div>
+</div>
+</div>
+</div>
+<p>STEP 3<br />
+<b>Restart</b></p>
+<div>Restart your server for all the changes to take effect. If you configured everything correctly, the generator will work in all newly created chunks. If you still have issues, visit the discord linked down below to get help quickly.​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/29d2241d8c6571f2fc45fdf8a972e46439ae8562?url=https%3A%2F%2Fypict.de%2Fimg%2Fupload%2FNMBVsKaLgw972Q3L.png" alt="[​IMG]" data-url="https://ypict.de/img/upload/NMBVsKaLgw972Q3L.png" /></p>
+<div>To be notified of an updated plugin version on spigot you need this permission:</p>
+<p><i><b>voidgenerator.notifyupdate</b><br />
+The permission applied to operators by default</i>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8a07a65869d6bc7c6bd5807909a97a3ca0b788bd?url=https%3A%2F%2Fypict.de%2Fimg%2Fupload%2FDilpFrXOdwlZ1riZ.png" alt="[​IMG]" data-url="https://ypict.de/img/upload/DilpFrXOdwlZ1riZ.png" /></p>
+<div>If you having issues with the setup, want to get some features implemented, need to get that one very important question answered or just want to chat to some of the people using my plugins?</p>
+<p><a class="externalLink" href="https://discord.gg/jDbKhu7" target="_blank" rel="nofollow noopener"><i><b>&gt; &gt; &gt; Join the Discord &lt; &lt; &lt;</b></i></a></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/voidgenerator/">VoidGenerator</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/voidgenerator/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

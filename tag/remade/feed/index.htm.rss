@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>remade | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/remade/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 05:37:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>remade | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>mcMMO</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/mcmmo/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/mcmmo/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 05:37:03 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[mcMMO]]></category>
+		<category><![CDATA[mcMMO Premium]]></category>
+		<category><![CDATA[mcMMO Remade]]></category>
+		<category><![CDATA[MMO]]></category>
+		<category><![CDATA[official]]></category>
+		<category><![CDATA[reboard]]></category>
+		<category><![CDATA[remade]]></category>
+		<category><![CDATA[RPG]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3364</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/ We use this plugin for most of our MMO features, It keeps track of tons of different types of leveling systems and makes everything more fun. Compatible versions of Minecraft: 1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.16, 1.15.2, 1.15.1, 1.15, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14 1.13.2 The same JAR file is used for all versions&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/mcmmo/">mcMMO</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<div>Source: <a href="https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/</span></span></a></div>
+<blockquote>
+<div>We use this plugin for most of our MMO features, It keeps track of tons of different types of leveling systems and makes everything more fun.</div>
+</blockquote>
+<div><b>Compatible versions of Minecraft:</b><br />
+<b>1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.16, 1.15.2, 1.15.1, 1.15, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14</b><br />
+<b>1.13.2</b><br />
+<b>The same JAR file is used for all versions listed above!</b></p>
+<p><b>MADE BY THE ORIGINAL CREATOR OF MCMMO<br />
+<a class="externalLink" href="https://twitter.com/nossr50" target="_blank" rel="nofollow noopener">Official Twitter</a> | </b><a class="externalLink" href="https://www.mcmmo.org/" target="_blank" rel="nofollow noopener"><b>Website</b></a><b> | <a class="externalLink" href="https://mcmmo.org/wiki/Installation_guide" target="_blank" rel="nofollow noopener">Install Guide</a> | <a class="externalLink" href="https://docs.google.com/document/d/1rCgBbKkldYd_OoQY1ls_nxn6Ly_NV9Adfpl7_BYBF6k/edit?usp=sharing" target="_blank" rel="nofollow noopener">Roadmap</a> | <a class="externalLink" href="https://patreon.com/nossr50" target="_blank" rel="nofollow noopener">Support mcMMO via Patreon!</a></p>
+<p><a class="externalLink" href="https://discord.gg/bJ7pFS9" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b9ffc6c4f417003c60634ad666490bc740df0df3?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F526933440214597677%2Fwidget.png%3Fstyle%3Dbanner2" alt="[​IMG]" data-url="https://discordapp.com/api/guilds/526933440214597677/widget.png?style=banner2" /></a></b>​</div>
+<p><b>Source Code: <a class="externalLink" href="https://github.com/mcMMO-Dev/mcMMO" target="_blank" rel="nofollow noopener">Official Github Repository</a></b><br />
+<b>Changelog: (</b><b>HUGE CHANGES</b><b> READ ABOUT THEM </b><a class="externalLink" href="https://www.mcmmo.org/" target="_blank" rel="nofollow noopener"><b>HERE</b></a><b>)</b></p>
+<p><a class="LbTrigger" href="https://www.spigotmc.org/attachments/nossrmanshock-png.409922/" target="_blank" rel="noopener" data-href="misc/lightbox"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/data/attachments/409/409923-72b39fe52fd2e50a1de859364e0f7d3a.jpg" alt="nossrmanshock.png" /></a><br />
+<b>NEW mcMMO features since 2.1+</b></p>
+<ul>
+<li><b>100% Compatible with Classic/Older versions of mcMMO</b></li>
+<li><b>New Optional Level Scaling</b></li>
+<li><b>WorldGuard Region Support</b></li>
+<li><b>World Blacklisting</b></li>
+<li><b>New Skills</b></li>
+<li><b>Large Visual Improvements</b></li>
+<li><b>Skill Rank System</b></li>
+<li><b>Improved Chat Alerts</b></li>
+<li><b>Many new Sounds/Particles</b></li>
+<li><b>Better Performance</b></li>
+<li><b>Skill Rebalancing</b></li>
+<li><b>Many Critical Exploits fixed</b></li>
+<li><b>Better AFK Farming detection</b></li>
+<li><b>Party System Improvements</b></li>
+<li><b>Improved MySQL Support</b></li>
+<li><b>New Admin Tools</b></li>
+<li><b>New Commands</b></li>
+<li><b>Frequent Updates!</b></li>
+<li><b>&#8230;and countless other changes!</b></li>
+</ul>
+<p><b><i>Want to know the nitty gritty specifics? Read our <a class="externalLink" href="https://mcmmo.org/#changelog" target="_blank" rel="nofollow noopener">massive changelog</a>.</i></p>
+<p>Does this work with classic/older versions?</b><br />
+Of course!</p>
+<p>The original creator of mcMMO is back working on mcMMO full time, pumping out constant updates. 2.1 is available now and had 300+ hours go into it, 2.2 is coming soon and you can read more about it <a class="externalLink" href="https://docs.google.com/document/d/1DENmwZrgHfFB7ktSIHs9u2rbmPRXeqHavQZFuzwJilg/edit?usp=sharing" target="_blank" rel="nofollow noopener">here</a>.</p>
+<p>If you want to know more about the new updates for mcMMO, read the <b>massive</b> <a class="externalLink" href="https://mcmmo.org/#changelog" target="_blank" rel="nofollow noopener">changelog for 2.1 here</a>!</p>
+<p><b>Classic mcMMO</b><br />
+Looking for the classic mcMMO experience? You can find that <a class="internalLink" href="https://www.spigotmc.org/resources/mcmmo.2445/">here</a>.</p>
+<p><b>Installation &amp; Upgrading Help</b><br />
+mcMMO is very simple to install, you can upgrade from older versions no problem. Just drag and drop and you&#8217;re ready to go! You will not lose any data upgrading mcMMO ever!</p>
+<p>If you would like to know more about installing mcMMO, check out this <a class="externalLink" href="https://mcmmo.org/wiki/Installation_guide" target="_blank" rel="nofollow noopener">installation guide</a>.</p>
+<p><b>Why Premium</b>?<br />
+I feel mcMMO is worth the premium price tag, with over 3 million downloads and it almost being mandatory on many servers, posting it as a premium resource will allow me to spend more time developing it.</p>
+<p>I&#8217;ve come back after a 5-6 year absence to work on mcMMO again, and this new update is the result of over a month of work. And it is just the first of many updates coming to mcMMO. I spent nearly 8-14 hours a day working on this thing! I&#8217;d really appreciate it if you&#8217;d consider purchasing it <img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" /></p>
+<p><a class="LbTrigger" href="https://www.spigotmc.org/attachments/nossrmanw-png.409921/" target="_blank" rel="noopener" data-href="misc/lightbox"><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/data/attachments/409/409922-01ee64c890dda002c4e50e79295a2251.jpg" alt="nossrmanW.png" /></a><br />
+<b>Back in action!</b><br />
+Hello, you may not know me but I&#8217;m the original author and the main designer of mcMMO. Almost everything you see in the plugin was designed by me with a few exceptions. It&#8217;s been a long time but I&#8217;ve decided to come back and continue development of mcMMO. Recently project lead has been handed back to me from gmcferrin and new development will be starting ASAP.</p>
+<p>I would like to give a shout out to <a class="username" href="https://www.spigotmc.org/members/24032/" data-user="24032, @t00thpick1">@t00thpick1</a> who had done an excellent job at maintaining the plugin and keeping it running over the years.</p>
+<p>If you would like to follow development, keep an eye on the discussion thread and <a class="externalLink" href="https://twitter.com/nossr50" target="_blank" rel="nofollow noopener">my twitter</a>!</p>
+<p><b>mcMMO Features</b></p>
+<ul>
+<li>#1 RPG Mod for Minecraft of ALL TIME!</li>
+<li>Fully featured mmo-like party system</li>
+<li>Admins can start XP events</li>
+<li>Localization</li>
+<li>Robust Skills</li>
+<li>Countless Skills and Abilities!</li>
+<li>Custom items!</li>
+<li>XP Bars</li>
+<li>Competitive Skill Leaderboards</li>
+<li>Skills that focus on fun gameplay rather than restriction</li>
+<li>Follows an XP system like in an RPG/MMO</li>
+<li>Extremely Addictive</li>
+<li>Farming Skills</li>
+<li>Combat Skills</li>
+<li>Gathering Skills</li>
+<li>Animal Taming Skills</li>
+<li>Admin Chat</li>
+<li>Party Chat</li>
+<li>Parties can level up!</li>
+<li>Hundreds of configuration options</li>
+<li>MySQL Support</li>
+<li>Custom Sounds &amp; Visuals for skills!</li>
+<li>WorldGuard region support</li>
+<li>World Blacklisting</li>
+<li>..and many more!</li>
+</ul>
+<p><b>nossr50&#8217;s Recommended Plugins</b></p>
+<p>If you&#8217;re looking for other high quality plugins to pair with mcMMO, the following I can personally recommend. These were made by top notch devs, experts among experts.</p>
+<p><a class="internalLink" href="https://www.spigotmc.org/resources/griefdefender.68900/">GriefDefender</a> (Anti-Grief / Land Claim)<br />
+Possibly <i><b>the best</b></i> grief protection plugin ever made. The number of hours Bloodshot has poured into this are immeasurable, I can certify this plugin was made by someone vastly over qualified for such a task. Originally made for Sponge and now fully converted and compatible with Spigot, this is a must have for any server admin who is looking for land claim/anti grief plugins.</p>
+<p><b>Are you using NoCheatPlus? (Or any other anti-cheat plugin?)</b><br />
+Anti-cheat plugins may conflict with mcMMO, if you&#8217;re using NoCheatPlus be sure to grab the compatibility plugin <a class="externalLink" href="http://dev.bukkit.org/bukkit-plugins/compatnocheatplus-cncp/" target="_blank" rel="nofollow noopener">CompatNoCheatPlus</a> to solve conflicts with mcMMO.</p>
+<p><b>Bug Report</b><br />
+Feel free to post an issue with the plugin on our <a class="externalLink" href="https://github.com/mcMMO-Dev/mcMMO/issues" target="_blank" rel="nofollow noopener">github issue tracker</a>.</p>
+<p><b>Feature Request</b><br />
+If you want to suggest new content or changes to existing features, head on over to our official <a class="externalLink" href="https://discord.gg/bJ7pFS9" target="_blank" rel="nofollow noopener">discord</a>.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/mcmmo/">mcMMO</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/mcmmo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

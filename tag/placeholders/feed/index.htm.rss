@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Placeholders | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/placeholders/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:27:26 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Placeholders | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Holographic Placeholders</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/holographic-placeholders/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/holographic-placeholders/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:27:26 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Holograms]]></category>
+		<category><![CDATA[Holographic]]></category>
+		<category><![CDATA[Holographic Placeholders]]></category>
+		<category><![CDATA[Holohram Placeholders]]></category>
+		<category><![CDATA[Placeholders]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3332</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/holographic-placeholders.64535/ We use this plugin to add Specific Placeholders to Holograms around the server. Requirements: ProtocolLib (here) PlaceholderAPI (here) HolographicDisplays (SimpleHolograms also work) WIKI: https://wiki.virtusdevelops.eu/ Keep in mind wiki might not be a solution for you. SUPPORT IS ONLY GIVEN ON DISCORD OR VIA PRIVATE MESSAGES! (basic help only if you don&#8217;t know that you need&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-placeholders/">Holographic Placeholders</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/holographic-placeholders.64535/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/holographic-placeholders.64535/</a></p>
+<blockquote><p>We use this plugin to add Specific Placeholders to Holograms around the server.</p></blockquote>
+<p><b>Requirements:</b></p>
+<ul>
+<li><b>ProtocolLib (<a class="internalLink" href="https://www.spigotmc.org/resources/protocollib.1997/" target="_blank" rel="noopener">here</a>)</b></li>
+<li><b>PlaceholderAPI (<a class="internalLink" href="https://www.spigotmc.org/resources/placeholderapi.6245/" target="_blank" rel="noopener">here</a>)</b></li>
+<li><b>HolographicDisplays (<a class="internalLink" href="https://www.spigotmc.org/resources/simpleholograms.84516/" target="_blank" rel="noopener">SimpleHolograms</a> also work)</b></li>
+</ul>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/5a930bf36dfce881e2a234f00bd2231c6519a00b?url=https%3A%2F%2Fi.imgur.com%2Fl2fbyWk.png" alt="[​IMG]" data-url="https://i.imgur.com/l2fbyWk.png" /></p>
+<div><b>WIKI: <a class="externalLink" href="https://gaspercino-lukman.gitbook.io/virtusdevelops/" target="_blank" rel="nofollow noopener">https://wiki.virtusdevelops.eu</a></b><b><a class="externalLink" href="https://gaspercino-lukman.gitbook.io/virtusdevelops/" target="_blank" rel="nofollow noopener">/</a><br />
+Keep in mind wiki might not be a solution for you.</b><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/26d97c1404aecd8a6884ae33db8d1dabde2e6f96?url=https%3A%2F%2Fbstats.org%2Fsignatures%2Fbukkit%2FHolographicPlaceholders.svg" alt="[​IMG]" data-url="https://bstats.org/signatures/bukkit/HolographicPlaceholders.svg" /><br />
+<b>SUPPORT IS ONLY GIVEN ON DISCORD OR VIA PRIVATE MESSAGES! (basic help only if you don&#8217;t know that you need to install requirements I can&#8217;t help you.)</b></p>
+<p><b><a class="externalLink" href="https://discord.com/invite/GUeXnZ3" target="_blank" rel="nofollow noopener">https://discord.com/invite/GUeXnZ3</a></b></div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/holographic-placeholders/">Holographic Placeholders</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/holographic-placeholders/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

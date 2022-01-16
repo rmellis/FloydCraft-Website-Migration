@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ServerlistMOTD | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/serverlistmotd/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 14:12:22 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>ServerlistMOTD | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ServerlistMOTD</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/serverlistmotd/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/serverlistmotd/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:12:22 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[List]]></category>
+		<category><![CDATA[MOTD]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[Server List]]></category>
+		<category><![CDATA[Server list MOTD]]></category>
+		<category><![CDATA[ServerList]]></category>
+		<category><![CDATA[ServerlistMOTD]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3406</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/serverlistmotd.57851/ This plugin is used as an second MOTD manager, we use this one in particular because it seems to be the most bedrock friendly and has no problems with geyser passing its content thru its proxies when as some alternatives seem to become malformed, it also allows us to dynamically adjust the server&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/serverlistmotd/">ServerlistMOTD</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/serverlistmotd.57851/" target="_blank" rel="noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/serverlistmotd.57851/</span></span></a></p>
+<blockquote><p>This plugin is used as an second MOTD manager, we use this one in particular because it seems to be the most bedrock friendly and has no problems with geyser passing its content thru its proxies when as some alternatives seem to become malformed, it also allows us to dynamically adjust the server logo as and when needed without the need of a server reboot.</p></blockquote>
+<p><span style="color: #ff5959;"><b>This plugin is one of my rather old attempts at plugins &#8211; while it is lightweight,works perfectly fine, and still continued, it&#8217;s not too configurable/extendable. A similar plugin with lots of other features would be <span style="color: #ffcc00;"><a class="internalLink" style="color: #ffcc00;" href="https://www.spigotmc.org/resources/serverlistplus.241/">ServerListPlus</a>.</span></p>
+<p>This plugin will no longer receive any updates. If you really want to continue using this, a <span style="color: #ffcc00;"><a class="internalLink" style="color: #ffcc00;" href="https://www.spigotmc.org/resources/serverlistmotd-revitalized.83402/">fork has been created by </a><a class="internalLink" style="color: #ffcc00;" href="https://www.spigotmc.org/resources/serverlistmotd-revitalized.83402/">Bradydawg</a>.</span></b></span></p>
+<p><b>This plugin lets you set a custom motd, <span style="color: #99ccff;">a custom playercount and playercounthovermessage</span> and gives you the possibility of <span style="color: #99ccff;">reloading the server-icon</span> any time you want.<br />
+Whatever version you want to use, just place the plugin inside your plugin folder of your server running Spigot or BungeeCord!<br />
+The Spigot version also comes with <span style="color: #ccffcc;">PlaceholderAPI support.</span></p>
+<p>If you want to use the plugin on Spigot, you need <a class="internalLink" href="https://www.spigotmc.org/resources/protocollib.1997/"><span style="color: #ffcc00;">ProtocolLib</span> </a>to use it to its full extent!<br />
+</b><br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/j7af8-png.349371/" alt="j7af8.png" /></p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/generatedtext-1-png.349257/" alt="generatedtext (1).png" /></p>
+<ul>
+<li>serverlistmotd.command &#8211; use the motd commands listed below</li>
+<li>serverlistmotd.reload &#8211; use the &#8220;/motd reload&#8221; command</li>
+<li>serverlistmotd.update &#8211; use the &#8220;/motd update&#8221; command</li>
+<li>serverlistmotd.setmotd &#8211; use the &#8220;/motd set&#8221; and &#8220;/motd remove&#8221; commands</li>
+<li>serverlistmotd.list &#8211; use the &#8220;/motd list&#8221; command</li>
+</ul>
+<p>IMPORTANT &#8211; If you are using the plugin on your proxyserver: You have to have these permissions on the proxy, not on the Spigot servers! This can be done by putting them into the Bungee config.yml as seen here:<br />
+<img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/td701-png.349268/" alt="td701.png" /><br />
+This or you have a permissions plugin, which also works across the Proxy/Bungee.<br />
+If you use it on a Spigot server, normal permission plugins should work (as well as being an operator).</p>
+<p><img class="bbCodeImage LbImage" src="https://www.spigotmc.org/attachments/generatedtext-2-png.349258/" alt="generatedtext (2).png" /></p>
+<p>If you are using <i>the Spigot version of the plugin</i>, you have to have <b><a class="internalLink" href="https://www.spigotmc.org/resources/protocollib.1997/">ProtocolLib </a></b>installed to reload the server-icon and to change the playercount-message (the playercounthover-message can still be used without it)!<br />
+For the Bungee version you don&#8217;t need to have any other plugins installed.</p>
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (Text):</div>
+<div class="code">
+<code># ServerListMotd Plugin by KennyTV</code><br />
+<code># Version 1.2.3</code></p>
+<p><code># The message shown in the multiplayer server list motd.</code><br />
+<code># If you put in multiple entries, one of them will be chosen randomly on every ping.</code><br />
+<code>motds:</code><br />
+<code>  - "&amp;aWelcome!%NEWLINE%&amp;6Just saying hello! :D"</code><br />
+<code> #- "Another entry"</code></p>
+<p><code># Is shown at the top right corner of the server in the serverlist,</code><br />
+<code># where the playercount would normally be displayed.</code><br />
+<code>custom-playercountmessage: false</code><br />
+<code>playercountmessage: "&amp;4Hoia!"</code><br />
+<code># If set to false, only the given text will be shown without the playercount (requires custom-playercountmessage set to true).</code><br />
+<code>show-playercount: true</code></p>
+<p><code># Is shown when you move your mouse above the text at the top right corner of the server in the serverlist,</code><br />
+<code># where the playercount would normally be displayed.</code><br />
+<code>custom-playercounthovermessage: false</code><br />
+<code>playercounthovermessage: "&amp;cJoin%NEWLINE%&amp;cplz"</code></p>
+<p><code># If you don't want to be up to date, you can!</code><br />
+<code>update-checks: true</code></p>
+<p><code>no-permission-message: "&amp;cYou do not have the permission to execute that command."</code>
+</div>
+</div>
+<p><b>A rating or a review would be highly appreciated and a creation of one (and also for a spigot account) is fairly easy! <img class="mceSmilieSprite mceSmilie15" title="Smile    :)" src="https://www.spigotmc.org/styles/default/xenforo/clear.png" alt=":)" /></b><br />
+Any feature suggestions? Just write them into the discussion!</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/serverlistmotd/">ServerlistMOTD</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/serverlistmotd/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

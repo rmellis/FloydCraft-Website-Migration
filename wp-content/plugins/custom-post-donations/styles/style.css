@@ -1,0 +1,14 @@
+/* Label styles */
+
+@charset "utf-8";
+/* CSS Document */
+.cpDonation p {margin-bottom: 5px;}
+.cpDonation label.cp-donation {display: inline-block; width: 150px;}
+.cpDonation label.cp-donation.fixed-donation, .cpDonation label.cp-donation.standard-donation {width: 200px;}
+label.cp-donation-comments {width: 205px;}
+.cpDonation input.cp-donation {margin-bottom: 5px; width: 175px;}
+.cpDonation select.cp-donation {margin-bottom: 5px; width: 178px; color: inherit;}
+.cpDonation textarea.cp-donation {margin-bottom: 5px; width: 327px;}
+.cp-donation-notice {
+	font-family: inherit; font-size: 12px; color: red;
+}

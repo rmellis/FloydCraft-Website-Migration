@@ -1,0 +1,54 @@
+/*
+    User Style: Theme 1
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.theme_1 #sggCboxTooltip {left: 0; bottom: 47px; margin: 0 21px; padding: 5px 10px; background: rgba(255, 255, 255,0.5); color: #000; right: 0; text-align: center; }
+.theme_1-overlay{background:url(images/overlay.png) repeat 0 0;}
+.theme_1{outline:0;}
+.theme_1 #cboxTopLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px 0;}
+.theme_1 #cboxTopRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px 0;}
+.theme_1 #cboxBottomLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px -29px;}
+.theme_1 #cboxBottomRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px -29px;}
+.theme_1 #cboxMiddleLeft{width:21px; background:url(images/controls.png) left top repeat-y;}
+.theme_1 #cboxMiddleRight{width:21px; background:url(images/controls.png) right top repeat-y;}
+.theme_1 #cboxTopCenter{height:21px; background:url(images/border.png) 0 0 repeat-x;}
+.theme_1 #cboxBottomCenter{height:21px; background:url(images/border.png) 0 -29px repeat-x;}
+.theme_1 #cboxContent{background:#fff; overflow:hidden;}
+.theme_1 .cboxIframe{background:#fff;}
+.theme_1 #cboxError{padding:50px; border:1px solid #ccc;}
+.theme_1 #cboxLoadedContent{margin-bottom:28px;}
+.theme_1 #cboxTitle{ bottom:1px; left: 180px; right: 156px; text-align:center; color:#949494;}
+.theme_1 #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+.theme_1 #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+.theme_1 #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+.theme_1 #cboxPrevious, .theme_1 #cboxNext, .theme_1 #cboxSlideshow, .theme_1 #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; text-align: left;}
+        
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+.theme_1 #cboxPrevious:active, .theme_1 #cboxNext:active, .theme_1 #cboxSlideshow:active, .theme_1 #cboxClose:active {outline:0;}
+
+.theme_1 #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;line-height: 1;font-size: 14px;}
+.theme_1 #cboxPrevious{position:absolute; bottom:0; left:0; background:url(images/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+.theme_1 #cboxPrevious:hover{background-position:-75px -25px;}
+.theme_1 #cboxNext{position:absolute; bottom:0; left:27px; background:url(images/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+.theme_1 #cboxNext:hover{background-position:-50px -25px;}
+.theme_1 #cboxClose{position:absolute; bottom:0; right:0; background:url(images/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+.theme_1 #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}

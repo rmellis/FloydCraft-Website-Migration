@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Authorize your bot</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <style type="text/css">
+        body {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: #282B30;
+            background-image: url("https://discordapp.com/assets/d20e43cdcadf850cfd8d4e953df0f3b4.png");
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 10em;
+        }
+        
+        p {
+            color: white;
+            text-shadow: 4px 4px #7289DA;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>PASTE YOUR<br>APPLICATION ID</p>
+
+    <script type="text/javascript">
+        document.getElementsByTagName("body")[0].onpaste = function(e) {
+            var paste = e.clipboardData && e.clipboardData.getData ?
+                e.clipboardData.getData('text/plain') : // Standard
+                window.clipboardData && window.clipboardData.getData ?
+                window.clipboardData.getData('Text') : // MS
+                false;
+            if (paste) {
+                nums = paste.replace(/\D/g, "");
+                if (nums.length != 18) {
+                    alert("Client IDs are 18 digits long, not the " + nums.length + " digits you gave in \"" + paste + "\"");
+                    return;
+                }
+                document.getElementsByTagName("p")[0].innerHTML = "LOADING...";
+                window.location = "https://discordapp.com/oauth2/authorize?scope=bot+applications.commands&client_id=" + nums;
+            }
+        };
+    </script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6ce5d2bb1ab27792","version":"2021.12.0","r":1,"token":"37663d217d6d400080f7c5867e8794e2","si":100}' crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Per World Inventory | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/per-world-inventory/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 06:54:10 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Per World Inventory | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PerWorldInventory</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/perworldinventory/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/perworldinventory/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 06:54:10 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Inventory Per World]]></category>
+		<category><![CDATA[Per World Inv]]></category>
+		<category><![CDATA[Per World Inventory]]></category>
+		<category><![CDATA[PWI]]></category>
+		<category><![CDATA[Seperate Inventorys]]></category>
+		<category><![CDATA[split inventorys]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3392</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/per-world-inventory.4482/ We use this plugin to separate the Inventory&#8217;s in different worlds which are not on separate hosts. Important! The download button will give you the 1.13 and newer version! If you need the legacy version, download the legacy jar from the GitHub releases page. This plugin allows you to separate your player&#8217;s inventories between&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/perworldinventory/">PerWorldInventory</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/per-world-inventory.4482/" target="_blank" rel="nofollow noopener"><span style="text-decoration: underline;"><span style="color: #00ccff; text-decoration: underline;">https://www.spigotmc.org/resources/per-world-inventory.4482/</span></span></a></p>
+<blockquote><p>We use this plugin to separate the Inventory&#8217;s in different worlds which are not on separate hosts.</p></blockquote>
+<p><b>Important!</b><br />
+The download button will give you the 1.13 and newer version! If you need the legacy version, download the legacy jar from the <a class="externalLink" href="https://github.com/EbonJaeger/perworldinventory-kt/releases" target="_blank" rel="nofollow noopener">GitHub releases page</a>.</p>
+<p>This plugin allows you to separate your player&#8217;s inventories between groups of worlds. Various player stats are separated, too; this includes things like active potion effects, exp, level, economy balance, and much more. These all can be configured on a per-item basis, should you want some things to be shared between groups. All commands can be seen in-game with the &#8216;/pwi help&#8217; command, and on the PWI Wiki (see below).</p>
+<p>&gt; Video<br />
+Thanks so much to <a class="username" href="https://www.spigotmc.org/members/112519/" data-user="112519, @Koz4christ">@Koz4christ</a> for making a video for PWI!<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/_y-zF4P4KFg?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><br />
+And also to <a class="username" href="https://www.spigotmc.org/members/2552/" data-user="2552, @racerk12">@racerk12</a> for his video tutorial for PWI!<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/F7BeEa4O07M?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>&gt; Wiki<br />
+A full list of commands, permissions, and how to configure the plugin can be found at the <a class="externalLink" href="https://github.com/EbonJaeger/perworldinventory-kt/wiki" target="_blank" rel="nofollow noopener">PerWorldInventory wiki</a>! This is to help keep clutter low, and everything centralized. Check it out!</p>
+<p>&gt; Conversion<br />
+If you are converting from MV-I, simply run the &#8220;/pwi convert&#8221; command and the plugin will take care of everything. You must have MV-I running for this. Keep in mind, converting only works with MV-I version 2.5, it will not work on 2.4. When MV-I is updated from 2.4 to 2.5, it switches from yml to json files, but does not convert the data until it is used. Be sure to keep your MV-I data around, just in case something does go wrong.</p>
+<p>&gt; API and Events<br />
+If you wish to integrate your plugin with PWI, there are a few helpful things for you at the Wiki on <a class="externalLink" href="https://github.com/EbonJaeger/perworldinventory-kt/wiki/Integration" target="_blank" rel="nofollow noopener">this</a> page.</p>
+<p>&gt; Miscellaneous<br />
+<b>Support</b><br />
+If you have an issue, please go <a class="externalLink" href="https://github.com/EbonJaeger/perworldinventory-kt/issues" target="_blank" rel="nofollow noopener">here</a> and create a new issue. Please don&#8217;t PM me on here, as I rarely check on Spigot.</p>
+<p><b>Metrics</b><br />
+For my own curiosity&#8217;s sake, I decided to implement <a class="externalLink" href="https://bstats.org/plugin/bukkit/PerWorldInventory" target="_blank" rel="nofollow noopener">bStats</a>. As always, nothing identifying anything or any server is sent. For more information, look <a class="externalLink" href="https://bstats.org/getting-started" target="_blank" rel="nofollow noopener">here</a>. This can be disabled in the config file.</p>
+<p><b>Other</b><br />
+The code repository can be found on <a class="externalLink" href="https://github.com/EbonJaeger/perworldinventory-kt" target="_blank" rel="nofollow noopener">GitHub</a>.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/perworldinventory/">PerWorldInventory</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/perworldinventory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

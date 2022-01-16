@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hex Colors | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/hex-colors/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 03:50:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Hex Colors | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>✏️ Iridescent ✏️ 1.16.x &#8211; Add new/hex colors to your server &#8211; Supports gradients</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/%e2%9c%8f%ef%b8%8f-iridescent-%e2%9c%8f%ef%b8%8f-1-16-x-add-new-hex-colors-to-your-server-supports-gradients/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/%e2%9c%8f%ef%b8%8f-iridescent-%e2%9c%8f%ef%b8%8f-1-16-x-add-new-hex-colors-to-your-server-supports-gradients/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 03:50:42 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Color Code]]></category>
+		<category><![CDATA[Hex Chat]]></category>
+		<category><![CDATA[Hex Codes]]></category>
+		<category><![CDATA[Hex Color Code]]></category>
+		<category><![CDATA[Hex Colors]]></category>
+		<category><![CDATA[Hex Holograms]]></category>
+		<category><![CDATA[Hex InGame]]></category>
+		<category><![CDATA[Hex Text]]></category>
+		<category><![CDATA[Iridescent]]></category>
+		<category><![CDATA[Minecraft Hex Chat]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3343</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/%E2%9C%8F%EF%B8%8F-iridescent-%E2%9C%8F%EF%B8%8F-1-16-x-add-new-hex-colors-to-your-server-supports-gradients.81322/ We use this plugin to allow players to use Hex color codes in chat, we also use this to add more colors to holograms found around the server, some chat messages and more&#8230; About This Plugin Iridescent requires ProtocolLib to function. ​ It&#8217;s no news that since 1.16, the possibility of adding new text colors has&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/%e2%9c%8f%ef%b8%8f-iridescent-%e2%9c%8f%ef%b8%8f-1-16-x-add-new-hex-colors-to-your-server-supports-gradients/">✏️ Iridescent ✏️ 1.16.x – Add new/hex colors to your server – Supports gradients</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source:<span style="color: #00ccff;"> https://www.spigotmc.org/resources/%E2%9C%8F%EF%B8%8F-iridescent-%E2%9C%8F%EF%B8%8F-1-16-x-add-new-hex-colors-to-your-server-supports-gradients.81322/</span></p>
+<blockquote><p>We use this plugin to allow players to use Hex color codes in chat, we also use this to add more colors to holograms found around the server, some chat messages and more&#8230;</p></blockquote>
+<div><b>About This Plugin</b></p>
+<p><b>Iridescent </b>requires <a class="internalLink" href="https://www.spigotmc.org/resources/protocollib.1997/"><b>ProtocolLib</b> </a>to function.<br />
+​</div>
+<p>It&#8217;s no news that since 1.16, the possibility of adding new text colors has been introduced. There are a few plugins out there that have taken slight advantage of this, through allowing new colors in chat or allowing other plugins to hook onto their API, but <b>Iridescent </b>takes it a step beyond that.</p>
+<p>Thanks to <b>ProtocolLib</b>, this plugin is able to intercept information sent out by other plugins and modifies it before it gets delivered to players. If part of that information sent out is text including a specific set of characters, that text&#8217;s color will be changed.<br />
+For example, if a line of text on a scoreboard begins with a tag “&lt;@lilac&gt;”, the text’s color will change based on the hex color code you assign to that tag.</p>
+<p><b>For more information, read through <a class="internalLink" href="https://www.spigotmc.org/wiki/iridescent/" target="_blank" rel="noopener">Iridescent&#8217;s wiki</a>!</b></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/64e9bd08b01646c3bc3407c4da4ceb0c8ec665b1?url=https%3A%2F%2Fproxy.spigotmc.org%2Fc6ebcea97b97c0ebd4568e8c3772db89e540df08%3Furl%3Dhttps%253A%252F%252Fcdn.discordapp.com%252Fattachments%252F608771334968836124%252F620713829390614541%252Fdivider.png" alt="[​IMG]" data-url="https://proxy.spigotmc.org/c6ebcea97b97c0ebd4568e8c3772db89e540df08?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F608771334968836124%2F620713829390614541%2Fdivider.png" /></p>
+<div><b>Features</b>​</div>
+<ul>
+<li><b>Color Tags</b>: These can be created in the colors.yml file. They can be used on scoreboards, tablists, items, boss-bars, MOTD, titles, chat. Great for colors which are used often.<br />
+To use these, write them in this format &lt;@tag-name&gt; (e.g. <b>&lt;@fuchsia&gt;</b>).</li>
+<li><b>Hex Color Codes</b>: These can be used in place of tags. Best used for one-time-use colors.<br />
+To use these, write them in this format &lt;#hexcode&gt; (e.g <b>&lt;#ff00ff&gt;</b>).</li>
+<li><b>Gradient Tags</b>: They can be used anywhere color tags can be.<br />
+They are written in one of the two formats <b>&lt;$@tag-name&gt; </b>and <b>&lt;$#hexcode&gt;</b>. A line of text needs to begin and end with a gradient tag in order for the fading to take place (e.g. <b>&lt;$@lime&gt;</b>example<b>&lt;$@rust&gt;</b>).</li>
+<li><b>Supports Most Plugins</b>: Due to the way <b>Iridescent </b>works, color tags and hex color codes can be used in lots of plugins.</li>
+<li><b>In-Game Tag Creation: </b>Color tags can be handled without opening any configuration file, with the usage of commands.</li>
+<li><b>Permission based chat colors: </b>Based on the permissions a player has, they can use any or specific colors in chat.<br />
+&#8220;irid.chatcolor.color-tag-name&#8221; for specific color tags, or &#8220;irid.chatcolor.hex&#8221; for any color.<br />
+For gradients, there is the &#8220;irid.chatcolor.gradient&#8221; permission.</li>
+<li><b>Multi-Language Support</b></li>
+<li><b>Customizable Language Files</b></li>
+<li><b>Simple Configuration Files</b></li>
+</ul>
+<p><b><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/64e9bd08b01646c3bc3407c4da4ceb0c8ec665b1?url=https%3A%2F%2Fproxy.spigotmc.org%2Fc6ebcea97b97c0ebd4568e8c3772db89e540df08%3Furl%3Dhttps%253A%252F%252Fcdn.discordapp.com%252Fattachments%252F608771334968836124%252F620713829390614541%252Fdivider.png" alt="[​IMG]" data-url="https://proxy.spigotmc.org/c6ebcea97b97c0ebd4568e8c3772db89e540df08?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F608771334968836124%2F620713829390614541%2Fdivider.png" /></b></p>
+<div><b>Commands</b><br />
+​</div>
+<ul>
+<li><b>/iridescent help: </b>shows a help message explaining commands usage &#8211; [irid.command.help]</li>
+<li><b>/iridescent reload: </b>reloads the plugin&#8217;s colors &amp; config files &#8211; [irid.command.reload]</li>
+<li><b>/iridescent create </b><i><b>[#hexcolor] [tag-name]</b></i><b>:</b> creates a new color tag with the provided information &#8211; [irid.command.create]</li>
+<li><b>/iridescent delete </b><i><b>[tag-name]</b></i><b>:</b> deletes an existing color tag -[irid.command.delete]</li>
+<li><b>/iridescent list </b><i><b>[page]</b></i><b>:</b> displays available custom colors (10 colors per page) &#8211; [irid.command.list]</li>
+</ul>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/b691fceb17204d640ab71ac9611db50c1c240653?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731253453975978014%2Firidescent_default_colors.png%3Fwidth%3D958%26height%3D677" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731253453975978014/iridescent_default_colors.png?width=958&amp;height=677" /></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/64e9bd08b01646c3bc3407c4da4ceb0c8ec665b1?url=https%3A%2F%2Fproxy.spigotmc.org%2Fc6ebcea97b97c0ebd4568e8c3772db89e540df08%3Furl%3Dhttps%253A%252F%252Fcdn.discordapp.com%252Fattachments%252F608771334968836124%252F620713829390614541%252Fdivider.png" alt="[​IMG]" data-url="https://proxy.spigotmc.org/c6ebcea97b97c0ebd4568e8c3772db89e540df08?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F608771334968836124%2F620713829390614541%2Fdivider.png" /></p>
+<div><b>Screenshots</b></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Plugin Messages</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/75297d857c4bfa8e81e6d8ea7def41e14f7c505f?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731459803662254100%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731459803662254100/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Scoreboard</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a950f885ce65a6eb8a6be7012eee0758cc9c1700?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731159775877922846%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731159775877922846/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Action Bar</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a3360c9039d67eef4d9988e85b4d37bd34e70d14?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731460343993335918%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731460343993335918/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Boss-Bar</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/6658be6b61a12a331c90d49c99eec98e74d4fdca?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F732265920642285698%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/732265920642285698/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Tablist</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/3647f1a0d7209b13e3467416699bbc5469d4917c?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731233172343488572%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731233172343488572/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Items</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/11a9ccd30bdb137e19d698f9ae73364eb9b39c26?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F732266578376130580%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/732266578376130580/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">MOTD</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9a61e79f886bcd87369d31d960b90656eee44c12?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731248019659554928%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731248019659554928/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Titles</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/17df643dc4e420a089c2f33fb9ecc18cac8ec3ac?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731234697748676628%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731234697748676628/unknown.png" /></div>
+</div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Chat</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/8e2d8d95a635614808a9f2da990f762d2c2eea6f?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731235011352592424%2Funknown.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731235011352592424/unknown.png" /></div>
+</div>
+<p><b>If you wanna stay up to date with the plugin&#8217;s development or require assistance, click the image below</b><br />
+<a class="externalLink" href="https://discord.gg/Rp2WaKq" target="_blank" rel="nofollow noopener"><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e82934b2acd3bdc43e4baad770ab89e982a3d4b3?url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F621720730006061056%2F731262006363160646%2Fdiscord.png" alt="[​IMG]" data-url="https://media.discordapp.net/attachments/621720730006061056/731262006363160646/discord.png" /></a></p>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">Special Thanks</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">Celestyte, for making the plugin&#8217;s banner and icon<br />
+Zuhir, for translating the plugin to Spanish<br />
+Etorichter, for translating the plugin to Russian<br />
+Tigosplay, for translating the plugin to Portuguese<br />
+StarYunmeng, for translating the plugin to Simplified Chinese</div>
+</div>
+<p>​</p></div>
+<div class="ToggleTriggerAnchor bbCodeSpoilerContainer"><button class="button bbCodeSpoilerButton ToggleTrigger Tooltip JsOnly" style="margin: 5px 0px; padding: 0px 10px; font: 600 12px / 36px 'droid sans', Arial, sans-serif; color: #535353; background-color: #d9d9d9; border-width: 0px; border-top-color: #ffffff; border-radius: 3px; text-align: center; outline: none; display: inline-block; cursor: pointer; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset; appearance: none; height: 36px; max-width: 99%;" type="button" data-target="&gt; .SpoilerTarget">Spoiler: <span class="SpoilerTitle">config.yml</span></button></p>
+<div class="SpoilerTarget bbCodeSpoilerText">
+<div class="bbCodeBlock bbCodeCode">
+<div class="type">Code (YAML):</div>
+<div class="code">#<br />
+#    ██╗ ██████╗░ ██╗ ██████╗░ ███████╗ ░██████╗ ░█████╗░ ███████╗ ███╗░░██╗ ████████╗<br />
+#    ██║ ██╔══██╗ ██║ ██╔══██╗ ██╔════╝ ██╔════╝ ██╔══██╗ ██╔════╝ ████╗░██║ ╚══██╔══╝<br />
+#    ██║ ██████╔╝ ██║ ██║░░██║ █████╗░░ ╚█████╗░ ██║░░╚═╝ █████╗░░ ██╔██╗██║ ░░░██║░░░<br />
+#    ██║ ██╔══██╗ ██║ ██║░░██║ ██╔══╝░░ ░╚═══██╗ ██║░░██╗ ██╔══╝░░ ██║╚████║ ░░░██║░░░<br />
+#    ██║ ██║░░██║ ██║ ██████╔╝ ███████╗ ██████╔╝ ╚█████╔╝ ███████╗ ██║░╚███║ ░░░██║░░░<br />
+#    ╚═╝ ╚═╝░░╚═╝ ╚═╝ ╚═════╝░ ╚══════╝ ╚═════╝░ ░╚════╝░ ╚══════╝ ╚═╝░░╚══╝ ░░░╚═╝░░░</p>
+<p>#-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-=====-#</p>
+<p>#Available languages: English, Italian, Spanish, Russian<br />
+Language: English</p>
+<p>#Debugging level:<br />
+#0 Displays errors only<br />
+#1 Logs plugin information on plugin enable/disable and config reload<br />
+#2 Logs plugin information whenever possible<br />
+Debug: 0</p>
+<p>#Where the plugin should look to apply the special colors. Comment out any option you don&#8217;t want to be enabled.</p></div>
+</div>
+</div>
+</div>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/%e2%9c%8f%ef%b8%8f-iridescent-%e2%9c%8f%ef%b8%8f-1-16-x-add-new-hex-colors-to-your-server-supports-gradients/">✏️ Iridescent ✏️ 1.16.x – Add new/hex colors to your server – Supports gradients</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/%e2%9c%8f%ef%b8%8f-iridescent-%e2%9c%8f%ef%b8%8f-1-16-x-add-new-hex-colors-to-your-server-supports-gradients/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

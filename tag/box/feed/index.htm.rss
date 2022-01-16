@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Box | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/box/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 01:19:52 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>Box | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>BentoBox</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/bentobox/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/bentobox/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 01:16:40 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[Bento]]></category>
+		<category><![CDATA[BentoBox]]></category>
+		<category><![CDATA[Box]]></category>
+		<category><![CDATA[SkyBlocks]]></category>
+		<category><![CDATA[SkyGrid]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3258</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/bentobox-bskyblock-acidisland-skygrid-caveblock-aoneblock.73261/ We use this plugin as a dependency for Sky Blocks and Sky Grid. The long awaited successor of the world&#8217;s most famous Skyblock plugin, ASkyBlock, is now available to download on SpigotMC! BentoBox is an open source library plugin for island-style games. Fill BentoBox with your choice of gamemodes (like SkyBlock, SkyGrid and&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/bentobox/">BentoBox</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <span style="color: #00ccff;"><a style="color: #00ccff;" href="https://www.spigotmc.org/resources/bentobox-bskyblock-acidisland-skygrid-caveblock-aoneblock.73261/" target="_blank" rel="noopener">https://www.spigotmc.org/resources/bentobox-bskyblock-acidisland-skygrid-caveblock-aoneblock.73261/</a></span></p>
+<blockquote><p>We use this plugin as a dependency for Sky Blocks and Sky Grid.</p></blockquote>
+<p>The long awaited successor of the world&#8217;s most famous Skyblock plugin, ASkyBlock, is now available to download on SpigotMC!</p>
+<div><i>BentoBox is an open source library plugin for island-style games.<br />
+Fill BentoBox with your choice of gamemodes (like SkyBlock, SkyGrid and AcidIsland) and addons (such as Challenges, TwerkingForTrees, Level) to give your players the playground you want!<br />
+Crafting your own BentoBox is the first step to join a world of never-ending possibilities of games and fun.</i>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/de26fe03aee03ccfc92d2b65d1ec3e60cb27e7d7?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F310806818785984512%2F703635544080384069%2Fbentobox_our_gamemodes.png" alt="[​IMG]" data-url="https://cdn.discordapp.com/attachments/310806818785984512/703635544080384069/bentobox_our_gamemodes.png" /></p>
+<div><i>BSkyBlock • AcidIsland • SkyGrid • CaveBlock • AOneBlock</i>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/a60be09caeab8b411e8f9903dd6c690d56fb84a9?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F310806818785984512%2F703981627008614481%2Fbentobox_our_addons.png" alt="[​IMG]" data-url="https://cdn.discordapp.com/attachments/310806818785984512/703981627008614481/bentobox_our_addons.png" /></p>
+<div><i>Biomes • Border • CauldronWitchery • Challenges • Chat • ControlPanel • DimensionalTrees • ExtraMobs • Greenhouses • IslandFly • InvSwitcher • Level • Likes • Limits • MagicCobblestoneGenerator • TwerkingForTrees • VoidPortals • Warps</i>​</div>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/92f5486f4e617af455385a991d74d62626fff74f?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F310806818785984512%2F703636529821515918%2Fbentobox_overview.png" alt="[​IMG]" data-url="https://cdn.discordapp.com/attachments/310806818785984512/703636529821515918/bentobox_overview.png" /></p>
+<div><b>FUN</b><br />
+We want players to have fun.​</div>
+<p>&nbsp;</p>
+<div><b>STABILITY</b><br />
+We add features with care, peer-review code, use automated and manual testing and through extensive user feedback over the years, sturdiness is one of the most critical features of BentoBox.​</div>
+<p>&nbsp;</p>
+<div><b>SCALABILITY</b><br />
+The API and the unique &#8220;Addons&#8221; system that BentoBox introduces allows for unprecedented and virtually unlimited customization.​</div>
+<p>&nbsp;</p>
+<div><b>HIGH-PERFORMANCE</b><br />
+To alleviate the hassle of performance issues in the latest Minecraft versions, BentoBox is designed with efficiency in mind. We take full advantage of any existing innovation to further reduce the strain on your overall server performance.​</div>
+<p><b>BentoBox in a nutshell</b></p>
+<ul>
+<li>Choose between 4 gamemodes to get your server started: from the classic Skyblock and AcidIsland to the outstanding SkyGrid and CaveBlock.</li>
+<li>Infinite customization thanks to a handful of Addons.</li>
+<li>A plugin designed from the ground up by the developers of ASkyBlock.</li>
+<li>Powerful and highly scalable API.</li>
+</ul>
+<p><b>How is that better than ASkyBlock or AcidIsland?</b></p>
+<ul>
+<li>Ability to create islands in the End.</li>
+<li>Refined Island Settings, allowing island owners to choose with ease what the island members are allowed to do.</li>
+<li>Island owners can coop players temporarily to their islands or trust them so that they can build together!</li>
+<li>Support for SQL databases, including MySQL, SQLite, MariaDB, PostgreSQL; and MongoDB.</li>
+<li>Growing base of 3rd-party addons.</li>
+</ul>
+<p><b>How can I get started?</b></p>
+<p>Thanks to amazing tools we developed from the ground up, you can get your server started in less than 5 minutes!<br />
+Don&#8217;t believe me? Get ready and follow this video along!</p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/kn--wbcNT9Q?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><b>I am currently using ASkyBlock. Can I upgrade to BentoBox?</b></p>
+<p>Of course!<br />
+All you need to do is to follow, step by step, this tutorial or this video:<br />
+<iframe loading="lazy" src="https://www.youtube.com/embed/9KXcIOvs6Ww?wmode=opaque" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>Something you want to know? Ask us a question in the Discussions or on our Discord server. We will be glad to help you.</p>
+<p><b>Metrics</b></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/c7be4b3324aa414aa23dcd65f205459ca369f325?url=https%3A%2F%2Fbstats.org%2Fsignatures%2Fbukkit%2FBentoBox.svg" alt="[​IMG]" data-url="https://bstats.org/signatures/bukkit/BentoBox.svg" /></p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/bentobox/">BentoBox</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/bentobox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

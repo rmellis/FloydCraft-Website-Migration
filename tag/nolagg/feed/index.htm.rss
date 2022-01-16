@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NoLagg | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<atom:link href="https://cdn.floydcraft.co.uk/tag/nolagg/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn.floydcraft.co.uk</link>
+	<description>  ⟶play.floydcraft.co.uk⟵</description>
+	<lastBuildDate>Wed, 13 Jan 2021 06:10:37 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://cdn.floydcraft.co.uk/wp-content/uploads/2019/04/cropped-unnamed-1-1-32x32.jpg</url>
+	<title>NoLagg | 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </title>
+	<link>https://cdn.floydcraft.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>❌☢️ NoMobLag ☢️❌&#124; Entity Farm Limiter &#8211; Spawner Nerf, Mob Freezing &#038; More</title>
+		<link>https://cdn.floydcraft.co.uk/plugins-used/nomoblag/</link>
+					<comments>https://cdn.floydcraft.co.uk/plugins-used/nomoblag/#respond</comments>
+		
+		<dc:creator><![CDATA[rmellis]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 06:10:37 +0000</pubDate>
+				<category><![CDATA[Plugins Used]]></category>
+		<category><![CDATA[LaggBeGone]]></category>
+		<category><![CDATA[No Mob Lag]]></category>
+		<category><![CDATA[NoLag]]></category>
+		<category><![CDATA[NoLagg]]></category>
+		<category><![CDATA[NoMobLag]]></category>
+		<category><![CDATA[NoMobLagg]]></category>
+		<guid isPermaLink="false">https://cdn.floydcraft.co.uk/?p=3376</guid>
+
+					<description><![CDATA[<p>Source: https://www.spigotmc.org/resources/%E2%9D%8C%E2%98%A2%EF%B8%8F-nomoblag-%E2%98%A2%EF%B8%8F%E2%9D%8C-entity-farm-limiter-spawner-nerf-mob-freezing-more.72878/ We use this plugin to help reduce the impact of mobs spawning on the server, it&#8217;s configured t9o freeze most mobs in chunks where no players are nearby until they return.    ​ NoMobLag dynamically reduces lag from entity tick based on the current server TPS. It serves as an all-in-one replacement for many mob-management plugins, making it&#8230;</p>
+The post <a href="https://cdn.floydcraft.co.uk/plugins-used/nomoblag/">❌☢️ NoMobLag ☢️❌| Entity Farm Limiter – Spawner Nerf, Mob Freezing & More</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></description>
+										<content:encoded><![CDATA[<p>Source: <a href="https://www.spigotmc.org/resources/%E2%9D%8C%E2%98%A2%EF%B8%8F-nomoblag-%E2%98%A2%EF%B8%8F%E2%9D%8C-entity-farm-limiter-spawner-nerf-mob-freezing-more.72878/" target="_blank" rel="noopener"><span style="color: #00ccff;">https://www.spigotmc.org/resources/%E2%9D%8C%E2%98%A2%EF%B8%8F-nomoblag-%E2%98%A2%EF%B8%8F%E2%9D%8C-entity-farm-limiter-spawner-nerf-mob-freezing-more.72878/</span></a></p>
+<blockquote><p>We use this plugin to help reduce the impact of mobs spawning on the server, it&#8217;s configured t9o freeze most mobs in chunks where no players are nearby until they return.</p></blockquote>
+<div><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/e6b621456deb224b4f0b226441324b563a6172fd?url=https%3A%2F%2Fimgur.com%2F4tl2Vbr.png" alt="[​IMG]" data-url="https://imgur.com/4tl2Vbr.png" /><br />
+<img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/84792f955692e872ea5782999cdbdd61b03b6a51?url=https%3A%2F%2Fimgur.com%2FxO1xnEq.png" alt="[​IMG]" data-url="https://imgur.com/xO1xnEq.png" /><br />
+<a class="externalLink" href="https://gitlab.com/Zenya4/no-mob-lag/-/wikis/Features" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/367697dc9a8598fd19956b9fbaef950f4b7f2d98?url=https%3A%2F%2Fi.imgur.com%2Fena1DWb.png" alt="[​IMG]" data-url="https://i.imgur.com/ena1DWb.png" /></a> <a class="externalLink" href="https://gitlab.com/Zenya4/no-mob-lag/-/wikis/Commands" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/5d74016f3f52ea1c49ca3e72be3f443419520da6?url=https%3A%2F%2Fi.imgur.com%2FkSsekbL.png" alt="[​IMG]" data-url="https://i.imgur.com/kSsekbL.png" /></a> <a class="externalLink" href="https://gitlab.com/Zenya4/no-mob-lag/-/wikis/Permissions" target="_blank" rel="nofollow noopener"><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/4c296672b711c9935bf4d5d197c6e158e83cde13?url=https%3A%2F%2Fi.imgur.com%2F1teQve3.png" alt="[​IMG]" data-url="https://i.imgur.com/1teQve3.png" /></a></p>
+<p><img class="bbCodeImage LbImage" src="https://proxy.spigotmc.org/9c0b1dc5460f2017669112e4ba6d389d3ec18648?url=https%3A%2F%2Fimgur.com%2FpRNAW6A.png" alt="[​IMG]" data-url="https://imgur.com/pRNAW6A.png" />​</div>
+<p>NoMobLag <b>dynamically reduces</b> lag from <b>entity tick</b> based on the current <b>server TPS</b>. It serves as an all-in-one replacement for many mob-management plugins, making it extremely useful for large servers with multiple player-built mob farms that lag the server.</p>The post <a href="https://cdn.floydcraft.co.uk/plugins-used/nomoblag/">❌☢️ NoMobLag ☢️❌| Entity Farm Limiter – Spawner Nerf, Mob Freezing & More</a> first appeared on <a href="https://cdn.floydcraft.co.uk"> 𝙁𝙡𝙤𝙮𝙙 𝘾𝙧𝙖𝙛𝙩 </a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://cdn.floydcraft.co.uk/plugins-used/nomoblag/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
