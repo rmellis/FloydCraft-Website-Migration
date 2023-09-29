@@ -20790,7 +20790,7 @@ Uri: https://mix.com/mixit?su=submit&url=https://cdn.floydcraft.co.uk/plugins-us
 File Name: C:\Downloaded Web Sites\cdn.floydcraft.co.uk\mixit-47.html
 Content Type: text/html
 
-Uri: https://minecraft.fandom.com/wiki/Formatting_codes
+Uri: https://minecraft.wiki/w/Formatting_codes
 File Name: C:\Downloaded Web Sites\cdn.floydcraft.co.uk\wiki\Formatting_codes.html
 Content Type: text/html
 
@@ -24038,7 +24038,7 @@ Uri: https://mix.com/mixit?su=submit&url=https://cdn.floydcraft.co.uk/plugins-us
 File Name: C:\Downloaded Web Sites\cdn.floydcraft.co.uk\mixit-116.html
 Content Type: text/html
 
-Uri: https://minecraft.fandom.com/wiki/Book_and_Quill
+Uri: https://minecraft.wiki/w/Book_and_Quill
 File Name: C:\Downloaded Web Sites\cdn.floydcraft.co.uk\wiki\Book_and_Quill.html
 Content Type: text/html
 
